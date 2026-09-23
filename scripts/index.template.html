@@ -46,11 +46,13 @@ section > .wrap > p { color: var(--muted); margin: 0 0 20px; }
 .badge.opus { color: var(--opus); } .badge.astra { color: var(--astra); }
 .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
 .title { font-weight: 600; font-size: 16px; display: flex; justify-content: space-between; gap: 10px; }
-.likes { color: var(--faint); font-weight: 500; font-size: 13px; white-space: nowrap; font-variant-numeric: tabular-nums; display: flex; gap: 10px; }
-.likes .up { color: var(--ok); }
+.vote { flex: none; align-self: flex-start; display: flex; flex-direction: column; align-items: center; min-width: 46px; padding: 5px 8px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel-2); color: var(--text); font: inherit; font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; cursor: pointer; line-height: 1.2; }
+.vote b { font-size: 11px; color: var(--muted); }
+.vote:hover { border-color: var(--ok); } .vote:hover b { color: var(--ok); }
 .discuss { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
 .discuss h4 { margin: 0 0 2px; font-size: 16px; }
 .discuss p { margin: 0 0 12px; color: var(--faint); font-size: 13px; }
+#giscus { min-height: 480px; }
 .meta { color: var(--faint); font-size: 13px; }
 .desc { color: var(--muted); font-size: 14px; margin: 0; }
 .actions { display: flex; gap: 8px; margin-top: auto; padding-top: 10px; flex-wrap: wrap; }
@@ -60,7 +62,7 @@ section > .wrap > p { color: var(--muted); margin: 0 0 20px; }
 .empty { color: var(--faint); padding: 40px 0; text-align: center; }
 dialog { border: 0; padding: 0; background: var(--panel); color: var(--text); border-radius: var(--radius); width: min(1100px, calc(100vw - 32px)); max-height: calc(100vh - 32px); }
 dialog::backdrop { background: rgba(0,0,0,.8); }
-dialog video { width: 100%; display: block; background: #000; max-height: 62vh; }
+dialog video { width: 100%; display: block; background: #000; height: min(62vh, 56.25vw); }
 dialog .body { padding: 18px 22px 22px; }
 dialog h3 { margin: 0; font-size: 22px; }
 .close { position: absolute; top: 10px; right: 10px; z-index: 2; background: rgba(0,0,0,.6); color: #fff; border: 0; width: 34px; height: 34px; border-radius: 999px; font-size: 18px; cursor: pointer; }
@@ -133,10 +135,10 @@ function card(g) {
       <span class="badge ${modelClass(g.model)}">${esc(g.model_name)}</span>
     </div>
     <div class="body">
-      <div class="title"><span>${esc(g.title)}</span><span class="likes">${g.votes ? `<span class="up" title="Upvotes">▲ ${g.votes}</span>` : ""}${g.comments ? `<span title="Comments">💬 ${g.comments}</span>` : ""}${g.post_likes ? `<span title="Likes on X">♥ ${compact(g.post_likes)}</span>` : ""}</span></div>
-      <div class="meta">${[g.creator_handle ? "@" + g.creator_handle : g.creator_name, g.genre, g.runtime, g.engine].filter(Boolean).map(esc).join(" · ")}</div>
+      <div class="title"><span>${esc(g.title)}</span>${g.discussion ? `<button class="vote" data-open="${esc(g.id)}" data-discuss title="Upvote and comment"><b>▲</b>${g.votes ?? 0}</button>` : ""}</div>
+      <div class="meta">${[g.creator_handle ? "@" + g.creator_handle : g.creator_name, g.genre, g.runtime, g.engine, g.post_likes && `♥ ${compact(g.post_likes)} on X`].filter(Boolean).map(esc).join(" · ")}</div>
       <p class="desc">${esc(g.description)}</p>
-      <div class="actions">${primary}<button class="btn" data-open="${esc(g.id)}">Watch</button>${g.repo_url ? `<a class="btn" href="${esc(g.repo_url)}" target="_blank" rel="noopener">Source</a>` : ""}${g.post_url ? `<a class="btn" href="${esc(g.post_url)}" target="_blank" rel="noopener">Post</a>` : ""}</div>
+      <div class="actions">${primary}<button class="btn" data-open="${esc(g.id)}">Watch</button>${g.repo_url ? `<a class="btn" href="${esc(g.repo_url)}" target="_blank" rel="noopener">Source</a>` : ""}${g.post_url ? `<a class="btn" href="${esc(g.post_url)}" target="_blank" rel="noopener">Post</a>` : ""}${g.discussion ? `<button class="btn" data-open="${esc(g.id)}" data-discuss>💬 ${g.comments ?? 0}</button>` : ""}</div>
     </div>
   </article>`;
 }
@@ -159,7 +161,7 @@ function mountGiscus(number) {
   document.getElementById("giscus").appendChild(s);
 }
 
-function openDetail(id) {
+function openDetail(id, discuss) {
   const g = GAMES.find((x) => x.id === id);
   const d = document.getElementById("detail");
   const row = (k, v) => v ? `<dt>${k}</dt><dd>${v}</dd>` : "";
@@ -176,10 +178,11 @@ function openDetail(id) {
         ${row("Controls", esc(g.controls))}${row("Model source", esc(g.model_evidence))}
       </dl>
       <div class="actions">${a("▶ Play", g.play_url)}${a("▶ Watch live", g.watch_url)}${a("⬇ Download", g.download_url)}${a("Source", g.repo_url)}${a("Original post", g.post_url)}</div>
-      ${g.discussion ? `<div class="discuss"><h4>Upvote and discuss</h4><p>React 👍 to upvote. Sign in with GitHub to vote or comment.</p><div id="giscus"></div></div>` : ""}
+      ${g.discussion ? `<div class="discuss"><h4>Upvote and discuss</h4><p>To upvote, click ☺ below and pick 👍. Votes and comments use your GitHub account.</p><div id="giscus"></div></div>` : ""}
     </div>`;
   d.showModal();
   if (g.discussion) mountGiscus(g.discussion);
+  if (discuss) d.querySelector(".discuss")?.scrollIntoView({ block: "start" });
   history.replaceState(null, "", `#${id}`);
 }
 
@@ -188,7 +191,7 @@ document.addEventListener("click", (e) => {
   if (chip) { state[chip.dataset.group] = chip.dataset.key; renderFilters(); render(); return; }
   if (e.target.closest(".close") || e.target.id === "detail") { document.getElementById("detail").close(); return; }
   const open = e.target.closest("[data-open]");
-  if (open) openDetail(open.dataset.open);
+  if (open) openDetail(open.dataset.open, open.hasAttribute("data-discuss"));
 });
 document.getElementById("detail").addEventListener("close", (e) => { e.target.innerHTML = ""; history.replaceState(null, "", location.pathname); });
 document.addEventListener("input", (e) => { if (e.target.classList.contains("search")) { state.q = e.target.value.trim().toLowerCase(); render(); } });
