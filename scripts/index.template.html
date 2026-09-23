@@ -46,7 +46,11 @@ section > .wrap > p { color: var(--muted); margin: 0 0 20px; }
 .badge.opus { color: var(--opus); } .badge.astra { color: var(--astra); }
 .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
 .title { font-weight: 600; font-size: 16px; display: flex; justify-content: space-between; gap: 10px; }
-.likes { color: var(--faint); font-weight: 500; font-size: 13px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.likes { color: var(--faint); font-weight: 500; font-size: 13px; white-space: nowrap; font-variant-numeric: tabular-nums; display: flex; gap: 10px; }
+.likes .up { color: var(--ok); }
+.discuss { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+.discuss h4 { margin: 0 0 2px; font-size: 16px; }
+.discuss p { margin: 0 0 12px; color: var(--faint); font-size: 13px; }
 .meta { color: var(--faint); font-size: 13px; }
 .desc { color: var(--muted); font-size: 14px; margin: 0; }
 .actions { display: flex; gap: 8px; margin-top: auto; padding-top: 10px; flex-wrap: wrap; }
@@ -129,7 +133,7 @@ function card(g) {
       <span class="badge ${modelClass(g.model)}">${esc(g.model_name)}</span>
     </div>
     <div class="body">
-      <div class="title"><span>${esc(g.title)}</span><span class="likes">${g.post_likes ? `♥ ${compact(g.post_likes)}` : ""}</span></div>
+      <div class="title"><span>${esc(g.title)}</span><span class="likes">${g.votes ? `<span class="up" title="Upvotes">▲ ${g.votes}</span>` : ""}${g.comments ? `<span title="Comments">💬 ${g.comments}</span>` : ""}${g.post_likes ? `<span title="Likes on X">♥ ${compact(g.post_likes)}</span>` : ""}</span></div>
       <div class="meta">${[g.creator_handle ? "@" + g.creator_handle : g.creator_name, g.genre, g.runtime, g.engine].filter(Boolean).map(esc).join(" · ")}</div>
       <p class="desc">${esc(g.description)}</p>
       <div class="actions">${primary}<button class="btn" data-open="${esc(g.id)}">Watch</button>${g.repo_url ? `<a class="btn" href="${esc(g.repo_url)}" target="_blank" rel="noopener">Source</a>` : ""}${g.post_url ? `<a class="btn" href="${esc(g.post_url)}" target="_blank" rel="noopener">Post</a>` : ""}</div>
@@ -138,13 +142,21 @@ function card(g) {
 }
 
 function render() {
-  const list = GAMES.filter(matches).sort((a, b) => (b.post_likes ?? 0) - (a.post_likes ?? 0));
+  const list = GAMES.filter(matches).sort((a, b) => (b.votes ?? 0) - (a.votes ?? 0) || (b.post_likes ?? 0) - (a.post_likes ?? 0));
   const html = SECTIONS.map((t) => {
     const games = list.filter(t.test);
     if (!games.length) return "";
     return `<section id="${t.key}"><div class="wrap"><h2>${t.title} · ${games.length}</h2><p>${t.blurb}</p><div class="grid">${games.map(card).join("")}</div></div></section>`;
   }).join("");
   document.getElementById("sections").innerHTML = html || `<p class="wrap empty">No games match. Clear a filter.</p>`;
+}
+
+function mountGiscus(number) {
+  const s = document.createElement("script");
+  Object.entries({ src: "https://giscus.app/client.js", "data-repo": "theolundqvist/frontier-games", "data-repo-id": "R_kgDOUn8FqA", "data-category": "Announcements", "data-category-id": "DIC_kwDOUn8FqM4DGQmI", "data-mapping": "number", "data-term": String(number), "data-reactions-enabled": "1", "data-emit-metadata": "0", "data-input-position": "top", "data-theme": "transparent_dark", "data-lang": "en", crossorigin: "anonymous" })
+    .forEach(([k, v]) => s.setAttribute(k, v));
+  s.async = true;
+  document.getElementById("giscus").appendChild(s);
 }
 
 function openDetail(id) {
@@ -164,8 +176,10 @@ function openDetail(id) {
         ${row("Controls", esc(g.controls))}${row("Model source", esc(g.model_evidence))}
       </dl>
       <div class="actions">${a("▶ Play", g.play_url)}${a("▶ Watch live", g.watch_url)}${a("⬇ Download", g.download_url)}${a("Source", g.repo_url)}${a("Original post", g.post_url)}</div>
+      ${g.discussion ? `<div class="discuss"><h4>Upvote and discuss</h4><p>React 👍 to upvote. Sign in with GitHub to vote or comment.</p><div id="giscus"></div></div>` : ""}
     </div>`;
   d.showModal();
+  if (g.discussion) mountGiscus(g.discussion);
   history.replaceState(null, "", `#${id}`);
 }
 

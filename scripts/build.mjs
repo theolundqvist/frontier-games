@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { parse } from "yaml";
 
 const games = parse(readFileSync("data/games.yaml", "utf8"));
+const votes = existsSync("data/votes.json") ? JSON.parse(readFileSync("data/votes.json", "utf8")) : {};
 const MODELS = { "claude-opus-5.5": "Claude Opus 5.5", "gpt-6-astra": "GPT-6 Astra" };
 const SECTIONS = [
   { key: "play", title: "Play in your browser", blurb: "One click, no install, no sign-in.", test: (g) => g.kind !== "film" && g.tier === "play" },
@@ -67,6 +68,7 @@ const site = games.map((g) => ({
   model_name: MODELS[g.model],
   video: existsSync(`media/${g.id}/creator.mp4`) ? `media/${g.id}/creator.mp4` : null,
   preview_start: undefined,
+  ...votes[g.id],
 }));
 writeFileSync("index.html", readFileSync("scripts/index.template.html", "utf8").replace("__GAMES__", JSON.stringify(site).replaceAll("</", "<\\/")));
 console.log("README.md and index.html", counts);

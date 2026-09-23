@@ -4,7 +4,7 @@
 
 The best games and films made by **Claude Opus 5.5** and **GPT-6 Astra**, sorted by how fast you can try them.
 
-**83 games** (13 Opus 5.5, 70 Astra) and **14 films** · [Browse the gallery with filters and video →](https://theolundqvist.github.io/frontier-games/)
+**83 games** (13 Opus 5.5, 70 Astra) and **14 films** · [Browse, upvote and discuss in the gallery →](https://theolundqvist.github.io/frontier-games/)
 
 | | |
 |---|---|
