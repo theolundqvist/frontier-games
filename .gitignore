@@ -1,0 +1,4 @@
+node_modules/
+media/*/cover.png
+media/*/.rec/
+media/*/.raw.mp4

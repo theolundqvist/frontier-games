@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frontier Games</title>
+<meta name="description" content="The best games and films made by Claude Opus 5.5 and GPT-6 Astra, with play links and footage.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0b0c0f; --panel: #14161b; --panel-2: #1b1e25; --line: #262a33;
+  --text: #eef0f4; --muted: #9aa1ad; --faint: #6b7280;
+  --opus: #e8845c; --astra: #6ea8ff; --ok: #4ade80; --accent: #ffffff;
+  --radius: 14px;
+}
+* { box-sizing: border-box; }
+html { color-scheme: dark; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+.wrap { max-width: 1320px; margin: 0 auto; padding: 0 20px; }
+header.wrap { padding-top: 56px; padding-bottom: 28px; }
+h1 { font-size: clamp(32px, 5vw, 52px); letter-spacing: -0.03em; margin: 0 0 10px; line-height: 1.05; }
+.lede { color: var(--muted); font-size: 18px; margin: 0; max-width: 640px; }
+.lede b { color: var(--text); font-weight: 600; }
+.bar { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
+.bar .wrap { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding-top: 12px; padding-bottom: 12px; }
+.chip { border: 1px solid var(--line); background: var(--panel); color: var(--muted); border-radius: 999px; padding: 7px 14px; font: inherit; font-size: 14px; cursor: pointer; display: inline-flex; gap: 7px; align-items: center; }
+.chip:hover { color: var(--text); }
+.chip[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+.chip .n { opacity: .6; font-variant-numeric: tabular-nums; }
+.sep { width: 1px; height: 22px; background: var(--line); margin: 0 4px; }
+.search { margin-left: auto; min-width: 160px; flex: 0 1 220px; background: var(--panel); border: 1px solid var(--line); color: var(--text); border-radius: 999px; padding: 8px 14px; font: inherit; font-size: 14px; }
+.search:focus { outline: 2px solid var(--astra); outline-offset: 1px; }
+section { padding: 36px 0 8px; }
+section h2 { font-size: 22px; margin: 0 0 4px; letter-spacing: -0.01em; }
+section > .wrap > p { color: var(--muted); margin: 0 0 20px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.card { background: var(--panel); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; border: 1px solid var(--line); transition: transform .15s, border-color .15s; }
+.card:hover { transform: translateY(-2px); border-color: #3a404c; }
+.media { position: relative; aspect-ratio: 16 / 9; background: #000; cursor: pointer; }
+.media img, .media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.media video { opacity: 0; transition: opacity .2s; }
+.card:hover .media video.ready { opacity: 1; }
+.badge { position: absolute; top: 10px; left: 10px; font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: rgba(0,0,0,.7); backdrop-filter: blur(6px); }
+.badge.opus { color: var(--opus); } .badge.astra { color: var(--astra); }
+.body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.title { font-weight: 600; font-size: 16px; display: flex; justify-content: space-between; gap: 10px; }
+.likes { color: var(--faint); font-weight: 500; font-size: 13px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.meta { color: var(--faint); font-size: 13px; }
+.desc { color: var(--muted); font-size: 14px; margin: 0; }
+.actions { display: flex; gap: 8px; margin-top: auto; padding-top: 10px; flex-wrap: wrap; }
+.btn { text-decoration: none; font-size: 13px; font-weight: 600; padding: 7px 13px; border-radius: 9px; background: var(--panel-2); color: var(--text); border: 1px solid var(--line); }
+.btn:hover { border-color: #4a5160; }
+.btn.primary { background: var(--text); color: var(--bg); border-color: var(--text); }
+.empty { color: var(--faint); padding: 40px 0; text-align: center; }
+dialog { border: 0; padding: 0; background: var(--panel); color: var(--text); border-radius: var(--radius); width: min(1100px, calc(100vw - 32px)); max-height: calc(100vh - 32px); }
+dialog::backdrop { background: rgba(0,0,0,.8); }
+dialog video { width: 100%; display: block; background: #000; max-height: 62vh; }
+dialog .body { padding: 18px 22px 22px; }
+dialog h3 { margin: 0; font-size: 22px; }
+.close { position: absolute; top: 10px; right: 10px; z-index: 2; background: rgba(0,0,0,.6); color: #fff; border: 0; width: 34px; height: 34px; border-radius: 999px; font-size: 18px; cursor: pointer; }
+.kv { display: grid; grid-template-columns: 110px 1fr; gap: 4px 14px; font-size: 14px; margin-top: 8px; }
+.kv dt { color: var(--faint); } .kv dd { margin: 0; color: var(--muted); }
+footer.wrap { color: var(--faint); font-size: 13px; padding-top: 48px; padding-bottom: 64px; }
+@media (max-width: 640px) {
+  .wrap { padding-left: 16px; padding-right: 16px; }
+  header.wrap { padding-top: 36px; padding-bottom: 20px; }
+  .search { margin-left: 0; flex: 1 1 100%; }
+  .grid { grid-template-columns: 1fr; }
+  .kv { grid-template-columns: 90px 1fr; }
+}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <h1>Frontier Games</h1>
+  <p class="lede" id="lede"></p>
+</header>
+<div class="bar"><div class="wrap" id="filters"></div></div>
+<main id="sections"></main>
+<footer class="wrap">Footage belongs to the creators and links to their posts. Source and submissions: <a href="https://github.com/theolundqvist/frontier-games">github.com/theolundqvist/frontier-games</a>.</footer>
+<dialog id="detail"></dialog>
+<script>
+const GAMES = __GAMES__;
+const SECTIONS = [
+  { key: "play", title: "Play in your browser", blurb: "One click, no install, no sign-in.", test: (g) => g.kind !== "film" && g.tier === "play" },
+  { key: "download", title: "Download or build", blurb: "Playable, but needs a download, a build step, or a native engine.", test: (g) => g.kind !== "film" && g.tier === "download" },
+  { key: "watch", title: "Watch-only games", blurb: "No public build yet. The creator's footage is the evidence.", test: (g) => g.kind !== "film" && g.tier === "watch" },
+  { key: "films", title: "Films and animations", blurb: "The model wrote the code or drove the tool behind every frame.", test: (g) => g.kind === "film" },
+];
+const KINDS = [["all", "Everything"], ["play", "Playable now"], ["games", "All games"], ["films", "Films"]];
+const MODELS = [["all", "All models"], ["claude-opus-5.5", "Claude Opus 5.5"], ["gpt-6-astra", "GPT-6 Astra"]];
+const state = { model: "all", kind: "all", q: "" };
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const compact = (n) => !n ? "" : n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n);
+const modelClass = (m) => m === "gpt-6-astra" ? "astra" : "opus";
+
+const films = GAMES.filter((g) => g.kind === "film").length;
+const playable = GAMES.filter(SECTIONS[0].test).length;
+document.getElementById("lede").innerHTML = `The best games and films made by <b>Claude Opus 5.5</b> and <b>GPT-6 Astra</b>. ${GAMES.length - films} games, ${playable} playable in one click, and ${films} films.`;
+const kindTest = { all: () => true, play: SECTIONS[0].test, games: (g) => g.kind !== "film", films: (g) => g.kind === "film" };
+
+function matches(g) {
+  if (state.model !== "all" && g.model !== state.model) return false;
+  if (!kindTest[state.kind](g)) return false;
+  if (!state.q) return true;
+  return [g.title, g.genre, g.engine, g.description, g.creator_name, g.creator_handle].join(" ").toLowerCase().includes(state.q);
+}
+
+function renderFilters() {
+  const count = (pred) => GAMES.filter(pred).length;
+  const chip = (group, key, label, n) => `<button class="chip" data-group="${group}" data-key="${key}" aria-pressed="${state[group] === key}">${esc(label)} <span class="n">${n}</span></button>`;
+  document.getElementById("filters").innerHTML =
+    MODELS.map(([k, l]) => chip("model", k, l, count((g) => k === "all" || g.model === k))).join("") +
+    `<span class="sep"></span>` +
+    KINDS.map(([k, l]) => chip("kind", k, l, count(kindTest[k]))).join("") +
+    `<input class="search" type="search" placeholder="Search racing, Blender, FPS…" value="${esc(state.q)}" aria-label="Search games">`;
+}
+
+function card(g) {
+  const primary = g.play_url ? `<a class="btn primary" href="${esc(g.play_url)}" target="_blank" rel="noopener">▶ Play</a>`
+    : g.watch_url ? `<a class="btn primary" href="${esc(g.watch_url)}" target="_blank" rel="noopener">▶ Watch live</a>`
+    : g.download_url ? `<a class="btn primary" href="${esc(g.download_url)}" target="_blank" rel="noopener">⬇ Get it</a>` : "";
+  return `<article class="card" data-id="${esc(g.id)}">
+    <div class="media" data-open="${esc(g.id)}">
+      <img src="media/${esc(g.id)}/cover.jpg" alt="${esc(g.title)}" loading="lazy">
+      ${g.video ? `<video muted loop playsinline preload="none" data-src="${esc(g.video)}"></video>` : ""}
+      <span class="badge ${modelClass(g.model)}">${esc(g.model_name)}</span>
+    </div>
+    <div class="body">
+      <div class="title"><span>${esc(g.title)}</span><span class="likes">${g.post_likes ? `♥ ${compact(g.post_likes)}` : ""}</span></div>
+      <div class="meta">${[g.creator_handle ? "@" + g.creator_handle : g.creator_name, g.genre, g.runtime, g.engine].filter(Boolean).map(esc).join(" · ")}</div>
+      <p class="desc">${esc(g.description)}</p>
+      <div class="actions">${primary}<button class="btn" data-open="${esc(g.id)}">Watch</button>${g.repo_url ? `<a class="btn" href="${esc(g.repo_url)}" target="_blank" rel="noopener">Source</a>` : ""}${g.post_url ? `<a class="btn" href="${esc(g.post_url)}" target="_blank" rel="noopener">Post</a>` : ""}</div>
+    </div>
+  </article>`;
+}
+
+function render() {
+  const list = GAMES.filter(matches).sort((a, b) => (b.post_likes ?? 0) - (a.post_likes ?? 0));
+  const html = SECTIONS.map((t) => {
+    const games = list.filter(t.test);
+    if (!games.length) return "";
+    return `<section id="${t.key}"><div class="wrap"><h2>${t.title} · ${games.length}</h2><p>${t.blurb}</p><div class="grid">${games.map(card).join("")}</div></div></section>`;
+  }).join("");
+  document.getElementById("sections").innerHTML = html || `<p class="wrap empty">No games match. Clear a filter.</p>`;
+}
+
+function openDetail(id) {
+  const g = GAMES.find((x) => x.id === id);
+  const d = document.getElementById("detail");
+  const row = (k, v) => v ? `<dt>${k}</dt><dd>${v}</dd>` : "";
+  const a = (label, url) => url ? `<a class="btn${label.startsWith("▶") ? " primary" : ""}" href="${esc(url)}" target="_blank" rel="noopener">${label}</a>` : "";
+  d.innerHTML = `<button class="close" aria-label="Close">✕</button>
+    ${g.video ? `<video src="${esc(g.video)}" controls autoplay playsinline poster="media/${esc(g.id)}/cover.jpg"></video>` : `<img src="media/${esc(g.id)}/cover.jpg" style="width:100%;display:block" alt="">`}
+    <div class="body">
+      <h3>${esc(g.title)}</h3>
+      <p class="desc">${esc(g.description)}</p>
+      <dl class="kv">
+        ${row("Model", `<span class="badge ${modelClass(g.model)}" style="position:static">${esc(g.model_name)}</span>`)}
+        ${row("Creator", g.creator_handle ? `<a href="https://x.com/${esc(g.creator_handle)}" target="_blank" rel="noopener">@${esc(g.creator_handle)}</a>` : esc(g.creator_name))}
+        ${row("Genre", esc(g.genre))}${row("Engine", esc(g.engine))}${row("How it was built", esc(g.build))}${row("Runtime", esc(g.runtime))}${row("Run it", g.run ? `<code>${esc(g.run)}</code>` : "")}
+        ${row("Controls", esc(g.controls))}${row("Model source", esc(g.model_evidence))}
+      </dl>
+      <div class="actions">${a("▶ Play", g.play_url)}${a("▶ Watch live", g.watch_url)}${a("⬇ Download", g.download_url)}${a("Source", g.repo_url)}${a("Original post", g.post_url)}</div>
+    </div>`;
+  d.showModal();
+  history.replaceState(null, "", `#${id}`);
+}
+
+document.addEventListener("click", (e) => {
+  const chip = e.target.closest(".chip");
+  if (chip) { state[chip.dataset.group] = chip.dataset.key; renderFilters(); render(); return; }
+  if (e.target.closest(".close") || e.target.id === "detail") { document.getElementById("detail").close(); return; }
+  const open = e.target.closest("[data-open]");
+  if (open) openDetail(open.dataset.open);
+});
+document.getElementById("detail").addEventListener("close", (e) => { e.target.innerHTML = ""; history.replaceState(null, "", location.pathname); });
+document.addEventListener("input", (e) => { if (e.target.classList.contains("search")) { state.q = e.target.value.trim().toLowerCase(); render(); } });
+document.addEventListener("mouseover", (e) => {
+  const media = e.target.closest(".media");
+  const v = media?.querySelector("video");
+  if (!v || v.dataset.playing) return;
+  v.dataset.playing = "1";
+  if (!v.src) { v.src = v.dataset.src; v.addEventListener("playing", () => v.classList.add("ready"), { once: true }); }
+  v.play().catch(() => {});
+  media.addEventListener("mouseleave", () => { v.pause(); delete v.dataset.playing; }, { once: true });
+});
+
+renderFilters();
+render();
+if (location.hash.length > 1 && GAMES.some((g) => g.id === location.hash.slice(1))) openDetail(location.hash.slice(1));
+</script>
+</body>
+</html>

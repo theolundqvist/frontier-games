@@ -1,0 +1,14 @@
+{
+  "name": "frontier-games",
+  "scripts": {
+    "media": "node scripts/media.mjs",
+    "screenshot": "node scripts/screenshot.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0",
+    "yaml": "^2.9.1"
+  },
+  "private": true,
+  "type": "module"
+}
