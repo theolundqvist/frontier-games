@@ -15,6 +15,8 @@
   description: Race seven AI drivers around Palm Cove Circuit, drift for mini-turbos and throw shells and bananas, every model and sound made in code.
   controls: WASD or arrows to steer, hold drift and release for a mini-turbo, gamepad works
   model_evidence: 'README: "produced by five Claude Opus 5.5 sub-agents working in parallel from a single prompt"'
+  cover_at: 30
+  preview_start: 26
 
 - id: overrun-dockyard-nine
   title: 'OVERRUN: Dockyard Nine'
@@ -131,6 +133,8 @@
   build: About 1.5 hours of prompting
   description: A browser Minecraft with generated terrain from beaches to mountains, rippling water and dynamic day and night lighting.
   model_evidence: '"Opus 5.5, The Minecraft Test. By far the most INSANE result I''ve ever seen from an LLM."'
+  cover_at: 15.5
+  preview_start: 15
 
 - id: antikythera
   title: Antikythera
@@ -146,6 +150,8 @@
   build: One-shot
   description: A game about the first computer, where every visual and every sound is generated live from code.
   model_evidence: '"I asked Opus 5.5 to make a game inspired by the discovery of the first computer, the Antikythera mechanism"'
+  cover_at: 17.5
+  preview_start: 17.5
 
 - id: roblox-anime-smash
   title: Anime Smash Bros
@@ -161,6 +167,8 @@
   build: One-shot
   description: Anime fighters brawl across Smash-style stages, built inside Roblox Studio using only the toolbox.
   model_evidence: '"Claude Opus 5.5 just ONE SHOTTED this Roblox Anime Super Smash Bros Game"'
+  cover_at: 72.5
+  preview_start: 71.5
 
 - id: the-ashen-gate
   title: The Ashen Gate
@@ -176,6 +184,8 @@
   build: Early access build
   description: A third-person Souls-like with real melee combat and level design in an ash-covered gothic ruin.
   model_evidence: '"I had early access to Opus 5.5 and it blew my expectations clear out of the water! Here are some things I made! Dark Souls"'
+  cover_at: 101.5
+  preview_start: 99
 
 - id: san-francisco-unreal
   title: San Francisco in Unreal
@@ -190,6 +200,8 @@
   genre: Open-world city sim
   description: A drivable San Francisco with people, pets and traffic, every agent in the city simulated.
   model_evidence: '"I had Opus 5.5 recreate the city of San Francisco in Unreal Engine."'
+  cover_at: 23.5
+  preview_start: 23.5
 
 - id: paperboy-browser-remake
   title: Paperboy Browser Remake (Paper Route)
@@ -207,6 +219,8 @@
   description: Deliver papers by bike/vehicle through a modeled neighborhood in an unofficial Paperboy fan remake.
   model_evidence: '"I spent 1.6 billion tokens building a full game with GPT-6 ASTRA. Not a demo. A FINISHED, playable game." (x.com/builtbysketch/status/2098777028078211283)'
   quality: high
+  cover_at: 50.5
+  preview_start: 47.5
 
 - id: browser-3d-game-prototype
   title: Browser 3D Game Prototype (Theo)
@@ -222,6 +236,8 @@
   description: A 3D game prototype built and demonstrated running in the browser.
   model_evidence: '"GPT-6 Astra is world class at Blender and 3 dimensional reasoning. This was a 1-shot game it created, all running in browser." (x.com/theo/status/2095599934766764338)'
   quality: medium
+  cover_at: 6.5
+  preview_start: 4.5
 
 - id: sonic-in-godot-max-vs-medium
   title: 'Sonic in Godot: Max vs Medium'
@@ -238,6 +254,8 @@
   description: Two simple Sonic-style 3D running/platforming demos comparing Astra reasoning effort settings.
   model_evidence: '"GPT-6-Astra (Max) VS GPT-6-Astra (Medium) - Simple 3D Sonic Game In Godot" (x.com/AiBattle_/status/2095994051354919049)'
   quality: medium
+  cover_at: 8.5
+  preview_start: 6
 
 - id: minecraft-style-world
   title: Minecraft-Style World
@@ -254,6 +272,8 @@
   description: Walk through a block-based Minecraft-style voxel world generated from a single prompt.
   model_evidence: '"GPT-6 Astra Minecraft one-shot" (x.com/flavioAd/status/2095597137849446688)'
   quality: medium
+  cover_at: 24.5
+  preview_start: 21.5
 
 - id: league-of-legends-browser-clone
   title: League of Legends Browser Clone
@@ -270,6 +290,8 @@
   description: A browser recreation of League of Legends with recognizable champions and mechanics after two prompts.
   model_evidence: '"wtf? i asked Astra to copy League of Legends and it actually did, with the real champions and everything" (x.com/konstiwohlwend/status/2097164513527357608)'
   quality: medium
+  cover_at: 5
+  preview_start: 3
 
 - id: catan-style-three-js-board-game
   title: Catan-Style Three.js Board Game
@@ -286,6 +308,8 @@
   description: Play a Catan-style board game with animated pieces, guidance cards, AI opponents and trading.
   model_evidence: '"I asked Astra to create a Catan game in three.js and it came out incredibly well ... It even has AI players and trading." (x.com/MengTo/status/2097291240672993773)'
   quality: high
+  cover_at: 24
+  preview_start: 21.5
 
 - id: junnaid-valley-unreal-world
   title: Junnaid Valley Unreal World
@@ -302,6 +326,8 @@
   description: Walk a landscape world with trees and lighting, ported from Godot into Unreal Engine.
   model_evidence: '"GPT-6 Astra + Unreal + Blender ... I moved the concept I had already made in Godot over to Unreal" (x.com/seftsaint/status/2101395711015497764)'
   quality: medium
+  cover_at: 23.5
+  preview_start: 19.5
 
 - id: universe-duel
   title: Universe Duel
@@ -319,6 +345,8 @@
   description: Fight another robot with dashes, homing attacks and laser-blade combat.
   model_evidence: Creator describes an iterative Astra build of a robot duel game (x.com/hayashimon1/status/2096255665778069957); listed under GPT-6 Astra Games in magiccreator-ai/awesome-gpt-6-astra
   quality: high
+  cover_at: 3.5
+  preview_start: 0
 
 - id: photorealistic-contra-game
   title: Photorealistic Contra Game (Runner)
@@ -336,6 +364,8 @@
   description: Run and shoot through a photorealistic side-scrolling Contra-style level.
   model_evidence: '"Astra is Opus 4.5 for games. Made Contra but photorealistic this weekend" (x.com/illscience/status/2097059547328241971)'
   quality: high
+  cover_at: 12
+  preview_start: 11.5
 
 - id: afterlight-robot-world
   title: Afterlight Robot World
@@ -352,6 +382,8 @@
   description: Explore a dystopian robot city scene with rain, warm lighting, detailed streets and procedural birds.
   model_evidence: '"Here''s what Astra built in 8 hours. It worked all night on weather effects, Blender modeling, and tons of little details." (x.com/anshuc/status/2096584624432374151)'
   quality: medium
+  cover_at: 5
+  preview_start: 6
 
 - id: a-godot-roguelike-level
   title: A Godot Roguelike Level
@@ -367,6 +399,8 @@
   description: Explore a 3D roguelike combat level with a day-night cycle, weather system, weapon switching, skills, and melee/ranged enemies.
   model_evidence: '"GPT-6 Astra + Blender + Godot Engine" full 3D roguelike level with day-night cycle, weather, weapons and skills (x.com/op7418/status/2096494840431386950)'
   quality: medium
+  cover_at: 80
+  preview_start: 77.5
 
 - id: zork-in-3d
   title: Zork in 3D (Underground Empire)
@@ -384,6 +418,8 @@
   description: Explore a 3D adaptation of the classic Zork text adventure with puzzles and combat.
   model_evidence: '"I asked GPT-6 Astra to turn Zork ... into a full 3D action-adventure game ... built all of the characters & environments directly in Threejs" (x.com/emollick/status/2096047660662722620)'
   quality: high
+  cover_at: 21.5
+  preview_start: 21
 
 - id: astral-war
   title: Astral War
@@ -401,6 +437,8 @@
   description: Fight through living/undead modes in a CoD-World-at-War-inspired browser FPS, solo or online multiplayer.
   model_evidence: '"Introducing Astral War, built in a day with GPT-6 Astra Ultra (fast mode) ... @threejs + @MeshyAI + @ElevenLabs" (x.com/0xRishi/status/2096079660605997264)'
   quality: high
+  cover_at: 43
+  preview_start: 42.5
 
 - id: halo-inspired-tesana-fps
   title: Halo-Inspired Tesana FPS
@@ -417,6 +455,8 @@
   description: A Halo-inspired 10v10 multiplayer FPS prototype built in one prompt via the Tesana game maker.
   model_evidence: '"GPT-6 Astra is absolutely insane at making games. It Created this 10v10 Halo multiplayer game in one prompt." (x.com/VikiingAI/status/2095598026916049024)'
   quality: medium
+  cover_at: 28.5
+  preview_start: 26.5
 
 - id: gogh-strike
   title: Gogh Strike
@@ -435,6 +475,8 @@
   description: Play a painter-themed 5v5 first-person shooter set in Van Gogh's town, with bot teammates and rivals.
   model_evidence: '"Built with GPT-6-Astra (Ultra) over 6 hours with Blender-rendered artists/fighters." (x.com/petergostev/status/2096013280519016608)'
   quality: high
+  cover_at: 80
+  preview_start: 75.5
 
 - id: voidbound-the-choir-of-ash
   title: 'Voidbound: The Choir of Ash'
@@ -453,6 +495,8 @@
   description: Fight demons with sword combat, dodging and area magic in a cathedral arena above a dead star.
   model_evidence: '"I asked GPT-6 Astra for God of War in a browser ... We ended up with a playable Three.js slasher in a cathedral above a dead star." (x.com/superalesha/status/2095988972879335792)'
   quality: high
+  cover_at: 134.5
+  preview_start: 133.5
 
 - id: magic-carpet-wizard
   title: Magic Carpet Wizard
@@ -498,6 +542,8 @@
   description: Land ragdoll breakdance moves and hit foot targets in a timed scoring arena.
   model_evidence: '"In light of the new Netflix breakdancing documentary... I had GPT Astra spruce up my game" (x.com/satrio_d/status/2096022866097758500)'
   quality: medium
+  cover_at: 33.5
+  preview_start: 31.8
 
 - id: the-simpsons-hit-run
   title: 'The Simpsons: Hit & Run — Browser Recreation'
@@ -515,6 +561,8 @@
   description: Drive around Springfield picking up the first Simpsons Hit & Run mission, reverse-engineered from the PS2 original.
   model_evidence: '"Simpsons Hit and Run reversed engineered from the PS2 game and then rebuilt for web using three.js. This was all done by the amazing GPT-6 Astra model on xhigh reasoning" (x.com/CtrlAltDwayne/status/2096872309936287887)'
   quality: high
+  cover_at: 40.5
+  preview_start: 39
 
 - id: where-the-wind-wanders
   title: Where the Wind Wanders
@@ -532,6 +580,8 @@
   description: Explore a flower-filled valley chasing wind-carried letters as the objective.
   model_evidence: '"Spent some time working on this with GPT-6 Astra ... Saw it carve paths, generate assets, and add serious depth and feel to the scene." (x.com/TusharXo/status/2096037482739683574)'
   quality: medium
+  cover_at: 23.5
+  preview_start: 23.5
 
 - id: alibi
   title: ALIBI — The Last Light
@@ -549,6 +599,8 @@
   description: Investigate a manor and question suspects to find a murderer in a generative point-and-click mystery.
   model_evidence: '"Generative point and click detective game where you''re trying to find the murderer. Made with gpt astra and H3 Max" (x.com/Christos_antono/status/2096435122669297892)'
   quality: medium
+  cover_at: 138.5
+  preview_start: 138.5
 
 - id: flop-club
   title: FLOP CLUB
@@ -566,6 +618,8 @@
   description: Dive off a high platform, pull flips, and try to land in the target ring.
   model_evidence: '"One prompt. One shot. GPT-6 ASTRA Pro made this playable 3D diving game." (x.com/BubuStd/status/2096402783805354091)'
   quality: medium
+  cover_at: 2.5
+  preview_start: 2.5
 
 - id: agi-of-empires
   title: AGI of Empires — The Compute Wars
@@ -583,6 +637,8 @@
   description: Command an AI lab racing rivals to superintelligence in an Age-of-Empires-inspired RTS satire.
   model_evidence: '"Astra and I tinkered for two days and made a browser game inspired by Age of Empires where the AI labs fight to reach superintelligence first." (x.com/timourxyz/status/2096662786692776293)'
   quality: medium
+  cover_at: 24.5
+  preview_start: 19
 
 - id: tidal-rush
   title: TIDAL RUSH — Paradise GP
@@ -616,6 +672,8 @@
   description: Fight through a gothic red-moon street as LUNA in a SNES-style side-scrolling action game.
   model_evidence: '"ChatGPT-6 Astraで25分ぐらいかな？" — built in ~25 minutes with GPT-6 Astra (x.com/ponsuke_otowa/status/2096531744933425299)'
   quality: medium
+  cover_at: 56
+  preview_start: 53.5
 
 - id: one-more-vine
   title: One More Vine — Into the Wild
@@ -633,6 +691,8 @@
   description: Swing on vines across four jungle platforming levels, dodging pits and crocodiles, Pitfall-style.
   model_evidence: '"I made a Pitfall game clone with GPT-6 Astra called One More Vine. Play all 4 levels online here." (x.com/bennash/status/2096282758930645170)'
   quality: medium
+  cover_at: 22
+  preview_start: 16.5
 
 - id: harbor-skirmish
   title: Harbor Skirmish
@@ -649,6 +709,8 @@
   description: Fight through a coastal town skirmish, part of a head-to-head model comparison build.
   model_evidence: '"We built two Three.js games with GPT-6 Astra and DeepSeek V4.1 Flash. ① GPT-6 Astra ② DeepSeek V4.1 Flash" (x.com/OpenDesignHQ/status/2097635757917983223)'
   quality: medium
+  cover_at: 15.5
+  preview_start: 11
 
 - id: bengaluru-orr-rush
   title: Bengaluru ORR Rush
@@ -665,6 +727,8 @@
   description: Race through Bengaluru's Outer Ring Road from Bellandur to Marathahalli, dodging traffic and potholes.
   model_evidence: '"Building games with GPT-6 Astra is so much fun! Built a racing game set on Bengaluru''s ORR" (x.com/ravithejads/status/2097181044625887392)'
   quality: medium
+  cover_at: 68.5
+  preview_start: 68
 
 - id: bonkshot
   title: Bonkshot
@@ -682,6 +746,8 @@
   model_evidence: '"BONKSHOT is a physics-based destruction game where you launch Bonkers, smash enemy structures, trigger explosions, and unleash massive chain reactions. Built with GPT-6 Astra" (x.com/edmund5/status/2097603093819261002)'
   quality: medium
   post_likes: 0
+  cover_at: 33
+  preview_start: 31
 
 - id: neon-wake
   title: Neon Wake — Dubai Coast
@@ -699,6 +765,8 @@
   description: Race a boat along a neon-lit Dubai coastline circuit, four boats over three laps.
   model_evidence: '"This week in my free time, I built this with my new bro, Astra ... shows what you can achieve in a couple of hours" (x.com/captain_m1k/status/2098310479714369926)'
   quality: medium
+  cover_at: 40
+  preview_start: 34.5
 
 - id: chrono-raid
   title: CHRONO RAID — SUZUNE & AOI
@@ -716,6 +784,8 @@
   description: Fight as SUZUNE against a boss with special-move cut-ins and victory animations.
   model_evidence: '"プログラミングを全く知らないSZOUでも、短時間でここまで作れてしまう……GPT-6 Astra、凄すぎる" (built a fighting game with zero coding knowledge using GPT-6 Astra) (x.com/szounft/status/2098310992770007365)'
   quality: medium
+  cover_at: 3.5
+  preview_start: 0
 
 - id: wings-of-freedom
   title: Wings of Freedom — Levi Skyrun
@@ -733,6 +803,8 @@
   description: Grapple and fly as Captain Levi through a titan-traversal running course.
   model_evidence: '"I built an Attack on Titan game using @OpenAI Astra in a couple hours, using @threejs for graphics" (x.com/dhrubhagatsingh/status/2098236388462223820)'
   quality: medium
+  cover_at: 45
+  preview_start: 40.8
 
 - id: kaiju-city-battle
   title: Kaiju City Battle (Storm Colossus)
@@ -750,6 +822,8 @@
   description: Fight as a giant kaiju rampaging through a city in a live battle.
   model_evidence: '"paired @OpenAI GPT-6 astra with my @threejs game dev skill pack to build a kaiju inspired game ... models @tripoai sound @ElevenLabs" (x.com/majidmanzarpour/status/2096251574918013135)'
   quality: high
+  cover_at: 3.5
+  preview_start: 0
 
 - id: tidebreak-corsair-run
   title: 'Tidebreak: Corsair Run'
@@ -862,6 +936,8 @@
   genre: Mini 4wd racing
   description: Mini 4WD racing with an exploded-parts garage, boost and changing dry, rainy and stormy track conditions.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/BubuStd/status/2096587056755638553
+  cover_at: 34
+  preview_start: 32
 
 - id: blackwater
   title: BLACKWATER · Silent Harbor
@@ -877,6 +953,8 @@
   genre: Tactical fps
   description: Infiltrate a rain-soaked freight terminal in a tactical FPS with a detailed carbine, combat HUD and nine hostiles.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/WoahWurdz/status/2095958882732355908
+  cover_at: 10
+  preview_start: 6
 
 - id: must-make-paperclips
   title: MUST. MAKE. PAPERCLIPS.
@@ -892,6 +970,8 @@
   genre: Tower defense/idle hybrid
   description: 'Godot-built paperclip-factory tower defense: deploy nail-gun turrets against waves while managing scrap resources.'
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/DannyLimanseta/status/2096977746891247758
+  cover_at: 33
+  preview_start: 27.5
 
 - id: don-t-look-away
   title: Don't Look Away — Saint Orison
@@ -906,6 +986,8 @@
   genre: Horror survival
   description: 'Church-set horror game: manage a flashlight and blink timer while angel statues approach; restore power to escape.'
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/BlendiByl/status/2100442177159729336
+  cover_at: 2
+  preview_start: 0
 
 - id: the-crownless
   title: The Crownless
@@ -921,6 +1003,8 @@
   genre: Action roguelike
   description: 'Roguelike action game on the Spawn platform: melee/jump combat through camps with leveling and soul upgrades.'
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/Izkimar/status/2100753871903855095
+  cover_at: 27.5
+  preview_start: 26.5
 
 - id: frontline-command
   title: 前线指令 / Frontline Command
@@ -935,6 +1019,8 @@
   genre: Modern-war rts
   description: Build a base, contest resource zones and command tanks, infantry, aircraft and drones against AI armies in a modern-war RTS, using spies and intelligence to gain an advantage.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/HDLhN783wtLkpPR/status/2097321360641122393
+  cover_at: 45
+  preview_start: 43.5
 
 - id: dead-end
   title: DEAD END — Oakridge
@@ -949,6 +1035,8 @@
   genre: Survival horror/wave shooter
   description: 3D zombie-survival shooter with 12 enemies per wave, shotgun/flare item switching, extraction goal.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/msdkim0424/status/2099852357660262425
+  cover_at: 67
+  preview_start: 63.5
 
 - id: asteroids
   title: ASTEROIDS · Deepfield
@@ -1072,6 +1160,8 @@
   genre: Taxi driving sim
   description: 'Open city-block taxi sim: pick up fares, track earnings and car condition against a shift timer and $60 in-game goal.'
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/ailker/status/2100705949468000655
+  cover_at: 3
+  preview_start: 1
 
 - id: no-moat
   title: No Moat
@@ -1086,6 +1176,8 @@
   genre: Roguelike deckbuilder
   description: 'A startup-themed roguelike deckbuilder: recruit a team and play cards against copycats, bugs and cloud bills.'
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/petergyang/status/2096297378584375672
+  cover_at: 13
+  preview_start: 10.5
 
 - id: sundrift
   title: Sundrift — Take the Slow Way Home
@@ -1101,6 +1193,8 @@
   genre: Sailing exploration
   description: Slow-paced sailing exploration game tracking nautical-mile distance and nearest-shore proximity.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/WescheNex1q/status/2100043868565561533
+  cover_at: 13.5
+  preview_start: 13.5
 
 - id: the-free-game
   title: The Free Game
@@ -1116,6 +1210,8 @@
   genre: Medieval village builder
   description: Build a medieval village with roads, workers and production chains, presented as a detailed 3D tabletop settlement.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/LucasMarquesSv/status/2096772160404504583
+  cover_at: 25.5
+  preview_start: 24
 
 - id: junk-run
   title: JUNK RUN
@@ -1130,6 +1226,8 @@
   description: Assemble a gravity-powered vehicle from scrapyard parts and send it downhill; starts in a first-person workshop.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/hermesailab/status/2097508053901840850
   post_likes: 0
+  cover_at: 33.5
+  preview_start: 30.5
 
 - id: realm-of-seratari
   title: Realm of Seratari
@@ -1198,6 +1296,8 @@
   genre: Kart racer
   description: Alpha-version browser kart racer with six toy cars, four festival-themed tracks, coin collection and a garage to buy upgrades.
   model_evidence: '"making a Mario Kart–style racing game with GPT-6 Astra! It runs fully in the browser and was built with Three.js." (creator X post)'
+  cover_at: 18.5
+  preview_start: 18.5
 
 - id: mir176-dragon-warrior
   title: 热血归来 · 八荒幻世 / Mir176 Dragon Warrior
@@ -1212,6 +1312,8 @@
   genre: Action rpg (legend of mir-inspired)
   description: A Legend-inspired action RPG with warrior, mage and taoist classes, equipment, dungeon combat and auto-battle.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/GeekCatX/status/2097530887558865115
+  cover_at: 30
+  preview_start: 31
 
 - id: i-m-upping-my-p-doom
   kind: film
@@ -1232,6 +1334,8 @@
     meme in the lyrics, opening and closing on the same painted curtain.'
   model_evidence: 'GitHub repo title: "Source code for the Claude Opus 5.5 music video for I''m Upping My P(doom)"; README: "Everything in this repository was generated by the model, with no scene ideas
     specified."'
+  cover_at: 30
+  preview_start: 28
 
 - id: small-print
   kind: film
@@ -1251,6 +1355,8 @@
     join into a constellation. No image assets, all frames drawn in JS with model-synthesized Python music, polished second-by-second in post.
   model_evidence: 'Creator on X: "opus 5.5 is kind of insane at animation. i didn''t write a single line of code. it wrote the story, drew every frame, and made the music... Rendered with hyperframes, all
     in one index.html."'
+  cover_at: 1.5
+  preview_start: 0
 
 - id: little-neighbourhood
   kind: film
@@ -1268,6 +1374,8 @@
   build: multi-prompt
   description: A self-made launch video for Claude showing it helping people around a little animated neighbourhood, rendered live in the browser as a looping cinematic scene.
   model_evidence: 'Creator on X: "Claude opus 5.5 ultracode edition i gave the fable output to opus said to make a launch video for itself where it helps people"'
+  cover_at: 45.5
+  preview_start: 43.5
 
 - id: manhattan-cinematic-flyover
   kind: film
@@ -1285,6 +1393,8 @@
   description: A modeled Manhattan skyline built from topography and map data, with a sweeping cinematic flyover trailer -- warm lighting, dramatic camera angles -- produced end to end by Astra.
   model_evidence: 'Creator on X: "I''ve asked to 3D model an accurate cityscape of Manhattan and then record a small flyover trailer with cinematic lighting and angles" (Astra); also listed in awesome-gpt-6-astra
     Video Creation Showcase'
+  cover_at: 5
+  preview_start: 0
 
 - id: launching-gpt-6-astra-by-gpt-6-astra
   kind: film
@@ -1302,6 +1412,8 @@
   description: A reference-led, HyperFrames-built launch film for GPT-6 Astra itself, generated from a six-line prompt plus a reference video; ElevenLabs supplied the voice and sound effects on top of Astra's
     motion-graphics build.
   model_evidence: 'Creator on X: "Launching GPT 6 Astra [ by GPT 6 Astra ] Just 6 line of prompt & reference video... Made with @HyperFrames_"'
+  cover_at: 17.5
+  preview_start: 16
 
 - id: t-cells
   kind: film
@@ -1319,6 +1431,8 @@
   build: one-shot
   description: A code-animated explainer about T cells, scripted and assembled by Astra in Remotion with Imagegen visuals from a single prompt; Astra also picked HeyGen for narration.
   model_evidence: 'Creator on X: "I had GPT-6 Astra create from a single prompt: ''Create a 5 minute educational video about T cells''"'
+  cover_at: 96.5
+  preview_start: 94
 
 - id: rickroll
   kind: film
@@ -1337,6 +1451,8 @@
   description: A side-by-side comparison of the original Rick Astley 'Never Gonna Give You Up' video against a stylized 3D Rick Astley built and animated entirely by Astra in Blender, driving subagents
     to verify the geometry and web search to source reference assets.
   model_evidence: Poster (OpenAI engineer) captioned "okay Astra time to rickroll"; awesome-gpt-6-astra README lists it under Blender & 3D Demos as "Recreation of Rickroll in Blender."
+  cover_at: 26
+  preview_start: 24.5
 
 - id: the-backrooms
   kind: film
@@ -1354,6 +1470,8 @@
   description: A liminal-space 'Backrooms' scene modeled and lit in Blender, with VHS-style post effects and sound design, all built and rendered by Astra directly in Blender from about five prompts over
     30 minutes (plus 20 minutes to export).
   model_evidence: 'Creator on X: "GPT 6 Astra is INSANE. It built the backrooms in blender and then added VHS effects etc... This isn''t AI generated video it''s all in blender."'
+  cover_at: 18.5
+  preview_start: 14.1
 
 - id: craig-federighi
   kind: film
@@ -1370,6 +1488,8 @@
   build: one-shot
   description: A Blender recreation of a well-known Craig Federighi WWDC clip, rebuilt shot-for-shot as an animated 3D scene from a single prompt.
   model_evidence: 'Creator on X: "Astra - recreate the original Craig Federighi in Blender." Listed in awesome-gpt-6-astra Blender & 3D Demos.'
+  cover_at: 2.5
+  preview_start: 0
 
 - id: steam-train
   kind: film
@@ -1386,6 +1506,8 @@
   build: one-shot
   description: A hand-drawn steam-train sketch turned into a 3,295-object, fully editable, animated Blender train model built directly by Astra.
   model_evidence: 'Creator on X: "I took an old drawing of a steam train, gave it to Astra to reconstruct it in Blender. After few minutes it crafted 3,295 fully editable detailed objects..."'
+  cover_at: 33
+  preview_start: 27.5
 
 - id: opus-5-5-voxel-self-portrait
   kind: film
@@ -1403,6 +1525,8 @@
   build: one-shot
   description: A short animated self-portrait of Claude rendered entirely in voxels, with its own idle animations and detailing, generated from a single prompt.
   model_evidence: 'Creator on X: "Claude Opus 5.5 made itself in voxels... The model has very good, SOTA understanding of 3d."'
+  cover_at: 10.5
+  preview_start: 6.5
 
 - id: claymation-with-a-single-prompt
   kind: film
@@ -1419,6 +1543,8 @@
   build: one-shot
   description: A stop-motion-style claymation scene modeled, textured and animated in Blender by Opus 5.5 from a single prompt directly inside claude.ai.
   model_evidence: 'Creator (Anthropic researcher) on X: "I just realized Opus 5.5 can use Blender to make claymations with just a single prompt in claude dot ai now"'
+  cover_at: 10.5
+  preview_start: 5
 
 - id: san-francisco-s-market-street
   kind: film
@@ -1436,6 +1562,8 @@
   description: A historically accurate reconstruction of San Francisco's Market Street in 1906, just before the great earthquake, built and animated as a full 3D world in Blender from a single prompt.
   model_evidence: 'Creator on X: "I''ve been on a Blender kick with Opus 5.5. Its better 3D modeling and vision mean you can build an entire world from a single prompt. Historically accurate San Francisco
     Market street in 1906, pre-earthquake"'
+  cover_at: 6
+  preview_start: 2
 
 - id: opus-ultra-film
   kind: film
@@ -1453,3 +1581,5 @@
   description: A four-minute film made entirely from scratch by four Opus 5.5 agents, voice included, with no AI voice API.
   model_evidence: '"Opus 5.5 ultra created this masterpiece. 4 agents and an hour and a half later. Everything from scratch, no AI voice API used"'
   post_likes: 1907
+  cover_at: 86.5
+  preview_start: 86

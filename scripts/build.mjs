@@ -66,7 +66,9 @@ const site = games.map((g) => ({
   ...g,
   model_name: MODELS[g.model],
   video: existsSync(`media/${g.id}/creator.mp4`) ? `media/${g.id}/creator.mp4` : null,
+  loop: existsSync(`media/${g.id}/loop.mp4`) ? `media/${g.id}/loop.mp4` : null,
   preview_start: undefined,
+  cover_at: undefined,
 }));
 writeFileSync("games.json", JSON.stringify(games.map((g) => g.id)));
 writeFileSync("index.html", readFileSync("scripts/index.template.html", "utf8").replace("__GAMES__", JSON.stringify(site).replaceAll("</", "<\\/")));
