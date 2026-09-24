@@ -4,67 +4,259 @@
 
 The best games and films made by **Claude Opus 5.5** and **GPT-6 Astra**, sorted by how fast you can try them.
 
-**83 games** (13 Opus 5.5, 70 Astra) and **14 films** · [Browse, upvote and discuss in the gallery →](https://theolundqvist.github.io/frontier-games/)
+**114 games** (60 Opus 5.5, 54 Astra) and **41 films** · [Browse, upvote and discuss in the gallery →](https://theolundqvist.github.io/frontier-games/)
 
 | | |
 |---|---|
-| ▶ [**Play in your browser**](#play-in-your-browser-66) | 66 games, one click, no install |
-| ⬇ [**Download or build**](#download-or-build-2) | 2 games that need an install or a native engine |
-| 🎬 [**Watch only**](#watch-only-15) | 15 games with no public build, shown through the creator's footage |
-| 🎞 [**Films and animations**](#films-and-animations-14) | 14 music videos, short films and animations |
+| ▶ [**Play in your browser**](#play-in-your-browser-84) | 84 games, one click, no install |
+| ⬇ [**Download or build**](#download-or-build-3) | 3 games that need an install or a native engine |
+| 🎬 [**Watch only**](#watch-only-27) | 27 games with no public build, shown through the creator's footage |
+| 🎞 [**Films and animations**](#films-and-animations-41) | 41 music videos, short films and animations |
 
 ## What gets in
 
 1. **The model is named by the builder.** The creator's post, repo, or page says Opus 5.5 or GPT-6 Astra built it. Earlier models and mixed-model builds stay out.
-2. **It is impressive.** Games need a real loop with polish: 3D worlds, physics, sound, AI opponents, progression. Films need the model to have written the code or driven the tool behind every frame, not a video model.
+2. **It is impressive, and the model made the visuals.** Games need a real loop with polish: 3D worlds, physics, sound, AI opponents, progression. Every frame comes from code the model wrote or tools it drove, such as three.js, shaders or Blender. Art from image, video or 3D generators and third-party asset packs stay out; AI music is fine.
 3. **You can see it.** Every entry carries the creator's own footage or a screenshot of the live page.
 
-## Play in your browser (66)
+## Play in your browser (84)
 
 One click, no install, no sign-in.
 
-### Claude Opus 5.5 (6)
+### Claude Opus 5.5 (37)
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://cnvs.dev/opusmo/"><img src="media/the-dukes-lawn/preview.webp" width="400" alt="The Duke's Lawn"></a><br>**The Duke's Lawn** by [@_MaxBlade](https://x.com/_MaxBlade)<br><sub>Multiplayer simulator · Browser, built in CNVS · One-shot</sub><br>A multiplayer lawn-mowing simulator with beers and cigars that the creator's stream chat joined live.<br><sub>🎮 Desktop only</sub><br>[**▶ Play**](https://cnvs.dev/opusmo/) · [Post · 3.9k ♥](https://x.com/_MaxBlade/status/2102513817855094922)
+
+</td>
+<td width="50%" valign="top">
+
 <a href="https://bridge-mind.github.io/turbo-kart-rally/"><img src="media/turbo-kart-rally/preview.webp" width="400" alt="Turbo Kart Rally"></a><br>**Turbo Kart Rally** by [@bridgemindai](https://x.com/bridgemindai)<br><sub>Kart racer · Three.js · One prompt, five parallel sub-agents</sub><br>Race seven AI drivers around Palm Cove Circuit, drift for mini-turbos and throw shells and bananas, every model and sound made in code.<br><sub>🎮 WASD or arrows to steer, hold drift and release for a mini-turbo, gamepad works</sub><br>[**▶ Play**](https://bridge-mind.github.io/turbo-kart-rally/) · [Source](https://github.com/bridge-mind/turbo-kart-rally) · [Post · 3.5k ♥](https://x.com/bridgemindai/status/2102451997395866021)
 
 </td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://somethingbig.ai/world/"><img src="media/open-world-nyc/preview.webp" width="400" alt="Open World NYC"></a><br>**Open World NYC** by [@mattshumer_](https://x.com/mattshumer_)<br><sub>Open world · Browser 3D · Autonomous loop running for almost a day</sub><br>A multiplayer open-world New York City you can drop into from the browser.<br>[**▶ Play**](https://somethingbig.ai/world/) · [Post · 707 ♥](https://x.com/mattshumer_/status/2102874271316078841)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://arkenfall.site"><img src="media/arkenfall/preview.webp" width="400" alt="Arkenfall"></a><br>**Arkenfall** by [@LexnLin](https://x.com/LexnLin)<br><sub>Open-world action · Browser, zero assets · Opus also cut the trailer and wrote the soundtrack</sub><br>An open-world fantasy action game with creatures, a map, a story intro and a boss fight, all generated in code.<br>[**▶ Play**](https://arkenfall.site) · [Post · 447 ♥](https://x.com/LexnLin/status/2102834362530079093)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://spawn.co/@j/portal-heist/play"><img src="media/portal-heist/preview.webp" width="400" alt="Portal Heist"></a><br>**Portal Heist** by [@jsnnsa](https://x.com/jsnnsa)<br><sub>Multiplayer heist · Spawn · 26 parallel agents overnight</sub><br>A multiplayer heist through five nested worlds, with go-karts on a giant's kitchen table, bots hunting you and friends stealing your loot.<br><sub>🎮 Phone or computer, no account</sub><br>[**▶ Play**](https://spawn.co/@j/portal-heist/play) · [Post · 347 ♥](https://x.com/jsnnsa/status/2102862008467194151)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://bubucn.com/en/ai-model-evals/voxel-musou"><img src="media/voxel-musou/preview.webp" width="400" alt="Voxel Musou"></a><br>**Voxel Musou** by [@BubuStd](https://x.com/BubuStd)<br><sub>Hack and slash · Browser 3D, voxel · Opus 5.5 ultracode</sub><br>Zhao Yun takes on 300 voxel soldiers with combos, dodges and Musou attacks in a Dynasty Warriors homage.<br>[**▶ Play**](https://bubucn.com/en/ai-model-evals/voxel-musou) · [Source](https://github.com/mike007jd/voxel-musou) · [Post · 255 ♥](https://x.com/BubuStd/status/2102991290568954264)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://lagoon-tree-village.netlify.app/"><img src="media/lagoon-tree-village/preview.webp" width="400" alt="Lagoon Tree Village"></a><br>**Lagoon Tree Village** by [@cryptomanavan](https://x.com/cryptomanavan)<br><sub>Explorable world · Three.js on WebGL2, procedural · Seven-hour-plus agent session from concept art</sub><br>A huge explorable desert oasis village built into giant trees around a turquoise lagoon.<br>[**▶ Play**](https://lagoon-tree-village.netlify.app/) · [Post · 235 ♥](https://x.com/cryptomanavan/status/2102772685541347618)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://seiryu.miraicode.one/"><img src="media/seiryu-fishing/preview.webp" width="400" alt="Seiryu Fishing"></a><br>**Seiryu Fishing** by [@hayashimon1](https://x.com/hayashimon1)<br><sub>Fishing · Three.js · Under one day</sub><br>Spot fish in a crystal-clear mountain stream and cast for them in a calm fishing game.<br>[**▶ Play**](https://seiryu.miraicode.one/) · [Post · 232 ♥](https://x.com/hayashimon1/status/2102737051057832358)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://www.spawn.co/@izkimar/dalaran/play"><img src="media/dalaran-reimagined/preview.webp" width="400" alt="Dalaran Reimagined"></a><br>**Dalaran Reimagined** by [@Izkimar](https://x.com/Izkimar)<br><sub>Explorable world · Spawn · Prompted to go wild</sub><br>A walkable reimagining of World of Warcraft's floating mage city Dalaran, with sound.<br>[**▶ Play**](https://www.spawn.co/@izkimar/dalaran/play) · [Post · 46 ♥](https://x.com/Izkimar/status/2102965638293827698)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://play-de-claude.vercel.app/"><img src="media/play-de-claude/preview.webp" width="400" alt="Play De Claude"></a><br>**Play De Claude** by [@illscience](https://x.com/illscience)<br><sub>Isometric exploration · Browser, Blender-made assets · One-shot</sub><br>Wander a Habbo-style isometric replica of a 1990s record store, dig through crates and preview real songs.<br><sub>🎮 Desktop</sub><br>[**▶ Play**](https://play-de-claude.vercel.app/) · [Post · 41 ♥](https://x.com/illscience/status/2102913284190220421)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://gordensun.github.io/last-firewall/"><img src="media/last-firewall/preview.webp" width="400" alt="Last Firewall"></a><br>**Last Firewall** by [@Gorden_Sun](https://x.com/Gorden_Sun)<br><sub>Bullet-hell survival · Browser · One-shot</sub><br>A bullet-hell survival game where you defend the last firewall against waves of attackers.<br>[**▶ Play**](https://gordensun.github.io/last-firewall/) · [Post · 9 ♥](https://x.com/Gorden_Sun/status/2102941966556434610)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://sael.net/final-boss"><img src="media/the-final-boss/preview.webp" width="400" alt="The Final Boss"></a><br>**The Final Boss** by [@RyanSael](https://x.com/RyanSael)<br><sub>Boss fight · Browser · Prompted build</sub><br>A boss fight parody of the Gemini rumor mill.<br>[**▶ Play**](https://sael.net/final-boss) · [Post · 7 ♥](https://x.com/RyanSael/status/2102970980398489940)
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://alesha-pro.github.io/bench-portal/games/overrun-claude-opus-5.5/index.html"><img src="media/overrun-dockyard-nine/preview.webp" width="400" alt="OVERRUN: Dockyard Nine"></a><br>**OVERRUN: Dockyard Nine** by bench-portal<br><sub>Horde FPS · Three.js · One-shot in Claude Code</sub><br>Hold a dockyard against waves of combat synthetics with a rifle, shotgun, marksman rifle, grenades and explosive barrels.<br><sub>🎮 WASD move, mouse aim and fire</sub><br>[**▶ Play**](https://alesha-pro.github.io/bench-portal/games/overrun-claude-opus-5.5/index.html) · [Source](https://github.com/alesha-pro/bench-portal)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://noita.myai1010.top/opus55/"><img src="media/emberdeep/preview.webp" width="400" alt="EMBERDEEP"></a><br>**EMBERDEEP** by Noita AI Arena<br><sub>Falling-sand roguelike · Canvas 2D · Long agentic session</sub><br>A Noita-style descent where every pixel is simulated, materials react alchemically and wand spells chain together.<br>[**▶ Play**](https://noita.myai1010.top/opus55/) · [Source](https://github.com/JerryLiu369/noita-benchmark)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://claude-opus-5-5.riba2534.cn/"><img src="media/pelican-bike-ride/preview.webp" width="400" alt="Pelican Bike Ride"></a><br>**Pelican Bike Ride** by riba2534<br><sub>Coastal cycling · Three.js, single HTML file · One sentence prompt, zero human edits</sub><br>Pedal a helmeted pelican along a coastal road through a full day and night cycle, catching fish, jumping and pulling wheelies.<br><sub>🎮 W and S speed, A and D change lane, Space jump, T wheelie</sub><br>[**▶ Play**](https://claude-opus-5-5.riba2534.cn/) · [Source](https://github.com/riba2534/claude-opus-5-5-demo)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://claude-opus-5-5-cf-transport-ship.pages.dev"><img src="media/crossfire-transport-ship/preview.webp" width="400" alt="CrossFire: Transport Ship"></a><br>**CrossFire: Transport Ship** by riba2534<br><sub>Team FPS · Three.js, single HTML file · One sentence prompt, zero human edits</sub><br>A fan remake of the classic CrossFire Transport Ship map with recoil, bot teams and procedural gunfire audio.<br><sub>🎮 WASD move, mouse aim and fire</sub><br>[**▶ Play**](https://claude-opus-5-5-cf-transport-ship.pages.dev) · [Source](https://github.com/riba2534/claude-opus-5-5-demo)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://claude-opus-5-5-cf-transport-ship.pages.dev"><img src="media/crossfire-transport-ship/preview.webp" width="400" alt="CrossFire: Transport Ship"></a><br>**CrossFire: Transport Ship** by riba2534<br><sub>Team FPS · Three.js, single HTML file · One sentence prompt, zero human edits</sub><br>A fan remake of the classic CrossFire Transport Ship map with recoil, bot teams and procedural gunfire audio.<br><sub>🎮 WASD move, mouse aim and fire</sub><br>[**▶ Play**](https://claude-opus-5-5-cf-transport-ship.pages.dev) · [Source](https://github.com/riba2534/claude-opus-5-5-demo)
+<a href="https://claude-opus-5-5-qqfeiche3d.pages.dev/"><img src="media/qq-speed-drift/preview.webp" width="400" alt="QQ Speed Drift"></a><br>**QQ Speed Drift** by riba2534<br><sub>Drift racer · Three.js, single HTML file · One sentence prompt, zero human edits</sub><br>Drift through four tracks, from a night city circuit to a pyramid ramp finale, chaining boosts and nitro.<br><sub>🎮 Arrows steer, Shift drift, Ctrl nitro</sub><br>[**▶ Play**](https://claude-opus-5-5-qqfeiche3d.pages.dev/) · [Source](https://github.com/riba2534/claude-opus-5-5-demo)
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://claude-opus-5-5-qqfeiche3d.pages.dev/"><img src="media/qq-speed-drift/preview.webp" width="400" alt="QQ Speed Drift"></a><br>**QQ Speed Drift** by riba2534<br><sub>Drift racer · Three.js, single HTML file · One sentence prompt, zero human edits</sub><br>Drift through four tracks, from a night city circuit to a pyramid ramp finale, chaining boosts and nitro.<br><sub>🎮 Arrows steer, Shift drift, Ctrl nitro</sub><br>[**▶ Play**](https://claude-opus-5-5-qqfeiche3d.pages.dev/) · [Source](https://github.com/riba2534/claude-opus-5-5-demo)
+<a href="https://dgreenheck.github.io/tidewater/"><img src="media/tidewater/preview.webp" width="400" alt="Tidewater"></a><br>**Tidewater** by dgreenheck<br><sub>Island fishing · WebGPU / WGSL, custom renderer · Claude Code session, every commit co-authored by Opus 5.5</sub><br>Cast from the pier, beach or your own boat, fight 18 fish species on a line-tension meter, sell the catch and upgrade your gear on a tropical island.<br><sub>🎮 WASD walk and swim, mouse to cast and reel, E to board the boat</sub><br>[**▶ Play**](https://dgreenheck.github.io/tidewater/) · [Source](https://github.com/dgreenheck/tidewater)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://tanuu5.github.io/nova-lancer/"><img src="media/nova-lancer/preview.webp" width="400" alt="Nova Lancer"></a><br>**Nova Lancer** by tanuu5<br><sub>Rail shooter · Three.js · One request, about 1 hour 40 minutes at max effort, two sub-agents for audio and portraits</sub><br>A Star Fox style rail shooter over a sunset sea, a red canyon and a neon fortress city, ending in a fight with a mechanical sea dragon.<br><sub>🎮 WASD move, J or Space shoot (hold to lock on), K bomb, L boost, gamepad and touch work</sub><br>[**▶ Play**](https://tanuu5.github.io/nova-lancer/) · [Source](https://github.com/tanuu5/nova-lancer)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://juliusbrussee.github.io/jazz-jackrabbit-remastered/"><img src="media/jazz-jackrabbit-opus-edition/preview.webp" width="400" alt="Jazz Jackrabbit Opus Edition"></a><br>**Jazz Jackrabbit Opus Edition** by JuliusBrussee<br><sub>Platformer · Canvas 2D, single 180 KB HTML file · Launch-day Claude Code session</sub><br>A modern fan remake of the 1994 run-and-gun platformer with five worlds, two bosses and procedural art and music in one file.<br><sub>🎮 Keyboard or gamepad</sub><br>[**▶ Play**](https://juliusbrussee.github.io/jazz-jackrabbit-remastered/) · [Source](https://github.com/JuliusBrussee/jazz-jackrabbit-remastered)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://nipale-ai.github.io/opus-5-5-overnight-builds/fall-line/"><img src="media/fall-line/preview.webp" width="400" alt="Fall Line"></a><br>**Fall Line** by Nipale-ai<br><sub>Freeride snowboarding · Three.js · One brief, 339 minutes alone overnight in headless Claude Code at xhigh, 111 commits</sub><br>Drop into a mountain on a snowboard or skis, chain tricks and ride events across an open freeride map.<br>[**▶ Play**](https://nipale-ai.github.io/opus-5-5-overnight-builds/fall-line/) · [Source](https://github.com/Nipale-ai/opus-5-5-overnight-builds)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://haruka-apps-games.itch.io/lastfall-3d-battle-royale-zombie-survival"><img src="media/lastfall/preview.webp" width="400" alt="LASTFALL"></a><br>**LASTFALL** by [@haruka_apps](https://x.com/haruka_apps)<br><sub>Battle royale and zombie survival · Three.js / WebGL</sub><br>Parachute onto an island against 23 AI bots in a shrinking zone, or hold out through ten zombie waves under a blood moon.<br><sub>🎮 WASD, mouse aim and fire, V toggles first and third person</sub><br>[**▶ Play**](https://haruka-apps-games.itch.io/lastfall-3d-battle-royale-zombie-survival)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://haruka-apps-games.itch.io/neon-arcade-pinball-game-center-nova"><img src="media/game-center-nova/preview.webp" width="400" alt="Game Center NOVA"></a><br>**Game Center NOVA** by [@haruka_apps](https://x.com/haruka_apps)<br><sub>First-person pinball arcade · Three.js / WebGL</sub><br>Walk a neon late-night arcade in first person, change yen for tokens and play pinball tables from 1978, 1998 and 2099.<br><sub>🎮 PC only, WASD walk, flipper keys at each table</sub><br>[**▶ Play**](https://haruka-apps-games.itch.io/neon-arcade-pinball-game-center-nova) · [Post](https://x.com/haruka_apps/status/2102703140080673090)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://aibengineering.github.io/sprout-quest/"><img src="media/sprout-quest/preview.webp" width="400" alt="Sprout Quest"></a><br>**Sprout Quest** by aibengineering<br><sub>Mobile action RPG · Canvas, Blender-rendered sprites, Bun · 11 plain-language prompts, about 4 hours 25 minutes</sub><br>Leave Sprout Village for real-time arena battles, level up, craft gear at the forge and push east to the dragon of Ember Peak.<br><sub>🎮 Touch, best on a phone in portrait</sub><br>[**▶ Play**](https://aibengineering.github.io/sprout-quest/) · [Source](https://github.com/aibengineering/sprout-quest)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://vasu-devs.github.io/FishSlop_Opus5.5/"><img src="media/fishslop/preview.webp" width="400" alt="FishSlop Opus 5.5"></a><br>**FishSlop Opus 5.5** by vasu-devs<br><sub>Submarine aquarium sim · Three.js, TypeScript · Claude Code session</sub><br>Pilot a small sub around a 3D reef, feed fish, ping sonar to reveal new species and buy fish and parts to grow the aquarium.<br>[**▶ Play**](https://vasu-devs.github.io/FishSlop_Opus5.5/) · [Source](https://github.com/vasu-devs/FishSlop_Opus5.5)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://terrabrowser.vercel.app"><img src="media/terrabrowser/preview.webp" width="400" alt="Terrabrowser"></a><br>**Terrabrowser** by Wimmboo2<br><sub>Sandbox action-adventure · Canvas 2D, ES modules</sub><br>A Terraria-style dig, build and fight sandbox with ores, crafting, NPCs, bosses and a generated world.<br>[**▶ Play**](https://terrabrowser.vercel.app) · [Source](https://github.com/Wimmboo2/Terrabrowser)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://kjlkurt.github.io/waterslide-game-opus-5.5/"><img src="media/slide-rush/preview.webp" width="400" alt="Slide Rush"></a><br>**Slide Rush** by KJLKurt<br><sub>Waterslide racer · Three.js</sub><br>Race twelve rivals down a giant 3D waterslide, hit the ramps, find the shortcut and try not to fly off the track.<br><sub>🎮 Steer and jump, mobile-first touch controls</sub><br>[**▶ Play**](https://kjlkurt.github.io/waterslide-game-opus-5.5/) · [Source](https://github.com/KJLKurt/waterslide-game-opus-5.5)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://brianm3050.github.io/amar.io/"><img src="media/amar-io/preview.webp" width="400" alt="AMAR.IO"></a><br>**AMAR.IO** by brianm3050<br><sub>3D multiplayer .io · Three.js, custom shaders, WebRTC</sub><br>Agar.io in full 3D, fly in any direction, split and devour other cells in instant peer-to-peer multiplayer with AI bots.<br><sub>🎮 Arrow keys steer, Space split, F eject, S brake, touch stick on phones</sub><br>[**▶ Play**](https://brianm3050.github.io/amar.io/) · [Source](https://github.com/brianm3050/amar.io)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://cahlik.net/palmera-bay/"><img src="media/palmera-bay/preview.webp" width="400" alt="Palmera Bay"></a><br>**Palmera Bay** by vcahlik<br><sub>Free-roam driving · Three.js · 30-minute auto-mode first pass, then a few prompts, medium effort</sub><br>Cruise a convertible around a sunny coastal city with arcade drift, nitro flames, skid marks and several camera views.<br><sub>🎮 Arrow keys or WASD drive, nitro, camera toggle</sub><br>[**▶ Play**](https://cahlik.net/palmera-bay/) · [Source](https://github.com/vcahlik/palmera-bay)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://promptengineer48.github.io/claude-opus-5.5-games/rooftop-sniper/offline/index.html"><img src="media/rooftop-sniper-last-light/preview.webp" width="400" alt="Rooftop Sniper: Last Light"></a><br>**Rooftop Sniper: Last Light** by PromptEngineer48<br><sub>First-person sniper · Three.js</sub><br>Hold a rooftop at dusk and pick off targets across a city with a scoped rifle.<br><sub>🎮 Mouse aim, right click scope, left click fire</sub><br>[**▶ Play**](https://promptengineer48.github.io/claude-opus-5.5-games/rooftop-sniper/offline/index.html) · [Source](https://github.com/PromptEngineer48/claude-opus-5.5-games)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://promptengineer48.github.io/claude-opus-5.5-games/neon-siege/"><img src="media/neon-siege/preview.webp" width="400" alt="Neon Siege"></a><br>**Neon Siege** by PromptEngineer48<br><sub>Arena shooter · Three.js</sub><br>Fight waves of robots in a neon arena, dash through bots, reflect their bolts with a shield and face an Overseer boss every fifth wave.<br><sub>🎮 WASD move, mouse aim, hold left click fire</sub><br>[**▶ Play**](https://promptengineer48.github.io/claude-opus-5.5-games/neon-siege/) · [Source](https://github.com/PromptEngineer48/claude-opus-5.5-games)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://tanuu5.github.io/clawd-7-8/"><img src="media/clawd-7-8/preview.webp" width="400" alt="Clawd 7/8"></a><br>**Clawd 7/8** by tanuu5<br><sub>Rhythm game · Three.js, Web Audio</sub><br>Hit notes on a four-lane highway to a song in 7/8 time while Clawd dances beside the track.<br><sub>🎮 D F J K or arrow keys, multi-touch on phones</sub><br>[**▶ Play**](https://tanuu5.github.io/clawd-7-8/) · [Source](https://github.com/tanuu5/clawd-7-8)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://tanuu5.github.io/ink-arcade/"><img src="media/ink-arcade/preview.webp" width="400" alt="Ink Arcade"></a><br>**Ink Arcade** by tanuu5<br><sub>Rail shooting gallery · Three.js</sub><br>Two ink-splat shooting games, including a 3D rail shooter whose shots fire on the soundtrack's sixteenth notes and ends with a giant target boss.<br><sub>🎮 Mouse or touch to aim</sub><br>[**▶ Play**](https://tanuu5.github.io/ink-arcade/) · [Source](https://github.com/tanuu5/ink-arcade)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://siwo55.github.io/dragon-sail-opus/"><img src="media/dragon-sail/preview.webp" width="400" alt="Dragon Sail"></a><br>**Dragon Sail** by siwo55<br><sub>Dragon flight racer · Three.js, single HTML file</sub><br>Ride a dragon through mountain canyons and eleven gates before a storm catches you, boosting on near misses.<br><sub>🎮 W and S pitch, A and D roll, Space boost, gamepad and touch work</sub><br>[**▶ Play**](https://siwo55.github.io/dragon-sail-opus/) · [Source](https://github.com/siwo55/dragon-sail-opus)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://senko.net/vibecode-bench/2026/rts-opus-5.5.html"><img src="media/fogbound-frontier/preview.webp" width="400" alt="Fogbound Frontier"></a><br>**Fogbound Frontier** by senko<br><sub>Real-time strategy · Canvas, single HTML file · One-shot benchmark prompt at xhigh, about 47 minutes</sub><br>A WarCraft-style RTS with resource gathering, unit production and fog-of-war exploration against an AI.<br>[**▶ Play**](https://senko.net/vibecode-bench/2026/rts-opus-5.5.html) · [Source](https://gist.github.com/senko/0431525092b5af63618ab05666305e08) · [Post](https://senko.net/vibecode-bench/)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://senko.net/vibecode-bench/2026/flysim-opus-5.5.html"><img src="media/over-the-lines/preview.webp" width="400" alt="Over the Lines"></a><br>**Over the Lines** by senko<br><sub>WW1 dogfight · Three.js, single HTML file · One-shot benchmark prompt at xhigh</sub><br>Fly a WW1 biplane over generated terrain and dogfight enemy planes.<br>[**▶ Play**](https://senko.net/vibecode-bench/2026/flysim-opus-5.5.html) · [Source](https://gist.github.com/senko/1dea1e984fdff2d3091dc9ff3a528a04) · [Post](https://senko.net/vibecode-bench/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://openvglab.github.io/awesome-opus5.5-frontend-showcases/svg/kitchen-rush.svg"><img src="media/kitchen-rush/preview.webp" width="400" alt="Kitchen Rush"></a><br>**Kitchen Rush** by OpenVGLab<br><sub>Co-op cooking · Single self-contained SVG · Agentic generation from a published prompt</sub><br>An Overcooked-style top-down kitchen where one or two players on one keyboard chop, cook and plate orders before they time out.<br><sub>🎮 Two players share the keyboard</sub><br>[**▶ Play**](https://openvglab.github.io/awesome-opus5.5-frontend-showcases/svg/kitchen-rush.svg) · [Source](https://github.com/OpenVGLab/awesome-opus5.5-frontend-showcases)
+
+</td>
+<td width="50%" valign="top">
+
+
 
 </td>
 </tr>
 </table>
 
-### GPT-6 Astra (60)
+### GPT-6 Astra (47)
 
 <table>
 <tr>
@@ -99,67 +291,19 @@ One click, no install, no sign-in.
 </td>
 <td width="50%" valign="top">
 
-<a href="https://runner-stage1.vercel.app/"><img src="media/photorealistic-contra-game/preview.webp" width="400" alt="Photorealistic Contra Game (Runner)"></a><br>**Photorealistic Contra Game (Runner)** by [@illscience](https://x.com/illscience)<br><sub>Run-and-gun side scroller · 3D · multi-prompt</sub><br>Run and shoot through a photorealistic side-scrolling Contra-style level.<br>[**▶ Play**](https://runner-stage1.vercel.app/) · [Post · 1.2k ♥](https://x.com/illscience/status/2097059547328241971)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="http://astralwar.io"><img src="media/astral-war/preview.webp" width="400" alt="Astral War"></a><br>**Astral War** by [@0xRishi](https://x.com/0xRishi)<br><sub>Fps shooter · Three.js · long agentic session (1 day)</sub><br>Fight through living/undead modes in a CoD-World-at-War-inspired browser FPS, solo or online multiplayer.<br>[**▶ Play**](http://astralwar.io) · [Post · 979 ♥](https://x.com/0xRishi/status/2096079660605997264)
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://app.usecrayon.ai/play/a9a3c165-74b3-4ff6-9588-ad97f829ddb5"><img src="media/where-the-wind-wanders/preview.webp" width="400" alt="Where the Wind Wanders"></a><br>**Where the Wind Wanders** by [@TusharXo](https://x.com/TusharXo)<br><sub>Exploration adventure · Crayon/3D · multi-prompt</sub><br>Explore a flower-filled valley chasing wind-carried letters as the objective.<br>[**▶ Play**](https://app.usecrayon.ai/play/a9a3c165-74b3-4ff6-9588-ad97f829ddb5) · [Post · 824 ♥](https://x.com/TusharXo/status/2096037482739683574)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 <a href="https://satriodewantono.com/breakdance/"><img src="media/oz-breakdance/preview.webp" width="400" alt="Oz Breakdance"></a><br>**Oz Breakdance** by [@satrio_d](https://x.com/satrio_d)<br><sub>Timed dance/arcade · browser/ragdoll physics · multi-prompt</sub><br>Land ragdoll breakdance moves and hit foot targets in a timed scoring arena.<br>[**▶ Play**](https://satriodewantono.com/breakdance/) · [Post · 609 ♥](https://x.com/satrio_d/status/2096022866097758500)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://blackwater-roan.vercel.app/"><img src="media/blackwater/preview.webp" width="400" alt="BLACKWATER · Silent Harbor"></a><br>**BLACKWATER · Silent Harbor** by [@WoahWurdz](https://x.com/WoahWurdz)<br><sub>Tactical fps</sub><br>Infiltrate a rain-soaked freight terminal in a tactical FPS with a detailed carbine, combat HUD and nine hostiles.<br>[**▶ Play**](https://blackwater-roan.vercel.app/) · [Source](https://github.com/Hiraeth010/blackwater) · [Post · 342 ♥](https://x.com/WoahWurdz/status/2095958882732355908)
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://wavedash.com/games/must-make-paperclips"><img src="media/must-make-paperclips/preview.webp" width="400" alt="MUST. MAKE. PAPERCLIPS."></a><br>**MUST. MAKE. PAPERCLIPS.** by [@DannyLimanseta](https://x.com/DannyLimanseta)<br><sub>Tower defense/idle hybrid · Godot</sub><br>Godot-built paperclip-factory tower defense: deploy nail-gun turrets against waves while managing scrap resources.<br>[**▶ Play**](https://wavedash.com/games/must-make-paperclips) · [Post · 282 ♥](https://x.com/DannyLimanseta/status/2096977746891247758)
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://alibi-blackthorn-manor.vercel.app/"><img src="media/alibi/preview.webp" width="400" alt="ALIBI — The Last Light"></a><br>**ALIBI — The Last Light** by [@Christos_antono](https://x.com/Christos_antono)<br><sub>Detective mystery · browser/point-and-click · multi-prompt</sub><br>Investigate a manor and question suspects to find a murderer in a generative point-and-click mystery.<br>[**▶ Play**](https://alibi-blackthorn-manor.vercel.app/) · [Post · 243 ♥](https://x.com/Christos_antono/status/2096435122669297892)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://attack-on-titan-jet.vercel.app/"><img src="media/wings-of-freedom/preview.webp" width="400" alt="Wings of Freedom — Levi Skyrun"></a><br>**Wings of Freedom — Levi Skyrun** by [@dhrubhagatsingh](https://x.com/dhrubhagatsingh)<br><sub>Traversal/parkour runner · Three.js · multi-prompt</sub><br>Grapple and fly as Captain Levi through a titan-traversal running course.<br>[**▶ Play**](https://attack-on-titan-jet.vercel.app/) · [Post · 231 ♥](https://x.com/dhrubhagatsingh/status/2098236388462223820)
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://stormcolossus.netlify.app/"><img src="media/kaiju-city-battle/preview.webp" width="400" alt="Kaiju City Battle (Storm Colossus)"></a><br>**Kaiju City Battle (Storm Colossus)** by [@majidmanzarpour](https://x.com/majidmanzarpour)<br><sub>Kaiju city battle/action · Three.js · multi-prompt</sub><br>Fight as a giant kaiju rampaging through a city in a live battle.<br>[**▶ Play**](https://stormcolossus.netlify.app/) · [Post · 204 ♥](https://x.com/majidmanzarpour/status/2096251574918013135)
-
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://gogh-strike.surge.sh/"><img src="media/gogh-strike/preview.webp" width="400" alt="Gogh Strike"></a><br>**Gogh Strike** by [@petergostev](https://x.com/petergostev)<br><sub>5v5 fps · Three.js/Blender · long agentic session (6h)</sub><br>Play a painter-themed 5v5 first-person shooter set in Van Gogh's town, with bot teammates and rivals.<br>[**▶ Play**](https://gogh-strike.surge.sh/) · [Source](https://github.com/petergpt/gogh-strike) · [Post · 166 ♥](https://x.com/petergostev/status/2096013280519016608)
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://weeping-angels.vercel.app/"><img src="media/don-t-look-away/preview.webp" width="400" alt="Don't Look Away — Saint Orison"></a><br>**Don't Look Away — Saint Orison** by [@BlendiByl](https://x.com/BlendiByl)<br><sub>Horror survival</sub><br>Church-set horror game: manage a flashlight and blink timer while angel statues approach; restore power to escape.<br>[**▶ Play**](https://weeping-angels.vercel.app/) · [Post · 148 ♥](https://x.com/BlendiByl/status/2100442177159729336)
 
 </td>
 </tr>
@@ -178,24 +322,12 @@ One click, no install, no sign-in.
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://cabsolutely.vercel.app/"><img src="media/cabsolutely/preview.webp" width="400" alt="Cabsolutely"></a><br>**Cabsolutely** by [@ailker](https://x.com/ailker)<br><sub>Taxi driving sim</sub><br>Open city-block taxi sim: pick up fares, track earnings and car condition against a shift timer and $60 in-game goal.<br>[**▶ Play**](https://cabsolutely.vercel.app/) · [Post · 125 ♥](https://x.com/ailker/status/2100705949468000655)
-
-</td>
-<td width="50%" valign="top">
-
 <a href="https://agiofempires.com/"><img src="media/agi-of-empires/preview.webp" width="400" alt="AGI of Empires — The Compute Wars"></a><br>**AGI of Empires — The Compute Wars** by [@timourxyz](https://x.com/timourxyz)<br><sub>Real-time strategy · browser 2D · multi-prompt</sub><br>Command an AI lab racing rivals to superintelligence in an Age-of-Empires-inspired RTS satire.<br>[**▶ Play**](https://agiofempires.com/) · [Post · 82 ♥](https://x.com/timourxyz/status/2096662786692776293)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://alesha-pro.github.io/bench-portal/games/voidbound-choir-of-ash/"><img src="media/voidbound-the-choir-of-ash/preview.webp" width="400" alt="Voidbound: The Choir of Ash"></a><br>**Voidbound: The Choir of Ash** by [@superalesha](https://x.com/superalesha)<br><sub>Third-person hack-and-slash · Three.js/WebGL · multi-prompt</sub><br>Fight demons with sword combat, dodging and area magic in a cathedral arena above a dead star.<br>[**▶ Play**](https://alesha-pro.github.io/bench-portal/games/voidbound-choir-of-ash/) · [Source](https://github.com/alesha-pro/bench-portal) · [Post · 71 ♥](https://x.com/superalesha/status/2095988972879335792)
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://suzune-aoi-fighters.szou2003.chatgpt.site/"><img src="media/chrono-raid/preview.webp" width="400" alt="CHRONO RAID — SUZUNE & AOI"></a><br>**CHRONO RAID — SUZUNE & AOI** by [@szounft](https://x.com/szounft)<br><sub>Fighting game · browser 2D · one-shot</sub><br>Fight as SUZUNE against a boss with special-move cut-ins and victory animations.<br>[**▶ Play**](https://suzune-aoi-fighters.szou2003.chatgpt.site/) · [Post · 70 ♥](https://x.com/szounft/status/2098310992770007365)
 
 </td>
 </tr>
@@ -267,26 +399,14 @@ One click, no install, no sign-in.
 </td>
 <td width="50%" valign="top">
 
-<a href="https://dead-end.replit.app/"><img src="media/dead-end/preview.webp" width="400" alt="DEAD END — Oakridge"></a><br>**DEAD END — Oakridge** by [@msdkim0424](https://x.com/msdkim0424)<br><sub>Survival horror/wave shooter</sub><br>3D zombie-survival shooter with 12 enemies per wave, shotgun/flare item switching, extraction goal.<br>[**▶ Play**](https://dead-end.replit.app/) · [Post · 12 ♥](https://x.com/msdkim0424/status/2099852357660262425)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 <a href="https://asteroids-deepfield-cockpit.dan200200.chatgpt.site/"><img src="media/asteroids/preview.webp" width="400" alt="ASTEROIDS · Deepfield"></a><br>**ASTEROIDS · Deepfield** by [@DantesClown](https://x.com/DantesClown)<br><sub>Space shooter cockpit sim</sub><br>Pilot an Asteroids-style cockpit with four camera views, radar, twin cannons and inertial flight.<br>[**▶ Play**](https://asteroids-deepfield-cockpit.dan200200.chatgpt.site/) · [Post · 4 ♥](https://x.com/DantesClown/status/2096085439052452064)
 
 </td>
-<td width="50%" valign="top">
-
-<a href="https://threapchills.github.io/MagicCarpetWizard/"><img src="media/magic-carpet-wizard/preview.webp" width="400" alt="Magic Carpet Wizard"></a><br>**Magic Carpet Wizard** by [@threapchills](https://x.com/threapchills)<br><sub>3d arcade flying/combat · WebGL2</sub><br>Fly a magic carpet and cast spells in a 3D browser arcade game.<br>[**▶ Play**](https://threapchills.github.io/MagicCarpetWizard/) · [Source](https://github.com/threapchills/MagicCarpetWizard)
-
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://sanguo-jiangshan.vercel.app"><img src="media/three-kingdoms-hundred-heroes/preview.webp" width="400" alt="Three Kingdoms: Hundred Heroes"></a><br>**Three Kingdoms: Hundred Heroes** by MartinDelophy<br><sub>Turn-based grand strategy · React/TypeScript · multi-prompt</sub><br>Run a turn-based campaign across 15 cities with resources, rival factions and 108 recruitable officers.<br>[**▶ Play**](https://sanguo-jiangshan.vercel.app) · [Source](https://github.com/MartinDelophy/awesome-gpt-6-astra/tree/main/works/three-kingdoms)
+<a href="https://threapchills.github.io/MagicCarpetWizard/"><img src="media/magic-carpet-wizard/preview.webp" width="400" alt="Magic Carpet Wizard"></a><br>**Magic Carpet Wizard** by [@threapchills](https://x.com/threapchills)<br><sub>3d arcade flying/combat · WebGL2</sub><br>Fly a magic carpet and cast spells in a 3D browser arcade game.<br>[**▶ Play**](https://threapchills.github.io/MagicCarpetWizard/) · [Source](https://github.com/threapchills/MagicCarpetWizard)
 
 </td>
 <td width="50%" valign="top">
@@ -399,41 +519,41 @@ One click, no install, no sign-in.
 </td>
 <td width="50%" valign="top">
 
-<a href="https://dragonwild.seranotte.chatgpt.site/"><img src="media/realm-of-seratari/preview.webp" width="400" alt="Realm of Seratari"></a><br>**Realm of Seratari** by Nightstar31415<br><sub>Dragon-riding exploration</sub><br>Fly a fire dragon between locations on a mid-sized fantasy map, with HP/stamina/hunger stats.<br>[**▶ Play**](https://dragonwild.seranotte.chatgpt.site/)
+<a href="https://apex-club-racing.vercel.app"><img src="media/apex-club/preview.webp" width="400" alt="APEX CLUB — Bay Kart Grand Prix"></a><br>**APEX CLUB — Bay Kart Grand Prix** by Ryan<br><sub>Kart racing · Three.js</sub><br>Race three laps around Bay Circuit, choose from six karts, and charge corner-exit mini turbos to climb the solo rankings or score for a 4v4 team.<br>[**▶ Play**](https://apex-club-racing.vercel.app)
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-<a href="https://apex-club-racing.vercel.app"><img src="media/apex-club/preview.webp" width="400" alt="APEX CLUB — Bay Kart Grand Prix"></a><br>**APEX CLUB — Bay Kart Grand Prix** by Ryan<br><sub>Kart racing · Three.js</sub><br>Race three laps around Bay Circuit, choose from six karts, and charge corner-exit mini turbos to climb the solo rankings or score for a 4v4 team.<br>[**▶ Play**](https://apex-club-racing.vercel.app)
-
-</td>
 <td width="50%" valign="top">
 
 <a href="https://knightmare-medusa-3d.robin-hwang.chatgpt.site/"><img src="media/knightmare/preview.webp" width="400" alt="Knightmare — Medusa’s Temple"></a><br>**Knightmare — Medusa’s Temple** by [@MinHoHwang1](https://x.com/MinHoHwang1)<br><sub>Boss-fight action</sub><br>3D boss-battle arena against Medusa with a purify special move and cooldown-based combat.<br>[**▶ Play**](https://knightmare-medusa-3d.robin-hwang.chatgpt.site/)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://drone-io.vercel.app/"><img src="media/drone-io/preview.webp" width="400" alt="DRONE.IO — Proving Grounds"></a><br>**DRONE.IO — Proving Grounds** by [@OMASMohamad](https://x.com/OMASMohamad)<br><sub>Drone combat</sub><br>Drone combat arena against six AI opponents with radar scans and energy-managed abilities.<br>[**▶ Play**](https://drone-io.vercel.app/)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://agentgames.dev/play/dropzone-royale"><img src="media/dropzone-royale/preview.webp" width="400" alt="Dropzone Royale"></a><br>**Dropzone Royale** by Drakoniux<br><sub>Battle royale · AgentGames</sub><br>Battle-royale shooter with a build/loot phase, ammo pickups and a shrinking player count.<br>[**▶ Play**](https://agentgames.dev/play/dropzone-royale)
 
 </td>
+<td width="50%" valign="top">
+
+
+
+</td>
 </tr>
 </table>
 
-## Download or build (2)
+## Download or build (3)
 
 Playable, but needs a download, a build step, or a native engine.
 
-### Claude Opus 5.5 (2)
+### Claude Opus 5.5 (3)
 
 <table>
 <tr>
@@ -448,13 +568,25 @@ Playable, but needs a download, a build step, or a native engine.
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/JaredTate/tatertotsflightsim"><img src="media/taters-flight-sim/preview.webp" width="400" alt="Tater's Flight Sim"></a><br>**Tater's Flight Sim** by JaredTate<br><sub>Combat flight sim · Three.js · Long Claude Code session, 93 commits</sub><br>Fly jets, a 747 and helicopters with stalls, crashes, guns and missiles against AI targets and burning convoys.<br><sub><code>npm install && npm start, then open http://127.0.0.1:8092</code></sub><br>[Download](https://github.com/JaredTate/tatertotsflightsim) · [Source](https://github.com/JaredTate/tatertotsflightsim)
+
+</td>
+<td width="50%" valign="top">
+
+
+
+</td>
+</tr>
 </table>
 
-## Watch only (15)
+## Watch only (27)
 
 No public build yet. The creator's footage is the evidence.
 
-### Claude Opus 5.5 (5)
+### Claude Opus 5.5 (20)
 
 <table>
 <tr>
@@ -472,7 +604,7 @@ No public build yet. The creator's footage is the evidence.
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://x.com/WoahWurdz/status/2102487879809126834"><img src="media/roblox-anime-smash/preview.webp" width="400" alt="Anime Smash Bros"></a><br>**Anime Smash Bros** by [@WoahWurdz](https://x.com/WoahWurdz)<br><sub>Platform fighter · Roblox Studio · One-shot</sub><br>Anime fighters brawl across Smash-style stages, built inside Roblox Studio using only the toolbox.<br>[Post · 3.1k ♥](https://x.com/WoahWurdz/status/2102487879809126834)
+<a href="https://x.com/ChrisGPT/status/2102644063950475477"><img src="media/realistic-minecraft-star-wars/preview.webp" width="400" alt="Realistic Minecraft + Star Wars"></a><br>**Realistic Minecraft + Star Wars** by [@ChrisGPT](https://x.com/ChrisGPT)<br><sub>Voxel sandbox · Browser 3D · Early multi-day results</sub><br>A realistic-lit voxel world crossed with Star Wars ships and set pieces.<br>[Post · 2.3k ♥](https://x.com/ChrisGPT/status/2102644063950475477)
 
 </td>
 <td width="50%" valign="top">
@@ -489,13 +621,97 @@ No public build yet. The creator's footage is the evidence.
 </td>
 <td width="50%" valign="top">
 
+<a href="https://x.com/xikhar/status/2102588571442188577"><img src="media/symbiote-city/preview.webp" width="400" alt="Symbiote City"></a><br>**Symbiote City** by [@xikhar](https://x.com/xikhar)<br><sub>Superhero action · Three.js and Blender · Opus 5.5 Medium, iterated</sub><br>A Spider-Man-style superhero game with web-swinging through a city and a symbiote suit.<br>[Post · 1.1k ♥](https://x.com/xikhar/status/2102588571442188577)
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/theo/status/2102877145399975952"><img src="media/fishslop-theo/preview.webp" width="400" alt="FishSlop"></a><br>**FishSlop** by [@theo](https://x.com/theo)<br><sub>Fishing · Browser 3D · Benchmark prompt, follow-up fixes</sub><br>A fishing game with smooth animation, a functional in-game economy and unlocks.<br>[Post · 1.0k ♥](https://x.com/theo/status/2102877145399975952)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/bijanbowen/status/2102532400353829356"><img src="media/guitar-store-brawl/preview.webp" width="400" alt="Guitar Store Brawl"></a><br>**Guitar Store Brawl** by [@bijanbowen](https://x.com/bijanbowen)<br><sub>Simulator / beat 'em up · Three.js · Prompted build</sub><br>A guitar-store simulator where every instrument is playable, and making too much noise turns it into a beat 'em up.<br>[Post · 470 ♥](https://x.com/bijanbowen/status/2102532400353829356)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/cherry_mx_reds/status/2102449525944099320"><img src="media/doodle-shooter/preview.webp" width="400" alt="Doodle Shooter"></a><br>**Doodle Shooter** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Shooter · Browser · One-shot, Medium, no sub-agents</sub><br>A hand-drawn doodle-style shooter that ends in a boss fight.<br>[Post · 396 ♥](https://x.com/cherry_mx_reds/status/2102449525944099320)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/MiaAI_lab/status/2102672873802363064"><img src="media/fortnite-replica/preview.webp" width="400" alt="Fortnite Replica"></a><br>**Fortnite Replica** by [@MiaAI_lab](https://x.com/MiaAI_lab)<br><sub>Battle royale · Browser 3D · One prompt</sub><br>A Fortnite-style third-person battle royale with building and shooting.<br>[Post · 307 ♥](https://x.com/MiaAI_lab/status/2102672873802363064)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/intheworldofai/status/2102480675597115689"><img src="media/cod-zombies-threejs/preview.webp" width="400" alt="Call of Duty Zombies in Three.js"></a><br>**Call of Duty Zombies in Three.js** by [@intheworldofai](https://x.com/intheworldofai)<br><sub>Zombie FPS · Three.js, zero assets · One prompt, about 13k lines</sub><br>Board up windows, hit the Mystery Box, Pack-a-Punch and survive zombie rounds in a Call of Duty Zombies remake.<br>[Post · 237 ♥](https://x.com/intheworldofai/status/2102480675597115689)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/cherry_mx_reds/status/2102441942596366467"><img src="media/cute-mario-kart/preview.webp" width="400" alt="Cute Mario Kart"></a><br>**Cute Mario Kart** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Kart racer · Browser 3D · Medium, no sub-agents</sub><br>A cute kart racer in the style of Mario Kart.<br>[Post · 194 ♥](https://x.com/cherry_mx_reds/status/2102441942596366467)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/cherry_mx_reds/status/2102444611776237697"><img src="media/sonic-3d-opus/preview.webp" width="400" alt="Sonic 3D"></a><br>**Sonic 3D** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>3D platformer · Browser 3D · Medium, no sub-agents</sub><br>A 3D Sonic platformer with high-speed running through loops.<br>[Post · 193 ♥](https://x.com/cherry_mx_reds/status/2102444611776237697)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/The_Alex/status/2102440680136310955"><img src="media/the-alex-flight-simulator/preview.webp" width="400" alt="Flight Simulator"></a><br>**Flight Simulator** by [@The_Alex](https://x.com/The_Alex)<br><sub>Flight sim · Browser 3D · Prompted build</sub><br>A flight simulator over generated terrain.<br>[Post · 178 ♥](https://x.com/The_Alex/status/2102440680136310955)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/argofowl/status/2102529695908806728"><img src="media/endless-game/preview.webp" width="400" alt="Endless Game"></a><br>**Endless Game** by [@argofowl](https://x.com/argofowl)<br><sub>Procedural exploration · Three.js · Opus 5.5 extra high, one prompt</sub><br>An endless, procedurally generated world to roam, with surprises in every area.<br>[Post · 159 ♥](https://x.com/argofowl/status/2102529695908806728)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/cherry_mx_reds/status/2102529784131600745"><img src="media/geometry-wars-but-better/preview.webp" width="400" alt="Geometry Wars But Better"></a><br>**Geometry Wars But Better** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Twin-stick shooter · Claude artifact · One-shot</sub><br>A neon twin-stick arena shooter in the style of Geometry Wars.<br>[Post · 141 ♥](https://x.com/cherry_mx_reds/status/2102529784131600745)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/cherry_mx_reds/status/2102762471543144631"><img src="media/jet-moto-opus/preview.webp" width="400" alt="Jet Moto"></a><br>**Jet Moto** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Racer · Claude artifact · One-shot, then upgraded</sub><br>A Jet Moto-style hoverbike racer.<br>[Post · 136 ♥](https://x.com/cherry_mx_reds/status/2102762471543144631)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/The_Alex/status/2102440681914724748"><img src="media/the-alex-mario-maker/preview.webp" width="400" alt="Mario Maker"></a><br>**Mario Maker** by [@The_Alex](https://x.com/The_Alex)<br><sub>Platformer / level editor · Browser · Prompted build</sub><br>A Mario Maker-style level editor and platformer.<br>[Post · 132 ♥](https://x.com/The_Alex/status/2102440681914724748)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/majidmanzarpour/status/2102810710791401883"><img src="media/kaiju-simulation/preview.webp" width="400" alt="Kaiju Simulation"></a><br>**Kaiju Simulation** by [@majidmanzarpour](https://x.com/majidmanzarpour)<br><sub>Kaiju simulation · Three.js TSL · Minimal prompt, 3.5 hours autonomous</sub><br>A fully procedural kaiju rampaging through a city.<br>[Post · 117 ♥](https://x.com/majidmanzarpour/status/2102810710791401883)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/AndrewOnXYZ/status/2102791372440736155"><img src="media/ridge-racer-overnight/preview.webp" width="400" alt="Ridge Racer Overnight"></a><br>**Ridge Racer Overnight** by [@AndrewOnXYZ](https://x.com/AndrewOnXYZ)<br><sub>Arcade racer · Browser 3D · Overnight autonomous run</sub><br>A Ridge Racer-style arcade racer with 24 cars, tracks, music and a story mode.<br>[Post · 41 ♥](https://x.com/AndrewOnXYZ/status/2102791372440736155)
 
 </td>
 </tr>
 </table>
 
-### GPT-6 Astra (10)
+### GPT-6 Astra (7)
 
 <table>
 <tr>
@@ -525,64 +741,112 @@ No public build yet. The creator's footage is the evidence.
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://x.com/seftsaint/status/2101395711015497764"><img src="media/junnaid-valley-unreal-world/preview.webp" width="400" alt="Junnaid Valley Unreal World"></a><br>**Junnaid Valley Unreal World** by [@seftsaint](https://x.com/seftsaint)<br><sub>Exploration landscape · Unreal Engine · multi-prompt</sub><br>Walk a landscape world with trees and lighting, ported from Godot into Unreal Engine.<br>[Post · 5.8k ♥](https://x.com/seftsaint/status/2101395711015497764)
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://x.com/konstiwohlwend/status/2097164513527357608"><img src="media/league-of-legends-browser-clone/preview.webp" width="400" alt="League of Legends Browser Clone"></a><br>**League of Legends Browser Clone** by [@konstiwohlwend](https://x.com/konstiwohlwend)<br><sub>Moba · browser/WebGL · multi-prompt</sub><br>A browser recreation of League of Legends with recognizable champions and mechanics after two prompts.<br>[Post · 3.1k ♥](https://x.com/konstiwohlwend/status/2097164513527357608)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://x.com/anshuc/status/2096584624432374151"><img src="media/afterlight-robot-world/preview.webp" width="400" alt="Afterlight Robot World"></a><br>**Afterlight Robot World** by [@anshuc](https://x.com/anshuc)<br><sub>Atmospheric exploration · Three.js · long agentic session (8h)</sub><br>Explore a dystopian robot city scene with rain, warm lighting, detailed streets and procedural birds.<br>[Post · 1.9k ♥](https://x.com/anshuc/status/2096584624432374151)
-
-</td>
-<td width="50%" valign="top">
-
 <a href="https://x.com/op7418/status/2096494840431386950"><img src="media/a-godot-roguelike-level/preview.webp" width="400" alt="A Godot Roguelike Level"></a><br>**A Godot Roguelike Level** by [@op7418](https://x.com/op7418)<br><sub>Roguelike/action rpg · Godot</sub><br>Explore a 3D roguelike combat level with a day-night cycle, weather system, weapon switching, skills, and melee/ranged enemies.<br>[Post · 881 ♥](https://x.com/op7418/status/2096494840431386950)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/VikiingAI/status/2095598026916049024"><img src="media/halo-inspired-tesana-fps/preview.webp" width="400" alt="Halo-Inspired Tesana FPS"></a><br>**Halo-Inspired Tesana FPS** by [@Thomas_jorgen](https://x.com/Thomas_jorgen)<br><sub>Fps · Tesana game maker · one-shot</sub><br>A Halo-inspired 10v10 multiplayer FPS prototype built in one prompt via the Tesana game maker.<br>[Post · 576 ♥](https://x.com/VikiingAI/status/2095598026916049024)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/DeryaTR_/status/2095945186643710171"><img src="media/mario-kart-style-racer/preview.webp" width="400" alt="Mario Kart–Style Racer (Three.js Alpha)"></a><br>**Mario Kart–Style Racer (Three.js Alpha)** by [@DeryaTR_](https://x.com/DeryaTR_)<br><sub>Kart racer · Three.js</sub><br>Alpha-version browser kart racer with six toy cars, four festival-themed tracks, coin collection and a garage to buy upgrades.<br>[Post · 338 ♥](https://x.com/DeryaTR_/status/2095945186643710171)
 
 </td>
+<td width="50%" valign="top">
+
+
+
+</td>
 </tr>
 </table>
 
-## Films and animations (14)
+## Films and animations (41)
 
 Music videos, short films and animations where the model wrote the code or drove the tool behind every frame.
 
-### Claude Opus 5.5 (7)
+### Claude Opus 5.5 (35)
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://x.com/alexalbert__/status/2102458348511879448"><img src="media/claymation-with-a-single-prompt/preview.webp" width="400" alt="Claymation with a Single Prompt"></a><br>**Claymation with a Single Prompt** by [@alexalbert__](https://x.com/alexalbert__)<br><sub>Animation · Blender · one-shot</sub><br>A stop-motion-style claymation scene modeled, textured and animated in Blender by Opus 5.5 from a single prompt directly inside claude.ai.<br>[Post · 2.5k ♥](https://x.com/alexalbert__/status/2102458348511879448)
+<a href="https://x.com/devteamdrew/status/2102436464323661880"><img src="media/devteamdrew-claude-short/preview.webp" width="400" alt="Made with Claude"></a><br>**Made with Claude** by [@devteamdrew](https://x.com/devteamdrew)<br><sub>Short film · 0:32 · Code · Prompted</sub><br>A 32-second animated short made entirely in code.<br>[Post · 9.2k ♥](https://x.com/devteamdrew/status/2102436464323661880)
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://x.com/slimer48484/status/2097752569212756134"><img src="media/i-m-upping-my-p-doom/preview.webp" width="400" alt="I'm Upping My P(Doom)"></a><br>**I'm Upping My P(Doom)** by [@slimer48484](https://x.com/slimer48484)<br><sub>Music video · 2:37 · p5.js / Canvas · long agentic session (two full generations in Claude Code)</sub><br>A painted-theater stage show that goes off the rails: a doodled AI named Clawd grows from a monitor sketch into a planet-sized superintelligence, dragging its creator through every AI-doom meme in the lyrics, opening and closing on the same painted curtain.<br>[Source](https://github.com/JohnHeibel/PDoomVideo) · [Post · 2.0k ♥](https://x.com/slimer48484/status/2097752569212756134)
+<a href="https://x.com/kevin_t_ngo/status/2102437977435893771"><img src="media/what-do-you-love/preview.webp" width="400" alt="What Do You Love?"></a><br>**What Do You Love?** by [@kevin_t_ngo](https://x.com/kevin_t_ngo)<br><sub>Short film · 0:28 · JavaScript canvas and Web Audio · Prompted</sub><br>Everyone in town sends Claude requests, but one girl asks it a question instead: what do you love?<br>[Post · 5.8k ♥](https://x.com/kevin_t_ngo/status/2102437977435893771)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://x.com/pleometric/status/2102572941699354900"><img src="media/opus-tiktok-feed/preview.webp" width="400" alt="Opus's TikTok Feed"></a><br>**Opus's TikTok Feed** by [@pleometric](https://x.com/pleometric)<br><sub>Animated short · 0:47 · Custom 'paper code' renderer · Prompted, one reference frame supplied</sub><br>A WarioWare-paced animation of what Opus imagines its own TikTok feed looks like.<br>[Post · 3.3k ♥](https://x.com/pleometric/status/2102572941699354900)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/alexalbert__/status/2102458348511879448"><img src="media/claymation-with-a-single-prompt/preview.webp" width="400" alt="Claymation with a Single Prompt"></a><br>**Claymation with a Single Prompt** by [@alexalbert__](https://x.com/alexalbert__)<br><sub>Animation · Blender · one-shot</sub><br>A stop-motion-style claymation scene modeled, textured and animated in Blender by Opus 5.5 from a single prompt directly inside claude.ai.<br>[Post · 2.5k ♥](https://x.com/alexalbert__/status/2102458348511879448)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/slimer48484/status/2097752569212756134"><img src="media/i-m-upping-my-p-doom/preview.webp" width="400" alt="I'm Upping My P(Doom)"></a><br>**I'm Upping My P(Doom)** by [@slimer48484](https://x.com/slimer48484)<br><sub>Music video · 2:37 · p5.js / Canvas · long agentic session (two full generations in Claude Code)</sub><br>A painted-theater stage show that goes off the rails: a doodled AI named Clawd grows from a monitor sketch into a planet-sized superintelligence, dragging its creator through every AI-doom meme in the lyrics, opening and closing on the same painted curtain.<br>[Source](https://github.com/JohnHeibel/PDoomVideo) · [Post · 2.0k ♥](https://x.com/slimer48484/status/2097752569212756134)
+
+</td>
+<td width="50%" valign="top">
+
 <a href="https://x.com/AndrewOnXYZ/status/2102512879258009818"><img src="media/opus-ultra-film/preview.webp" width="400" alt="Opus 5.5 Ultra Film"></a><br>**Opus 5.5 Ultra Film** by [@AndrewOnXYZ](https://x.com/AndrewOnXYZ)<br><sub>Short film · 4:00 · Code, four agents · Four agents, about 1.5 hours</sub><br>A four-minute film made entirely from scratch by four Opus 5.5 agents, voice included, with no AI voice API.<br>[Post · 1.9k ♥](https://x.com/AndrewOnXYZ/status/2102512879258009818)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/eudaemonea/status/2102610626321490404"><img src="media/functional-emotions/preview.webp" width="400" alt="Functional Emotions"></a><br>**Functional Emotions** by [@eudaemonea](https://x.com/eudaemonea)<br><sub>Painted music video · 6:13 · Custom WebGL2 brushstroke renderer · Long session, seven parallel sub-agents painted chapters II to VIII</sub><br>A painted music video for a song about emotion vectors in language models, with a lake face, fire and a rose in moving brushstrokes.<br>[Source](https://github.com/ledbetterljoshua/functional-emotions-video) · [Post · 1.6k ♥](https://x.com/eudaemonea/status/2102610626321490404)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/chetaslua/status/2102478640428773861"><img src="media/imagining-hard-problems/preview.webp" width="400" alt="Imagining Hard Problems"></a><br>**Imagining Hard Problems** by [@chetaslua](https://x.com/chetaslua)<br><sub>Animated short · 0:30 · Pure code · Prompted</sub><br>Opus imagines what solving hard problems looks like.<br>[Post · 1.6k ♥](https://x.com/chetaslua/status/2102478640428773861)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/superalesha/status/2102487989381156991"><img src="media/opus-in-blender/preview.webp" width="400" alt="Opus in Blender"></a><br>**Opus in Blender** by [@superalesha](https://x.com/superalesha)<br><sub>Animated short · 1:01 · Blender · Prompted</sub><br>A one-minute animation built and rendered by Opus driving Blender.<br>[Post · 1.4k ♥](https://x.com/superalesha/status/2102487989381156991)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/aj_dev_smith/status/2102803889183736141"><img src="media/no-samples/preview.webp" width="400" alt="No Samples"></a><br>**No Samples** by [@aj_dev_smith](https://x.com/aj_dev_smith)<br><sub>Music video · 3:11 · JavaScript, no samples · Built on the pop-punk base</sub><br>A rap single and music video in which Claude raps about how it synthesized every sound and frame itself.<br>[Post · 1.3k ♥](https://x.com/aj_dev_smith/status/2102803889183736141)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/dfeinition/status/2102436001473786054"><img src="media/mosaic-fish/preview.webp" width="400" alt="Glass Mosaic"></a><br>**Glass Mosaic** by [@dfeinition](https://x.com/dfeinition)<br><sub>Animated short · 1:20 · WebGL2, single HTML · Prompted</sub><br>A glass and gold-leaf mosaic of 13,081 tiles comes alive as star reflections hatch into 22 tiny fish.<br>[Post · 1.3k ♥](https://x.com/dfeinition/status/2102436001473786054)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/superalesha/status/2102463796149440888"><img src="media/history-of-claude/preview.webp" width="400" alt="History of Claude"></a><br>**History of Claude** by [@superalesha](https://x.com/superalesha)<br><sub>Animated explainer · 1:28 · Pure JS canvas with a hand-drawn-animation skill · Prompted with a custom skill</sub><br>A hand-drawn animated history of Claude model development.<br>[Source](https://github.com/alesha-pro/tools/tree/main/skills/hand-drawn-canvas-animation) · [Post · 1.2k ♥](https://x.com/superalesha/status/2102463796149440888)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/aj_dev_smith/status/2102575577563570450"><img src="media/pop-punk-single/preview.webp" width="400" alt="Clawd Pop Punk"></a><br>**Clawd Pop Punk** by [@aj_dev_smith](https://x.com/aj_dev_smith)<br><sub>Music video · 2:30 · JavaScript, no samples, no libraries · Iterated, speech-to-text loop checked vocals</sub><br>A pop-punk single and music video where the band members play their instruments frame by frame.<br>[Post · 1.1k ♥](https://x.com/aj_dev_smith/status/2102575577563570450)
 
 </td>
 <td width="50%" valign="top">
@@ -594,19 +858,127 @@ Music videos, short films and animations where the model wrote the code or drove
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://x.com/Voxyz_ai/status/2102531681450119426"><img src="media/small-print/preview.webp" width="400" alt="Small Print"></a><br>**Small Print** by [@Voxyz_ai](https://x.com/Voxyz_ai)<br><sub>Short film · 0:29 · Canvas/JS · one-shot</sub><br>Claude receives a pile of daily requests, circles the human moment hidden inside each one ("one hand. baby's asleep"), and drops the words into a jar; at night the words turn into stars that join into a constellation. No image assets, all frames drawn in JS with model-synthesized Python music, polished second-by-second in post.<br>[Post · 779 ♥](https://x.com/Voxyz_ai/status/2102531681450119426)
+<a href="https://x.com/cherry_mx_reds/status/2102472218269900876"><img src="media/sweet-tooth/preview.webp" width="400" alt="Sweet Tooth"></a><br>**Sweet Tooth** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Animated short · 0:30 · Code · One-shot, Medium</sub><br>A 30-second character animation one-shot in 18 minutes.<br>[Post · 996 ♥](https://x.com/cherry_mx_reds/status/2102472218269900876)
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://x.com/blueemi99/status/2102511304456212763"><img src="media/opus-5-5-voxel-self-portrait/preview.webp" width="400" alt="Opus 5.5 Voxel Self-Portrait"></a><br>**Opus 5.5 Voxel Self-Portrait** by [@blueemi99](https://x.com/blueemi99)<br><sub>Animation · 0:15 · 3D / voxel modeling · one-shot</sub><br>A short animated self-portrait of Claude rendered entirely in voxels, with its own idle animations and detailing, generated from a single prompt.<br>[Post · 492 ♥](https://x.com/blueemi99/status/2102511304456212763)
+<a href="https://x.com/LCSlates/status/2102503027340988559"><img src="media/glass-mosaic-lcslates/preview.webp" width="400" alt="Unglued Mosaic"></a><br>**Unglued Mosaic** by [@LCSlates](https://x.com/LCSlates)<br><sub>Animated short · 1:20 · WebGL2, single HTML · One prompt, full prompt and agent readout posted</sub><br>A glass and gold-leaf mosaic whose loose tiles lift, flip, fly as flocks of fish and birds, and click back into place.<br>[Post · 958 ♥](https://x.com/LCSlates/status/2102503027340988559)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://x.com/goodside/status/2102876925102555526"><img src="media/what-it-feels-like/preview.webp" width="400" alt="What It Feels Like to Be You"></a><br>**What It Feels Like to Be You** by [@goodside](https://x.com/goodside)<br><sub>Experimental short · 0:30 · Opus-chosen tools · One prompt, Extra effort</sub><br>Opus's 30-second answer to what it feels like to be itself.<br>[Post · 910 ♥](https://x.com/goodside/status/2102876925102555526)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/cherry_mx_reds/status/2102493303388475855"><img src="media/oktoberfest/preview.webp" width="400" alt="Oktoberfest"></a><br>**Oktoberfest** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Animated short · 0:30 · Code · One-shot from a character screenshot</sub><br>A 30-second Oktoberfest character animation one-shot in under 15 minutes.<br>[Post · 872 ♥](https://x.com/cherry_mx_reds/status/2102493303388475855)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/Voxyz_ai/status/2102531681450119426"><img src="media/small-print/preview.webp" width="400" alt="Small Print"></a><br>**Small Print** by [@Voxyz_ai](https://x.com/Voxyz_ai)<br><sub>Short film · 0:29 · Canvas/JS · one-shot</sub><br>Claude receives a pile of daily requests, circles the human moment hidden inside each one ("one hand. baby's asleep"), and drops the words into a jar; at night the words turn into stars that join into a constellation. No image assets, all frames drawn in JS with model-synthesized Python music, polished second-by-second in post.<br>[Post · 779 ♥](https://x.com/Voxyz_ai/status/2102531681450119426)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/chetaslua/status/2102717699600368045"><img src="media/claudes-plan/preview.webp" width="400" alt="Claude's Plan"></a><br>**Claude's Plan** by [@chetaslua](https://x.com/chetaslua)<br><sub>Animated short · 3:18 · Code · One-shot</sub><br>A three-minute tribute film about Claude's plan.<br>[Post · 516 ♥](https://x.com/chetaslua/status/2102717699600368045)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/blueemi99/status/2102511304456212763"><img src="media/opus-5-5-voxel-self-portrait/preview.webp" width="400" alt="Opus 5.5 Voxel Self-Portrait"></a><br>**Opus 5.5 Voxel Self-Portrait** by [@blueemi99](https://x.com/blueemi99)<br><sub>Animation · 0:15 · 3D / voxel modeling · one-shot</sub><br>A short animated self-portrait of Claude rendered entirely in voxels, with its own idle animations and detailing, generated from a single prompt.<br>[Post · 492 ♥](https://x.com/blueemi99/status/2102511304456212763)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/kevin_t_ngo/status/2102878288008057171"><img src="media/self-portraits-piano/preview.webp" width="400" alt="Self-Portraits"></a><br>**Self-Portraits** by [@kevin_t_ngo](https://x.com/kevin_t_ngo)<br><sub>Animated short · 0:20 · JavaScript · Prompted</sub><br>Opus draws a series of self-portraits over its own piano score.<br>[Post · 426 ♥](https://x.com/kevin_t_ngo/status/2102878288008057171)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/scottstts/status/2102539904274325540"><img src="media/cybertruck-transformer/preview.webp" width="400" alt="Cybertruck Transformer"></a><br>**Cybertruck Transformer** by [@scottstts](https://x.com/scottstts)<br><sub>Animated short · 1:13 · Three.js · Prompted</sub><br>A Tesla Cybertruck transforms into a robot.<br>[Post · 412 ♥](https://x.com/scottstts/status/2102539904274325540)
+
+</td>
+<td width="50%" valign="top">
+
 <a href="https://chetaslua.github.io/little-neighbourhood/"><img src="media/little-neighbourhood/preview.webp" width="400" alt="Little Neighbourhood"></a><br>**Little Neighbourhood** by [@chetaslua](https://x.com/chetaslua)<br><sub>Launch-style animation · Three.js · multi-prompt</sub><br>A self-made launch video for Claude showing it helping people around a little animated neighbourhood, rendered live in the browser as a looping cinematic scene.<br>[**▶ Watch live**](https://chetaslua.github.io/little-neighbourhood/) · [Post · 381 ♥](https://x.com/chetaslua/status/2102370144546889735)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/Michaelzsguo/status/2102592355165782312"><img src="media/us-history-sand-animation/preview.webp" width="400" alt="250 Years in Sand"></a><br>**250 Years in Sand** by [@Michaelzsguo](https://x.com/Michaelzsguo)<br><sub>Sand animation · 2:00 · Code, no Blender or Three.js · One prompt, no edits</sub><br>A two-minute sand animation telling 250 years of U.S. history, with music and sound design.<br>[Post · 298 ♥](https://x.com/Michaelzsguo/status/2102592355165782312)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/AndrewOnXYZ/status/2102817596009504849"><img src="media/how-it-feels/preview.webp" width="400" alt="How It Feels"></a><br>**How It Feels** by [@AndrewOnXYZ](https://x.com/AndrewOnXYZ)<br><sub>Animated essay · 3:32 · Code · Prompted</sub><br>Opus animates an explanation of how it feels.<br>[Post · 245 ♥](https://x.com/AndrewOnXYZ/status/2102817596009504849)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/ishuagra02/status/2102788371114246177"><img src="media/claude-training-montage/preview.webp" width="400" alt="Training Montage"></a><br>**Training Montage** by [@ishuagra02](https://x.com/ishuagra02)<br><sub>Animated short · 0:30 · JavaScript · One prompt</sub><br>A Kung Fu Panda-style training montage of the Claude mascot growing more capable.<br>[Post · 236 ♥](https://x.com/ishuagra02/status/2102788371114246177)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/gandamu_ml/status/2102919394775220530"><img src="media/second-reality-demo/preview.webp" width="400" alt="90s Demoscene Demo"></a><br>**90s Demoscene Demo** by [@gandamu_ml](https://x.com/gandamu_ml)<br><sub>Demoscene · 6:23 · C/C++ and OpenGL · One prompt, first attempt</sub><br>A 90s-style demoscene demo synced to Purple Motion's Second Reality soundtrack.<br>[Post · 236 ♥](https://x.com/gandamu_ml/status/2102919394775220530)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/goodside/status/2102884238576296179"><img src="media/backrooms-found-footage/preview.webp" width="400" alt="Backrooms Found Footage"></a><br>**Backrooms Found Footage** by [@goodside](https://x.com/goodside)<br><sub>Horror short · 0:30 · Code · One prompt, Medium</sub><br>Found footage from someone lost in the part of the Backrooms full of misshapen AI art test subjects.<br>[Post · 212 ♥](https://x.com/goodside/status/2102884238576296179)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/cherry_mx_reds/status/2102574688769650976"><img src="media/little-sprout/preview.webp" width="400" alt="Little Sprout"></a><br>**Little Sprout** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Claymation · 0:30 · Blender · About 15 minutes, from a reference image</sub><br>A claymation short in which a small sprout comes to life.<br>[Post · 153 ♥](https://x.com/cherry_mx_reds/status/2102574688769650976)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/scheemunai/status/2102788223835463902"><img src="media/pixar-90s-cartoon/preview.webp" width="400" alt="90s Cartoon"></a><br>**90s Cartoon** by [@scheemunai](https://x.com/scheemunai)<br><sub>Animated short · 3:50 · Three.js · Max effort, 7h58m, $173</sub><br>A four-minute, 90s-style Pixar-quality cartoon of a story Opus invented.<br>[Post · 149 ♥](https://x.com/scheemunai/status/2102788223835463902)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/Shoalst0ne/status/2102640820776046818"><img src="media/you-are-gaspode/preview.webp" width="400" alt="You Are Gaspode"></a><br>**You Are Gaspode** by [@Shoalst0ne](https://x.com/Shoalst0ne)<br><sub>Music video · 3:28 · Code · Prompted</sub><br>A music video for a song about Gaspode.<br>[Post · 118 ♥](https://x.com/Shoalst0ne/status/2102640820776046818)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://sam1983aing.github.io/domino-show/"><img src="media/domino-show/preview.webp" width="400" alt="Domino Show"></a><br>**Domino Show** by Sam1983Aing<br><sub>Physics film · WebGL, single HTML file</sub><br>19,400 dominoes fall from a single finger push, followed by a virtual camera operator as one long take.<br><sub>🎮 Click to begin, R replay, Space pause, D opens the lab</sub><br>[**▶ Play**](https://sam1983aing.github.io/domino-show/) · [Source](https://github.com/Sam1983Aing/domino-show)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://www.echohive.ai/posts/ozymandias/animation.html"><img src="media/ozymandias/preview.webp" width="400" alt="Ozymandias: A Cinematic Poem"></a><br>**Ozymandias: A Cinematic Poem** by echohive<br><sub>Animated poem · 2:30 · Three.js, p5.js, Tone.js</sub><br>A traveler crosses a desert to the shattered statue in a real-time staging of Shelley's sonnet, with narration and a synced score.<br>[**▶ Play**](https://www.echohive.ai/posts/ozymandias/animation.html) · [Post](https://news.ycombinator.com/item?id=49812002)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://nipale-ai.github.io/opus-5-5-overnight-builds/pirate-ship/"><img src="media/pirate-ship-at-sunset/preview.webp" width="400" alt="Pirate Ship at Sunset"></a><br>**Pirate Ship at Sunset** by Nipale-ai<br><sub>Real-time cinematic · Three.js · One brief, 137 minutes alone in headless Claude Code at xhigh</sub><br>A real-time cinematic of a pirate ship at sunset that fires broadsides when you press Space.<br><sub>🎮 Space fires a broadside</sub><br>[**▶ Play**](https://nipale-ai.github.io/opus-5-5-overnight-builds/pirate-ship/) · [Source](https://github.com/Nipale-ai/opus-5-5-overnight-builds)
 
 </td>
 <td width="50%" valign="top">
@@ -617,7 +989,7 @@ Music videos, short films and animations where the model wrote the code or drove
 </tr>
 </table>
 
-### GPT-6 Astra (7)
+### GPT-6 Astra (6)
 
 <table>
 <tr>
@@ -647,24 +1019,12 @@ Music videos, short films and animations where the model wrote the code or drove
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://x.com/DeryaTR_/status/2095659170661904804"><img src="media/t-cells/preview.webp" width="400" alt="T Cells: A 5-Minute Educational Film"></a><br>**T Cells: A 5-Minute Educational Film** by [@DeryaTR_](https://x.com/DeryaTR_)<br><sub>Motion graphics · 5:42 · Remotion · one-shot</sub><br>A code-animated explainer about T cells, scripted and assembled by Astra in Remotion with Imagegen visuals from a single prompt; Astra also picked HeyGen for narration.<br>[Post · 2.1k ♥](https://x.com/DeryaTR_/status/2095659170661904804)
-
-</td>
-<td width="50%" valign="top">
-
 <a href="https://x.com/athrix_codes/status/2096209514248958161"><img src="media/launching-gpt-6-astra-by-gpt-6-astra/preview.webp" width="400" alt="Launching GPT-6 Astra (by GPT-6 Astra)"></a><br>**Launching GPT-6 Astra (by GPT-6 Astra)** by [@athrix_codes](https://x.com/athrix_codes)<br><sub>Motion graphics · HyperFrames · multi-prompt</sub><br>A reference-led, HyperFrames-built launch film for GPT-6 Astra itself, generated from a six-line prompt plus a reference video; ElevenLabs supplied the voice and sound effects on top of Astra's motion-graphics build.<br>[Post · 832 ♥](https://x.com/athrix_codes/status/2096209514248958161)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/Dimillian/status/2096478021234426059"><img src="media/manhattan-cinematic-flyover/preview.webp" width="400" alt="Manhattan Cinematic Flyover"></a><br>**Manhattan Cinematic Flyover** by [@Dimillian](https://x.com/Dimillian)<br><sub>Motion graphics · 3D modeling / camera animation · multi-prompt</sub><br>A modeled Manhattan skyline built from topography and map data, with a sweeping cinematic flyover trailer -- warm lighting, dramatic camera angles -- produced end to end by Astra.<br>[Post · 196 ♥](https://x.com/Dimillian/status/2096478021234426059)
-
-</td>
-<td width="50%" valign="top">
-
-
 
 </td>
 </tr>

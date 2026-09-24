@@ -108,17 +108,6 @@ antikythera:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
-roblox-anime-smash:
-  visuals: 5
-  gameplay: 6
-  polish: 6
-  ambition: 6
-  story: null
-  overall: 5.7
-  summary: Slick six-fighter select screen and CPU settings, but toolbox assets and murky stages dilute the fights.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
 the-ashen-gate:
   visuals: 7
   gameplay: 6
@@ -138,6 +127,534 @@ san-francisco-unreal:
   story: null
   overall: 5.1
   summary: Huge simulated San Francisco with traffic and crowds, but plain untextured blocks and little to do.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+tidewater:
+  visuals: 9
+  gameplay: 6
+  polish: 8
+  ambition: 7
+  story: null
+  overall: 7.4
+  summary: Gorgeous sunlit pier and turquoise sea with 18 fish species, tension-line fights and a boat.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+nova-lancer:
+  visuals: 8
+  gameplay: 7
+  polish: 8
+  ambition: 7
+  story: null
+  overall: 7.5
+  summary: Sunlit low-poly red canyon run over glittering water in a Star Fox style rail shooter.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+jazz-jackrabbit-opus-edition:
+  visuals: 8
+  gameplay: 8
+  polish: 8
+  ambition: 7
+  story: null
+  overall: 7.8
+  summary: Faithful Jazz Jackrabbit remake with gems, turtles, checkpoints, five worlds and procedural art and music.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+fall-line:
+  visuals: 9
+  gameplay: 7
+  polish: 9
+  ambition: 8
+  story: null
+  overall: 8.1
+  summary: Vast snowy mountain with carving tracks, a trick combo system and a polished freeride HUD.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+lastfall:
+  visuals: 6
+  gameplay: 7
+  polish: 7
+  ambition: 8
+  story: null
+  overall: 6.9
+  summary: Desert battle royale against 23 bots with a shrinking zone, blood effects and a zombie-wave mode.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+game-center-nova:
+  visuals: 6
+  gameplay: 6
+  polish: 6
+  ambition: 6
+  story: null
+  overall: 6
+  summary: Neon first-person arcade with claw machines and a playable Starlight Carnival pinball table.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+sprout-quest:
+  visuals: 6
+  gameplay: 6
+  polish: 7
+  ambition: 6
+  story: null
+  overall: 6.1
+  summary: Cute top-down RPG glade with quests, slimes, a glowing sword and an Ember dragon to reach.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+fishslop:
+  visuals: 7
+  gameplay: 6
+  polish: 7
+  ambition: 6
+  story: null
+  overall: 6.5
+  summary: Orange sub explores a ruined reef, feeding fish, pinging sonar and earning coins toward the lagoon.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+terrabrowser:
+  visuals: 7
+  gameplay: 7
+  polish: 7
+  ambition: 8
+  story: null
+  overall: 7.2
+  summary: Terraria-style sandbox with character and world creation, ores, crafting, NPCs and slimes.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+slide-rush:
+  visuals: 8
+  gameplay: 7
+  polish: 8
+  ambition: 6
+  story: null
+  overall: 7.3
+  summary: Bright waterslide race against twelve inner-tube rivals with ramps, speed and a live leaderboard.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+amar-io:
+  visuals: 6
+  gameplay: 6
+  polish: 6
+  ambition: 6
+  story: null
+  overall: 6
+  summary: Agar.io in 3D space with a glowing nebula, bot leaderboard and peer-to-peer multiplayer.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+palmera-bay:
+  visuals: 8
+  gameplay: 5
+  polish: 7
+  ambition: 6
+  story: null
+  overall: 6.4
+  summary: Pixelated synthwave beach drive at sunset with nitro, gears and a neon boardwalk.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+rooftop-sniper-last-light:
+  visuals: 7
+  gameplay: 6
+  polish: 7
+  ambition: 5
+  story: null
+  overall: 6.2
+  summary: Dusk rooftop overlooking a glittering city with wind, zoom and civilian-hit penalties.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+neon-siege:
+  visuals: 7
+  gameplay: 7
+  polish: 8
+  ambition: 6
+  story: null
+  overall: 7
+  summary: Glowing grid arena with five weapons, dash, shield and waves toward an Overseer boss.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+clawd-7-8:
+  visuals: 6
+  gameplay: 7
+  polish: 7
+  ambition: 7
+  story: null
+  overall: 6.7
+  summary: Minimal four-lane rhythm highway in 7/8 time while pixel Clawd dances beside it.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+ink-arcade:
+  visuals: 7
+  gameplay: 6
+  polish: 7
+  ambition: 6
+  story: null
+  overall: 6.5
+  summary: Pastel rail shooter whose shots land on the soundtrack's sixteenth notes among candy-coloured blocks.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+dragon-sail:
+  visuals: 7
+  gameplay: 7
+  polish: 7
+  ambition: 7
+  story: null
+  overall: 7
+  summary: Dragon flight through misty canyons and eleven gates to reach the Sky Temple before the storm.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+fogbound-frontier:
+  visuals: 7
+  gameplay: 7
+  polish: 7
+  ambition: 7
+  story: null
+  overall: 7
+  summary: WarCraft-style RTS with a keep, gold mine, workers, build menu and fog to survey.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+over-the-lines:
+  visuals: 8
+  gameplay: 6
+  polish: 7
+  ambition: 7
+  story: null
+  overall: 7
+  summary: WW1 biplane over a sweeping patchwork of fields and trenches hunting scouts and balloons.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+kitchen-rush:
+  visuals: 7
+  gameplay: 7
+  polish: 8
+  ambition: 6
+  story: null
+  overall: 7
+  summary: Cheerful Overcooked-style kitchen with chopping, cooking and plating orders for one or two chefs.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+the-dukes-lawn:
+  visuals: 8
+  gameplay: 5
+  polish: 7
+  ambition: 7
+  story: null
+  overall: 6.6
+  summary: Lush grass and a stately manor with a crowd of mowers, beers and cigars; the loop is mowing.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+open-world-nyc:
+  visuals: 8
+  gameplay: 6
+  polish: 7
+  ambition: 9
+  story: null
+  overall: 7.4
+  summary: Convincing Manhattan streets with traffic, taxis, pedestrians, motorbikes, a minimap and multiplayer drop-in.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+arkenfall:
+  visuals: 8
+  gameplay: 6
+  polish: 7
+  ambition: 8
+  story: 5
+  overall: 6.8
+  summary: Atmospheric vale with narrated intro, weather, spear combat and a tentacled boss, all built in code.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+portal-heist:
+  visuals: 7
+  gameplay: 6
+  polish: 7
+  ambition: 8
+  story: null
+  overall: 6.9
+  summary: Five themed worlds from meadow to giant kitchen and crystal hollow with multiplayer core-stealing rounds.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+voxel-musou:
+  visuals: 8
+  gameplay: 7
+  polish: 7
+  ambition: 8
+  story: 4
+  overall: 6.9
+  summary: Hundreds of voxel soldiers scatter under chained spear combos, Musou bursts and fire.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+lagoon-tree-village:
+  visuals: 9
+  gameplay: 3
+  polish: 7
+  ambition: 8
+  story: null
+  overall: 6.4
+  summary: Stunning sunlit oasis of palms, turquoise water and multi-storey tree houses; purely a walk-around.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+seiryu-fishing:
+  visuals: 9
+  gameplay: 5
+  polish: 7
+  ambition: 6
+  story: null
+  overall: 6.7
+  summary: Gorgeous crystal-clear stream with mossy rocks and visible fish; calm cast-and-catch loop.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+dalaran-reimagined:
+  visuals: 8
+  gameplay: 3
+  polish: 6
+  ambition: 8
+  story: null
+  overall: 5.9
+  summary: Sprawling violet-roofed mage city with gates, fountains and a sunset flyover; exploration only.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+play-de-claude:
+  visuals: 7
+  gameplay: 5
+  polish: 8
+  ambition: 7
+  story: null
+  overall: 6.5
+  summary: Charming Habbo-style isometric record shop with crate digging, NPC chatter and real song previews.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+last-firewall:
+  visuals: 5
+  gameplay: 6
+  polish: 6
+  ambition: 5
+  story: null
+  overall: 5.5
+  summary: Minimal neon bullet-hell with waves, a combo counter and three-card upgrade picks between rounds.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+the-final-boss:
+  visuals: 8
+  gameplay: 5
+  polish: 7
+  ambition: 6
+  story: 5
+  overall: 6.2
+  summary: Glossy golden voxel dragon boss knocks out model-mascot rivals in a Gemini rumor parody.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+taters-flight-sim:
+  visuals: 9
+  gameplay: 7
+  polish: 8
+  ambition: 8
+  story: null
+  overall: 8
+  summary: F-16 over forested mountains and volumetric clouds, plus a 747, helicopters, missiles and convoys.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+realistic-minecraft-star-wars:
+  visuals: 9
+  gameplay: 4
+  polish: 7
+  ambition: 8
+  story: null
+  overall: 6.8
+  summary: Shader-grade voxel lakes with reflections, villages and city streets; mostly a flythrough so far.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+symbiote-city:
+  visuals: 8
+  gameplay: 7
+  polish: 7
+  ambition: 9
+  story: null
+  overall: 7.7
+  summary: Web-swinging over dense traffic-filled avenues with crime alerts, a minimap and a hand-modelled hero.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+fishslop-theo:
+  visuals: 7
+  gameplay: 6
+  polish: 7
+  ambition: 6
+  story: null
+  overall: 6.5
+  summary: Bright aquarium sub with jellyfish, fish schools, a coin economy and an upgrade shop.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+guitar-store-brawl:
+  visuals: 7
+  gameplay: 6
+  polish: 6
+  ambition: 8
+  story: null
+  overall: 6.7
+  summary: Walls of hundreds of distinct playable guitars, anger meters and a noise-triggered brawl mode.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+doodle-shooter:
+  visuals: 7
+  gameplay: 7
+  polish: 8
+  ambition: 7
+  story: null
+  overall: 7.2
+  summary: Sketchbook arena with pencil pillars, an ink-painting gun, sword slash, grapple and waves toward a boss.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+fortnite-replica:
+  visuals: 7
+  gameplay: 6
+  polish: 7
+  ambition: 8
+  story: null
+  overall: 6.9
+  summary: Stormfall lobby, battle bus drop over a stylised island, named zones and a glider landing.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+cod-zombies-threejs:
+  visuals: 4
+  gameplay: 6
+  polish: 6
+  ambition: 7
+  story: null
+  overall: 5.6
+  summary: Very dark barracks with boarded windows; the Mystery Box and Pack-a-Punch are barely visible.
+  confidence: low
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+cute-mario-kart:
+  visuals: 8
+  gameplay: 7
+  polish: 8
+  ambition: 6
+  story: null
+  overall: 7.3
+  summary: Bright toy-like kart track with rocket start, drifts, coins, a rainbow and six racers.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+sonic-3d-opus:
+  visuals: 7
+  gameplay: 7
+  polish: 7
+  ambition: 6
+  story: null
+  overall: 6.8
+  summary: Speed Hill Zone with loops, ramps, rings and a checkered green-hill look at speed.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+the-alex-flight-simulator:
+  visuals: 7
+  gameplay: 6
+  polish: 7
+  ambition: 7
+  story: null
+  overall: 6.7
+  summary: Coastal Flight offers ten aircraft and a detailed cockpit over generated coastline terrain.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+endless-game:
+  visuals: 6
+  gameplay: 5
+  polish: 6
+  ambition: 6
+  story: null
+  overall: 5.6
+  summary: Low-poly meadow roamed by an egg explorer meeting quirky NPCs in endless generated areas.
+  confidence: low
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+geometry-wars-but-better:
+  visuals: 7
+  gameplay: 7
+  polish: 7
+  ambition: 5
+  story: null
+  overall: 6.6
+  summary: Neon twin-stick shooter on a warping grid with dense particle bursts.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+jet-moto-opus:
+  visuals: 7
+  gameplay: 7
+  polish: 7
+  ambition: 7
+  story: null
+  overall: 7
+  summary: Canyon hoverbike race against seven rivals over water with turbo boosts.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+the-alex-mario-maker:
+  visuals: 6
+  gameplay: 6
+  polish: 6
+  ambition: 7
+  story: null
+  overall: 6.2
+  summary: Wonder Maker tile-palette level editor that turns your layouts into playable platformer stages.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+kaiju-simulation:
+  visuals: 8
+  gameplay: 5
+  polish: 7
+  ambition: 8
+  story: null
+  overall: 6.8
+  summary: Procedural tripod kaiju stomps through a rain-soaked night city.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+ridge-racer-overnight:
+  visuals: 7
+  gameplay: 7
+  polish: 8
+  ambition: 8
+  story: 5
+  overall: 7
+  summary: Apex Ridge ships full menus, car select, multiple tracks, music and a street-racing story mode.
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
@@ -185,17 +702,6 @@ minecraft-style-world:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
-league-of-legends-browser-clone:
-  visuals: 6
-  gameplay: 6
-  polish: 6
-  ambition: 7
-  story: null
-  overall: 6.2
-  summary: Champion select, lanes, abilities, minimap and shop look like League, though asset provenance is doubtful.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
 catan-style-three-js-board-game:
   visuals: 8
   gameplay: 7
@@ -207,17 +713,6 @@ catan-style-three-js-board-game:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
-junnaid-valley-unreal-world:
-  visuals: 8
-  gameplay: 2
-  polish: 5
-  ambition: 5
-  story: null
-  overall: 4.9
-  summary: Lovely sunlit Unreal forest with god rays and a minimap, but only a walk with nothing to do.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
 universe-duel:
   visuals: 6
   gameplay: 6
@@ -226,28 +721,6 @@ universe-duel:
   story: null
   overall: 5.9
   summary: Clean sci-fi arena duel with dashing mech, homing shots, blade explosions and a full victory flow.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
-photorealistic-contra-game:
-  visuals: 6
-  gameplay: 3
-  polish: 4
-  ambition: 6
-  story: null
-  overall: 4.7
-  summary: Realistic Blender jungle beside the NES original, but dark, murky and hard to read as a game.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
-afterlight-robot-world:
-  visuals: 8
-  gameplay: 4
-  polish: 6
-  ambition: 7
-  story: 5
-  overall: 5.9
-  summary: Rain-slick robot city with rich warm lighting, named districts and objectives, but mostly exploring and inspecting.
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
@@ -270,17 +743,6 @@ zork-in-3d:
   story: 7
   overall: 6.4
   summary: Faithful 3D white house and forest with the original narration and puzzles as interactive prompts.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
-astral-war:
-  visuals: 7
-  gameplay: 7
-  polish: 7
-  ambition: 8
-  story: null
-  overall: 7.2
-  summary: Full WWII shooter shell with lobbies, loadouts, killfeed, minimap and moody grey maps.
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
@@ -328,17 +790,6 @@ magic-carpet-wizard:
   confidence: low
   model: claude-opus-5-5
   rated_at: 2026-09-24
-three-kingdoms-hundred-heroes:
-  visuals: 6
-  gameplay: 6
-  polish: 6
-  ambition: 6
-  story: 5
-  overall: 5.8
-  summary: Elegant faction pick with painted warlord portraits; the campaign map and officer systems stay unseen.
-  confidence: low
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
 oz-breakdance:
   visuals: 6
   gameplay: 4
@@ -358,28 +809,6 @@ the-simpsons-hit-run:
   story: null
   overall: 4.8
   summary: Recognisable Springfield streets and characters rebuilt in Three.js, but stiff figures and flat, directionless driving.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
-where-the-wind-wanders:
-  visuals: 8
-  gameplay: 3
-  polish: 7
-  ambition: 6
-  story: 5
-  overall: 5.6
-  summary: Gorgeous painterly meadow, cottage and windmill with a journal and letter hunt, but little to do beyond walking.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
-alibi:
-  visuals: 8
-  gameplay: 5
-  polish: 7
-  ambition: 6
-  story: 7
-  overall: 6.5
-  summary: Cinematic manor scenes with a maid, suspects and scripted lines set up a moody whodunit.
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
@@ -482,39 +911,6 @@ neon-wake:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
-chrono-raid:
-  visuals: 5
-  gameplay: 3
-  polish: 4
-  ambition: 3
-  story: null
-  overall: 3.8
-  summary: Footage is generated anime cut-in cinematics; no actual fighting is shown.
-  confidence: low
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
-wings-of-freedom:
-  visuals: 6
-  gameplay: 5
-  polish: 6
-  ambition: 5
-  story: null
-  overall: 5.4
-  summary: Sunny walled town with named titans and nape-cut prompts on a grapple runner course.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
-kaiju-city-battle:
-  visuals: 7
-  gameplay: 6
-  polish: 6
-  ambition: 6
-  story: null
-  overall: 6.3
-  summary: Rain-soaked night city with a rampaging colossus, tank blockades, chain-reaction destruction and ability bar.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
 tidebreak-corsair-run:
   visuals: 5
   gameplay: 4
@@ -614,28 +1010,6 @@ blackwater:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
-must-make-paperclips:
-  visuals: 6
-  gameplay: 6
-  polish: 7
-  ambition: 6
-  story: 5
-  overall: 6
-  summary: CRT-framed intro where a chirpy factory AI explains the paperclip plant; the defence itself goes unshown.
-  confidence: low
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
-don-t-look-away:
-  visuals: 7
-  gameplay: 5
-  polish: 6
-  ambition: 5
-  story: 3
-  overall: 5.3
-  summary: Candlelit gothic church and flashlight reveals of angel statues that close in when unseen.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
 the-crownless:
   visuals: 6
   gameplay: 7
@@ -655,17 +1029,6 @@ frontline-command:
   story: null
   overall: 6.6
   summary: Classic RTS base building on a fogged island map, with tanks, supply depots, build queues and minimap.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
-dead-end:
-  visuals: 5
-  gameplay: 5
-  polish: 6
-  ambition: 4
-  story: null
-  overall: 5
-  summary: Low-poly suburban night street with wave objectives and ammo HUD; few zombies appear on screen.
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
@@ -779,17 +1142,6 @@ glider:
   confidence: low
   model: claude-opus-5-5
   rated_at: 2026-09-24
-cabsolutely:
-  visuals: 6
-  gameplay: 5
-  polish: 5
-  ambition: 5
-  story: null
-  overall: 5.3
-  summary: Yellow cab cruising sunny downtown blocks with pedestrians, a pickup ring, speedometer and radio menu.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
 no-moat:
   visuals: 7
   gameplay: 7
@@ -832,17 +1184,6 @@ junk-run:
   overall: 5.8
   summary: Punchy intro cards, a bathtub kart on tracks and six goofy propeller-hat rivals at the hilltop.
   confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
-realm-of-seratari:
-  visuals: 6
-  gameplay: 3
-  polish: 5
-  ambition: 5
-  story: null
-  overall: 4.6
-  summary: Painted pixel title art of a sleeping dragon and valley town beside a plain five-button menu.
-  confidence: low
   model: claude-opus-5-5
   rated_at: 2026-09-24
 apex-club:
@@ -961,16 +1302,6 @@ launching-gpt-6-astra-by-gpt-6-astra:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
-t-cells:
-  visuals: 7
-  craft: 7
-  ambition: 8
-  story: 7
-  overall: 7.3
-  summary: Five-minute narrated explainer with illustrated cells, captions and chapter tracking of an infection's defence.
-  confidence: medium
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
 rickroll:
   visuals: 5
   craft: 6
@@ -1048,6 +1379,286 @@ opus-ultra-film:
   story: 7
   overall: 7.5
   summary: Fourteen Minutes opens with a typed signal-delay line and a lonely wide-eyed rover waking on Mars.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+functional-emotions:
+  visuals: 8
+  craft: 7
+  ambition: 8
+  story: 7
+  overall: 7.5
+  summary: Painted brushstroke figures, threads of light and a city carry a song about emotion vectors.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+domino-show:
+  visuals: 8
+  craft: 8
+  ambition: 8
+  story: 3
+  overall: 6.8
+  summary: 19,400 dominoes fall in one long take under a warm, shallow-focus virtual camera.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+ozymandias:
+  visuals: 8
+  craft: 8
+  ambition: 8
+  story: 7
+  overall: 7.8
+  summary: Real-time desert staging of Shelley's sonnet with narration, trunkless legs and a synced score.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+pirate-ship-at-sunset:
+  visuals: 9
+  craft: 8
+  ambition: 6
+  story: 2
+  overall: 6.3
+  summary: Glowing galleon under full sail on a sunset sea, firing broadsides on command.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+devteamdrew-claude-short:
+  visuals: 7
+  craft: 7
+  ambition: 6
+  story: 5
+  overall: 6.3
+  summary: Hand-drawn block creature tours a neuron, lightning, a prism, a sunflower and a black hole.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+what-do-you-love:
+  visuals: 8
+  craft: 8
+  ambition: 6
+  story: 8
+  overall: 7.5
+  summary: Torn-paper storybook town where one girl asks Claude what it loves, from trees to flowers and paper planes.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+opus-tiktok-feed:
+  visuals: 7
+  craft: 8
+  ambition: 7
+  story: 6
+  overall: 7
+  summary: Late-night doomscroll through bracket ASMR, dancing parentheses, a strawberry and rubber ducks, all hand-coded.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+imagining-hard-problems:
+  visuals: 7
+  craft: 7
+  ambition: 6
+  story: 6
+  overall: 6.5
+  summary: A tiny glowing cube pushes a giant boulder uphill until thousands join and it cracks open.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+opus-in-blender:
+  visuals: 6
+  craft: 6
+  ambition: 7
+  story: 6
+  overall: 6.3
+  summary: Blender poker room where photo-faced bighead executives play AGI roulette under a robot's laser.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+no-samples:
+  visuals: 7
+  craft: 8
+  ambition: 9
+  story: 7
+  overall: 7.8
+  summary: Clawd raps through a crate-digging record store with every beat and frame synthesized in code.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+mosaic-fish:
+  visuals: 9
+  craft: 8
+  ambition: 8
+  story: 5
+  overall: 7.5
+  summary: 13,081 glass tiles form a fishbowl whose star reflections hatch into tiny fish.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+history-of-claude:
+  visuals: 7
+  craft: 7
+  ambition: 7
+  story: 6
+  overall: 6.8
+  summary: Pencil sketches and a pop-up book trace Claude's model history from the first spark to today.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+pop-punk-single:
+  visuals: 7
+  craft: 8
+  ambition: 9
+  story: 6
+  overall: 7.5
+  summary: Blocky band loads into a stage from a Claude Code prompt and plays every note frame by frame.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+sweet-tooth:
+  visuals: 6
+  craft: 7
+  ambition: 5
+  story: 6
+  overall: 6
+  summary: Sketchy orange block chases a dangling candy with a spring jump in a clean 30-second gag.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+glass-mosaic-lcslates:
+  visuals: 8
+  craft: 8
+  ambition: 8
+  story: 5
+  overall: 7.3
+  summary: Gold-leaf mosaic tiles lift and flip into flocks of fish and birds before clicking back.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+what-it-feels-like:
+  visuals: 5
+  craft: 7
+  ambition: 6
+  story: 7
+  overall: 6.3
+  summary: Typographic answer where every word lights up its probability arcs because it all arrives at once.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+oktoberfest:
+  visuals: 6
+  craft: 7
+  ambition: 5
+  story: 6
+  overall: 6
+  summary: Pretzel-hatted block toasts a beer barrel under bunting and a Ferris wheel, ending in confetti.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+claudes-plan:
+  visuals: 8
+  craft: 8
+  ambition: 8
+  story: 8
+  overall: 8
+  summary: Cosy cartoon of a sleepy dev, stacked version boxes and a whiteboard of hard problems, set to song.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+self-portraits-piano:
+  visuals: 8
+  craft: 7
+  ambition: 6
+  story: 5
+  overall: 6.5
+  summary: The same silhouette redrawn as crosshatch, waves, blue florals, geometric tiles and ink swirls over piano.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+cybertruck-transformer:
+  visuals: 8
+  craft: 7
+  ambition: 7
+  story: 4
+  overall: 6.5
+  summary: A Cybertruck unfolds into a robot and strides across a dusty desert.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+us-history-sand-animation:
+  visuals: 7
+  craft: 7
+  ambition: 8
+  story: 7
+  overall: 7.3
+  summary: Sand-textured bell, scroll and landmarks sketch 250 years of U.S. history with score and sound design.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+how-it-feels:
+  visuals: 5
+  craft: 6
+  ambition: 7
+  story: 7
+  overall: 6.3
+  summary: Minimal dark essay of drifting lights and titled chapters asking how Claude actually feels.
+  confidence: low
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+claude-training-montage:
+  visuals: 8
+  craft: 7
+  ambition: 8
+  story: 7
+  overall: 7.5
+  summary: Kung Fu Panda-style montage of the Claude mascot training through bamboo, dojo and temple years.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+second-reality-demo:
+  visuals: 7
+  craft: 8
+  ambition: 8
+  story: 5
+  overall: 7
+  summary: DOS boot, CRT glitches and a chrome Synthetic Reality logo rebuild a 1993 demoscene classic.
+  confidence: high
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+backrooms-found-footage:
+  visuals: 7
+  craft: 7
+  ambition: 7
+  story: 6
+  overall: 6.8
+  summary: VHS walk through yellow office corridors hung with uncanny art and a horse on a pedestal.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+little-sprout:
+  visuals: 8
+  craft: 7
+  ambition: 6
+  story: 6
+  overall: 6.8
+  summary: Convincing clay whale on a paper beach cheers up as a cloud waters it into a rainbow.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+pixar-90s-cartoon:
+  visuals: 8
+  craft: 8
+  ambition: 9
+  story: 7
+  overall: 8
+  summary: Lava lamp, boombox and a glowing 4:58 clock light a lovingly detailed 90s kid's bedroom.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+you-are-gaspode:
+  visuals: 8
+  craft: 7
+  ambition: 7
+  story: 6
+  overall: 7
+  summary: Shaggy white terrier trots through tall grass as the lyrics about Gaspode unfold on screen.
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24

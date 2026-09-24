@@ -16,7 +16,7 @@ The best games and films made by **Claude Opus 5.5** and **GPT-6 Astra**, sorted
 ## What gets in
 
 1. **The model is named by the builder.** The creator's post, repo, or page says Opus 5.5 or GPT-6 Astra built it. Earlier models and mixed-model builds stay out.
-2. **It is impressive.** Games need a real loop with polish: 3D worlds, physics, sound, AI opponents, progression. Films need the model to have written the code or driven the tool behind every frame, not a video model.
+2. **It is impressive, and the model made the visuals.** Games need a real loop with polish: 3D worlds, physics, sound, AI opponents, progression. Every frame comes from code the model wrote or tools it drove, such as three.js, shaders or Blender. Art from image, video or 3D generators and third-party asset packs stay out; AI music is fine.
 3. **You can see it.** Every entry carries the creator's own footage or a screenshot of the live page.
 
 {{SECTIONS}}

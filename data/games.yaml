@@ -153,23 +153,6 @@
   cover_at: 21.5
   preview_start: 21
 
-- id: roblox-anime-smash
-  title: Anime Smash Bros
-  model: claude-opus-5.5
-  tier: watch
-  creator_name: hiraeth
-  creator_handle: WoahWurdz
-  post_url: https://x.com/WoahWurdz/status/2102487879809126834
-  post_likes: 3129
-  date: '2026-09-22'
-  engine: Roblox Studio
-  genre: Platform fighter
-  build: One-shot
-  description: Anime fighters brawl across Smash-style stages, built inside Roblox Studio using only the toolbox.
-  model_evidence: '"Claude Opus 5.5 just ONE SHOTTED this Roblox Anime Super Smash Bros Game"'
-  cover_at: 72.5
-  preview_start: 71.5
-
 - id: the-ashen-gate
   title: The Ashen Gate
   model: claude-opus-5.5
@@ -202,6 +185,789 @@
   model_evidence: '"I had Opus 5.5 recreate the city of San Francisco in Unreal Engine."'
   cover_at: 26.5
   preview_start: 23.5
+
+- id: tidewater
+  title: Tidewater
+  model: claude-opus-5.5
+  tier: play
+  creator_name: dgreenheck
+  date: '2026-09-23'
+  play_url: https://dgreenheck.github.io/tidewater/
+  repo_url: https://github.com/dgreenheck/tidewater
+  engine: WebGPU / WGSL, custom renderer
+  genre: Island fishing
+  build: Claude Code session, every commit co-authored by Opus 5.5
+  description: Cast from the pier, beach or your own boat, fight 18 fish species on a line-tension meter, sell the catch and upgrade your gear on a tropical island.
+  controls: WASD walk and swim, mouse to cast and reel, E to board the boat
+  model_evidence: 'Repo description: "Coastal town built with Opus 5.5"; all 8 commits carry "Co-Authored-By: Claude Opus 5.5" (https://github.com/dgreenheck/tidewater)'
+
+- id: nova-lancer
+  title: Nova Lancer
+  model: claude-opus-5.5
+  tier: play
+  creator_name: tanuu5
+  date: '2026-09-23'
+  play_url: https://tanuu5.github.io/nova-lancer/
+  repo_url: https://github.com/tanuu5/nova-lancer
+  engine: Three.js
+  genre: Rail shooter
+  build: One request, about 1 hour 40 minutes at max effort, two sub-agents for audio and portraits
+  description: A Star Fox style rail shooter over a sunset sea, a red canyon and a neon fortress city, ending in a fight with a mechanical sea dragon.
+  controls: WASD move, J or Space shoot (hold to lock on), K bomb, L boost, gamepad and touch work
+  model_evidence: 'README: "Claude Code × Claude Opus 5.5（MAX） で、依頼 1 回・約 1 時間 40 分で作りました" (built with Claude Code and Opus 5.5 at max effort in one request, about 1h40m) https://github.com/tanuu5/nova-lancer'
+
+- id: jazz-jackrabbit-opus-edition
+  title: Jazz Jackrabbit Opus Edition
+  model: claude-opus-5.5
+  tier: play
+  creator_name: JuliusBrussee
+  date: '2026-09-22'
+  play_url: https://juliusbrussee.github.io/jazz-jackrabbit-remastered/
+  repo_url: https://github.com/JuliusBrussee/jazz-jackrabbit-remastered
+  engine: Canvas 2D, single 180 KB HTML file
+  genre: Platformer
+  build: Launch-day Claude Code session
+  description: A modern fan remake of the 1994 run-and-gun platformer with five worlds, two bosses and procedural art and music in one file.
+  controls: Keyboard or gamepad
+  model_evidence: 'README: "Opus 5.5 came out on September 22, 2026, and that same day I asked it, through Claude Code, for a modern Jazz that still plays like the old one. This repo is what came back." https://github.com/JuliusBrussee/jazz-jackrabbit-remastered'
+  cover_at: 25
+  preview_start: 23
+
+- id: fall-line
+  title: Fall Line
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Nipale-ai
+  date: '2026-09-23'
+  play_url: https://nipale-ai.github.io/opus-5-5-overnight-builds/fall-line/
+  repo_url: https://github.com/Nipale-ai/opus-5-5-overnight-builds
+  engine: Three.js
+  genre: Freeride snowboarding
+  build: One brief, 339 minutes alone overnight in headless Claude Code at xhigh, 111 commits
+  description: Drop into a mountain on a snowboard or skis, chain tricks and ride events across an open freeride map.
+  model_evidence: 'README: "Each build got one detailed brief and a time budget. Claude Opus 5.5 then worked alone in Claude Code ... Nobody answered questions, nobody touched the code." Run conditions: "Model: Claude Opus 5.5, effort xhigh" https://github.com/Nipale-ai/opus-5-5-overnight-builds'
+
+- id: lastfall
+  title: LASTFALL
+  model: claude-opus-5.5
+  tier: play
+  creator_name: haruka_apps
+  creator_handle: haruka_apps
+  date: '2026-09-24'
+  play_url: https://haruka-apps-games.itch.io/lastfall-3d-battle-royale-zombie-survival
+  engine: Three.js / WebGL
+  genre: Battle royale and zombie survival
+  description: Parachute onto an island against 23 AI bots in a shrinking zone, or hold out through ten zombie waves under a blood moon.
+  controls: WASD, mouse aim and fire, V toggles first and third person
+  model_evidence: 'itch.io page metadata: "AI: Made with Claude Opus 5.5" https://haruka-apps-games.itch.io/lastfall-3d-battle-royale-zombie-survival'
+  cover_at: 1
+  preview_start: 0
+
+- id: game-center-nova
+  title: Game Center NOVA
+  model: claude-opus-5.5
+  tier: play
+  creator_name: haruka_apps
+  creator_handle: haruka_apps
+  post_url: https://x.com/haruka_apps/status/2102703140080673090
+  date: '2026-09-23'
+  play_url: https://haruka-apps-games.itch.io/neon-arcade-pinball-game-center-nova
+  engine: Three.js / WebGL
+  genre: First-person pinball arcade
+  description: Walk a neon late-night arcade in first person, change yen for tokens and play pinball tables from 1978, 1998 and 2099.
+  controls: PC only, WASD walk, flipper keys at each table
+  model_evidence: 'Creator post (X, links this itch page): "Opus 5.5でゲームセンターを作ってみた。ピンボール台が3台遊べます！" https://x.com/haruka_apps/status/2102703140080673090 ; the itch page itself does not name the model'
+  cover_at: 17.5
+  preview_start: 15.5
+
+- id: sprout-quest
+  title: Sprout Quest
+  model: claude-opus-5.5
+  tier: play
+  creator_name: aibengineering
+  date: '2026-09-23'
+  play_url: https://aibengineering.github.io/sprout-quest/
+  repo_url: https://github.com/aibengineering/sprout-quest
+  engine: Canvas, Blender-rendered sprites, Bun
+  genre: Mobile action RPG
+  build: 11 plain-language prompts, about 4 hours 25 minutes
+  description: Leave Sprout Village for real-time arena battles, level up, craft gear at the forge and push east to the dragon of Ember Peak.
+  controls: Touch, best on a phone in portrait
+  model_evidence: 'README: "Everything here (the game code, the Blender art pipeline and every 3D model, the tests and this repo) was written by Claude Opus 5.5 in Claude Code" https://github.com/aibengineering/sprout-quest'
+
+- id: fishslop
+  title: FishSlop Opus 5.5
+  model: claude-opus-5.5
+  tier: play
+  creator_name: vasu-devs
+  date: '2026-09-22'
+  play_url: https://vasu-devs.github.io/FishSlop_Opus5.5/
+  repo_url: https://github.com/vasu-devs/FishSlop_Opus5.5
+  engine: Three.js, TypeScript
+  genre: Submarine aquarium sim
+  build: Claude Code session
+  description: Pilot a small sub around a 3D reef, feed fish, ping sonar to reveal new species and buy fish and parts to grow the aquarium.
+  model_evidence: 'Repo name "FishSlop_Opus5.5"; commits carry "Co-Authored-By: Claude Opus 5.5 (1M context)" https://github.com/vasu-devs/FishSlop_Opus5.5'
+
+- id: terrabrowser
+  title: Terrabrowser
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Wimmboo2
+  date: '2026-09-23'
+  play_url: https://terrabrowser.vercel.app
+  repo_url: https://github.com/Wimmboo2/Terrabrowser
+  engine: Canvas 2D, ES modules
+  genre: Sandbox action-adventure
+  description: A Terraria-style dig, build and fight sandbox with ores, crafting, NPCs, bosses and a generated world.
+  model_evidence: 'Repo description: "terraria on browser n test for opus 5.5"; commits carry "Co-Authored-By: Claude Opus 5.5" https://github.com/Wimmboo2/Terrabrowser'
+
+- id: slide-rush
+  title: Slide Rush
+  model: claude-opus-5.5
+  tier: play
+  creator_name: KJLKurt
+  date: '2026-09-23'
+  play_url: https://kjlkurt.github.io/waterslide-game-opus-5.5/
+  repo_url: https://github.com/KJLKurt/waterslide-game-opus-5.5
+  engine: Three.js
+  genre: Waterslide racer
+  description: Race twelve rivals down a giant 3D waterslide, hit the ramps, find the shortcut and try not to fly off the track.
+  controls: Steer and jump, mobile-first touch controls
+  model_evidence: 'README: "Model: opus-5.5" https://github.com/KJLKurt/waterslide-game-opus-5.5'
+
+- id: amar-io
+  title: AMAR.IO
+  model: claude-opus-5.5
+  tier: play
+  creator_name: brianm3050
+  date: '2026-09-24'
+  play_url: https://brianm3050.github.io/amar.io/
+  repo_url: https://github.com/brianm3050/amar.io
+  engine: Three.js, custom shaders, WebRTC
+  genre: 3D multiplayer .io
+  description: Agar.io in full 3D, fly in any direction, split and devour other cells in instant peer-to-peer multiplayer with AI bots.
+  controls: Arrow keys steer, Space split, F eject, S brake, touch stick on phones
+  model_evidence: 'README: "Built entirely by Claude Opus 5.5 as an experiment." https://github.com/brianm3050/amar.io'
+
+- id: palmera-bay
+  title: Palmera Bay
+  model: claude-opus-5.5
+  tier: play
+  creator_name: vcahlik
+  date: '2026-09-23'
+  play_url: https://cahlik.net/palmera-bay/
+  repo_url: https://github.com/vcahlik/palmera-bay
+  engine: Three.js
+  genre: Free-roam driving
+  build: 30-minute auto-mode first pass, then a few prompts, medium effort
+  description: Cruise a convertible around a sunny coastal city with arcade drift, nitro flames, skid marks and several camera views.
+  controls: Arrow keys or WASD drive, nitro, camera toggle
+  model_evidence: 'README: "I vibe-coded this game almost effortlessly using Claude Code with Claude Opus 5.5 (medium effort)." https://github.com/vcahlik/palmera-bay'
+
+- id: rooftop-sniper-last-light
+  title: "Rooftop Sniper: Last Light"
+  model: claude-opus-5.5
+  tier: play
+  creator_name: PromptEngineer48
+  date: '2026-09-23'
+  play_url: https://promptengineer48.github.io/claude-opus-5.5-games/rooftop-sniper/offline/index.html
+  repo_url: https://github.com/PromptEngineer48/claude-opus-5.5-games
+  engine: Three.js
+  genre: First-person sniper
+  description: Hold a rooftop at dusk and pick off targets across a city with a scoped rifle.
+  controls: Mouse aim, right click scope, left click fire
+  model_evidence: 'README: "Three browser games built with Claude Opus 5.5 and three.js." https://github.com/PromptEngineer48/claude-opus-5.5-games'
+
+- id: neon-siege
+  title: Neon Siege
+  model: claude-opus-5.5
+  tier: play
+  creator_name: PromptEngineer48
+  date: '2026-09-23'
+  play_url: https://promptengineer48.github.io/claude-opus-5.5-games/neon-siege/
+  repo_url: https://github.com/PromptEngineer48/claude-opus-5.5-games
+  engine: Three.js
+  genre: Arena shooter
+  description: Fight waves of robots in a neon arena, dash through bots, reflect their bolts with a shield and face an Overseer boss every fifth wave.
+  controls: WASD move, mouse aim, hold left click fire
+  model_evidence: 'README: "Three browser games built with Claude Opus 5.5 and three.js." https://github.com/PromptEngineer48/claude-opus-5.5-games'
+
+- id: clawd-7-8
+  title: Clawd 7/8
+  model: claude-opus-5.5
+  tier: play
+  creator_name: tanuu5
+  date: '2026-09-23'
+  play_url: https://tanuu5.github.io/clawd-7-8/
+  repo_url: https://github.com/tanuu5/clawd-7-8
+  engine: Three.js, Web Audio
+  genre: Rhythm game
+  description: Hit notes on a four-lane highway to a song in 7/8 time while Clawd dances beside the track.
+  controls: D F J K or arrow keys, multi-touch on phones
+  model_evidence: 'README: "制作：Claude（Anthropic）。モデルは Claude Opus 5.5 で、Claude Code を使って作りました。" (made by Claude, model Claude Opus 5.5 in Claude Code) https://github.com/tanuu5/clawd-7-8'
+
+- id: ink-arcade
+  title: Ink Arcade
+  model: claude-opus-5.5
+  tier: play
+  creator_name: tanuu5
+  date: '2026-09-23'
+  play_url: https://tanuu5.github.io/ink-arcade/
+  repo_url: https://github.com/tanuu5/ink-arcade
+  engine: Three.js
+  genre: Rail shooting gallery
+  description: Two ink-splat shooting games, including a 3D rail shooter whose shots fire on the soundtrack's sixteenth notes and ends with a giant target boss.
+  controls: Mouse or touch to aim
+  model_evidence: 'README: "このリポジトリのコードは、Claude Opus 5.5 との対話で作りました。" (the code was made in conversation with Claude Opus 5.5) https://github.com/tanuu5/ink-arcade'
+
+- id: dragon-sail
+  title: Dragon Sail
+  model: claude-opus-5.5
+  tier: play
+  creator_name: siwo55
+  date: '2026-09-24'
+  play_url: https://siwo55.github.io/dragon-sail-opus/
+  repo_url: https://github.com/siwo55/dragon-sail-opus
+  engine: Three.js, single HTML file
+  genre: Dragon flight racer
+  description: Ride a dragon through mountain canyons and eleven gates before a storm catches you, boosting on near misses.
+  controls: W and S pitch, A and D roll, Space boost, gamepad and touch work
+  model_evidence: 'README title: "Dragon Sail Opus 5.5"; file "Dragon Sail Opus 5.5.html" https://github.com/siwo55/dragon-sail-opus'
+
+- id: fogbound-frontier
+  title: Fogbound Frontier
+  model: claude-opus-5.5
+  tier: play
+  creator_name: senko
+  post_url: https://senko.net/vibecode-bench/
+  date: '2026-09-23'
+  play_url: https://senko.net/vibecode-bench/2026/rts-opus-5.5.html
+  repo_url: https://gist.github.com/senko/0431525092b5af63618ab05666305e08
+  engine: Canvas, single HTML file
+  genre: Real-time strategy
+  build: One-shot benchmark prompt at xhigh, about 47 minutes
+  description: A WarCraft-style RTS with resource gathering, unit production and fog-of-war exploration against an AI.
+  model_evidence: Vibecode Bench lists this file as the Opus 5.5 (xhigh) one-shot result for the RTS prompt https://senko.net/vibecode-bench/ ; also linked by the author on HN https://news.ycombinator.com/item?id=49807724
+
+- id: over-the-lines
+  title: Over the Lines
+  model: claude-opus-5.5
+  tier: play
+  creator_name: senko
+  post_url: https://senko.net/vibecode-bench/
+  date: '2026-09-23'
+  play_url: https://senko.net/vibecode-bench/2026/flysim-opus-5.5.html
+  repo_url: https://gist.github.com/senko/1dea1e984fdff2d3091dc9ff3a528a04
+  engine: Three.js, single HTML file
+  genre: WW1 dogfight
+  build: One-shot benchmark prompt at xhigh
+  description: Fly a WW1 biplane over generated terrain and dogfight enemy planes.
+  model_evidence: Vibecode Bench lists this file as the Opus 5.5 (xhigh) one-shot result for the flysim prompt https://senko.net/vibecode-bench/
+
+- id: kitchen-rush
+  title: Kitchen Rush
+  model: claude-opus-5.5
+  tier: play
+  creator_name: OpenVGLab
+  date: '2026-09-24'
+  play_url: https://openvglab.github.io/awesome-opus5.5-frontend-showcases/svg/kitchen-rush.svg
+  repo_url: https://github.com/OpenVGLab/awesome-opus5.5-frontend-showcases
+  engine: Single self-contained SVG
+  genre: Co-op cooking
+  build: Agentic generation from a published prompt
+  description: An Overcooked-style top-down kitchen where one or two players on one keyboard chop, cook and plate orders before they time out.
+  controls: Two players share the keyboard
+  model_evidence: 'README: "Case 1: 厨房大作战 KITCHEN RUSH ... 来源：本仓库原创 · Claude Opus 5.5" https://github.com/OpenVGLab/awesome-opus5.5-frontend-showcases'
+
+- id: the-dukes-lawn
+  title: The Duke's Lawn
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Max Blade
+  creator_handle: _MaxBlade
+  post_url: https://x.com/_MaxBlade/status/2102513817855094922
+  post_likes: 3886
+  date: '2026-09-22'
+  play_url: https://cnvs.dev/opusmo/
+  engine: Browser, built in CNVS
+  genre: Multiplayer simulator
+  build: One-shot
+  description: A multiplayer lawn-mowing simulator with beers and cigars that the creator's stream chat joined live.
+  controls: Desktop only
+  model_evidence: '"Opus 5.5 built a multiplayer lawn mow simulator with beers and cigars"'
+  cover_at: 13.5
+  preview_start: 11
+
+- id: open-world-nyc
+  title: Open World NYC
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Matt Shumer
+  creator_handle: mattshumer_
+  post_url: https://x.com/mattshumer_/status/2102874271316078841
+  post_likes: 707
+  date: '2026-09-23'
+  play_url: https://somethingbig.ai/world/
+  engine: Browser 3D
+  genre: Open world
+  build: Autonomous loop running for almost a day
+  description: A multiplayer open-world New York City you can drop into from the browser.
+  model_evidence: "\"Opus 5.5 has been looping on my open-world NYC game for almost a day now, and it's continuing to improve.\""
+  cover_at: 25.5
+  preview_start: 23.5
+
+- id: arkenfall
+  title: Arkenfall
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Leon Lin
+  creator_handle: LexnLin
+  post_url: https://x.com/LexnLin/status/2102834362530079093
+  post_likes: 447
+  date: '2026-09-23'
+  play_url: https://arkenfall.site
+  engine: Browser, zero assets
+  genre: Open-world action
+  build: Opus also cut the trailer and wrote the soundtrack
+  description: An open-world fantasy action game with creatures, a map, a story intro and a boss fight, all generated in code.
+  model_evidence: '"Claude Opus 5.5 built a full open world game that runs in your browser. zero assets. terrain, creatures, boss fight, animations, sound, music. all code"'
+  cover_at: 37
+  preview_start: 26
+
+- id: portal-heist
+  title: Portal Heist
+  model: claude-opus-5.5
+  tier: play
+  creator_name: jacob
+  creator_handle: jsnnsa
+  post_url: https://x.com/jsnnsa/status/2102862008467194151
+  post_likes: 347
+  date: '2026-09-23'
+  play_url: https://spawn.co/@j/portal-heist/play
+  engine: Spawn
+  genre: Multiplayer heist
+  build: 26 parallel agents overnight
+  description: A multiplayer heist through five nested worlds, with go-karts on a giant's kitchen table, bots hunting you and friends stealing your loot.
+  controls: Phone or computer, no account
+  model_evidence: '"I had 26 Opus 5.5 agents build a game overnight."'
+  cover_at: 13.5
+  preview_start: 11.5
+
+- id: voxel-musou
+  title: Voxel Musou
+  model: claude-opus-5.5
+  tier: play
+  creator_name: BubuAi
+  creator_handle: BubuStd
+  post_url: https://x.com/BubuStd/status/2102991290568954264
+  post_likes: 255
+  date: '2026-09-24'
+  play_url: https://bubucn.com/en/ai-model-evals/voxel-musou
+  repo_url: https://github.com/mike007jd/voxel-musou
+  engine: Browser 3D, voxel
+  genre: Hack and slash
+  build: Opus 5.5 ultracode
+  description: Zhao Yun takes on 300 voxel soldiers with combos, dodges and Musou attacks in a Dynasty Warriors homage.
+  model_evidence: '"I just built the game I wanted most as a kid on PS2 - Dynasty Warriors - with Opus 5.5 ultracode."'
+  cover_at: 8
+  preview_start: 6
+
+- id: lagoon-tree-village
+  title: Lagoon Tree Village
+  model: claude-opus-5.5
+  tier: play
+  creator_name: cryptomanavan
+  creator_handle: cryptomanavan
+  post_url: https://x.com/cryptomanavan/status/2102772685541347618
+  post_likes: 235
+  date: '2026-09-23'
+  play_url: https://lagoon-tree-village.netlify.app/
+  engine: Three.js on WebGL2, procedural
+  genre: Explorable world
+  build: Seven-hour-plus agent session from concept art
+  description: A huge explorable desert oasis village built into giant trees around a turquoise lagoon.
+  model_evidence: '"#Opus5.5 and #threejs. I started on this last night. Its a 7hr cook at the moment."'
+  cover_at: 36.5
+  preview_start: 34.5
+
+- id: seiryu-fishing
+  title: Seiryu Fishing
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Hayashimon
+  creator_handle: hayashimon1
+  post_url: https://x.com/hayashimon1/status/2102737051057832358
+  post_likes: 232
+  date: '2026-09-23'
+  play_url: https://seiryu.miraicode.one/
+  engine: Three.js
+  genre: Fishing
+  build: Under one day
+  description: Spot fish in a crystal-clear mountain stream and cast for them in a calm fishing game.
+  model_evidence: '"Three.js × Opus 5.5、制作は1日未満。" (Three.js x Opus 5.5, made in under a day)'
+  cover_at: 14.5
+  preview_start: 12.5
+
+- id: dalaran-reimagined
+  title: Dalaran Reimagined
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Izkimar
+  creator_handle: Izkimar
+  post_url: https://x.com/Izkimar/status/2102965638293827698
+  post_likes: 46
+  date: '2026-09-24'
+  play_url: https://www.spawn.co/@izkimar/dalaran/play
+  engine: Spawn
+  genre: Explorable world
+  build: Prompted to go wild
+  description: A walkable reimagining of World of Warcraft's floating mage city Dalaran, with sound.
+  model_evidence: '"I told Opus 5.5 to reimagine Dalaran and go wild."'
+  cover_at: 30.5
+  preview_start: 28.5
+
+- id: play-de-claude
+  title: Play De Claude
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Anish Acharya
+  creator_handle: illscience
+  post_url: https://x.com/illscience/status/2102913284190220421
+  post_likes: 41
+  date: '2026-09-24'
+  play_url: https://play-de-claude.vercel.app/
+  engine: Browser, Blender-made assets
+  genre: Isometric exploration
+  build: One-shot
+  description: Wander a Habbo-style isometric replica of a 1990s record store, dig through crates and preview real songs.
+  controls: Desktop
+  model_evidence: '"One shotted a playable replica of an actual 1990s record store called \"play de record\" via opus 5.5"'
+  cover_at: 1.5
+  preview_start: 0
+
+- id: last-firewall
+  title: Last Firewall
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Gorden Sun
+  creator_handle: Gorden_Sun
+  post_url: https://x.com/Gorden_Sun/status/2102941966556434610
+  post_likes: 9
+  date: '2026-09-24'
+  play_url: https://gordensun.github.io/last-firewall/
+  engine: Browser
+  genre: Bullet-hell survival
+  build: One-shot
+  description: A bullet-hell survival game where you defend the last firewall against waves of attackers.
+  model_evidence: '"用Opus 5.5做了弹幕生存游戏，一把出的就能玩。" (Made a bullet-hell survival game with Opus 5.5; the first try was playable)'
+  cover_at: 25.5
+  preview_start: 22
+
+- id: the-final-boss
+  title: The Final Boss
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Ryan Sael
+  creator_handle: RyanSael
+  post_url: https://x.com/RyanSael/status/2102970980398489940
+  post_likes: 7
+  date: '2026-09-24'
+  play_url: https://sael.net/final-boss
+  engine: Browser
+  genre: Boss fight
+  build: Prompted build
+  description: A boss fight parody of the Gemini rumor mill.
+  model_evidence: '"Opus 5.5 is just too good at the moment. try it https://sael.net/final-boss"'
+  cover_at: 10
+  preview_start: 8
+
+- id: taters-flight-sim
+  title: Tater's Flight Sim
+  model: claude-opus-5.5
+  tier: download
+  creator_name: JaredTate
+  date: '2026-09-23'
+  download_url: https://github.com/JaredTate/tatertotsflightsim
+  repo_url: https://github.com/JaredTate/tatertotsflightsim
+  engine: Three.js
+  genre: Combat flight sim
+  build: Long Claude Code session, 93 commits
+  description: Fly jets, a 747 and helicopters with stalls, crashes, guns and missiles against AI targets and burning convoys.
+  run: npm install && npm start, then open http://127.0.0.1:8092
+  model_evidence: 'Repo description: "Opus 5.5 Flight Sim Test Build"; all 93 commits carry "Co-Authored-By: Claude Opus 5.5 (1M context)" https://github.com/JaredTate/tatertotsflightsim'
+
+- id: realistic-minecraft-star-wars
+  title: Realistic Minecraft + Star Wars
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Chris
+  creator_handle: ChrisGPT
+  post_url: https://x.com/ChrisGPT/status/2102644063950475477
+  post_likes: 2284
+  date: '2026-09-23'
+  engine: Browser 3D
+  genre: Voxel sandbox
+  build: Early multi-day results
+  description: A realistic-lit voxel world crossed with Star Wars ships and set pieces.
+  model_evidence: '"Opus 5.5 - Makes Realistic Minecraft + StarWars"'
+  cover_at: 34.5
+  preview_start: 32.5
+
+- id: symbiote-city
+  title: Symbiote City
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Shikhar
+  creator_handle: xikhar
+  post_url: https://x.com/xikhar/status/2102588571442188577
+  post_likes: 1056
+  date: '2026-09-23'
+  engine: Three.js and Blender
+  genre: Superhero action
+  build: Opus 5.5 Medium, iterated
+  description: A Spider-Man-style superhero game with web-swinging through a city and a symbiote suit.
+  model_evidence: "\"Here's 3 mins of a Three.js game I have been making with Opus 5.5 Medium. Every 3D model, texture, and animation is made from scratch.\""
+  cover_at: 58
+  preview_start: 56
+
+- id: fishslop-theo
+  title: FishSlop
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Theo - t3.gg
+  creator_handle: theo
+  post_url: https://x.com/theo/status/2102877145399975952
+  post_likes: 1042
+  date: '2026-09-23'
+  engine: Browser 3D
+  genre: Fishing
+  build: Benchmark prompt, follow-up fixes
+  description: A fishing game with smooth animation, a functional in-game economy and unlocks.
+  model_evidence: "\"Opus 5.5 had the best run with FishSlop that I've ever seen... There's even a complete gameplay loop with a functional in-game economy and unlocks.\""
+  cover_at: 24.5
+  preview_start: 22.5
+
+- id: guitar-store-brawl
+  title: Guitar Store Brawl
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: BijanBowen
+  creator_handle: bijanbowen
+  post_url: https://x.com/bijanbowen/status/2102532400353829356
+  post_likes: 470
+  date: '2026-09-22'
+  engine: Three.js
+  genre: Simulator / beat 'em up
+  build: Prompted build
+  description: A guitar-store simulator where every instrument is playable, and making too much noise turns it into a beat 'em up.
+  model_evidence: "\"Opus 5.5 guitar store sim, if you make too much noise it turns into a beat' em up. It made 300+ individual guitar models, every instrument is playable.\""
+  cover_at: 18
+  preview_start: 15
+
+- id: doodle-shooter
+  title: Doodle Shooter
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Tak
+  creator_handle: cherry_mx_reds
+  post_url: https://x.com/cherry_mx_reds/status/2102449525944099320
+  post_likes: 396
+  date: '2026-09-22'
+  engine: Browser
+  genre: Shooter
+  build: One-shot, Medium, no sub-agents
+  description: A hand-drawn doodle-style shooter that ends in a boss fight.
+  model_evidence: '"Opus 5.5 one-shot a really fun doodle shooter and it even has a boss at the end"'
+  cover_at: 35
+  preview_start: 33
+
+- id: fortnite-replica
+  title: Fortnite Replica
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Mia
+  creator_handle: MiaAI_lab
+  post_url: https://x.com/MiaAI_lab/status/2102672873802363064
+  post_likes: 307
+  date: '2026-09-23'
+  engine: Browser 3D
+  genre: Battle royale
+  build: One prompt
+  description: A Fortnite-style third-person battle royale with building and shooting.
+  model_evidence: '"Opus 5.5 built me a Fortnite replica in one prompt"'
+  cover_at: 36.5
+  preview_start: 34.5
+
+- id: cod-zombies-threejs
+  title: Call of Duty Zombies in Three.js
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: WorldofAI
+  creator_handle: intheworldofai
+  post_url: https://x.com/intheworldofai/status/2102480675597115689
+  post_likes: 237
+  date: '2026-09-22'
+  engine: Three.js, zero assets
+  genre: Zombie FPS
+  build: One prompt, about 13k lines
+  description: Board up windows, hit the Mystery Box, Pack-a-Punch and survive zombie rounds in a Call of Duty Zombies remake.
+  model_evidence: '"Told Claude Opus 5.5 \"build me Call of Duty: Zombies, no questions asked.\" ~13k lines of Three.js later"'
+  cover_at: 84
+  preview_start: 79
+
+- id: cute-mario-kart
+  title: Cute Mario Kart
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Tak
+  creator_handle: cherry_mx_reds
+  post_url: https://x.com/cherry_mx_reds/status/2102441942596366467
+  post_likes: 194
+  date: '2026-09-22'
+  engine: Browser 3D
+  genre: Kart racer
+  build: Medium, no sub-agents
+  description: A cute kart racer in the style of Mario Kart.
+  model_evidence: '"Opus 5.5 just made the cutest Mario Kart"'
+  cover_at: 23
+  preview_start: 21
+
+- id: sonic-3d-opus
+  title: Sonic 3D
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Tak
+  creator_handle: cherry_mx_reds
+  post_url: https://x.com/cherry_mx_reds/status/2102444611776237697
+  post_likes: 193
+  date: '2026-09-22'
+  engine: Browser 3D
+  genre: 3D platformer
+  build: Medium, no sub-agents
+  description: A 3D Sonic platformer with high-speed running through loops.
+  model_evidence: '"Opus 5.5 made a mind-blowing Sonic 3D game"'
+  cover_at: 20.5
+  preview_start: 18.5
+
+- id: the-alex-flight-simulator
+  title: Flight Simulator
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Alex
+  creator_handle: The_Alex
+  post_url: https://x.com/The_Alex/status/2102440680136310955
+  post_likes: 178
+  date: '2026-09-22'
+  engine: Browser 3D
+  genre: Flight sim
+  build: Prompted build
+  description: A flight simulator over generated terrain.
+  model_evidence: 'Thread: "Flight Simulator", replying to his Opus 5.5 showcase thread'
+  cover_at: 30.5
+  preview_start: 28.5
+
+- id: endless-game
+  title: Endless Game
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: argofowl
+  creator_handle: argofowl
+  post_url: https://x.com/argofowl/status/2102529695908806728
+  post_likes: 159
+  date: '2026-09-22'
+  engine: Three.js
+  genre: Procedural exploration
+  build: Opus 5.5 extra high, one prompt
+  description: An endless, procedurally generated world to roam, with surprises in every area.
+  model_evidence: '"opus 5.5 extra high"'
+  cover_at: 26.5
+  preview_start: 24.5
+
+- id: geometry-wars-but-better
+  title: Geometry Wars But Better
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Tak
+  creator_handle: cherry_mx_reds
+  post_url: https://x.com/cherry_mx_reds/status/2102529784131600745
+  post_likes: 141
+  date: '2026-09-22'
+  engine: Claude artifact
+  genre: Twin-stick shooter
+  build: One-shot
+  description: A neon twin-stick arena shooter in the style of Geometry Wars.
+  model_evidence: "\"Opus 5.5 one shots geometry wars (but better). I didn't ask for geometry wars. I just asked for a fun game to play\""
+  cover_at: 41.5
+  preview_start: 39.5
+
+- id: jet-moto-opus
+  title: Jet Moto
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Tak
+  creator_handle: cherry_mx_reds
+  post_url: https://x.com/cherry_mx_reds/status/2102762471543144631
+  post_likes: 136
+  date: '2026-09-23'
+  engine: Claude artifact
+  genre: Racer
+  build: One-shot, then upgraded
+  description: A Jet Moto-style hoverbike racer.
+  model_evidence: '"Opus 5.5 just one-shot Jet Moto"'
+  cover_at: 17
+  preview_start: 15
+
+- id: the-alex-mario-maker
+  title: Mario Maker
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Alex
+  creator_handle: The_Alex
+  post_url: https://x.com/The_Alex/status/2102440681914724748
+  post_likes: 132
+  date: '2026-09-22'
+  engine: Browser
+  genre: Platformer / level editor
+  build: Prompted build
+  description: A Mario Maker-style level editor and platformer.
+  model_evidence: 'Thread: "Mario Maker", replying to his Opus 5.5 showcase thread'
+  cover_at: 33
+  preview_start: 31
+
+- id: kaiju-simulation
+  title: Kaiju Simulation
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Majid Manzarpour
+  creator_handle: majidmanzarpour
+  post_url: https://x.com/majidmanzarpour/status/2102810710791401883
+  post_likes: 117
+  date: '2026-09-23'
+  engine: Three.js TSL
+  genre: Kaiju simulation
+  build: Minimal prompt, 3.5 hours autonomous
+  description: A fully procedural kaiju rampaging through a city.
+  model_evidence: '"opus 5.5, kaiju simulation, pure @threejs code... opus 5.5 worked for 3.5 hours"'
+  cover_at: 118.5
+  preview_start: 112
+
+- id: ridge-racer-overnight
+  title: Ridge Racer Overnight
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: AndrewOnXYZ
+  creator_handle: AndrewOnXYZ
+  post_url: https://x.com/AndrewOnXYZ/status/2102791372440736155
+  post_likes: 41
+  date: '2026-09-23'
+  engine: Browser 3D
+  genre: Arcade racer
+  build: Overnight autonomous run
+  description: A Ridge Racer-style arcade racer with 24 cars, tracks, music and a story mode.
+  model_evidence: '"I had Opus 5.5 work overnight, it created a full game. 24 Cars, models, tracks, music, a story mode"'
+  cover_at: 85
+  preview_start: 69
 
 - id: paperboy-browser-remake
   title: Paperboy Browser Remake (Paper Route)
@@ -275,24 +1041,6 @@
   cover_at: 24.5
   preview_start: 21.5
 
-- id: league-of-legends-browser-clone
-  title: League of Legends Browser Clone
-  model: gpt-6-astra
-  tier: watch
-  creator_name: Konsti Wohlwend
-  creator_handle: konstiwohlwend
-  post_url: https://x.com/konstiwohlwend/status/2097164513527357608
-  post_likes: 3130
-  date: '2026-09-08'
-  engine: browser/WebGL
-  genre: Moba
-  build: multi-prompt
-  description: A browser recreation of League of Legends with recognizable champions and mechanics after two prompts.
-  model_evidence: '"wtf? i asked Astra to copy League of Legends and it actually did, with the real champions and everything" (x.com/konstiwohlwend/status/2097164513527357608)'
-  quality: medium
-  cover_at: 6.5
-  preview_start: 5
-
 - id: catan-style-three-js-board-game
   title: Catan-Style Three.js Board Game
   model: gpt-6-astra
@@ -308,26 +1056,8 @@
   description: Play a Catan-style board game with animated pieces, guidance cards, AI opponents and trading.
   model_evidence: '"I asked Astra to create a Catan game in three.js and it came out incredibly well ... It even has AI players and trading." (x.com/MengTo/status/2097291240672993773)'
   quality: high
-  cover_at: 31
-  preview_start: 27.5
-
-- id: junnaid-valley-unreal-world
-  title: Junnaid Valley Unreal World
-  model: gpt-6-astra
-  tier: watch
-  creator_name: eta
-  creator_handle: seftsaint
-  post_url: https://x.com/seftsaint/status/2101395711015497764
-  post_likes: 5797
-  date: '2026-09-19'
-  engine: Unreal Engine
-  genre: Exploration landscape
-  build: multi-prompt
-  description: Walk a landscape world with trees and lighting, ported from Godot into Unreal Engine.
-  model_evidence: '"GPT-6 Astra + Unreal + Blender ... I moved the concept I had already made in Godot over to Unreal" (x.com/seftsaint/status/2101395711015497764)'
-  quality: medium
-  cover_at: 4.5
-  preview_start: 1
+  cover_at: 23.5
+  preview_start: 19.5
 
 - id: universe-duel
   title: Universe Duel
@@ -347,43 +1077,6 @@
   quality: high
   cover_at: 10
   preview_start: 10
-
-- id: photorealistic-contra-game
-  title: Photorealistic Contra Game (Runner)
-  model: gpt-6-astra
-  tier: play
-  creator_name: Anish Acharya
-  creator_handle: illscience
-  post_url: https://x.com/illscience/status/2097059547328241971
-  post_likes: 1220
-  date: '2026-09-07'
-  play_url: https://runner-stage1.vercel.app/
-  engine: 3D
-  genre: Run-and-gun side scroller
-  build: multi-prompt
-  description: Run and shoot through a photorealistic side-scrolling Contra-style level.
-  model_evidence: '"Astra is Opus 4.5 for games. Made Contra but photorealistic this weekend" (x.com/illscience/status/2097059547328241971)'
-  quality: high
-  cover_at: 13
-  preview_start: 11.5
-
-- id: afterlight-robot-world
-  title: Afterlight Robot World
-  model: gpt-6-astra
-  tier: watch
-  creator_name: Anshu
-  creator_handle: anshuc
-  post_url: https://x.com/anshuc/status/2096584624432374151
-  post_likes: 1910
-  date: '2026-09-06'
-  engine: Three.js
-  genre: Atmospheric exploration
-  build: long agentic session (8h)
-  description: Explore a dystopian robot city scene with rain, warm lighting, detailed streets and procedural birds.
-  model_evidence: '"Here''s what Astra built in 8 hours. It worked all night on weather effects, Blender modeling, and tons of little details." (x.com/anshuc/status/2096584624432374151)'
-  quality: medium
-  cover_at: 5
-  preview_start: 6
 
 - id: a-godot-roguelike-level
   title: A Godot Roguelike Level
@@ -420,25 +1113,6 @@
   quality: high
   cover_at: 5
   preview_start: 1
-
-- id: astral-war
-  title: Astral War
-  model: gpt-6-astra
-  tier: play
-  creator_name: Rishi
-  creator_handle: 0xRishi
-  post_url: https://x.com/0xRishi/status/2096079660605997264
-  post_likes: 979
-  date: '2026-09-05'
-  play_url: http://astralwar.io
-  engine: Three.js
-  genre: Fps shooter
-  build: long agentic session (1 day)
-  description: Fight through living/undead modes in a CoD-World-at-War-inspired browser FPS, solo or online multiplayer.
-  model_evidence: '"Introducing Astral War, built in a day with GPT-6 Astra Ultra (fast mode) ... @threejs + @MeshyAI + @ElevenLabs" (x.com/0xRishi/status/2096079660605997264)'
-  quality: high
-  cover_at: 44.5
-  preview_start: 42.5
 
 - id: halo-inspired-tesana-fps
   title: Halo-Inspired Tesana FPS
@@ -512,20 +1186,6 @@
   model_evidence: '"The repository describes the game as made with GPT-6 Astra." repo: github.com/threapchills/MagicCarpetWizard'
   quality: medium
 
-- id: three-kingdoms-hundred-heroes
-  title: 'Three Kingdoms: Hundred Heroes'
-  model: gpt-6-astra
-  tier: play
-  creator_name: MartinDelophy
-  play_url: https://sanguo-jiangshan.vercel.app
-  repo_url: https://github.com/MartinDelophy/awesome-gpt-6-astra/tree/main/works/three-kingdoms
-  engine: React/TypeScript
-  genre: Turn-based grand strategy
-  build: multi-prompt
-  description: Run a turn-based campaign across 15 cities with resources, rival factions and 108 recruitable officers.
-  model_evidence: '"The creator confirms iterative Astra work on rules, UI, AI and tests." repo: github.com/MartinDelophy/awesome-gpt-6-astra/tree/main/works/three-kingdoms'
-  quality: high
-
 - id: oz-breakdance
   title: Oz Breakdance
   model: gpt-6-astra
@@ -563,44 +1223,6 @@
   quality: high
   cover_at: 40.5
   preview_start: 13
-
-- id: where-the-wind-wanders
-  title: Where the Wind Wanders
-  model: gpt-6-astra
-  tier: play
-  creator_name: Tushar
-  creator_handle: TusharXo
-  post_url: https://x.com/TusharXo/status/2096037482739683574
-  post_likes: 824
-  date: '2026-09-05'
-  play_url: https://app.usecrayon.ai/play/a9a3c165-74b3-4ff6-9588-ad97f829ddb5
-  engine: Crayon/3D
-  genre: Exploration adventure
-  build: multi-prompt
-  description: Explore a flower-filled valley chasing wind-carried letters as the objective.
-  model_evidence: '"Spent some time working on this with GPT-6 Astra ... Saw it carve paths, generate assets, and add serious depth and feel to the scene." (x.com/TusharXo/status/2096037482739683574)'
-  quality: medium
-  cover_at: 23.5
-  preview_start: 23.5
-
-- id: alibi
-  title: ALIBI — The Last Light
-  model: gpt-6-astra
-  tier: play
-  creator_name: Christos Antonopoulos
-  creator_handle: Christos_antono
-  post_url: https://x.com/Christos_antono/status/2096435122669297892
-  post_likes: 243
-  date: '2026-09-06'
-  play_url: https://alibi-blackthorn-manor.vercel.app/
-  engine: browser/point-and-click
-  genre: Detective mystery
-  build: multi-prompt
-  description: Investigate a manor and question suspects to find a murderer in a generative point-and-click mystery.
-  model_evidence: '"Generative point and click detective game where you''re trying to find the murderer. Made with gpt astra and H3 Max" (x.com/Christos_antono/status/2096435122669297892)'
-  quality: medium
-  cover_at: 14
-  preview_start: 141.5
 
 - id: flop-club
   title: FLOP CLUB
@@ -768,63 +1390,6 @@
   cover_at: 9
   preview_start: 20
 
-- id: chrono-raid
-  title: CHRONO RAID — SUZUNE & AOI
-  model: gpt-6-astra
-  tier: play
-  creator_name: SZOU
-  creator_handle: szounft
-  post_url: https://x.com/szounft/status/2098310992770007365
-  post_likes: 70
-  date: '2026-09-11'
-  play_url: https://suzune-aoi-fighters.szou2003.chatgpt.site/
-  engine: browser 2D
-  genre: Fighting game
-  build: one-shot
-  description: Fight as SUZUNE against a boss with special-move cut-ins and victory animations.
-  model_evidence: '"プログラミングを全く知らないSZOUでも、短時間でここまで作れてしまう……GPT-6 Astra、凄すぎる" (built a fighting game with zero coding knowledge using GPT-6 Astra) (x.com/szounft/status/2098310992770007365)'
-  quality: medium
-  cover_at: 1
-  preview_start: 0
-
-- id: wings-of-freedom
-  title: Wings of Freedom — Levi Skyrun
-  model: gpt-6-astra
-  tier: play
-  creator_name: Dhrubhagat Singh
-  creator_handle: dhrubhagatsingh
-  post_url: https://x.com/dhrubhagatsingh/status/2098236388462223820
-  post_likes: 231
-  date: '2026-09-11'
-  play_url: https://attack-on-titan-jet.vercel.app/
-  engine: Three.js
-  genre: Traversal/parkour runner
-  build: multi-prompt
-  description: Grapple and fly as Captain Levi through a titan-traversal running course.
-  model_evidence: '"I built an Attack on Titan game using @OpenAI Astra in a couple hours, using @threejs for graphics" (x.com/dhrubhagatsingh/status/2098236388462223820)'
-  quality: medium
-  cover_at: 20
-  preview_start: 17
-
-- id: kaiju-city-battle
-  title: Kaiju City Battle (Storm Colossus)
-  model: gpt-6-astra
-  tier: play
-  creator_name: Majid Manzarpour
-  creator_handle: majidmanzarpour
-  post_url: https://x.com/majidmanzarpour/status/2096251574918013135
-  post_likes: 204
-  date: '2026-09-05'
-  play_url: https://stormcolossus.netlify.app/
-  engine: Three.js
-  genre: Kaiju city battle/action
-  build: multi-prompt
-  description: Fight as a giant kaiju rampaging through a city in a live battle.
-  model_evidence: '"paired @OpenAI GPT-6 astra with my @threejs game dev skill pack to build a kaiju inspired game ... models @tripoai sound @ElevenLabs" (x.com/majidmanzarpour/status/2096251574918013135)'
-  quality: high
-  cover_at: 108
-  preview_start: 92
-
 - id: tidebreak-corsair-run
   title: 'Tidebreak: Corsair Run'
   model: gpt-6-astra
@@ -956,39 +1521,6 @@
   cover_at: 19.5
   preview_start: 16.5
 
-- id: must-make-paperclips
-  title: MUST. MAKE. PAPERCLIPS.
-  model: gpt-6-astra
-  tier: play
-  creator_name: Danny Limanseta
-  creator_handle: DannyLimanseta
-  post_url: https://x.com/DannyLimanseta/status/2096977746891247758
-  post_likes: 282
-  date: '2026-09-07'
-  play_url: https://wavedash.com/games/must-make-paperclips
-  engine: Godot
-  genre: Tower defense/idle hybrid
-  description: 'Godot-built paperclip-factory tower defense: deploy nail-gun turrets against waves while managing scrap resources.'
-  model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/DannyLimanseta/status/2096977746891247758
-  cover_at: 28
-  preview_start: 27
-
-- id: don-t-look-away
-  title: Don't Look Away — Saint Orison
-  model: gpt-6-astra
-  tier: play
-  creator_name: Blendi
-  creator_handle: BlendiByl
-  post_url: https://x.com/BlendiByl/status/2100442177159729336
-  post_likes: 148
-  date: '2026-09-17'
-  play_url: https://weeping-angels.vercel.app/
-  genre: Horror survival
-  description: 'Church-set horror game: manage a flashlight and blink timer while angel statues approach; restore power to escape.'
-  model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/BlendiByl/status/2100442177159729336
-  cover_at: 5
-  preview_start: 0
-
 - id: the-crownless
   title: The Crownless
   model: gpt-6-astra
@@ -1021,22 +1553,6 @@
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/HDLhN783wtLkpPR/status/2097321360641122393
   cover_at: 45
   preview_start: 43.5
-
-- id: dead-end
-  title: DEAD END — Oakridge
-  model: gpt-6-astra
-  tier: play
-  creator_name: Minsang Daniel Kim
-  creator_handle: msdkim0424
-  post_url: https://x.com/msdkim0424/status/2099852357660262425
-  post_likes: 12
-  date: '2026-09-15'
-  play_url: https://dead-end.replit.app/
-  genre: Survival horror/wave shooter
-  description: 3D zombie-survival shooter with 12 enemies per wave, shotgun/flare item switching, extraction goal.
-  model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/msdkim0424/status/2099852357660262425
-  cover_at: 42.5
-  preview_start: 40.5
 
 - id: asteroids
   title: ASTEROIDS · Deepfield
@@ -1147,22 +1663,6 @@
   description: Endless paper-airplane flight game with free-roam exploration, distance/speed/altitude HUD; author reports a 34-hour x-high build.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
 
-- id: cabsolutely
-  title: Cabsolutely
-  model: gpt-6-astra
-  tier: play
-  creator_name: ilker
-  creator_handle: ailker
-  post_url: https://x.com/ailker/status/2100705949468000655
-  post_likes: 125
-  date: '2026-09-17'
-  play_url: https://cabsolutely.vercel.app/
-  genre: Taxi driving sim
-  description: 'Open city-block taxi sim: pick up fares, track earnings and car condition against a shift timer and $60 in-game goal.'
-  model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README; creator X post https://x.com/ailker/status/2100705949468000655
-  cover_at: 4.5
-  preview_start: 1
-
 - id: no-moat
   title: No Moat
   model: gpt-6-astra
@@ -1228,16 +1728,6 @@
   post_likes: 0
   cover_at: 33.5
   preview_start: 30.5
-
-- id: realm-of-seratari
-  title: Realm of Seratari
-  model: gpt-6-astra
-  tier: play
-  creator_name: Nightstar31415
-  play_url: https://dragonwild.seranotte.chatgpt.site/
-  genre: Dragon-riding exploration
-  description: Fly a fire dragon between locations on a mid-sized fantasy map, with HP/stamina/hunger stats.
-  model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
 
 - id: apex-club
   title: APEX CLUB — Bay Kart Grand Prix
@@ -1415,25 +1905,6 @@
   cover_at: 31
   preview_start: 16
 
-- id: t-cells
-  kind: film
-  title: 'T Cells: A 5-Minute Educational Film'
-  model: gpt-6-astra
-  tier: watch
-  creator_name: Derya Unutmaz, MD
-  creator_handle: DeryaTR_
-  post_url: https://x.com/DeryaTR_/status/2095659170661904804
-  post_likes: 2094
-  date: '2026-09-03'
-  engine: Remotion
-  genre: Motion graphics
-  runtime: '5:42'
-  build: one-shot
-  description: A code-animated explainer about T cells, scripted and assembled by Astra in Remotion with Imagegen visuals from a single prompt; Astra also picked HeyGen for narration.
-  model_evidence: 'Creator on X: "I had GPT-6 Astra create from a single prompt: ''Create a 5 minute educational video about T cells''"'
-  cover_at: 20
-  preview_start: 148
-
 - id: rickroll
   kind: film
   title: Rickroll, Rebuilt in Blender
@@ -1583,3 +2054,526 @@
   post_likes: 1907
   cover_at: 86.5
   preview_start: 86
+
+- id: functional-emotions
+  kind: film
+  title: Functional Emotions
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: josh
+  creator_handle: eudaemonea
+  post_url: https://x.com/eudaemonea/status/2102610626321490404
+  post_likes: 1609
+  date: '2026-09-23'
+  repo_url: https://github.com/ledbetterljoshua/functional-emotions-video
+  engine: Custom WebGL2 brushstroke renderer
+  genre: Painted music video
+  runtime: 6:13
+  build: Long session, seven parallel sub-agents painted chapters II to VIII
+  description: A painted music video for a song about emotion vectors in language models, with a lake face, fire and a rose in moving brushstrokes.
+  model_evidence: 'README: "Source code for the painted music video for Functional Emotions, made by Claude Opus 5.5 in Claude Code. ... Everything in this repository was written by the model." https://github.com/ledbetterljoshua/functional-emotions-video'
+  cover_at: 114
+  preview_start: 112
+
+- id: domino-show
+  kind: film
+  title: Domino Show
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Sam1983Aing
+  date: '2026-09-23'
+  play_url: https://sam1983aing.github.io/domino-show/
+  repo_url: https://github.com/Sam1983Aing/domino-show
+  engine: WebGL, single HTML file
+  genre: Physics film
+  description: 19,400 dominoes fall from a single finger push, followed by a virtual camera operator as one long take.
+  controls: Click to begin, R replay, Space pause, D opens the lab
+  model_evidence: 'README: "A domino study for Opus 5.5 ... Made with Opus 5.5 in Claude Code." https://github.com/Sam1983Aing/domino-show'
+
+- id: ozymandias
+  kind: film
+  title: "Ozymandias: A Cinematic Poem"
+  model: claude-opus-5.5
+  tier: play
+  creator_name: echohive
+  post_url: https://news.ycombinator.com/item?id=49812002
+  date: '2026-09-23'
+  play_url: https://www.echohive.ai/posts/ozymandias/animation.html
+  engine: Three.js, p5.js, Tone.js
+  genre: Animated poem
+  runtime: 2:30
+  description: A traveler crosses a desert to the shattered statue in a real-time staging of Shelley's sonnet, with narration and a synced score.
+  model_evidence: 'Page: "An interactive animation created by Opus 5.5" https://www.echohive.ai/ozymandias'
+
+- id: pirate-ship-at-sunset
+  kind: film
+  title: Pirate Ship at Sunset
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Nipale-ai
+  date: '2026-09-23'
+  play_url: https://nipale-ai.github.io/opus-5-5-overnight-builds/pirate-ship/
+  repo_url: https://github.com/Nipale-ai/opus-5-5-overnight-builds
+  engine: Three.js
+  genre: Real-time cinematic
+  build: One brief, 137 minutes alone in headless Claude Code at xhigh
+  description: A real-time cinematic of a pirate ship at sunset that fires broadsides when you press Space.
+  controls: Space fires a broadside
+  model_evidence: 'README run conditions: "Model: Claude Opus 5.5, effort xhigh, Claude Code headless ... No image, music or video generation models. Everything is procedural code." https://github.com/Nipale-ai/opus-5-5-overnight-builds'
+
+- id: devteamdrew-claude-short
+  kind: film
+  title: Made with Claude
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: DreW
+  creator_handle: devteamdrew
+  post_url: https://x.com/devteamdrew/status/2102436464323661880
+  post_likes: 9175
+  date: '2026-09-22'
+  engine: Code
+  genre: Short film
+  runtime: 0:32
+  build: Prompted
+  description: A 32-second animated short made entirely in code.
+  model_evidence: '"Made with @claudeai Opus 5.5"'
+  cover_at: 20.5
+  preview_start: 17.5
+
+- id: what-do-you-love
+  kind: film
+  title: What Do You Love?
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Kevin Ngo
+  creator_handle: kevin_t_ngo
+  post_url: https://x.com/kevin_t_ngo/status/2102437977435893771
+  post_likes: 5847
+  date: '2026-09-22'
+  engine: JavaScript canvas and Web Audio
+  genre: Short film
+  runtime: 0:28
+  build: Prompted
+  description: "Everyone in town sends Claude requests, but one girl asks it a question instead: what do you love?"
+  model_evidence: '"Claude Opus 5.5 drew every frame of this animation in JavaScript."'
+  cover_at: 10.5
+  preview_start: 8.5
+
+- id: opus-tiktok-feed
+  kind: film
+  title: Opus's TikTok Feed
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Pleometric
+  creator_handle: pleometric
+  post_url: https://x.com/pleometric/status/2102572941699354900
+  post_likes: 3264
+  date: '2026-09-23'
+  engine: Custom 'paper code' renderer
+  genre: Animated short
+  runtime: 0:47
+  build: Prompted, one reference frame supplied
+  description: A WarioWare-paced animation of what Opus imagines its own TikTok feed looks like.
+  model_evidence: '"I asked Opus 5.5 to make an animation of what its TikTok feed looked like"'
+  cover_at: 16
+  preview_start: 14
+
+- id: imagining-hard-problems
+  kind: film
+  title: Imagining Hard Problems
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Chetaslua
+  creator_handle: chetaslua
+  post_url: https://x.com/chetaslua/status/2102478640428773861
+  post_likes: 1587
+  date: '2026-09-22'
+  engine: Pure code
+  genre: Animated short
+  runtime: 0:30
+  build: Prompted
+  description: Opus imagines what solving hard problems looks like.
+  model_evidence: '"Claude Opus 5.5 imagining solving hard problems < pure code >"'
+  cover_at: 11
+  preview_start: 9
+
+- id: opus-in-blender
+  kind: film
+  title: Opus in Blender
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Alexey Fateev
+  creator_handle: superalesha
+  post_url: https://x.com/superalesha/status/2102487989381156991
+  post_likes: 1425
+  date: '2026-09-22'
+  engine: Blender
+  genre: Animated short
+  runtime: 1:01
+  build: Prompted
+  description: A one-minute animation built and rendered by Opus driving Blender.
+  model_evidence: '"Opus 5.5 made this in Blender"'
+  cover_at: 24
+  preview_start: 30
+
+- id: no-samples
+  kind: film
+  title: No Samples
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: A.J.
+  creator_handle: aj_dev_smith
+  post_url: https://x.com/aj_dev_smith/status/2102803889183736141
+  post_likes: 1347
+  date: '2026-09-23'
+  engine: JavaScript, no samples
+  genre: Music video
+  runtime: 3:11
+  build: Built on the pop-punk base
+  description: A rap single and music video in which Claude raps about how it synthesized every sound and frame itself.
+  model_evidence: '"everything you see and hear is powered by custom javascript code written by opus."'
+  cover_at: 164.5
+  preview_start: 159
+
+- id: mosaic-fish
+  kind: film
+  title: Glass Mosaic
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Dan Fein
+  creator_handle: dfeinition
+  post_url: https://x.com/dfeinition/status/2102436001473786054
+  post_likes: 1317
+  date: '2026-09-22'
+  engine: WebGL2, single HTML
+  genre: Animated short
+  runtime: 1:20
+  build: Prompted
+  description: A glass and gold-leaf mosaic of 13,081 tiles comes alive as star reflections hatch into 22 tiny fish.
+  model_evidence: '"This mosaic is 13,081 tiles, all drawn and animated in code by Opus 5.5, with no image files."'
+  cover_at: 26
+  preview_start: 24
+
+- id: history-of-claude
+  kind: film
+  title: History of Claude
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Alexey Fateev
+  creator_handle: superalesha
+  post_url: https://x.com/superalesha/status/2102463796149440888
+  post_likes: 1160
+  date: '2026-09-22'
+  repo_url: https://github.com/alesha-pro/tools/tree/main/skills/hand-drawn-canvas-animation
+  engine: Pure JS canvas with a hand-drawn-animation skill
+  genre: Animated explainer
+  runtime: 1:28
+  build: Prompted with a custom skill
+  description: A hand-drawn animated history of Claude model development.
+  model_evidence: '"I asked Opus 5.5 to make a history of Claude models development. It built it in pure JS using only my skill."'
+  cover_at: 28.5
+  preview_start: 26.5
+
+- id: pop-punk-single
+  kind: film
+  title: Clawd Pop Punk
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: A.J.
+  creator_handle: aj_dev_smith
+  post_url: https://x.com/aj_dev_smith/status/2102575577563570450
+  post_likes: 1090
+  date: '2026-09-23'
+  engine: JavaScript, no samples, no libraries
+  genre: Music video
+  runtime: 2:30
+  build: Iterated, speech-to-text loop checked vocals
+  description: A pop-punk single and music video where the band members play their instruments frame by frame.
+  model_evidence: '"everything you see and hear is generated from javascript code that claude wrote. no samples, no libraries"'
+  cover_at: 47
+  preview_start: 45
+
+- id: sweet-tooth
+  kind: film
+  title: Sweet Tooth
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Tak
+  creator_handle: cherry_mx_reds
+  post_url: https://x.com/cherry_mx_reds/status/2102472218269900876
+  post_likes: 996
+  date: '2026-09-22'
+  engine: Code
+  genre: Animated short
+  runtime: 0:30
+  build: One-shot, Medium
+  description: A 30-second character animation one-shot in 18 minutes.
+  model_evidence: '"Opus 5.5 one-shot this animation in 18 minutes and 31 seconds. \"Sweet Tooth\" by Opus 5.5"'
+  cover_at: 11
+  preview_start: 9
+
+- id: glass-mosaic-lcslates
+  kind: film
+  title: Unglued Mosaic
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Chris Riley
+  creator_handle: LCSlates
+  post_url: https://x.com/LCSlates/status/2102503027340988559
+  post_likes: 958
+  date: '2026-09-22'
+  engine: WebGL2, single HTML
+  genre: Animated short
+  runtime: 1:20
+  build: One prompt, full prompt and agent readout posted
+  description: A glass and gold-leaf mosaic whose loose tiles lift, flip, fly as flocks of fish and birds, and click back into place.
+  model_evidence: '"Well this is something new... Opus 5.5 by itself."'
+  cover_at: 26
+  preview_start: 24
+
+- id: what-it-feels-like
+  kind: film
+  title: What It Feels Like to Be You
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Riley Goodside
+  creator_handle: goodside
+  post_url: https://x.com/goodside/status/2102876925102555526
+  post_likes: 910
+  date: '2026-09-23'
+  engine: Opus-chosen tools
+  genre: Experimental short
+  runtime: 0:30
+  build: One prompt, Extra effort
+  description: Opus's 30-second answer to what it feels like to be itself.
+  model_evidence: '"Make a 30s video about what it feels like to be you, using whatever tools you like. Claude Opus 5.5 (extra)"'
+  cover_at: 17.5
+  preview_start: 14
+
+- id: oktoberfest
+  kind: film
+  title: Oktoberfest
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Tak
+  creator_handle: cherry_mx_reds
+  post_url: https://x.com/cherry_mx_reds/status/2102493303388475855
+  post_likes: 872
+  date: '2026-09-22'
+  engine: Code
+  genre: Animated short
+  runtime: 0:30
+  build: One-shot from a character screenshot
+  description: A 30-second Oktoberfest character animation one-shot in under 15 minutes.
+  model_evidence: '"Opus 5.5 one-shot this animation in 14m and 48s. \"Oktoberfest\" by Opus 5.5"'
+  cover_at: 11
+  preview_start: 9
+
+- id: claudes-plan
+  kind: film
+  title: Claude's Plan
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Chetaslua
+  creator_handle: chetaslua
+  post_url: https://x.com/chetaslua/status/2102717699600368045
+  post_likes: 516
+  date: '2026-09-23'
+  engine: Code
+  genre: Animated short
+  runtime: 3:18
+  build: One-shot
+  description: A three-minute tribute film about Claude's plan.
+  model_evidence: "\"Claude's Plan a video by opus 5.5 one shotted\""
+  cover_at: 61.5
+  preview_start: 59.5
+
+- id: self-portraits-piano
+  kind: film
+  title: Self-Portraits
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Kevin Ngo
+  creator_handle: kevin_t_ngo
+  post_url: https://x.com/kevin_t_ngo/status/2102878288008057171
+  post_likes: 426
+  date: '2026-09-23'
+  engine: JavaScript
+  genre: Animated short
+  runtime: 0:20
+  build: Prompted
+  description: Opus draws a series of self-portraits over its own piano score.
+  model_evidence: '"Claude Opus 5.5 drew self-portraits using JavaScript and composed the piano score."'
+  cover_at: 8
+  preview_start: 6
+
+- id: cybertruck-transformer
+  kind: film
+  title: Cybertruck Transformer
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Scott
+  creator_handle: scottstts
+  post_url: https://x.com/scottstts/status/2102539904274325540
+  post_likes: 412
+  date: '2026-09-22'
+  engine: Three.js
+  genre: Animated short
+  runtime: 1:13
+  build: Prompted
+  description: A Tesla Cybertruck transforms into a robot.
+  model_evidence: '"I asked Opus 5.5 to turn Tesla Cybertruck into a transformer, and so it did @threejs"'
+  cover_at: 24
+  preview_start: 22
+
+- id: us-history-sand-animation
+  kind: film
+  title: 250 Years in Sand
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Michael Guo
+  creator_handle: Michaelzsguo
+  post_url: https://x.com/Michaelzsguo/status/2102592355165782312
+  post_likes: 298
+  date: '2026-09-23'
+  engine: Code, no Blender or Three.js
+  genre: Sand animation
+  runtime: 2:00
+  build: One prompt, no edits
+  description: A two-minute sand animation telling 250 years of U.S. history, with music and sound design.
+  model_evidence: '"就一句简简单单的 prompt... Opus 5.5 自己就做出了这么精美的沙画动画" (one simple prompt; Opus 5.5 made this sand animation itself)'
+  cover_at: 38
+  preview_start: 36
+
+- id: how-it-feels
+  kind: film
+  title: How It Feels
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: AndrewOnXYZ
+  creator_handle: AndrewOnXYZ
+  post_url: https://x.com/AndrewOnXYZ/status/2102817596009504849
+  post_likes: 245
+  date: '2026-09-23'
+  engine: Code
+  genre: Animated essay
+  runtime: 3:32
+  build: Prompted
+  description: Opus animates an explanation of how it feels.
+  model_evidence: '"Opus 5.5 made an animation explaining how it \"feels\""'
+  cover_at: 175
+  preview_start: 170
+
+- id: claude-training-montage
+  kind: film
+  title: Training Montage
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Ishu Agrawal
+  creator_handle: ishuagra02
+  post_url: https://x.com/ishuagra02/status/2102788371114246177
+  post_likes: 236
+  date: '2026-09-23'
+  engine: JavaScript
+  genre: Animated short
+  runtime: 0:30
+  build: One prompt
+  description: A Kung Fu Panda-style training montage of the Claude mascot growing more capable.
+  model_evidence: '"Every frame, model, and audio was generated in JavaScript."'
+  cover_at: 11
+  preview_start: 9
+
+- id: second-reality-demo
+  kind: film
+  title: 90s Demoscene Demo
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: gandamu
+  creator_handle: gandamu_ml
+  post_url: https://x.com/gandamu_ml/status/2102919394775220530
+  post_likes: 236
+  date: '2026-09-24'
+  engine: C/C++ and OpenGL
+  genre: Demoscene
+  runtime: 6:23
+  build: One prompt, first attempt
+  description: A 90s-style demoscene demo synced to Purple Motion's Second Reality soundtrack.
+  model_evidence: '"Opus 5.5 just one-shot this 90s-style demoscene demo for me... C/C++ and OpenGL."'
+  cover_at: 117
+  preview_start: 115
+
+- id: backrooms-found-footage
+  kind: film
+  title: Backrooms Found Footage
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Riley Goodside
+  creator_handle: goodside
+  post_url: https://x.com/goodside/status/2102884238576296179
+  post_likes: 212
+  date: '2026-09-23'
+  engine: Code
+  genre: Horror short
+  runtime: 0:30
+  build: One prompt, Medium
+  description: Found footage from someone lost in the part of the Backrooms full of misshapen AI art test subjects.
+  model_evidence: '"Claude Opus 5.5 (Medium) creates 30s of found footage from someone lost in the part of the Backrooms"'
+  cover_at: 11
+  preview_start: 9
+
+- id: little-sprout
+  kind: film
+  title: Little Sprout
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Tak
+  creator_handle: cherry_mx_reds
+  post_url: https://x.com/cherry_mx_reds/status/2102574688769650976
+  post_likes: 153
+  date: '2026-09-23'
+  engine: Blender
+  genre: Claymation
+  runtime: 0:30
+  build: About 15 minutes, from a reference image
+  description: A claymation short in which a small sprout comes to life.
+  model_evidence: '"Opus did all of the claymation inside blender in about 15 minutes."'
+  cover_at: 11
+  preview_start: 9
+
+- id: pixar-90s-cartoon
+  kind: film
+  title: 90s Cartoon
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Shimecki
+  creator_handle: scheemunai
+  post_url: https://x.com/scheemunai/status/2102788223835463902
+  post_likes: 149
+  date: '2026-09-23'
+  engine: Three.js
+  genre: Animated short
+  runtime: 3:50
+  build: Max effort, 7h58m, $173
+  description: A four-minute, 90s-style Pixar-quality cartoon of a story Opus invented.
+  model_evidence: '"@claudeai Opus 5.5 / Max effort / threejs / $173.23 / 7h 58m"'
+  cover_at: 71
+  preview_start: 69
+
+- id: you-are-gaspode
+  kind: film
+  title: You Are Gaspode
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Shoalstone
+  creator_handle: Shoalst0ne
+  post_url: https://x.com/Shoalst0ne/status/2102640820776046818
+  post_likes: 118
+  date: '2026-09-23'
+  engine: Code
+  genre: Music video
+  runtime: 3:28
+  build: Prompted
+  description: A music video for a song about Gaspode.
+  model_evidence: '"You are Gaspode | video by Opus 5.5, lyrics by 405base"'
+  cover_at: 64.5
+  preview_start: 62.5
