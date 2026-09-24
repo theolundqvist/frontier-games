@@ -3,6 +3,7 @@ import { parse } from "yaml";
 
 const games = parse(readFileSync("data/games.yaml", "utf8"));
 const ratings = parse(readFileSync("data/ratings.yaml", "utf8"));
+const videos = parse(readFileSync("data/videos.yaml", "utf8"));
 const MODELS = { "claude-opus-5.5": "Claude Opus 5.5", "gpt-6-astra": "GPT-6 Astra" };
 const SECTIONS = [
   { key: "play", title: "Play in your browser", blurb: "One click, no install, no sign-in.", test: (g) => g.kind !== "film" && g.tier === "play" },
@@ -66,7 +67,7 @@ writeFileSync("README.md", readme);
 const site = games.map((g) => ({
   ...g,
   model_name: MODELS[g.model],
-  video: existsSync(`media/${g.id}/creator.mp4`) ? `media/${g.id}/creator.mp4` : null,
+  video: videos[g.id] ?? (existsSync(`media/${g.id}/creator.mp4`) ? `media/${g.id}/creator.mp4` : null),
   loop: existsSync(`media/${g.id}/loop.mp4`) ? `media/${g.id}/loop.mp4` : null,
   preview_start: undefined,
   rating: ratings[g.id],

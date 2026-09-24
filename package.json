@@ -3,6 +3,7 @@
   "scripts": {
     "media": "node scripts/media.mjs",
     "screenshot": "node scripts/screenshot.mjs",
+    "videos": "node scripts/videos.mjs",
     "build": "node scripts/build.mjs"
   },
   "devDependencies": {

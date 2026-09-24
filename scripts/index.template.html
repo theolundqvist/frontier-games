@@ -115,7 +115,7 @@ dialog::backdrop { background: rgb(22 14 9 / .78); }
 .close { position: absolute; top: 12px; right: 12px; width: 36px; height: 36px; display: grid; place-items: center; border: 1.5px solid var(--ink); border-radius: 4px; background: var(--cream); cursor: pointer; }
 .close svg { width: 14px; height: 14px; stroke: var(--ink); stroke-width: 2; }
 .screen { background: var(--ink); border-bottom: 2px solid var(--ink); }
-.screen video, .screen img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: contain; background: #000; }
+.screen iframe, .screen img { display: block; border: 0; width: 100%; aspect-ratio: 16 / 9; object-fit: contain; background: #000; }
 .sheet { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 40px; padding: 32px 40px 40px; }
 .who { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 14px; color: var(--ink-soft); }
 .who .tag { position: static; border: 1.5px solid var(--ink); border-radius: 3px; }
@@ -456,13 +456,15 @@ function ratingBlock(g) {
     <p class="rated">${esc(r.summary)}<small>Rated by Claude Opus 5.5${r.confidence === "low" ? " · low confidence, little footage" : ""}</small></p>`;
 }
 
+// X refuses video requests that carry our referrer, while Google sign-in needs it, so only the player drops it.
+const player = (g) => `<meta name="referrer" content="no-referrer"><style>html,body{margin:0;height:100%;background:#000}video{width:100%;height:100%;object-fit:contain}</style><video src="${esc(g.video)}" controls autoplay playsinline poster="media/${esc(g.id)}/cover.jpg"></video>`;
 function openDetail(id, discuss) {
   const g = GAMES.find((x) => x.id === id);
   const d = document.getElementById("detail");
   const creator = g.creator_handle ? `<a href="https://x.com/${esc(g.creator_handle)}" target="_blank" rel="noopener">@${esc(g.creator_handle)}</a>` : `<b>${esc(g.creator_name)}</b>`;
   const noBuild = g.kind !== "film" && !g.play_url && !g.watch_url && !g.download_url ? `<span class="btn" aria-disabled="true" title="No public build yet">Play</span>` : "";
   d.innerHTML = `<div class="close-row"><button class="close" aria-label="Close">${ICON.close}</button></div>
-    <div class="screen">${g.video ? `<video src="${esc(g.video)}" controls autoplay playsinline poster="media/${esc(g.id)}/cover.jpg"></video>` : `<img src="media/${esc(g.id)}/cover.jpg" alt="">`}</div>
+    <div class="screen">${g.video ? `<iframe title="${esc(g.title)} video" allow="autoplay; fullscreen" allowfullscreen srcdoc="${esc(player(g))}"></iframe>` : `<img src="media/${esc(g.id)}/cover.jpg" alt="">`}</div>
     <div class="sheet ${modelClass(g.model)}">
       <div>
         <div class="who"><span class="tag">${esc(g.model_name)}</span><span>by ${creator}</span>${g.genre ? `<span>${esc(g.genre)}</span>` : ""}${g.post_likes ? `<span>♥ ${compact(g.post_likes)} on X</span>` : ""}</div>

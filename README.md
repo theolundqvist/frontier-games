@@ -1037,6 +1037,7 @@ Open a pull request that adds one entry (films take `kind: film`) to [`data/game
 ```sh
 npm install
 npm run media -- <id>       # fetches the creator's video from X and builds the preview
+npm run videos -- <id>      # records the full-length X video the gallery plays
 npm run screenshot -- <id>  # only for entries without a video: screenshots the live page
 npm run build             # regenerates README.md and index.html
 ```
