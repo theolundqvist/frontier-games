@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync } from "node:fs";
 import { parse } from "yaml";
 
 const games = parse(readFileSync("data/games.yaml", "utf8"));
@@ -74,5 +74,22 @@ const site = games.map((g) => ({
   cover_at: undefined,
 }));
 writeFileSync("games.json", JSON.stringify(games.map((g) => g.id)));
+
+// Link previews on X, iMessage and Slack read static meta tags, so each game gets a page that carries them and forwards to its dialog.
+const SITE = "https://theolundqvist.github.io/frontier-games/";
+const attr = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+rmSync("g", { recursive: true, force: true });
+for (const g of site) {
+  mkdirSync(`g/${g.id}`, { recursive: true });
+  const title = attr(`${g.title}, made by ${g.model_name}`);
+  writeFileSync(`g/${g.id}/index.html`, `<!doctype html><meta charset="utf-8"><title>${title}</title>
+<meta name="description" content="${attr(g.description)}">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Frontier Games">
+<meta property="og:title" content="${title}"><meta property="og:description" content="${attr(g.description)}">
+<meta property="og:url" content="${SITE}g/${g.id}/"><meta property="og:image" content="${SITE}media/${g.id}/cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta http-equiv="refresh" content="0; url=../../#${g.id}"><a href="../../#${g.id}">${attr(g.title)}</a>
+`);
+}
 writeFileSync("index.html", readFileSync("scripts/index.template.html", "utf8").replace("__GAMES__", JSON.stringify(site).replaceAll("</", "<\\/")));
 console.log("README.md, index.html and games.json", counts);

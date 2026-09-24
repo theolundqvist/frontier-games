@@ -470,7 +470,7 @@ function openDetail(id, discuss) {
         <div class="who"><span class="tag">${esc(g.model_name)}</span><span>by ${creator}</span>${g.genre ? `<span>${esc(g.genre)}</span>` : ""}${g.post_likes ? `<span>♥ ${compact(g.post_likes)} on X</span>` : ""}</div>
         <h2>${esc(g.title)}</h2>
         <p class="lead-desc">${esc(g.description)}</p>
-        <div class="acts">${voteButton(g, true)}${ext("Play", g.play_url, "btn primary")}${ext("Watch live", g.watch_url, "btn primary")}${ext("Download", g.download_url, "btn primary")}${noBuild}${ext("Source", g.repo_url)}${ext("Original post", g.post_url)}</div>
+        <div class="acts">${voteButton(g, true)}${ext("Play", g.play_url, "btn primary")}${ext("Watch live", g.watch_url, "btn primary")}${ext("Download", g.download_url, "btn primary")}${noBuild}${ext("Source", g.repo_url)}${ext("Original post", g.post_url)}<button class="btn" data-share="${esc(g.id)}">Share</button></div>
       </div>
       <aside class="spec"><h3>Build sheet</h3><dl class="specs">
         ${specRows(g, ["engine", "build", "runtime", "run", "controls", "model_evidence"])}
@@ -489,6 +489,18 @@ function openDetail(id, discuss) {
   history.replaceState(null, "", `#${id}`);
 }
 
+async function shareGame(button) {
+  const g = GAMES.find((x) => x.id === button.dataset.share);
+  const url = new URL(`g/${g.id}/`, location.href.split("#")[0]).href;
+  if (navigator.share) {
+    await navigator.share({ title: g.title, text: `${g.title}, made by ${g.model_name}`, url }).catch(() => {});
+    return;
+  }
+  await navigator.clipboard.writeText(url);
+  button.textContent = "Link copied";
+  setTimeout(() => { button.textContent = "Share"; }, 2000);
+}
+
 document.addEventListener("click", (e) => {
   const chip = e.target.closest(".chip");
   if (chip) { state[chip.dataset.group] = chip.dataset.key; renderFilters(); render(); return; }
@@ -496,6 +508,8 @@ document.addEventListener("click", (e) => {
   const vote = e.target.closest("[data-vote]");
   if (vote) { toggleVote(vote.dataset.vote); return; }
   if (e.target.closest("[data-signout]")) { signOut(); return; }
+  const share = e.target.closest("[data-share]");
+  if (share) { shareGame(share); return; }
   const open = e.target.closest("[data-open]");
   if (open) { e.preventDefault(); openDetail(open.dataset.open, open.hasAttribute("data-discuss")); }
 });
