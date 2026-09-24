@@ -32,6 +32,9 @@
   description: Hold a dockyard against waves of combat synthetics with a rifle, shotgun, marksman rifle, grenades and explosive barrels.
   controls: WASD move, mouse aim and fire
   model_evidence: 'game.json: "model": "Claude Opus 5.5"'
+  post_url: https://x.com/superalesha/status/2102689172955783211
+  post_likes: 219
+  creator_handle: superalesha
 
 - id: emberdeep
   title: EMBERDEEP
@@ -59,6 +62,9 @@
   description: Pedal a helmeted pelican along a coastal road through a full day and night cycle, catching fish, jumping and pulling wheelies.
   controls: W and S speed, A and D change lane, Space jump, T wheelie
   model_evidence: 'README: built with Claude Opus 5.5 in Claude Code, one-shot, zero human edits'
+  post_url: https://x.com/riba2534/status/2102470079254556793
+  post_likes: 589
+  creator_handle: riba2534
 
 - id: crossfire-transport-ship
   title: 'CrossFire: Transport Ship'
@@ -200,6 +206,9 @@
   description: Cast from the pier, beach or your own boat, fight 18 fish species on a line-tension meter, sell the catch and upgrade your gear on a tropical island.
   controls: WASD walk and swim, mouse to cast and reel, E to board the boat
   model_evidence: 'Repo description: "Coastal town built with Opus 5.5"; all 8 commits carry "Co-Authored-By: Claude Opus 5.5" (https://github.com/dgreenheck/tidewater)'
+  post_url: https://x.com/dangreenheck/status/2103004432786993341
+  post_likes: 411
+  creator_handle: dangreenheck
 
 - id: nova-lancer
   title: Nova Lancer
@@ -262,6 +271,8 @@
   model_evidence: 'itch.io page metadata: "AI: Made with Claude Opus 5.5" https://haruka-apps-games.itch.io/lastfall-3d-battle-royale-zombie-survival'
   cover_at: 1
   preview_start: 0
+  post_url: https://x.com/haruka_apps/status/2103047062090830090
+  post_likes: 6
 
 - id: game-center-nova
   title: Game Center NOVA
@@ -308,6 +319,9 @@
   build: Claude Code session
   description: Pilot a small sub around a 3D reef, feed fish, ping sonar to reveal new species and buy fish and parts to grow the aquarium.
   model_evidence: 'Repo name "FishSlop_Opus5.5"; commits carry "Co-Authored-By: Claude Opus 5.5 (1M context)" https://github.com/vasu-devs/FishSlop_Opus5.5'
+  post_url: https://x.com/Vasu_Devs/status/2102522055245865463
+  post_likes: 8
+  creator_handle: Vasu_Devs
 
 - id: terrabrowser
   title: Terrabrowser
@@ -364,6 +378,9 @@
   description: Cruise a convertible around a sunny coastal city with arcade drift, nitro flames, skid marks and several camera views.
   controls: Arrow keys or WASD drive, nitro, camera toggle
   model_evidence: 'README: "I vibe-coded this game almost effortlessly using Claude Code with Claude Opus 5.5 (medium effort)." https://github.com/vcahlik/palmera-bay'
+  post_url: https://x.com/vojtechcahlik/status/2102859401011011953
+  post_likes: 1
+  creator_handle: vojtechcahlik
 
 - id: rooftop-sniper-last-light
   title: "Rooftop Sniper: Last Light"
@@ -696,6 +713,9 @@
   description: Fly jets, a 747 and helicopters with stalls, crashes, guns and missiles against AI targets and burning convoys.
   run: npm install && npm start, then open http://127.0.0.1:8092
   model_evidence: 'Repo description: "Opus 5.5 Flight Sim Test Build"; all 93 commits carry "Co-Authored-By: Claude Opus 5.5 (1M context)" https://github.com/JaredTate/tatertotsflightsim'
+  post_url: https://x.com/jaredctate/status/2102771086542930011
+  post_likes: 47
+  creator_handle: jaredctate
 
 - id: realistic-minecraft-star-wars
   title: Realistic Minecraft + Star Wars
@@ -1403,6 +1423,9 @@
   description: Follow checkpoint gates through palm islands and a sea cave, collect weapon upgrades and fight enemy boats after a waterfall jump.
   model_evidence: 'game.json: "model": "GPT-6 Astra", summary: "GPT-6 Astra leads, with DeepSeek V4.1 Flash subagents." (alesha-pro/bench-portal games/boat-astra-deepseek/game.json)'
   quality: medium
+  post_url: https://x.com/superalesha/status/2100561050739343540
+  post_likes: 101
+  creator_handle: superalesha
 
 - id: breach
   title: BREACH — Blacksite
@@ -1417,6 +1440,9 @@
   controls: WASD move, mouse aim/fire, likely sprint/slide/reload keys
   model_evidence: 'game.json: "model": "GPT-6 Astra", tags include "Astra" (alesha-pro/bench-portal games/breach-blacksite-astra/game.json)'
   quality: high
+  post_url: https://x.com/superalesha/status/2096117875908235764
+  post_likes: 113
+  creator_handle: superalesha
 
 - id: gpt-6-astra-11-09-2026
   title: GPT-6 Astra 11.09.2026 (ZERO MERCY)
@@ -1432,6 +1458,9 @@
   controls: WASD move, mouse aim/fire, sprint-slide movement
   model_evidence: 'game.json: "model": "GPT-6 Astra", tags include "GPT-6 Astra" (alesha-pro/bench-portal games/gpt-6-astra-2026-09-11/game.json)'
   quality: high
+  post_url: https://x.com/superalesha/status/2098501502583320955
+  post_likes: 14
+  creator_handle: superalesha
 
 - id: lumen-rally
   title: Lumen Rally
@@ -1446,6 +1475,9 @@
   description: A browser kart racer built from a shared game brief, one of a four-way model comparison set.
   model_evidence: 'game.json: "model": "GPT-6 Astra", summary: "GPT-6 Astra leads, with DeepSeek V4.1 Flash subagents." (alesha-pro/bench-portal games/kart-astra-deepseek/game.json)'
   quality: medium
+  post_url: https://x.com/superalesha/status/2099836448044175427
+  post_likes: 1155
+  creator_handle: superalesha
 
 - id: tidebloom-rally
   title: Tidebloom Rally
@@ -1460,6 +1492,9 @@
   description: A browser kart racer built by GPT-6 Astra solo (no subagents), from the same brief as three other comparison entries.
   model_evidence: 'game.json: "model": "GPT-6 Astra", summary: "Built by GPT-6 Astra alone, without subagents." (alesha-pro/bench-portal games/kart-astra-solo/game.json)'
   quality: medium
+  post_url: https://x.com/superalesha/status/2099836448044175427
+  post_likes: 1155
+  creator_handle: superalesha
 
 - id: voidrunner-orbital-combat-league
   title: 'VOIDRUNNER: Orbital Combat League'
@@ -1473,6 +1508,9 @@
   description: Race three Blender-authored hovercraft above a fractured ocean world, boosting, airbrake-drifting and fighting rivals with weapons and shields.
   model_evidence: 'game.json: "model": "GPT-6 Astra", tags include "ASTRA" (alesha-pro/bench-portal games/voidrunner-astra/game.json)'
   quality: high
+  post_url: https://x.com/superalesha/status/2095967568825582044
+  post_likes: 588
+  creator_handle: superalesha
 
 - id: ember-deep
   title: EMBER DEEP
@@ -1582,12 +1620,14 @@
   title: Stadium Elite — El Clásico
   model: gpt-6-astra
   tier: play
-  creator_name: Mindblown / @mind
-  creator_handle: mind
+  creator_name: Mindblown
+  creator_handle: mindblown_ai
   play_url: https://stadium-elite.mindblown.ai/
   genre: 3d football/soccer
   description: Play an 11-a-side Barcelona–Real Madrid football match, passing, shooting and switching players in a 3D stadium.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  post_url: https://x.com/mindblown_ai/status/2097777996480577803
+  post_likes: 1538
 
 - id: iron-bastion
   title: IRON BASTION / 钢铁防线
@@ -1629,6 +1669,8 @@
   genre: Single-player rts
   description: Command a single-player RTS army, build a base, capture sites and coordinate ground and air forces.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  post_url: https://x.com/mustafaakin/status/2097658461228069121
+  post_likes: 1291
 
 - id: land-if-you-can
   title: Land, If You Can
@@ -1750,6 +1792,8 @@
   genre: Boss-fight action
   description: 3D boss-battle arena against Medusa with a purify special move and cooldown-based combat.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  post_url: https://x.com/MinHoHwang1/status/2096984386566815920
+  post_likes: 1
 
 - id: drone-io
   title: DRONE.IO — Proving Grounds
@@ -1761,6 +1805,8 @@
   genre: Drone combat
   description: Drone combat arena against six AI opponents with radar scans and energy-managed abilities.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  post_url: https://x.com/OMASMohamad/status/2101830659358478516
+  post_likes: 1
 
 - id: dropzone-royale
   title: Dropzone Royale
@@ -1820,10 +1866,8 @@
   genre: Music video
   runtime: '2:37'
   build: long agentic session (two full generations in Claude Code)
-  description: 'A painted-theater stage show that goes off the rails: a doodled AI named Clawd grows from a monitor sketch into a planet-sized superintelligence, dragging its creator through every AI-doom
-    meme in the lyrics, opening and closing on the same painted curtain.'
-  model_evidence: 'GitHub repo title: "Source code for the Claude Opus 5.5 music video for I''m Upping My P(doom)"; README: "Everything in this repository was generated by the model, with no scene ideas
-    specified."'
+  description: 'A painted-theater stage show that goes off the rails: a doodled AI named Clawd grows from a monitor sketch into a planet-sized superintelligence, dragging its creator through every AI-doom meme in the lyrics, opening and closing on the same painted curtain.'
+  model_evidence: 'GitHub repo title: "Source code for the Claude Opus 5.5 music video for I''m Upping My P(doom)"; README: "Everything in this repository was generated by the model, with no scene ideas specified."'
   cover_at: 90
   preview_start: 87
 
@@ -1841,10 +1885,8 @@
   genre: Short film
   runtime: 0:29
   build: one-shot
-  description: Claude receives a pile of daily requests, circles the human moment hidden inside each one ("one hand. baby's asleep"), and drops the words into a jar; at night the words turn into stars that
-    join into a constellation. No image assets, all frames drawn in JS with model-synthesized Python music, polished second-by-second in post.
-  model_evidence: 'Creator on X: "opus 5.5 is kind of insane at animation. i didn''t write a single line of code. it wrote the story, drew every frame, and made the music... Rendered with hyperframes, all
-    in one index.html."'
+  description: Claude receives a pile of daily requests, circles the human moment hidden inside each one ("one hand. baby's asleep"), and drops the words into a jar; at night the words turn into stars that join into a constellation. No image assets, all frames drawn in JS with model-synthesized Python music, polished second-by-second in post.
+  model_evidence: 'Creator on X: "opus 5.5 is kind of insane at animation. i didn''t write a single line of code. it wrote the story, drew every frame, and made the music... Rendered with hyperframes, all in one index.html."'
   cover_at: 22.5
   preview_start: 8
 
@@ -1881,8 +1923,7 @@
   genre: Motion graphics
   build: multi-prompt
   description: A modeled Manhattan skyline built from topography and map data, with a sweeping cinematic flyover trailer -- warm lighting, dramatic camera angles -- produced end to end by Astra.
-  model_evidence: 'Creator on X: "I''ve asked to 3D model an accurate cityscape of Manhattan and then record a small flyover trailer with cinematic lighting and angles" (Astra); also listed in awesome-gpt-6-astra
-    Video Creation Showcase'
+  model_evidence: 'Creator on X: "I''ve asked to 3D model an accurate cityscape of Manhattan and then record a small flyover trailer with cinematic lighting and angles" (Astra); also listed in awesome-gpt-6-astra Video Creation Showcase'
   cover_at: 2
   preview_start: 0
 
@@ -1899,8 +1940,7 @@
   engine: HyperFrames
   genre: Motion graphics
   build: multi-prompt
-  description: A reference-led, HyperFrames-built launch film for GPT-6 Astra itself, generated from a six-line prompt plus a reference video; ElevenLabs supplied the voice and sound effects on top of Astra's
-    motion-graphics build.
+  description: A reference-led, HyperFrames-built launch film for GPT-6 Astra itself, generated from a six-line prompt plus a reference video; ElevenLabs supplied the voice and sound effects on top of Astra's motion-graphics build.
   model_evidence: 'Creator on X: "Launching GPT 6 Astra [ by GPT 6 Astra ] Just 6 line of prompt & reference video... Made with @HyperFrames_"'
   cover_at: 31
   preview_start: 16
@@ -1919,8 +1959,7 @@
   genre: Music video
   runtime: 0:58
   build: multi-prompt
-  description: A side-by-side comparison of the original Rick Astley 'Never Gonna Give You Up' video against a stylized 3D Rick Astley built and animated entirely by Astra in Blender, driving subagents
-    to verify the geometry and web search to source reference assets.
+  description: A side-by-side comparison of the original Rick Astley 'Never Gonna Give You Up' video against a stylized 3D Rick Astley built and animated entirely by Astra in Blender, driving subagents to verify the geometry and web search to source reference assets.
   model_evidence: Poster (OpenAI engineer) captioned "okay Astra time to rickroll"; awesome-gpt-6-astra README lists it under Blender & 3D Demos as "Recreation of Rickroll in Blender."
   cover_at: 21.5
   preview_start: 19.5
@@ -1938,8 +1977,7 @@
   engine: Blender
   genre: Short film
   build: multi-prompt
-  description: A liminal-space 'Backrooms' scene modeled and lit in Blender, with VHS-style post effects and sound design, all built and rendered by Astra directly in Blender from about five prompts over
-    30 minutes (plus 20 minutes to export).
+  description: A liminal-space 'Backrooms' scene modeled and lit in Blender, with VHS-style post effects and sound design, all built and rendered by Astra directly in Blender from about five prompts over 30 minutes (plus 20 minutes to export).
   model_evidence: 'Creator on X: "GPT 6 Astra is INSANE. It built the backrooms in blender and then added VHS effects etc... This isn''t AI generated video it''s all in blender."'
   cover_at: 1
   preview_start: 0
@@ -2031,8 +2069,7 @@
   genre: Animation
   build: one-shot
   description: A historically accurate reconstruction of San Francisco's Market Street in 1906, just before the great earthquake, built and animated as a full 3D world in Blender from a single prompt.
-  model_evidence: 'Creator on X: "I''ve been on a Blender kick with Opus 5.5. Its better 3D modeling and vision mean you can build an entire world from a single prompt. Historically accurate San Francisco
-    Market street in 1906, pre-earthquake"'
+  model_evidence: 'Creator on X: "I''ve been on a Blender kick with Opus 5.5. Its better 3D modeling and vision mean you can build an entire world from a single prompt. Historically accurate San Francisco Market street in 1906, pre-earthquake"'
   cover_at: 6
   preview_start: 2
 
@@ -2577,3 +2614,226 @@
   model_evidence: '"You are Gaspode | video by Opus 5.5, lyrics by 405base"'
   cover_at: 64.5
   preview_start: 62.5
+
+- id: eight-fronts
+  title: Eight Fronts
+  model: gpt-6-astra
+  tier: play
+  creator_name: BubuAi
+  creator_handle: BubuStd
+  date: '2026-09-16'
+  play_url: https://eight-fronts.vercel.app/
+  repo_url: https://github.com/mike007jd/eightfront-3d
+  engine: Three.js
+  genre: Run-and-gun
+  description: An eight-stage 3D tribute to 8-bit run-and-gun classics with side-scrolling fronts, into-the-screen base rooms, a waterfall climb and local two-player co-op.
+  controls: A/D move, Space jump, J fire, keyboard and mouse
+  model_evidence: 'Bubu Studio page: "Made with GPT-6-ASTRA" https://bubucn.com/en/ai-model-evals/eight-fronts'
+
+- id: drift-snow-memory
+  title: DRIFT × URSUS · Snow Memory
+  model: gpt-6-astra
+  tier: play
+  creator_name: BubuAi
+  creator_handle: BubuStd
+  date: '2026-09-12'
+  play_url: https://drift-ursus-fusion.vercel.app/
+  engine: Three.js
+  genre: Snow sandbox
+  build: GPT-6 Astra Pro
+  description: Walk a furry brown bear through deep snow that keeps every track, with guide-driven fur and powder kicking up around it.
+  controls: WASD walk, Shift run, Space jump, drag to orbit
+  model_evidence: 'Bubu Studio page: "Developed with GPT-6 ASTRA PRO ... Development: GPT-6 ASTRA PRO" https://bubucn.com/en/ai-model-evals/drift-ursus-fusion'
+
+- id: three-dragons
+  kind: film
+  title: Three Dragons
+  model: gpt-6-astra
+  tier: watch
+  creator_name: BubuAi
+  creator_handle: BubuStd
+  date: '2026-09-06'
+  watch_url: https://bubucn.com/ai-model-evals/three-dragons-ultra/game/animation.svg
+  engine: Pure SVG (SMIL)
+  genre: Animated comedy
+  runtime: 0:15
+  build: One file, no scripts
+  description: A looping 15-second comedy of three golden dragons with fire, bubbles and chain reactions, drawn and animated entirely in declarative SVG.
+  model_evidence: 'Bubu Studio page: "Three golden dragons in a 15-second animated comedy made with GPT-6-ASTRA" https://bubucn.com/en/ai-model-evals/three-dragons-ultra'
+
+- id: vibecode-voxelcraft
+  title: Voxelcraft
+  model: claude-opus-5.5
+  tier: play
+  creator_name: senko
+  post_url: https://senko.net/vibecode-bench/
+  date: '2026-09-22'
+  play_url: https://senko.net/vibecode-bench/2026/voxel-opus-5.5.html
+  engine: WebGL
+  genre: Voxel sandbox
+  build: One-shot in Claude Code, xhigh, 48 min
+  description: A one-shot Minecraft-like with mining, crafting tables, furnaces, TNT and creepers, saved worlds and adjustable render distance.
+  controls: WASD move, mouse look, left click mine, right click place, E inventory
+  model_evidence: 'Vibecode Bench lists this file as "Voxel · Opus 5.5 in Claude Code, xhigh effort · $14, 48min" https://senko.net/vibecode-bench/'
+
+- id: vibecode-dawn-patrol
+  title: Dawn Patrol
+  model: gpt-6-astra
+  tier: play
+  creator_name: senko
+  post_url: https://senko.net/vibecode-bench/
+  date: '2026-09-05'
+  play_url: https://senko.net/vibecode-bench/2026/flysim-gpt-6-astra.html
+  engine: WebGL
+  genre: WWI flight sim
+  build: One-shot in Codex, xhigh
+  description: Fly a Sopwith Camel over the Somme valley in 1917, hunting Albatros fighters with a full instrument strip and radar.
+  controls: W/S pitch, A/D roll, Shift/Ctrl throttle, Space fire
+  model_evidence: 'Vibecode Bench lists this file as "Flysim · GPT-6 Astra in Codex, xhigh effort" https://senko.net/vibecode-bench/'
+
+- id: vibecode-wilderland
+  title: Wilderland
+  model: gpt-6-astra
+  tier: play
+  creator_name: senko
+  post_url: https://senko.net/vibecode-bench/
+  date: '2026-09-05'
+  play_url: https://senko.net/vibecode-bench/2026/rts-gpt-6-astra.html
+  engine: WebGL
+  genre: RTS
+  build: One-shot in Codex, xhigh
+  description: A small isometric RTS with fog of war, workers, a town hall, barracks and sawmills, and a chaptered objective track.
+  controls: Click to select, right click to command, WASD pan
+  model_evidence: 'Vibecode Bench lists this file as "RTS · GPT-6 Astra in Codex, xhigh effort" https://senko.net/vibecode-bench/'
+
+- id: vibecode-wildblock
+  title: Wildblock
+  model: gpt-6-astra
+  tier: play
+  creator_name: senko
+  post_url: https://senko.net/vibecode-bench/
+  date: '2026-09-05'
+  play_url: https://senko.net/vibecode-bench/2026/voxel-gpt-6-astra.html
+  engine: WebGL
+  genre: Voxel sandbox
+  build: One-shot in Codex, xhigh
+  description: A one-shot block world with survival and creative modes, lakes, cliffs and roaming critters under soft daylight.
+  controls: WASD move, Space jump, mouse look, left/right click mine and place
+  model_evidence: 'Vibecode Bench lists this file as "Voxel · GPT-6 Astra in Codex, xhigh effort" https://senko.net/vibecode-bench/'
+
+- id: dash-dinner
+  title: DASH / DINNER
+  model: gpt-6-astra
+  tier: play
+  creator_name: Drakoniux
+  date: '2026-09-18'
+  play_url: https://agentgames.dev/play/dash-dinner
+  engine: Three.js
+  genre: Delivery sim
+  description: Deliver food across a 3D city in first person, from kick scooter to e-bike to a tuned Toyota Yaris, memorising door codes against the clock.
+  controls: WASD move or steer, mouse look, Shift boost, E interact, F park or mount
+  model_evidence: 'Agent Games page: "Creator Drakoniux · Model GPT-6 Astra (OpenAI)" https://agentgames.dev/play/dash-dinner'
+
+- id: veilfall
+  title: 'Veilfall: The Hollow War'
+  model: gpt-6-astra
+  tier: play
+  creator_name: Drakoniux
+  date: '2026-09-15'
+  play_url: https://agentgames.dev/play/veilfall
+  engine: Three.js
+  genre: Action MOBA
+  description: A single-player 5v5 MOBA with three lanes, minion waves, towers, jungle camps, a neutral boss and a lantern mage with five abilities.
+  controls: WASD move, mouse aim, Space attack, Z/X/C/V abilities, Shift dash, E shop
+  model_evidence: 'Agent Games page: "Model GPT-6 Astra (OpenAI)" https://agentgames.dev/play/veilfall'
+
+- id: operation-tidewater
+  title: Operation Tidewater
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Nipale-ai
+  date: '2026-09-23'
+  play_url: https://nipale-ai.github.io/opus-5-5-overnight-builds/tidewater/
+  repo_url: https://github.com/Nipale-ai/opus-5-5-overnight-builds
+  engine: Three.js
+  genre: Voxel diorama
+  build: Autonomous overnight run, 205 min
+  description: A living voxel coastline with snowy peaks, farms, an airfield and a naval task force, played out as a cinematic combined-arms tour you can take over.
+  controls: Drag to explore, scroll to zoom
+  model_evidence: 'README: "Claude Opus 5.5 then worked alone in Claude Code ... Model: Claude Opus 5.5, effort xhigh" https://github.com/Nipale-ai/opus-5-5-overnight-builds'
+
+- id: chrono-city
+  title: Chrono City
+  model: claude-opus-5.5
+  tier: play
+  creator_name: Nipale-ai
+  date: '2026-09-23'
+  play_url: https://nipale-ai.github.io/opus-5-5-overnight-builds/chrono-city/
+  repo_url: https://github.com/Nipale-ai/opus-5-5-overnight-builds
+  engine: Three.js
+  genre: Time-lapse city
+  build: Autonomous overnight run, 164 min
+  description: Scrub one Toronto block through five decades, from 1985 to a snowy blue-hour 2025, as buildings, streetcars and lights change around it.
+  controls: Drag to orbit, scroll the timeline or press 1-5 to jump decades
+  model_evidence: 'README: "Claude Opus 5.5 then worked alone in Claude Code ... Model: Claude Opus 5.5, effort xhigh" https://github.com/Nipale-ai/opus-5-5-overnight-builds'
+
+- id: splashline
+  title: Splashline
+  model: gpt-6-astra
+  tier: play
+  creator_name: KJLKurt
+  date: '2026-09-05'
+  play_url: https://kjlkurt.github.io/waterslide-game-astra/
+  repo_url: https://github.com/KJLKurt/waterslide-game-astra
+  engine: Three.js
+  genre: Waterslide racer
+  build: Zero-shot, extra high effort
+  description: Race twelve procedural swimmers down a 704 m tropical waterslide with banked bends, launch ramps and a jumpable shortcut.
+  controls: Left/right steer, Space jump
+  model_evidence: 'Repo description: "This version is using GPT 6 Astra with EXTRA HIGH effort." README: "Model: gpt-6-astra" https://github.com/KJLKurt/waterslide-game-astra'
+
+- id: sunny-kart-svg
+  title: Sunny Kart
+  model: claude-opus-5.5
+  tier: play
+  creator_name: OpenVGLab
+  date: '2026-09-24'
+  play_url: https://openvglab.github.io/awesome-opus5.5-frontend-showcases/svg/sunny-kart.svg
+  repo_url: https://github.com/OpenVGLab/awesome-opus5.5-frontend-showcases
+  engine: Single SVG file
+  genre: Kart racer
+  build: One self-contained SVG
+  description: A three-lap seaside kart race with drifting, items and rival animal racers, drawn and run entirely inside one SVG file.
+  controls: W/Up throttle, A/D steer, Shift drift, J/K items
+  model_evidence: 'README: "Case 2: 阳光卡丁车 SUNNY KART ... 来源：本仓库原创 · Claude Opus 5.5" https://github.com/OpenVGLab/awesome-opus5.5-frontend-showcases'
+
+- id: comic-starfighter-svg
+  title: Comic Starfighter
+  model: claude-opus-5.5
+  tier: play
+  creator_name: OpenVGLab
+  date: '2026-09-24'
+  play_url: https://openvglab.github.io/awesome-opus5.5-frontend-showcases/svg/comic-starfighter.svg
+  repo_url: https://github.com/OpenVGLab/awesome-opus5.5-frontend-showcases
+  engine: Single SVG file
+  genre: Vertical shmup
+  build: One self-contained SVG
+  description: A comic-book vertical shooter with pilot cut-ins, weapon levels, bombs and a charged super, laid out like a printed comic page.
+  controls: Arrows move, Z/Space fire, X bomb, C super, Shift focus
+  model_evidence: 'README: "Case 8: 漫画星舰 COMIC STARFIGHTER ... 来源：本仓库原创 · Claude Opus 5.5" https://github.com/OpenVGLab/awesome-opus5.5-frontend-showcases'
+
+- id: foldline
+  title: Foldline
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Chetan Ankola
+  creator_handle: chetanankola
+  post_url: https://x.com/chetanankola/status/2103001194696458512
+  post_likes: 650
+  date: '2026-09-24'
+  engine: Three.js
+  genre: Musical driving
+  description: A watercolour-and-ink road that folds up walls and across ceilings, then turns into sheet music you steer through to play each street's melody.
+  model_evidence: '"ok here it is - my first Opus 5.5 vibecoded threejs 3D experience ... I made a road that forgets which way is down."'
+  cover_at: 20
+  preview_start: 18

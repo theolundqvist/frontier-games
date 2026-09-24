@@ -4,14 +4,14 @@
 
 The best games and films made by **Claude Opus 5.5** and **GPT-6 Astra**, sorted by how fast you can try them.
 
-**114 games** (60 Opus 5.5, 54 Astra) and **41 films** · [Browse, upvote and discuss in the gallery →](https://theolundqvist.github.io/frontier-games/)
+**128 games** (66 Opus 5.5, 62 Astra) and **42 films** · [Browse, upvote and discuss in the gallery →](https://theolundqvist.github.io/frontier-games/)
 
 | | |
 |---|---|
-| ▶ [**Play in your browser**](#play-in-your-browser-84) | 84 games, one click, no install |
+| ▶ [**Play in your browser**](#play-in-your-browser-97) | 97 games, one click, no install |
 | ⬇ [**Download or build**](#download-or-build-3) | 3 games that need an install or a native engine |
-| 🎬 [**Watch only**](#watch-only-27) | 27 games with no public build, shown through the creator's footage |
-| 🎞 [**Films and animations**](#films-and-animations-41) | 41 music videos, short films and animations |
+| 🎬 [**Watch only**](#watch-only-28) | 28 games with no public build, shown through the creator's footage |
+| 🎞 [**Films and animations**](#films-and-animations-42) | 42 music videos, short films and animations |
 
 ## What gets in
 
@@ -19,11 +19,11 @@ The best games and films made by **Claude Opus 5.5** and **GPT-6 Astra**, sorted
 2. **It is impressive, and the model made the visuals.** Games need a real loop with polish: 3D worlds, physics, sound, AI opponents, progression. Every frame comes from code the model wrote or tools it drove, such as three.js, shaders or Blender. Art from image, video or 3D generators and third-party asset packs stay out; AI music is fine.
 3. **You can see it.** Every entry carries the creator's own footage or a screenshot of the live page.
 
-## Play in your browser (84)
+## Play in your browser (97)
 
 One click, no install, no sign-in.
 
-### Claude Opus 5.5 (37)
+### Claude Opus 5.5 (42)
 
 <table>
 <tr>
@@ -46,7 +46,19 @@ One click, no install, no sign-in.
 </td>
 <td width="50%" valign="top">
 
+<a href="https://claude-opus-5-5.riba2534.cn/"><img src="media/pelican-bike-ride/preview.webp" width="400" alt="Pelican Bike Ride"></a><br>**Pelican Bike Ride** by [@riba2534](https://x.com/riba2534)<br><sub>Coastal cycling · Three.js, single HTML file · One sentence prompt, zero human edits</sub><br>Pedal a helmeted pelican along a coastal road through a full day and night cycle, catching fish, jumping and pulling wheelies.<br><sub>🎮 W and S speed, A and D change lane, Space jump, T wheelie</sub><br>[**▶ Play**](https://claude-opus-5-5.riba2534.cn/) · [Source](https://github.com/riba2534/claude-opus-5-5-demo) · [Post · 589 ♥](https://x.com/riba2534/status/2102470079254556793)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 <a href="https://arkenfall.site"><img src="media/arkenfall/preview.webp" width="400" alt="Arkenfall"></a><br>**Arkenfall** by [@LexnLin](https://x.com/LexnLin)<br><sub>Open-world action · Browser, zero assets · Opus also cut the trailer and wrote the soundtrack</sub><br>An open-world fantasy action game with creatures, a map, a story intro and a boss fight, all generated in code.<br>[**▶ Play**](https://arkenfall.site) · [Post · 447 ♥](https://x.com/LexnLin/status/2102834362530079093)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://dgreenheck.github.io/tidewater/"><img src="media/tidewater/preview.webp" width="400" alt="Tidewater"></a><br>**Tidewater** by [@dangreenheck](https://x.com/dangreenheck)<br><sub>Island fishing · WebGPU / WGSL, custom renderer · Claude Code session, every commit co-authored by Opus 5.5</sub><br>Cast from the pier, beach or your own boat, fight 18 fish species on a line-tension meter, sell the catch and upgrade your gear on a tropical island.<br><sub>🎮 WASD walk and swim, mouse to cast and reel, E to board the boat</sub><br>[**▶ Play**](https://dgreenheck.github.io/tidewater/) · [Source](https://github.com/dgreenheck/tidewater) · [Post · 411 ♥](https://x.com/dangreenheck/status/2103004432786993341)
 
 </td>
 </tr>
@@ -77,19 +89,31 @@ One click, no install, no sign-in.
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://www.spawn.co/@izkimar/dalaran/play"><img src="media/dalaran-reimagined/preview.webp" width="400" alt="Dalaran Reimagined"></a><br>**Dalaran Reimagined** by [@Izkimar](https://x.com/Izkimar)<br><sub>Explorable world · Spawn · Prompted to go wild</sub><br>A walkable reimagining of World of Warcraft's floating mage city Dalaran, with sound.<br>[**▶ Play**](https://www.spawn.co/@izkimar/dalaran/play) · [Post · 46 ♥](https://x.com/Izkimar/status/2102965638293827698)
+<a href="https://alesha-pro.github.io/bench-portal/games/overrun-claude-opus-5.5/index.html"><img src="media/overrun-dockyard-nine/preview.webp" width="400" alt="OVERRUN: Dockyard Nine"></a><br>**OVERRUN: Dockyard Nine** by [@superalesha](https://x.com/superalesha)<br><sub>Horde FPS · Three.js · One-shot in Claude Code</sub><br>Hold a dockyard against waves of combat synthetics with a rifle, shotgun, marksman rifle, grenades and explosive barrels.<br><sub>🎮 WASD move, mouse aim and fire</sub><br>[**▶ Play**](https://alesha-pro.github.io/bench-portal/games/overrun-claude-opus-5.5/index.html) · [Source](https://github.com/alesha-pro/bench-portal) · [Post · 219 ♥](https://x.com/superalesha/status/2102689172955783211)
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://play-de-claude.vercel.app/"><img src="media/play-de-claude/preview.webp" width="400" alt="Play De Claude"></a><br>**Play De Claude** by [@illscience](https://x.com/illscience)<br><sub>Isometric exploration · Browser, Blender-made assets · One-shot</sub><br>Wander a Habbo-style isometric replica of a 1990s record store, dig through crates and preview real songs.<br><sub>🎮 Desktop</sub><br>[**▶ Play**](https://play-de-claude.vercel.app/) · [Post · 41 ♥](https://x.com/illscience/status/2102913284190220421)
+<a href="https://www.spawn.co/@izkimar/dalaran/play"><img src="media/dalaran-reimagined/preview.webp" width="400" alt="Dalaran Reimagined"></a><br>**Dalaran Reimagined** by [@Izkimar](https://x.com/Izkimar)<br><sub>Explorable world · Spawn · Prompted to go wild</sub><br>A walkable reimagining of World of Warcraft's floating mage city Dalaran, with sound.<br>[**▶ Play**](https://www.spawn.co/@izkimar/dalaran/play) · [Post · 46 ♥](https://x.com/Izkimar/status/2102965638293827698)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://play-de-claude.vercel.app/"><img src="media/play-de-claude/preview.webp" width="400" alt="Play De Claude"></a><br>**Play De Claude** by [@illscience](https://x.com/illscience)<br><sub>Isometric exploration · Browser, Blender-made assets · One-shot</sub><br>Wander a Habbo-style isometric replica of a 1990s record store, dig through crates and preview real songs.<br><sub>🎮 Desktop</sub><br>[**▶ Play**](https://play-de-claude.vercel.app/) · [Post · 41 ♥](https://x.com/illscience/status/2102913284190220421)
+
+</td>
+<td width="50%" valign="top">
+
 <a href="https://gordensun.github.io/last-firewall/"><img src="media/last-firewall/preview.webp" width="400" alt="Last Firewall"></a><br>**Last Firewall** by [@Gorden_Sun](https://x.com/Gorden_Sun)<br><sub>Bullet-hell survival · Browser · One-shot</sub><br>A bullet-hell survival game where you defend the last firewall against waves of attackers.<br>[**▶ Play**](https://gordensun.github.io/last-firewall/) · [Post · 9 ♥](https://x.com/Gorden_Sun/status/2102941966556434610)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://vasu-devs.github.io/FishSlop_Opus5.5/"><img src="media/fishslop/preview.webp" width="400" alt="FishSlop Opus 5.5"></a><br>**FishSlop Opus 5.5** by [@Vasu_Devs](https://x.com/Vasu_Devs)<br><sub>Submarine aquarium sim · Three.js, TypeScript · Claude Code session</sub><br>Pilot a small sub around a 3D reef, feed fish, ping sonar to reveal new species and buy fish and parts to grow the aquarium.<br>[**▶ Play**](https://vasu-devs.github.io/FishSlop_Opus5.5/) · [Source](https://github.com/vasu-devs/FishSlop_Opus5.5) · [Post · 8 ♥](https://x.com/Vasu_Devs/status/2102522055245865463)
 
 </td>
 <td width="50%" valign="top">
@@ -101,19 +125,19 @@ One click, no install, no sign-in.
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://alesha-pro.github.io/bench-portal/games/overrun-claude-opus-5.5/index.html"><img src="media/overrun-dockyard-nine/preview.webp" width="400" alt="OVERRUN: Dockyard Nine"></a><br>**OVERRUN: Dockyard Nine** by bench-portal<br><sub>Horde FPS · Three.js · One-shot in Claude Code</sub><br>Hold a dockyard against waves of combat synthetics with a rifle, shotgun, marksman rifle, grenades and explosive barrels.<br><sub>🎮 WASD move, mouse aim and fire</sub><br>[**▶ Play**](https://alesha-pro.github.io/bench-portal/games/overrun-claude-opus-5.5/index.html) · [Source](https://github.com/alesha-pro/bench-portal)
+<a href="https://haruka-apps-games.itch.io/lastfall-3d-battle-royale-zombie-survival"><img src="media/lastfall/preview.webp" width="400" alt="LASTFALL"></a><br>**LASTFALL** by [@haruka_apps](https://x.com/haruka_apps)<br><sub>Battle royale and zombie survival · Three.js / WebGL</sub><br>Parachute onto an island against 23 AI bots in a shrinking zone, or hold out through ten zombie waves under a blood moon.<br><sub>🎮 WASD, mouse aim and fire, V toggles first and third person</sub><br>[**▶ Play**](https://haruka-apps-games.itch.io/lastfall-3d-battle-royale-zombie-survival) · [Post · 6 ♥](https://x.com/haruka_apps/status/2103047062090830090)
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://noita.myai1010.top/opus55/"><img src="media/emberdeep/preview.webp" width="400" alt="EMBERDEEP"></a><br>**EMBERDEEP** by Noita AI Arena<br><sub>Falling-sand roguelike · Canvas 2D · Long agentic session</sub><br>A Noita-style descent where every pixel is simulated, materials react alchemically and wand spells chain together.<br>[**▶ Play**](https://noita.myai1010.top/opus55/) · [Source](https://github.com/JerryLiu369/noita-benchmark)
+<a href="https://cahlik.net/palmera-bay/"><img src="media/palmera-bay/preview.webp" width="400" alt="Palmera Bay"></a><br>**Palmera Bay** by [@vojtechcahlik](https://x.com/vojtechcahlik)<br><sub>Free-roam driving · Three.js · 30-minute auto-mode first pass, then a few prompts, medium effort</sub><br>Cruise a convertible around a sunny coastal city with arcade drift, nitro flames, skid marks and several camera views.<br><sub>🎮 Arrow keys or WASD drive, nitro, camera toggle</sub><br>[**▶ Play**](https://cahlik.net/palmera-bay/) · [Source](https://github.com/vcahlik/palmera-bay) · [Post · 1 ♥](https://x.com/vojtechcahlik/status/2102859401011011953)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://claude-opus-5-5.riba2534.cn/"><img src="media/pelican-bike-ride/preview.webp" width="400" alt="Pelican Bike Ride"></a><br>**Pelican Bike Ride** by riba2534<br><sub>Coastal cycling · Three.js, single HTML file · One sentence prompt, zero human edits</sub><br>Pedal a helmeted pelican along a coastal road through a full day and night cycle, catching fish, jumping and pulling wheelies.<br><sub>🎮 W and S speed, A and D change lane, Space jump, T wheelie</sub><br>[**▶ Play**](https://claude-opus-5-5.riba2534.cn/) · [Source](https://github.com/riba2534/claude-opus-5-5-demo)
+<a href="https://noita.myai1010.top/opus55/"><img src="media/emberdeep/preview.webp" width="400" alt="EMBERDEEP"></a><br>**EMBERDEEP** by Noita AI Arena<br><sub>Falling-sand roguelike · Canvas 2D · Long agentic session</sub><br>A Noita-style descent where every pixel is simulated, materials react alchemically and wand spells chain together.<br>[**▶ Play**](https://noita.myai1010.top/opus55/) · [Source](https://github.com/JerryLiu369/noita-benchmark)
 
 </td>
 <td width="50%" valign="top">
@@ -130,31 +154,19 @@ One click, no install, no sign-in.
 </td>
 <td width="50%" valign="top">
 
-<a href="https://dgreenheck.github.io/tidewater/"><img src="media/tidewater/preview.webp" width="400" alt="Tidewater"></a><br>**Tidewater** by dgreenheck<br><sub>Island fishing · WebGPU / WGSL, custom renderer · Claude Code session, every commit co-authored by Opus 5.5</sub><br>Cast from the pier, beach or your own boat, fight 18 fish species on a line-tension meter, sell the catch and upgrade your gear on a tropical island.<br><sub>🎮 WASD walk and swim, mouse to cast and reel, E to board the boat</sub><br>[**▶ Play**](https://dgreenheck.github.io/tidewater/) · [Source](https://github.com/dgreenheck/tidewater)
+<a href="https://tanuu5.github.io/nova-lancer/"><img src="media/nova-lancer/preview.webp" width="400" alt="Nova Lancer"></a><br>**Nova Lancer** by tanuu5<br><sub>Rail shooter · Three.js · One request, about 1 hour 40 minutes at max effort, two sub-agents for audio and portraits</sub><br>A Star Fox style rail shooter over a sunset sea, a red canyon and a neon fortress city, ending in a fight with a mechanical sea dragon.<br><sub>🎮 WASD move, J or Space shoot (hold to lock on), K bomb, L boost, gamepad and touch work</sub><br>[**▶ Play**](https://tanuu5.github.io/nova-lancer/) · [Source](https://github.com/tanuu5/nova-lancer)
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-<a href="https://tanuu5.github.io/nova-lancer/"><img src="media/nova-lancer/preview.webp" width="400" alt="Nova Lancer"></a><br>**Nova Lancer** by tanuu5<br><sub>Rail shooter · Three.js · One request, about 1 hour 40 minutes at max effort, two sub-agents for audio and portraits</sub><br>A Star Fox style rail shooter over a sunset sea, a red canyon and a neon fortress city, ending in a fight with a mechanical sea dragon.<br><sub>🎮 WASD move, J or Space shoot (hold to lock on), K bomb, L boost, gamepad and touch work</sub><br>[**▶ Play**](https://tanuu5.github.io/nova-lancer/) · [Source](https://github.com/tanuu5/nova-lancer)
-
-</td>
 <td width="50%" valign="top">
 
 <a href="https://juliusbrussee.github.io/jazz-jackrabbit-remastered/"><img src="media/jazz-jackrabbit-opus-edition/preview.webp" width="400" alt="Jazz Jackrabbit Opus Edition"></a><br>**Jazz Jackrabbit Opus Edition** by JuliusBrussee<br><sub>Platformer · Canvas 2D, single 180 KB HTML file · Launch-day Claude Code session</sub><br>A modern fan remake of the 1994 run-and-gun platformer with five worlds, two bosses and procedural art and music in one file.<br><sub>🎮 Keyboard or gamepad</sub><br>[**▶ Play**](https://juliusbrussee.github.io/jazz-jackrabbit-remastered/) · [Source](https://github.com/JuliusBrussee/jazz-jackrabbit-remastered)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://nipale-ai.github.io/opus-5-5-overnight-builds/fall-line/"><img src="media/fall-line/preview.webp" width="400" alt="Fall Line"></a><br>**Fall Line** by Nipale-ai<br><sub>Freeride snowboarding · Three.js · One brief, 339 minutes alone overnight in headless Claude Code at xhigh, 111 commits</sub><br>Drop into a mountain on a snowboard or skis, chain tricks and ride events across an open freeride map.<br>[**▶ Play**](https://nipale-ai.github.io/opus-5-5-overnight-builds/fall-line/) · [Source](https://github.com/Nipale-ai/opus-5-5-overnight-builds)
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://haruka-apps-games.itch.io/lastfall-3d-battle-royale-zombie-survival"><img src="media/lastfall/preview.webp" width="400" alt="LASTFALL"></a><br>**LASTFALL** by [@haruka_apps](https://x.com/haruka_apps)<br><sub>Battle royale and zombie survival · Three.js / WebGL</sub><br>Parachute onto an island against 23 AI bots in a shrinking zone, or hold out through ten zombie waves under a blood moon.<br><sub>🎮 WASD, mouse aim and fire, V toggles first and third person</sub><br>[**▶ Play**](https://haruka-apps-games.itch.io/lastfall-3d-battle-royale-zombie-survival)
 
 </td>
 </tr>
@@ -173,31 +185,19 @@ One click, no install, no sign-in.
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://vasu-devs.github.io/FishSlop_Opus5.5/"><img src="media/fishslop/preview.webp" width="400" alt="FishSlop Opus 5.5"></a><br>**FishSlop Opus 5.5** by vasu-devs<br><sub>Submarine aquarium sim · Three.js, TypeScript · Claude Code session</sub><br>Pilot a small sub around a 3D reef, feed fish, ping sonar to reveal new species and buy fish and parts to grow the aquarium.<br>[**▶ Play**](https://vasu-devs.github.io/FishSlop_Opus5.5/) · [Source](https://github.com/vasu-devs/FishSlop_Opus5.5)
-
-</td>
-<td width="50%" valign="top">
-
 <a href="https://terrabrowser.vercel.app"><img src="media/terrabrowser/preview.webp" width="400" alt="Terrabrowser"></a><br>**Terrabrowser** by Wimmboo2<br><sub>Sandbox action-adventure · Canvas 2D, ES modules</sub><br>A Terraria-style dig, build and fight sandbox with ores, crafting, NPCs, bosses and a generated world.<br>[**▶ Play**](https://terrabrowser.vercel.app) · [Source](https://github.com/Wimmboo2/Terrabrowser)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://kjlkurt.github.io/waterslide-game-opus-5.5/"><img src="media/slide-rush/preview.webp" width="400" alt="Slide Rush"></a><br>**Slide Rush** by KJLKurt<br><sub>Waterslide racer · Three.js</sub><br>Race twelve rivals down a giant 3D waterslide, hit the ramps, find the shortcut and try not to fly off the track.<br><sub>🎮 Steer and jump, mobile-first touch controls</sub><br>[**▶ Play**](https://kjlkurt.github.io/waterslide-game-opus-5.5/) · [Source](https://github.com/KJLKurt/waterslide-game-opus-5.5)
 
 </td>
-<td width="50%" valign="top">
-
-<a href="https://brianm3050.github.io/amar.io/"><img src="media/amar-io/preview.webp" width="400" alt="AMAR.IO"></a><br>**AMAR.IO** by brianm3050<br><sub>3D multiplayer .io · Three.js, custom shaders, WebRTC</sub><br>Agar.io in full 3D, fly in any direction, split and devour other cells in instant peer-to-peer multiplayer with AI bots.<br><sub>🎮 Arrow keys steer, Space split, F eject, S brake, touch stick on phones</sub><br>[**▶ Play**](https://brianm3050.github.io/amar.io/) · [Source](https://github.com/brianm3050/amar.io)
-
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://cahlik.net/palmera-bay/"><img src="media/palmera-bay/preview.webp" width="400" alt="Palmera Bay"></a><br>**Palmera Bay** by vcahlik<br><sub>Free-roam driving · Three.js · 30-minute auto-mode first pass, then a few prompts, medium effort</sub><br>Cruise a convertible around a sunny coastal city with arcade drift, nitro flames, skid marks and several camera views.<br><sub>🎮 Arrow keys or WASD drive, nitro, camera toggle</sub><br>[**▶ Play**](https://cahlik.net/palmera-bay/) · [Source](https://github.com/vcahlik/palmera-bay)
+<a href="https://brianm3050.github.io/amar.io/"><img src="media/amar-io/preview.webp" width="400" alt="AMAR.IO"></a><br>**AMAR.IO** by brianm3050<br><sub>3D multiplayer .io · Three.js, custom shaders, WebRTC</sub><br>Agar.io in full 3D, fly in any direction, split and devour other cells in instant peer-to-peer multiplayer with AI bots.<br><sub>🎮 Arrow keys steer, Space split, F eject, S brake, touch stick on phones</sub><br>[**▶ Play**](https://brianm3050.github.io/amar.io/) · [Source](https://github.com/brianm3050/amar.io)
 
 </td>
 <td width="50%" valign="top">
@@ -250,13 +250,37 @@ One click, no install, no sign-in.
 </td>
 <td width="50%" valign="top">
 
+<a href="https://senko.net/vibecode-bench/2026/voxel-opus-5.5.html"><img src="media/vibecode-voxelcraft/preview.webp" width="400" alt="Voxelcraft"></a><br>**Voxelcraft** by senko<br><sub>Voxel sandbox · WebGL · One-shot in Claude Code, xhigh, 48 min</sub><br>A one-shot Minecraft-like with mining, crafting tables, furnaces, TNT and creepers, saved worlds and adjustable render distance.<br><sub>🎮 WASD move, mouse look, left click mine, right click place, E inventory</sub><br>[**▶ Play**](https://senko.net/vibecode-bench/2026/voxel-opus-5.5.html) · [Post](https://senko.net/vibecode-bench/)
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://nipale-ai.github.io/opus-5-5-overnight-builds/tidewater/"><img src="media/operation-tidewater/preview.webp" width="400" alt="Operation Tidewater"></a><br>**Operation Tidewater** by Nipale-ai<br><sub>Voxel diorama · Three.js · Autonomous overnight run, 205 min</sub><br>A living voxel coastline with snowy peaks, farms, an airfield and a naval task force, played out as a cinematic combined-arms tour you can take over.<br><sub>🎮 Drag to explore, scroll to zoom</sub><br>[**▶ Play**](https://nipale-ai.github.io/opus-5-5-overnight-builds/tidewater/) · [Source](https://github.com/Nipale-ai/opus-5-5-overnight-builds)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://nipale-ai.github.io/opus-5-5-overnight-builds/chrono-city/"><img src="media/chrono-city/preview.webp" width="400" alt="Chrono City"></a><br>**Chrono City** by Nipale-ai<br><sub>Time-lapse city · Three.js · Autonomous overnight run, 164 min</sub><br>Scrub one Toronto block through five decades, from 1985 to a snowy blue-hour 2025, as buildings, streetcars and lights change around it.<br><sub>🎮 Drag to orbit, scroll the timeline or press 1-5 to jump decades</sub><br>[**▶ Play**](https://nipale-ai.github.io/opus-5-5-overnight-builds/chrono-city/) · [Source](https://github.com/Nipale-ai/opus-5-5-overnight-builds)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://openvglab.github.io/awesome-opus5.5-frontend-showcases/svg/sunny-kart.svg"><img src="media/sunny-kart-svg/preview.webp" width="400" alt="Sunny Kart"></a><br>**Sunny Kart** by OpenVGLab<br><sub>Kart racer · Single SVG file · One self-contained SVG</sub><br>A three-lap seaside kart race with drifting, items and rival animal racers, drawn and run entirely inside one SVG file.<br><sub>🎮 W/Up throttle, A/D steer, Shift drift, J/K items</sub><br>[**▶ Play**](https://openvglab.github.io/awesome-opus5.5-frontend-showcases/svg/sunny-kart.svg) · [Source](https://github.com/OpenVGLab/awesome-opus5.5-frontend-showcases)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://openvglab.github.io/awesome-opus5.5-frontend-showcases/svg/comic-starfighter.svg"><img src="media/comic-starfighter-svg/preview.webp" width="400" alt="Comic Starfighter"></a><br>**Comic Starfighter** by OpenVGLab<br><sub>Vertical shmup · Single SVG file · One self-contained SVG</sub><br>A comic-book vertical shooter with pilot cut-ins, weapon levels, bombs and a charged super, laid out like a printed comic page.<br><sub>🎮 Arrows move, Z/Space fire, X bomb, C super, Shift focus</sub><br>[**▶ Play**](https://openvglab.github.io/awesome-opus5.5-frontend-showcases/svg/comic-starfighter.svg) · [Source](https://github.com/OpenVGLab/awesome-opus5.5-frontend-showcases)
 
 </td>
 </tr>
 </table>
 
-### GPT-6 Astra (47)
+### GPT-6 Astra (55)
 
 <table>
 <tr>
@@ -291,6 +315,30 @@ One click, no install, no sign-in.
 </td>
 <td width="50%" valign="top">
 
+<a href="https://stadium-elite.mindblown.ai/"><img src="media/stadium-elite/preview.webp" width="400" alt="Stadium Elite — El Clásico"></a><br>**Stadium Elite — El Clásico** by [@mindblown_ai](https://x.com/mindblown_ai)<br><sub>3d football/soccer</sub><br>Play an 11-a-side Barcelona–Real Madrid football match, passing, shooting and switching players in a 3D stadium.<br>[**▶ Play**](https://stadium-elite.mindblown.ai/) · [Post · 1.5k ♥](https://x.com/mindblown_ai/status/2097777996480577803)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://dust-front.mustafaakin.dev/"><img src="media/dust-front/preview.webp" width="400" alt="DUST FRONT"></a><br>**DUST FRONT** by [@mustafaakin](https://x.com/mustafaakin)<br><sub>Single-player rts</sub><br>Command a single-player RTS army, build a base, capture sites and coordinate ground and air forces.<br>[**▶ Play**](https://dust-front.mustafaakin.dev/) · [Post · 1.3k ♥](https://x.com/mustafaakin/status/2097658461228069121)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://bench-portal.pages.dev/games/kart-astra-deepseek/"><img src="media/lumen-rally/preview.webp" width="400" alt="Lumen Rally"></a><br>**Lumen Rally** by [@superalesha](https://x.com/superalesha)<br><sub>Kart racer · Three.js · multi-prompt</sub><br>A browser kart racer built from a shared game brief, one of a four-way model comparison set.<br>[**▶ Play**](https://bench-portal.pages.dev/games/kart-astra-deepseek/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/kart-astra-deepseek) · [Post · 1.2k ♥](https://x.com/superalesha/status/2099836448044175427)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://bench-portal.pages.dev/games/kart-astra-solo/"><img src="media/tidebloom-rally/preview.webp" width="400" alt="Tidebloom Rally"></a><br>**Tidebloom Rally** by [@superalesha](https://x.com/superalesha)<br><sub>Kart racer · Three.js · one-shot</sub><br>A browser kart racer built by GPT-6 Astra solo (no subagents), from the same brief as three other comparison entries.<br>[**▶ Play**](https://bench-portal.pages.dev/games/kart-astra-solo/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/kart-astra-solo) · [Post · 1.2k ♥](https://x.com/superalesha/status/2099836448044175427)
+
+</td>
+<td width="50%" valign="top">
+
 <a href="https://satriodewantono.com/breakdance/"><img src="media/oz-breakdance/preview.webp" width="400" alt="Oz Breakdance"></a><br>**Oz Breakdance** by [@satrio_d](https://x.com/satrio_d)<br><sub>Timed dance/arcade · browser/ragdoll physics · multi-prompt</sub><br>Land ragdoll breakdance moves and hit foot targets in a timed scoring arena.<br>[**▶ Play**](https://satriodewantono.com/breakdance/) · [Post · 609 ♥](https://x.com/satrio_d/status/2096022866097758500)
 
 </td>
@@ -298,96 +346,120 @@ One click, no install, no sign-in.
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://bench-portal.pages.dev/games/voidrunner-astra/"><img src="media/voidrunner-orbital-combat-league/preview.webp" width="400" alt="VOIDRUNNER: Orbital Combat League"></a><br>**VOIDRUNNER: Orbital Combat League** by [@superalesha](https://x.com/superalesha)<br><sub>Anti-gravity combat racer · Three.js</sub><br>Race three Blender-authored hovercraft above a fractured ocean world, boosting, airbrake-drifting and fighting rivals with weapons and shields.<br>[**▶ Play**](https://bench-portal.pages.dev/games/voidrunner-astra/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/voidrunner-astra) · [Post · 588 ♥](https://x.com/superalesha/status/2095967568825582044)
+
+</td>
+<td width="50%" valign="top">
+
 <a href="https://blackwater-roan.vercel.app/"><img src="media/blackwater/preview.webp" width="400" alt="BLACKWATER · Silent Harbor"></a><br>**BLACKWATER · Silent Harbor** by [@WoahWurdz](https://x.com/WoahWurdz)<br><sub>Tactical fps</sub><br>Infiltrate a rain-soaked freight terminal in a tactical FPS with a detailed carbine, combat HUD and nine hostiles.<br>[**▶ Play**](https://blackwater-roan.vercel.app/) · [Source](https://github.com/Hiraeth010/blackwater) · [Post · 342 ♥](https://x.com/WoahWurdz/status/2095958882732355908)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://gogh-strike.surge.sh/"><img src="media/gogh-strike/preview.webp" width="400" alt="Gogh Strike"></a><br>**Gogh Strike** by [@petergostev](https://x.com/petergostev)<br><sub>5v5 fps · Three.js/Blender · long agentic session (6h)</sub><br>Play a painter-themed 5v5 first-person shooter set in Van Gogh's town, with bot teammates and rivals.<br>[**▶ Play**](https://gogh-strike.surge.sh/) · [Source](https://github.com/petergpt/gogh-strike) · [Post · 166 ♥](https://x.com/petergostev/status/2096013280519016608)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://vale-dos-vinhedos.lucas579686.chatgpt.site/"><img src="media/the-free-game/preview.webp" width="400" alt="The Free Game"></a><br>**The Free Game** by [@LucasMarquesSv](https://x.com/LucasMarquesSv)<br><sub>Medieval village builder</sub><br>Build a medieval village with roads, workers and production chains, presented as a detailed 3D tabletop settlement.<br>[**▶ Play**](https://vale-dos-vinhedos.lucas579686.chatgpt.site/) · [Source](https://github.com/LucasMarquesShiva/the-free-game) · [Post · 144 ♥](https://x.com/LucasMarquesSv/status/2096772160404504583)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://no-moat.petergyang.chatgpt.site/"><img src="media/no-moat/preview.webp" width="400" alt="No Moat"></a><br>**No Moat** by [@petergyang](https://x.com/petergyang)<br><sub>Roguelike deckbuilder</sub><br>A startup-themed roguelike deckbuilder: recruit a team and play cards against copycats, bugs and cloud bills.<br>[**▶ Play**](https://no-moat.petergyang.chatgpt.site/) · [Post · 132 ♥](https://x.com/petergyang/status/2096297378584375672)
 
 </td>
+<td width="50%" valign="top">
+
+<a href="https://bench-portal.pages.dev/games/breach-blacksite-astra/"><img src="media/breach/preview.webp" width="400" alt="BREACH — Blacksite"></a><br>**BREACH — Blacksite** by [@superalesha](https://x.com/superalesha)<br><sub>Horde-survival fps · Three.js</sub><br>Fight escalating waves of enemies with three detailed weapons, recoil-and-inertia gunplay, sprint/slide/reload animations and procedural audio.<br><sub>🎮 WASD move, mouse aim/fire, likely sprint/slide/reload keys</sub><br>[**▶ Play**](https://bench-portal.pages.dev/games/breach-blacksite-astra/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/breach-blacksite-astra) · [Post · 113 ♥](https://x.com/superalesha/status/2096117875908235764)
+
+</td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+<a href="https://bench-portal.pages.dev/games/boat-astra-deepseek/"><img src="media/tidebreak-corsair-run/preview.webp" width="400" alt="Tidebreak: Corsair Run"></a><br>**Tidebreak: Corsair Run** by [@superalesha](https://x.com/superalesha)<br><sub>Boat combat racer · Three.js · multi-prompt</sub><br>Follow checkpoint gates through palm islands and a sea cave, collect weapon upgrades and fight enemy boats after a waterfall jump.<br>[**▶ Play**](https://bench-portal.pages.dev/games/boat-astra-deepseek/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/boat-astra-deepseek) · [Post · 101 ♥](https://x.com/superalesha/status/2100561050739343540)
+
+</td>
 <td width="50%" valign="top">
 
 <a href="https://agiofempires.com/"><img src="media/agi-of-empires/preview.webp" width="400" alt="AGI of Empires — The Compute Wars"></a><br>**AGI of Empires — The Compute Wars** by [@timourxyz](https://x.com/timourxyz)<br><sub>Real-time strategy · browser 2D · multi-prompt</sub><br>Command an AI lab racing rivals to superintelligence in an Age-of-Empires-inspired RTS satire.<br>[**▶ Play**](https://agiofempires.com/) · [Post · 82 ♥](https://x.com/timourxyz/status/2096662786692776293)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://alesha-pro.github.io/bench-portal/games/voidbound-choir-of-ash/"><img src="media/voidbound-the-choir-of-ash/preview.webp" width="400" alt="Voidbound: The Choir of Ash"></a><br>**Voidbound: The Choir of Ash** by [@superalesha](https://x.com/superalesha)<br><sub>Third-person hack-and-slash · Three.js/WebGL · multi-prompt</sub><br>Fight demons with sword combat, dodging and area magic in a cathedral arena above a dead star.<br>[**▶ Play**](https://alesha-pro.github.io/bench-portal/games/voidbound-choir-of-ash/) · [Source](https://github.com/alesha-pro/bench-portal) · [Post · 71 ♥](https://x.com/superalesha/status/2095988972879335792)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://wesche.com/lab/astra/boat-explorer/"><img src="media/sundrift/preview.webp" width="400" alt="Sundrift — Take the Slow Way Home"></a><br>**Sundrift — Take the Slow Way Home** by [@WescheNex1q](https://x.com/WescheNex1q)<br><sub>Sailing exploration · Three.js</sub><br>Slow-paced sailing exploration game tracking nautical-mile distance and nearest-shore proximity.<br>[**▶ Play**](https://wesche.com/lab/astra/boat-explorer/) · [Post · 68 ♥](https://x.com/WescheNex1q/status/2100043868565561533)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://www.spawn.co/@izkimar/the-crownless/play"><img src="media/the-crownless/preview.webp" width="400" alt="The Crownless"></a><br>**The Crownless** by [@Izkimar](https://x.com/Izkimar)<br><sub>Action roguelike · Spawn platform</sub><br>Roguelike action game on the Spawn platform: melee/jump combat through camps with leveling and soul upgrades.<br>[**▶ Play**](https://www.spawn.co/@izkimar/the-crownless/play) · [Post · 59 ♥](https://x.com/Izkimar/status/2100753871903855095)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://onemorevine.bennash.dev/"><img src="media/one-more-vine/preview.webp" width="400" alt="One More Vine — Into the Wild"></a><br>**One More Vine — Into the Wild** by [@bennash](https://x.com/bennash)<br><sub>Jungle platformer · browser 2D · multi-prompt</sub><br>Swing on vines across four jungle platforming levels, dodging pits and crocodiles, Pitfall-style.<br>[**▶ Play**](https://onemorevine.bennash.dev/) · [Post · 54 ♥](https://x.com/bennash/status/2096282758930645170)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://gpt6astra-game.vercel.app/"><img src="media/harbor-skirmish/preview.webp" width="400" alt="Harbor Skirmish"></a><br>**Harbor Skirmish** by [@OpenDesignHQ](https://x.com/OpenDesignHQ)<br><sub>Harbor combat/arcade · Three.js</sub><br>Fight through a coastal town skirmish, part of a head-to-head model comparison build.<br>[**▶ Play**](https://gpt6astra-game.vercel.app/) · [Post · 52 ♥](https://x.com/OpenDesignHQ/status/2097635757917983223)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://fluffy-biscotti-dad318.netlify.app/"><img src="media/frontline-command/preview.webp" width="400" alt="前线指令 / Frontline Command"></a><br>**前线指令 / Frontline Command** by [@HDLhN783wtLkpPR](https://x.com/HDLhN783wtLkpPR)<br><sub>Modern-war rts</sub><br>Build a base, contest resource zones and command tanks, infantry, aircraft and drones against AI armies in a modern-war RTS, using spies and intelligence to gain an advantage.<br>[**▶ Play**](https://fluffy-biscotti-dad318.netlify.app/) · [Post · 30 ♥](https://x.com/HDLhN783wtLkpPR/status/2097321360641122393)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://bubucn.com/ai-model-evals/flop-club/game/index.html"><img src="media/flop-club/preview.webp" width="400" alt="FLOP CLUB"></a><br>**FLOP CLUB** by [@BubuStd](https://x.com/BubuStd)<br><sub>Diving/trick sports · browser 3D · one-shot</sub><br>Dive off a high platform, pull flips, and try to land in the target ring.<br>[**▶ Play**](https://bubucn.com/ai-model-evals/flop-club/game/index.html) · [Post · 26 ♥](https://x.com/BubuStd/status/2096402783805354091)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://tidal-rush-paradise-gp.skirano.chatgpt.site/"><img src="media/tidal-rush/preview.webp" width="400" alt="TIDAL RUSH — Paradise GP"></a><br>**TIDAL RUSH — Paradise GP** by [@alexgetmancom](https://x.com/alexgetmancom)<br><sub>Kart racer · browser 3D</sub><br>Race a kart through a tropical circuit with drifting.<br>[**▶ Play**](https://tidal-rush-paradise-gp.skirano.chatgpt.site/) · [Post · 25 ♥](https://x.com/alexgetmancom/status/2095598460921614825)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://luna-crimson-requiem.ponsuke.chatgpt.site/"><img src="media/luna/preview.webp" width="400" alt="LUNA — Crimson Requiem"></a><br>**LUNA — Crimson Requiem** by [@ponsuke_otowa](https://x.com/ponsuke_otowa)<br><sub>Side-scrolling action · browser 2D · one-shot</sub><br>Fight through a gothic red-moon street as LUNA in a SNES-style side-scrolling action game.<br>[**▶ Play**](https://luna-crimson-requiem.ponsuke.chatgpt.site/) · [Post · 25 ♥](https://x.com/ponsuke_otowa/status/2096531744933425299)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://orr-rush-bengaluru.ravitheja.chatgpt.site/"><img src="media/bengaluru-orr-rush/preview.webp" width="400" alt="Bengaluru ORR Rush"></a><br>**Bengaluru ORR Rush** by [@ravithejads](https://x.com/ravithejads)<br><sub>Street racing · browser</sub><br>Race through Bengaluru's Outer Ring Road from Bellandur to Marathahalli, dodging traffic and potholes.<br>[**▶ Play**](https://orr-rush-bengaluru.ravitheja.chatgpt.site/) · [Post · 23 ♥](https://x.com/ravithejads/status/2097181044625887392)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://orr-rush-bengaluru.ravitheja.chatgpt.site/"><img src="media/bengaluru-orr-rush/preview.webp" width="400" alt="Bengaluru ORR Rush"></a><br>**Bengaluru ORR Rush** by [@ravithejads](https://x.com/ravithejads)<br><sub>Street racing · browser</sub><br>Race through Bengaluru's Outer Ring Road from Bellandur to Marathahalli, dodging traffic and potholes.<br>[**▶ Play**](https://orr-rush-bengaluru.ravitheja.chatgpt.site/) · [Post · 23 ♥](https://x.com/ravithejads/status/2097181044625887392)
+<a href="https://mir176-dragon-warrior.geekcatxx.chatgpt.site/"><img src="media/mir176-dragon-warrior/preview.webp" width="400" alt="热血归来 · 八荒幻世 / Mir176 Dragon Warrior"></a><br>**热血归来 · 八荒幻世 / Mir176 Dragon Warrior** by [@GeekCatX](https://x.com/GeekCatX)<br><sub>Action rpg (legend of mir-inspired)</sub><br>A Legend-inspired action RPG with warrior, mage and taoist classes, equipment, dungeon combat and auto-battle.<br>[**▶ Play**](https://mir176-dragon-warrior.geekcatxx.chatgpt.site/) · [Post · 15 ♥](https://x.com/GeekCatX/status/2097530887558865115)
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://mir176-dragon-warrior.geekcatxx.chatgpt.site/"><img src="media/mir176-dragon-warrior/preview.webp" width="400" alt="热血归来 · 八荒幻世 / Mir176 Dragon Warrior"></a><br>**热血归来 · 八荒幻世 / Mir176 Dragon Warrior** by [@GeekCatX](https://x.com/GeekCatX)<br><sub>Action rpg (legend of mir-inspired)</sub><br>A Legend-inspired action RPG with warrior, mage and taoist classes, equipment, dungeon combat and auto-battle.<br>[**▶ Play**](https://mir176-dragon-warrior.geekcatxx.chatgpt.site/) · [Post · 15 ♥](https://x.com/GeekCatX/status/2097530887558865115)
+<a href="https://bench-portal.pages.dev/games/gpt-6-astra-2026-09-11/"><img src="media/gpt-6-astra-11-09-2026/preview.webp" width="400" alt="GPT-6 Astra 11.09.2026 (ZERO MERCY)"></a><br>**GPT-6 Astra 11.09.2026 (ZERO MERCY)** by [@superalesha](https://x.com/superalesha)<br><sub>Arena-survival fps · Three.js</sub><br>Survive escalating hordes with three weapons, red-dot/iron sights, grenades, explosive barrels and ammo drops in a shader-lit arena.<br><sub>🎮 WASD move, mouse aim/fire, sprint-slide movement</sub><br>[**▶ Play**](https://bench-portal.pages.dev/games/gpt-6-astra-2026-09-11/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/gpt-6-astra-2026-09-11) · [Post · 14 ♥](https://x.com/superalesha/status/2098501502583320955)
 
 </td>
 </tr>
@@ -406,48 +478,24 @@ One click, no install, no sign-in.
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://knightmare-medusa-3d.robin-hwang.chatgpt.site/"><img src="media/knightmare/preview.webp" width="400" alt="Knightmare — Medusa’s Temple"></a><br>**Knightmare — Medusa’s Temple** by [@MinHoHwang1](https://x.com/MinHoHwang1)<br><sub>Boss-fight action</sub><br>3D boss-battle arena against Medusa with a purify special move and cooldown-based combat.<br>[**▶ Play**](https://knightmare-medusa-3d.robin-hwang.chatgpt.site/) · [Post · 1 ♥](https://x.com/MinHoHwang1/status/2096984386566815920)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://drone-io.vercel.app/"><img src="media/drone-io/preview.webp" width="400" alt="DRONE.IO — Proving Grounds"></a><br>**DRONE.IO — Proving Grounds** by [@OMASMohamad](https://x.com/OMASMohamad)<br><sub>Drone combat</sub><br>Drone combat arena against six AI opponents with radar scans and energy-managed abilities.<br>[**▶ Play**](https://drone-io.vercel.app/) · [Post · 1 ♥](https://x.com/OMASMohamad/status/2101830659358478516)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 <a href="https://threapchills.github.io/MagicCarpetWizard/"><img src="media/magic-carpet-wizard/preview.webp" width="400" alt="Magic Carpet Wizard"></a><br>**Magic Carpet Wizard** by [@threapchills](https://x.com/threapchills)<br><sub>3d arcade flying/combat · WebGL2</sub><br>Fly a magic carpet and cast spells in a 3D browser arcade game.<br>[**▶ Play**](https://threapchills.github.io/MagicCarpetWizard/) · [Source](https://github.com/threapchills/MagicCarpetWizard)
 
 </td>
 <td width="50%" valign="top">
 
 <a href="https://bonkshot.com/"><img src="media/bonkshot/preview.webp" width="400" alt="Bonkshot"></a><br>**Bonkshot** by [@edmund5](https://x.com/edmund5)<br><sub>Physics destruction/puzzle · browser physics</sub><br>Aim, drag and launch characters to smash enemy structures and trigger chain-reaction explosions.<br><sub>🎮 drag to aim and release to launch</sub><br>[**▶ Play**](https://bonkshot.com/) · [Post](https://x.com/edmund5/status/2097603093819261002)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://bench-portal.pages.dev/games/boat-astra-deepseek/"><img src="media/tidebreak-corsair-run/preview.webp" width="400" alt="Tidebreak: Corsair Run"></a><br>**Tidebreak: Corsair Run** by alesha-pro<br><sub>Boat combat racer · Three.js · multi-prompt</sub><br>Follow checkpoint gates through palm islands and a sea cave, collect weapon upgrades and fight enemy boats after a waterfall jump.<br>[**▶ Play**](https://bench-portal.pages.dev/games/boat-astra-deepseek/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/boat-astra-deepseek)
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://bench-portal.pages.dev/games/breach-blacksite-astra/"><img src="media/breach/preview.webp" width="400" alt="BREACH — Blacksite"></a><br>**BREACH — Blacksite** by alesha-pro<br><sub>Horde-survival fps · Three.js</sub><br>Fight escalating waves of enemies with three detailed weapons, recoil-and-inertia gunplay, sprint/slide/reload animations and procedural audio.<br><sub>🎮 WASD move, mouse aim/fire, likely sprint/slide/reload keys</sub><br>[**▶ Play**](https://bench-portal.pages.dev/games/breach-blacksite-astra/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/breach-blacksite-astra)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://bench-portal.pages.dev/games/gpt-6-astra-2026-09-11/"><img src="media/gpt-6-astra-11-09-2026/preview.webp" width="400" alt="GPT-6 Astra 11.09.2026 (ZERO MERCY)"></a><br>**GPT-6 Astra 11.09.2026 (ZERO MERCY)** by alesha-pro<br><sub>Arena-survival fps · Three.js</sub><br>Survive escalating hordes with three weapons, red-dot/iron sights, grenades, explosive barrels and ammo drops in a shader-lit arena.<br><sub>🎮 WASD move, mouse aim/fire, sprint-slide movement</sub><br>[**▶ Play**](https://bench-portal.pages.dev/games/gpt-6-astra-2026-09-11/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/gpt-6-astra-2026-09-11)
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://bench-portal.pages.dev/games/kart-astra-deepseek/"><img src="media/lumen-rally/preview.webp" width="400" alt="Lumen Rally"></a><br>**Lumen Rally** by alesha-pro<br><sub>Kart racer · Three.js · multi-prompt</sub><br>A browser kart racer built from a shared game brief, one of a four-way model comparison set.<br>[**▶ Play**](https://bench-portal.pages.dev/games/kart-astra-deepseek/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/kart-astra-deepseek)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://bench-portal.pages.dev/games/kart-astra-solo/"><img src="media/tidebloom-rally/preview.webp" width="400" alt="Tidebloom Rally"></a><br>**Tidebloom Rally** by alesha-pro<br><sub>Kart racer · Three.js · one-shot</sub><br>A browser kart racer built by GPT-6 Astra solo (no subagents), from the same brief as three other comparison entries.<br>[**▶ Play**](https://bench-portal.pages.dev/games/kart-astra-solo/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/kart-astra-solo)
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://bench-portal.pages.dev/games/voidrunner-astra/"><img src="media/voidrunner-orbital-combat-league/preview.webp" width="400" alt="VOIDRUNNER: Orbital Combat League"></a><br>**VOIDRUNNER: Orbital Combat League** by alesha-pro<br><sub>Anti-gravity combat racer · Three.js</sub><br>Race three Blender-authored hovercraft above a fractured ocean world, boosting, airbrake-drifting and fighting rivals with weapons and shields.<br>[**▶ Play**](https://bench-portal.pages.dev/games/voidrunner-astra/) · [Source](https://github.com/alesha-pro/bench-portal/tree/main/games/voidrunner-astra)
 
 </td>
 </tr>
@@ -466,31 +514,19 @@ One click, no install, no sign-in.
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://stadium-elite.mindblown.ai/"><img src="media/stadium-elite/preview.webp" width="400" alt="Stadium Elite — El Clásico"></a><br>**Stadium Elite — El Clásico** by [@mind](https://x.com/mind)<br><sub>3d football/soccer</sub><br>Play an 11-a-side Barcelona–Real Madrid football match, passing, shooting and switching players in a 3D stadium.<br>[**▶ Play**](https://stadium-elite.mindblown.ai/)
-
-</td>
-<td width="50%" valign="top">
-
 <a href="https://iron-bastion.zecoba.workers.dev/"><img src="media/iron-bastion/preview.webp" width="400" alt="IRON BASTION / 钢铁防线"></a><br>**IRON BASTION / 钢铁防线** by chat01.ai<br><sub>3d tower defense</sub><br>Defend a beacon against waves of enemy tanks across six sectors in a 3D battlefield with destructible brick walls, a dash and an electromagnetic pulse.<br>[**▶ Play**](https://iron-bastion.zecoba.workers.dev/)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://dust-ii-map.yelin8130.chatgpt.site/"><img src="media/desert-operations/preview.webp" width="400" alt="DUST II · 沙漠行动 / Desert Operations"></a><br>**DUST II · 沙漠行动 / Desert Operations** by lin_ye / lin ye<br><sub>Fps (cs-style)</sub><br>Counter-Strike Dust II-style FPS with bots, weapon switching (AK-47/USP-S) and kill tracking.<br>[**▶ Play**](https://dust-ii-map.yelin8130.chatgpt.site/)
 
 </td>
-<td width="50%" valign="top">
-
-<a href="https://dave-2cm.pages.dev/"><img src="media/dave-the-diver/preview.webp" width="400" alt="潜水员戴夫 / Dave the Diver"></a><br>**潜水员戴夫 / Dave the Diver** by dudu<br><sub>Underwater sim + restaurant management</sub><br>A browser recreation of Dave the Diver combining underwater spearfishing, sushi-restaurant management and island farming.<br>[**▶ Play**](https://dave-2cm.pages.dev/)
-
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://dust-front.mustafaakin.dev/"><img src="media/dust-front/preview.webp" width="400" alt="DUST FRONT"></a><br>**DUST FRONT** by [@mustafaakin](https://x.com/mustafaakin)<br><sub>Single-player rts</sub><br>Command a single-player RTS army, build a base, capture sites and coordinate ground and air forces.<br>[**▶ Play**](https://dust-front.mustafaakin.dev/)
+<a href="https://dave-2cm.pages.dev/"><img src="media/dave-the-diver/preview.webp" width="400" alt="潜水员戴夫 / Dave the Diver"></a><br>**潜水员戴夫 / Dave the Diver** by dudu<br><sub>Underwater sim + restaurant management</sub><br>A browser recreation of Dave the Diver combining underwater spearfishing, sushi-restaurant management and island farming.<br>[**▶ Play**](https://dave-2cm.pages.dev/)
 
 </td>
 <td width="50%" valign="top">
@@ -526,19 +562,55 @@ One click, no install, no sign-in.
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://knightmare-medusa-3d.robin-hwang.chatgpt.site/"><img src="media/knightmare/preview.webp" width="400" alt="Knightmare — Medusa’s Temple"></a><br>**Knightmare — Medusa’s Temple** by [@MinHoHwang1](https://x.com/MinHoHwang1)<br><sub>Boss-fight action</sub><br>3D boss-battle arena against Medusa with a purify special move and cooldown-based combat.<br>[**▶ Play**](https://knightmare-medusa-3d.robin-hwang.chatgpt.site/)
+<a href="https://agentgames.dev/play/dropzone-royale"><img src="media/dropzone-royale/preview.webp" width="400" alt="Dropzone Royale"></a><br>**Dropzone Royale** by Drakoniux<br><sub>Battle royale · AgentGames</sub><br>Battle-royale shooter with a build/loot phase, ammo pickups and a shrinking player count.<br>[**▶ Play**](https://agentgames.dev/play/dropzone-royale)
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://drone-io.vercel.app/"><img src="media/drone-io/preview.webp" width="400" alt="DRONE.IO — Proving Grounds"></a><br>**DRONE.IO — Proving Grounds** by [@OMASMohamad](https://x.com/OMASMohamad)<br><sub>Drone combat</sub><br>Drone combat arena against six AI opponents with radar scans and energy-managed abilities.<br>[**▶ Play**](https://drone-io.vercel.app/)
+<a href="https://eight-fronts.vercel.app/"><img src="media/eight-fronts/preview.webp" width="400" alt="Eight Fronts"></a><br>**Eight Fronts** by [@BubuStd](https://x.com/BubuStd)<br><sub>Run-and-gun · Three.js</sub><br>An eight-stage 3D tribute to 8-bit run-and-gun classics with side-scrolling fronts, into-the-screen base rooms, a waterfall climb and local two-player co-op.<br><sub>🎮 A/D move, Space jump, J fire, keyboard and mouse</sub><br>[**▶ Play**](https://eight-fronts.vercel.app/) · [Source](https://github.com/mike007jd/eightfront-3d)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://agentgames.dev/play/dropzone-royale"><img src="media/dropzone-royale/preview.webp" width="400" alt="Dropzone Royale"></a><br>**Dropzone Royale** by Drakoniux<br><sub>Battle royale · AgentGames</sub><br>Battle-royale shooter with a build/loot phase, ammo pickups and a shrinking player count.<br>[**▶ Play**](https://agentgames.dev/play/dropzone-royale)
+<a href="https://drift-ursus-fusion.vercel.app/"><img src="media/drift-snow-memory/preview.webp" width="400" alt="DRIFT × URSUS · Snow Memory"></a><br>**DRIFT × URSUS · Snow Memory** by [@BubuStd](https://x.com/BubuStd)<br><sub>Snow sandbox · Three.js · GPT-6 Astra Pro</sub><br>Walk a furry brown bear through deep snow that keeps every track, with guide-driven fur and powder kicking up around it.<br><sub>🎮 WASD walk, Shift run, Space jump, drag to orbit</sub><br>[**▶ Play**](https://drift-ursus-fusion.vercel.app/)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://senko.net/vibecode-bench/2026/flysim-gpt-6-astra.html"><img src="media/vibecode-dawn-patrol/preview.webp" width="400" alt="Dawn Patrol"></a><br>**Dawn Patrol** by senko<br><sub>WWI flight sim · WebGL · One-shot in Codex, xhigh</sub><br>Fly a Sopwith Camel over the Somme valley in 1917, hunting Albatros fighters with a full instrument strip and radar.<br><sub>🎮 W/S pitch, A/D roll, Shift/Ctrl throttle, Space fire</sub><br>[**▶ Play**](https://senko.net/vibecode-bench/2026/flysim-gpt-6-astra.html) · [Post](https://senko.net/vibecode-bench/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://senko.net/vibecode-bench/2026/rts-gpt-6-astra.html"><img src="media/vibecode-wilderland/preview.webp" width="400" alt="Wilderland"></a><br>**Wilderland** by senko<br><sub>RTS · WebGL · One-shot in Codex, xhigh</sub><br>A small isometric RTS with fog of war, workers, a town hall, barracks and sawmills, and a chaptered objective track.<br><sub>🎮 Click to select, right click to command, WASD pan</sub><br>[**▶ Play**](https://senko.net/vibecode-bench/2026/rts-gpt-6-astra.html) · [Post](https://senko.net/vibecode-bench/)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://senko.net/vibecode-bench/2026/voxel-gpt-6-astra.html"><img src="media/vibecode-wildblock/preview.webp" width="400" alt="Wildblock"></a><br>**Wildblock** by senko<br><sub>Voxel sandbox · WebGL · One-shot in Codex, xhigh</sub><br>A one-shot block world with survival and creative modes, lakes, cliffs and roaming critters under soft daylight.<br><sub>🎮 WASD move, Space jump, mouse look, left/right click mine and place</sub><br>[**▶ Play**](https://senko.net/vibecode-bench/2026/voxel-gpt-6-astra.html) · [Post](https://senko.net/vibecode-bench/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://agentgames.dev/play/dash-dinner"><img src="media/dash-dinner/preview.webp" width="400" alt="DASH / DINNER"></a><br>**DASH / DINNER** by Drakoniux<br><sub>Delivery sim · Three.js</sub><br>Deliver food across a 3D city in first person, from kick scooter to e-bike to a tuned Toyota Yaris, memorising door codes against the clock.<br><sub>🎮 WASD move or steer, mouse look, Shift boost, E interact, F park or mount</sub><br>[**▶ Play**](https://agentgames.dev/play/dash-dinner)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://agentgames.dev/play/veilfall"><img src="media/veilfall/preview.webp" width="400" alt="Veilfall: The Hollow War"></a><br>**Veilfall: The Hollow War** by Drakoniux<br><sub>Action MOBA · Three.js</sub><br>A single-player 5v5 MOBA with three lanes, minion waves, towers, jungle camps, a neutral boss and a lantern mage with five abilities.<br><sub>🎮 WASD move, mouse aim, Space attack, Z/X/C/V abilities, Shift dash, E shop</sub><br>[**▶ Play**](https://agentgames.dev/play/veilfall)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://kjlkurt.github.io/waterslide-game-astra/"><img src="media/splashline/preview.webp" width="400" alt="Splashline"></a><br>**Splashline** by KJLKurt<br><sub>Waterslide racer · Three.js · Zero-shot, extra high effort</sub><br>Race twelve procedural swimmers down a 704 m tropical waterslide with banked bends, launch ramps and a jumpable shortcut.<br><sub>🎮 Left/right steer, Space jump</sub><br>[**▶ Play**](https://kjlkurt.github.io/waterslide-game-astra/) · [Source](https://github.com/KJLKurt/waterslide-game-astra)
 
 </td>
 <td width="50%" valign="top">
@@ -559,19 +631,19 @@ Playable, but needs a download, a build step, or a native engine.
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/bridge-mind/claude-opus-5.5-zombies-game"><img src="media/dead-signal/preview.webp" width="400" alt="Dead Signal: Exclusion Zone"></a><br>**Dead Signal: Exclusion Zone** by [@bridgemindai](https://x.com/bridgemindai)<br><sub>Zombie extraction FPS · Three.js, TypeScript · One prompt in Claude Code</sub><br>Defend an uplink relay from zombie hordes, hunt an armored boss, then reach the helicopter before the contamination front.<br><sub>🎮 WASD, mouse, R reload, G grenade, Shift sprint</sub><br><sub><code>pnpm install && pnpm build && pnpm preview</code></sub><br>[Download](https://github.com/bridge-mind/claude-opus-5.5-zombies-game) · [Source](https://github.com/bridge-mind/claude-opus-5.5-zombies-game)
+<a href="https://github.com/JaredTate/tatertotsflightsim"><img src="media/taters-flight-sim/preview.webp" width="400" alt="Tater's Flight Sim"></a><br>**Tater's Flight Sim** by [@jaredctate](https://x.com/jaredctate)<br><sub>Combat flight sim · Three.js · Long Claude Code session, 93 commits</sub><br>Fly jets, a 747 and helicopters with stalls, crashes, guns and missiles against AI targets and burning convoys.<br><sub><code>npm install && npm start, then open http://127.0.0.1:8092</code></sub><br>[Download](https://github.com/JaredTate/tatertotsflightsim) · [Source](https://github.com/JaredTate/tatertotsflightsim) · [Post · 47 ♥](https://x.com/jaredctate/status/2102771086542930011)
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/OminousIndustries/OpusSkate"><img src="media/concrete-jungle/preview.webp" width="400" alt="Concrete Jungle"></a><br>**Concrete Jungle** by OminousIndustries<br><sub>Street skateboarding · C++17, SDL2, OpenGL · One-shot, single 4,925-line file</sub><br>Skate an early-2000s New York block with ollies, flip tricks, grabs, grinds and manuals, every mesh and sound generated in code.<br><sub>🎮 W push, A and D steer, Space ollie, J flip, K grab, L grind</sub><br><sub><code>g++ -O2 skate.cpp -lSDL2 -lGL -o skate && ./skate</code></sub><br>[Download](https://github.com/OminousIndustries/OpusSkate) · [Source](https://github.com/OminousIndustries/OpusSkate)
+<a href="https://github.com/bridge-mind/claude-opus-5.5-zombies-game"><img src="media/dead-signal/preview.webp" width="400" alt="Dead Signal: Exclusion Zone"></a><br>**Dead Signal: Exclusion Zone** by [@bridgemindai](https://x.com/bridgemindai)<br><sub>Zombie extraction FPS · Three.js, TypeScript · One prompt in Claude Code</sub><br>Defend an uplink relay from zombie hordes, hunt an armored boss, then reach the helicopter before the contamination front.<br><sub>🎮 WASD, mouse, R reload, G grenade, Shift sprint</sub><br><sub><code>pnpm install && pnpm build && pnpm preview</code></sub><br>[Download](https://github.com/bridge-mind/claude-opus-5.5-zombies-game) · [Source](https://github.com/bridge-mind/claude-opus-5.5-zombies-game)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/JaredTate/tatertotsflightsim"><img src="media/taters-flight-sim/preview.webp" width="400" alt="Tater's Flight Sim"></a><br>**Tater's Flight Sim** by JaredTate<br><sub>Combat flight sim · Three.js · Long Claude Code session, 93 commits</sub><br>Fly jets, a 747 and helicopters with stalls, crashes, guns and missiles against AI targets and burning convoys.<br><sub><code>npm install && npm start, then open http://127.0.0.1:8092</code></sub><br>[Download](https://github.com/JaredTate/tatertotsflightsim) · [Source](https://github.com/JaredTate/tatertotsflightsim)
+<a href="https://github.com/OminousIndustries/OpusSkate"><img src="media/concrete-jungle/preview.webp" width="400" alt="Concrete Jungle"></a><br>**Concrete Jungle** by OminousIndustries<br><sub>Street skateboarding · C++17, SDL2, OpenGL · One-shot, single 4,925-line file</sub><br>Skate an early-2000s New York block with ollies, flip tricks, grabs, grinds and manuals, every mesh and sound generated in code.<br><sub>🎮 W push, A and D steer, Space ollie, J flip, K grab, L grind</sub><br><sub><code>g++ -O2 skate.cpp -lSDL2 -lGL -o skate && ./skate</code></sub><br>[Download](https://github.com/OminousIndustries/OpusSkate) · [Source](https://github.com/OminousIndustries/OpusSkate)
 
 </td>
 <td width="50%" valign="top">
@@ -582,11 +654,11 @@ Playable, but needs a download, a build step, or a native engine.
 </tr>
 </table>
 
-## Watch only (27)
+## Watch only (28)
 
 No public build yet. The creator's footage is the evidence.
 
-### Claude Opus 5.5 (20)
+### Claude Opus 5.5 (21)
 
 <table>
 <tr>
@@ -633,79 +705,91 @@ No public build yet. The creator's footage is the evidence.
 </td>
 <td width="50%" valign="top">
 
-<a href="https://x.com/bijanbowen/status/2102532400353829356"><img src="media/guitar-store-brawl/preview.webp" width="400" alt="Guitar Store Brawl"></a><br>**Guitar Store Brawl** by [@bijanbowen](https://x.com/bijanbowen)<br><sub>Simulator / beat 'em up · Three.js · Prompted build</sub><br>A guitar-store simulator where every instrument is playable, and making too much noise turns it into a beat 'em up.<br>[Post · 470 ♥](https://x.com/bijanbowen/status/2102532400353829356)
+<a href="https://x.com/chetanankola/status/2103001194696458512"><img src="media/foldline/preview.webp" width="400" alt="Foldline"></a><br>**Foldline** by [@chetanankola](https://x.com/chetanankola)<br><sub>Musical driving · Three.js</sub><br>A watercolour-and-ink road that folds up walls and across ceilings, then turns into sheet music you steer through to play each street's melody.<br>[Post · 650 ♥](https://x.com/chetanankola/status/2103001194696458512)
 
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/bijanbowen/status/2102532400353829356"><img src="media/guitar-store-brawl/preview.webp" width="400" alt="Guitar Store Brawl"></a><br>**Guitar Store Brawl** by [@bijanbowen](https://x.com/bijanbowen)<br><sub>Simulator / beat 'em up · Three.js · Prompted build</sub><br>A guitar-store simulator where every instrument is playable, and making too much noise turns it into a beat 'em up.<br>[Post · 470 ♥](https://x.com/bijanbowen/status/2102532400353829356)
+
+</td>
 <td width="50%" valign="top">
 
 <a href="https://x.com/cherry_mx_reds/status/2102449525944099320"><img src="media/doodle-shooter/preview.webp" width="400" alt="Doodle Shooter"></a><br>**Doodle Shooter** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Shooter · Browser · One-shot, Medium, no sub-agents</sub><br>A hand-drawn doodle-style shooter that ends in a boss fight.<br>[Post · 396 ♥](https://x.com/cherry_mx_reds/status/2102449525944099320)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/MiaAI_lab/status/2102672873802363064"><img src="media/fortnite-replica/preview.webp" width="400" alt="Fortnite Replica"></a><br>**Fortnite Replica** by [@MiaAI_lab](https://x.com/MiaAI_lab)<br><sub>Battle royale · Browser 3D · One prompt</sub><br>A Fortnite-style third-person battle royale with building and shooting.<br>[Post · 307 ♥](https://x.com/MiaAI_lab/status/2102672873802363064)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/intheworldofai/status/2102480675597115689"><img src="media/cod-zombies-threejs/preview.webp" width="400" alt="Call of Duty Zombies in Three.js"></a><br>**Call of Duty Zombies in Three.js** by [@intheworldofai](https://x.com/intheworldofai)<br><sub>Zombie FPS · Three.js, zero assets · One prompt, about 13k lines</sub><br>Board up windows, hit the Mystery Box, Pack-a-Punch and survive zombie rounds in a Call of Duty Zombies remake.<br>[Post · 237 ♥](https://x.com/intheworldofai/status/2102480675597115689)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/cherry_mx_reds/status/2102441942596366467"><img src="media/cute-mario-kart/preview.webp" width="400" alt="Cute Mario Kart"></a><br>**Cute Mario Kart** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Kart racer · Browser 3D · Medium, no sub-agents</sub><br>A cute kart racer in the style of Mario Kart.<br>[Post · 194 ♥](https://x.com/cherry_mx_reds/status/2102441942596366467)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/cherry_mx_reds/status/2102444611776237697"><img src="media/sonic-3d-opus/preview.webp" width="400" alt="Sonic 3D"></a><br>**Sonic 3D** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>3D platformer · Browser 3D · Medium, no sub-agents</sub><br>A 3D Sonic platformer with high-speed running through loops.<br>[Post · 193 ♥](https://x.com/cherry_mx_reds/status/2102444611776237697)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/The_Alex/status/2102440680136310955"><img src="media/the-alex-flight-simulator/preview.webp" width="400" alt="Flight Simulator"></a><br>**Flight Simulator** by [@The_Alex](https://x.com/The_Alex)<br><sub>Flight sim · Browser 3D · Prompted build</sub><br>A flight simulator over generated terrain.<br>[Post · 178 ♥](https://x.com/The_Alex/status/2102440680136310955)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/argofowl/status/2102529695908806728"><img src="media/endless-game/preview.webp" width="400" alt="Endless Game"></a><br>**Endless Game** by [@argofowl](https://x.com/argofowl)<br><sub>Procedural exploration · Three.js · Opus 5.5 extra high, one prompt</sub><br>An endless, procedurally generated world to roam, with surprises in every area.<br>[Post · 159 ♥](https://x.com/argofowl/status/2102529695908806728)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/cherry_mx_reds/status/2102529784131600745"><img src="media/geometry-wars-but-better/preview.webp" width="400" alt="Geometry Wars But Better"></a><br>**Geometry Wars But Better** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Twin-stick shooter · Claude artifact · One-shot</sub><br>A neon twin-stick arena shooter in the style of Geometry Wars.<br>[Post · 141 ♥](https://x.com/cherry_mx_reds/status/2102529784131600745)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/cherry_mx_reds/status/2102762471543144631"><img src="media/jet-moto-opus/preview.webp" width="400" alt="Jet Moto"></a><br>**Jet Moto** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Racer · Claude artifact · One-shot, then upgraded</sub><br>A Jet Moto-style hoverbike racer.<br>[Post · 136 ♥](https://x.com/cherry_mx_reds/status/2102762471543144631)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/The_Alex/status/2102440681914724748"><img src="media/the-alex-mario-maker/preview.webp" width="400" alt="Mario Maker"></a><br>**Mario Maker** by [@The_Alex](https://x.com/The_Alex)<br><sub>Platformer / level editor · Browser · Prompted build</sub><br>A Mario Maker-style level editor and platformer.<br>[Post · 132 ♥](https://x.com/The_Alex/status/2102440681914724748)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/majidmanzarpour/status/2102810710791401883"><img src="media/kaiju-simulation/preview.webp" width="400" alt="Kaiju Simulation"></a><br>**Kaiju Simulation** by [@majidmanzarpour](https://x.com/majidmanzarpour)<br><sub>Kaiju simulation · Three.js TSL · Minimal prompt, 3.5 hours autonomous</sub><br>A fully procedural kaiju rampaging through a city.<br>[Post · 117 ♥](https://x.com/majidmanzarpour/status/2102810710791401883)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://x.com/majidmanzarpour/status/2102810710791401883"><img src="media/kaiju-simulation/preview.webp" width="400" alt="Kaiju Simulation"></a><br>**Kaiju Simulation** by [@majidmanzarpour](https://x.com/majidmanzarpour)<br><sub>Kaiju simulation · Three.js TSL · Minimal prompt, 3.5 hours autonomous</sub><br>A fully procedural kaiju rampaging through a city.<br>[Post · 117 ♥](https://x.com/majidmanzarpour/status/2102810710791401883)
+<a href="https://x.com/AndrewOnXYZ/status/2102791372440736155"><img src="media/ridge-racer-overnight/preview.webp" width="400" alt="Ridge Racer Overnight"></a><br>**Ridge Racer Overnight** by [@AndrewOnXYZ](https://x.com/AndrewOnXYZ)<br><sub>Arcade racer · Browser 3D · Overnight autonomous run</sub><br>A Ridge Racer-style arcade racer with 24 cars, tracks, music and a story mode.<br>[Post · 41 ♥](https://x.com/AndrewOnXYZ/status/2102791372440736155)
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://x.com/AndrewOnXYZ/status/2102791372440736155"><img src="media/ridge-racer-overnight/preview.webp" width="400" alt="Ridge Racer Overnight"></a><br>**Ridge Racer Overnight** by [@AndrewOnXYZ](https://x.com/AndrewOnXYZ)<br><sub>Arcade racer · Browser 3D · Overnight autonomous run</sub><br>A Ridge Racer-style arcade racer with 24 cars, tracks, music and a story mode.<br>[Post · 41 ♥](https://x.com/AndrewOnXYZ/status/2102791372440736155)
+
 
 </td>
 </tr>
@@ -764,7 +848,7 @@ No public build yet. The creator's footage is the evidence.
 </tr>
 </table>
 
-## Films and animations (41)
+## Films and animations (42)
 
 Music videos, short films and animations where the model wrote the code or drove the tool behind every frame.
 
@@ -989,7 +1073,7 @@ Music videos, short films and animations where the model wrote the code or drove
 </tr>
 </table>
 
-### GPT-6 Astra (6)
+### GPT-6 Astra (7)
 
 <table>
 <tr>
@@ -1025,6 +1109,18 @@ Music videos, short films and animations where the model wrote the code or drove
 <td width="50%" valign="top">
 
 <a href="https://x.com/Dimillian/status/2096478021234426059"><img src="media/manhattan-cinematic-flyover/preview.webp" width="400" alt="Manhattan Cinematic Flyover"></a><br>**Manhattan Cinematic Flyover** by [@Dimillian](https://x.com/Dimillian)<br><sub>Motion graphics · 3D modeling / camera animation · multi-prompt</sub><br>A modeled Manhattan skyline built from topography and map data, with a sweeping cinematic flyover trailer -- warm lighting, dramatic camera angles -- produced end to end by Astra.<br>[Post · 196 ♥](https://x.com/Dimillian/status/2096478021234426059)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://bubucn.com/ai-model-evals/three-dragons-ultra/game/animation.svg"><img src="media/three-dragons/preview.webp" width="400" alt="Three Dragons"></a><br>**Three Dragons** by [@BubuStd](https://x.com/BubuStd)<br><sub>Animated comedy · 0:15 · Pure SVG (SMIL) · One file, no scripts</sub><br>A looping 15-second comedy of three golden dragons with fire, bubbles and chain reactions, drawn and animated entirely in declarative SVG.<br>[**▶ Watch live**](https://bubucn.com/ai-model-evals/three-dragons-ultra/game/animation.svg)
+
+</td>
+<td width="50%" valign="top">
+
+
 
 </td>
 </tr>

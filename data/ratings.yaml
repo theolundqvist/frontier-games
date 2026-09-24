@@ -1662,3 +1662,166 @@ you-are-gaspode:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
+eight-fronts:
+  visuals: 8
+  gameplay: 7
+  polish: 8
+  ambition: 8
+  story: null
+  overall: 7.6
+  summary: Lush low-poly jungle stages, eight fronts, stage select and co-op in a polished run-and-gun tribute.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+drift-snow-memory:
+  visuals: 8
+  gameplay: 4
+  polish: 8
+  ambition: 7
+  story: null
+  overall: 6.4
+  summary: Striking furry bear leaves persistent tracks in deep powder; a gorgeous toy more than a game.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+vibecode-voxelcraft:
+  visuals: 6
+  gameplay: 7
+  polish: 6
+  ambition: 7
+  story: null
+  overall: 6.6
+  summary: One-shot Minecraft clone with crafting, furnaces, TNT and creepers behind a faithful pixel menu.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+vibecode-dawn-patrol:
+  visuals: 7
+  gameplay: 6
+  polish: 8
+  ambition: 7
+  story: null
+  overall: 6.8
+  summary: Clean WWI biplane sim over a low-poly Somme valley with enemy flights, radar and full HUD.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+vibecode-wilderland:
+  visuals: 7
+  gameplay: 6
+  polish: 8
+  ambition: 6
+  story: null
+  overall: 6.6
+  summary: Tidy isometric RTS with fog of war, town hall, build bar and chaptered objectives.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+vibecode-wildblock:
+  visuals: 8
+  gameplay: 6
+  polish: 8
+  ambition: 7
+  story: null
+  overall: 7.1
+  summary: Handsome voxel lake world with survival and creative modes and a polished landing screen.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+dash-dinner:
+  visuals: 6
+  gameplay: 7
+  polish: 7
+  ambition: 8
+  story: null
+  overall: 6.9
+  summary: Funny first-person delivery sim where you accept orders, ride through a blocky 3D city, save for a Yaris.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+veilfall:
+  visuals: 7
+  gameplay: 6
+  polish: 7
+  ambition: 8
+  story: null
+  overall: 6.8
+  summary: Moody 3D grove MOBA with lanes, towers, minimap, five-ability hero and item shop.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+operation-tidewater:
+  visuals: 9
+  gameplay: 4
+  polish: 8
+  ambition: 8
+  story: null
+  overall: 6.9
+  summary: Dense voxel coastline diorama with mountains, farms, airfield and naval task force on a cinematic tour.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+chrono-city:
+  visuals: 8
+  gameplay: 4
+  polish: 8
+  ambition: 8
+  story: null
+  overall: 6.6
+  summary: Snowy blue-hour Toronto block rendered in detail, scrubbable across five decades.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+splashline:
+  visuals: 8
+  gameplay: 6
+  polish: 8
+  ambition: 7
+  story: null
+  overall: 7.1
+  summary: Bright tropical waterslide course with thirteen racers, ramps and slick menu design.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+sunny-kart-svg:
+  visuals: 7
+  gameplay: 6
+  polish: 7
+  ambition: 7
+  story: null
+  overall: 6.6
+  summary: Cheerful seaside kart race with rival animals and items, all inside one SVG file.
+  confidence: low
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+comic-starfighter-svg:
+  visuals: 8
+  gameplay: 6
+  polish: 8
+  ambition: 7
+  story: null
+  overall: 7.1
+  summary: Bold comic-page shmup with pilot cut-ins, weapon levels and bombs rendered in pure SVG.
+  confidence: low
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+three-dragons:
+  visuals: 8
+  craft: 7
+  ambition: 6
+  story: 6
+  overall: 6.8
+  summary: Three expressive hand-drawn golden dragons in a looping 15-second pure-SVG comedy.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+foldline:
+  visuals: 9
+  craft: 8
+  ambition: 9
+  story: 8
+  overall: 8.5
+  summary: Watercolour ink road folds up walls and ceilings while notes on the track play melodies.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
