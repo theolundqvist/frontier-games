@@ -64,9 +64,11 @@ const readme = readFileSync("scripts/README.template.md", "utf8")
   .replace("{{SECTIONS}}", sections);
 writeFileSync("README.md", readme);
 
+const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9_]+/g, "-").replace(/^-|-$/g, "");
 const site = games.map((g) => ({
   ...g,
   model_name: MODELS[g.model],
+  creator: slug(g.creator_handle ?? g.creator_name),
   video: videos[g.id] ?? (existsSync(`media/${g.id}/creator.mp4`) ? `media/${g.id}/creator.mp4` : null),
   loop: existsSync(`media/${g.id}/loop.mp4`) ? `media/${g.id}/loop.mp4` : null,
   preview_start: undefined,
@@ -74,22 +76,64 @@ const site = games.map((g) => ({
   cover_at: undefined,
 }));
 writeFileSync("games.json", JSON.stringify(games.map((g) => g.id)));
+writeFileSync("data.js", `export default ${JSON.stringify(site)};\n`);
 
-// Link previews on X, iMessage and Slack read static meta tags, so each game gets a page that carries them and forwards to its dialog.
+// Every game and creator gets its own URL with its own meta tags, so search results and link previews show that page's content.
 const SITE = "https://theolundqvist.github.io/frontier-games/";
+const TAGLINE = "The best games and films made by Claude Opus 5.5 and GPT-6 Astra, with play links, full footage, votes and comments.";
 const attr = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-rmSync("g", { recursive: true, force: true });
-for (const g of site) {
-  mkdirSync(`g/${g.id}`, { recursive: true });
-  const title = attr(`${g.title}, made by ${g.model_name}`);
-  writeFileSync(`g/${g.id}/index.html`, `<!doctype html><meta charset="utf-8"><title>${title}</title>
-<meta name="description" content="${attr(g.description)}">
-<meta property="og:type" content="website"><meta property="og:site_name" content="Frontier Games">
-<meta property="og:title" content="${title}"><meta property="og:description" content="${attr(g.description)}">
-<meta property="og:url" content="${SITE}g/${g.id}/"><meta property="og:image" content="${SITE}media/${g.id}/cover.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta http-equiv="refresh" content="0; url=../../#${g.id}"><a href="../../#${g.id}">${attr(g.title)}</a>
-`);
+const json = (o) => JSON.stringify(o).replaceAll("</", "<\\/");
+const person = (g) => ({ "@type": "Person", name: g.creator_name, ...(g.creator_handle && { url: `https://x.com/${g.creator_handle}` }) });
+const byName = (g) => (g.creator_handle ? "@" + g.creator_handle : g.creator_name);
+
+function head({ path, title, description, image, ld }) {
+  return [
+    `<base href="${"../".repeat(path.split("/").length - 1) || "./"}">`,
+    `<title>${attr(title)}</title>`,
+    `<meta name="description" content="${attr(description)}">`,
+    `<link rel="canonical" href="${SITE}${path}">`,
+    `<meta property="og:type" content="website"><meta property="og:site_name" content="Frontier Games">`,
+    `<meta property="og:title" content="${attr(title)}"><meta property="og:description" content="${attr(description)}">`,
+    `<meta property="og:url" content="${SITE}${path}"><meta property="og:image" content="${SITE}${image}">`,
+    `<meta name="twitter:card" content="summary_large_image">`,
+    `<script type="application/ld+json">${json({ "@context": "https://schema.org", ...ld })}</script>`,
+  ].filter(Boolean).join("\n");
 }
-writeFileSync("index.html", readFileSync("scripts/index.template.html", "utf8").replace("__GAMES__", JSON.stringify(site).replaceAll("</", "<\\/")));
-console.log("README.md, index.html and games.json", counts);
+
+const template = readFileSync("scripts/index.template.html", "utf8");
+const page = (file, meta, route) => {
+  mkdirSync(file.split("/").slice(0, -1).join("/") || ".", { recursive: true });
+  writeFileSync(file, template.replace("__HEAD__", head(meta)).replace("__ROUTE__", JSON.stringify(route)));
+};
+
+const byDate = [...site].sort((a, b) => b.date.localeCompare(a.date));
+page("index.html", {
+  path: "", title: "Frontier Games: the best games made by Claude Opus 5.5 and GPT-6 Astra", description: TAGLINE, image: "og.jpg",
+  ld: { "@type": "CollectionPage", name: "Frontier Games", description: TAGLINE, url: SITE,
+    mainEntity: { "@type": "ItemList", numberOfItems: site.length, itemListElement: byDate.map((g, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}g/${g.id}/`, name: g.title })) } },
+}, null);
+
+rmSync("g", { recursive: true, force: true });
+rmSync("c", { recursive: true, force: true });
+for (const g of site) {
+  page(`g/${g.id}/index.html`, {
+    path: `g/${g.id}/`, title: `${g.title}, made by ${g.model_name} | Frontier Games`, description: g.description, image: `media/${g.id}/cover.jpg`,
+    ld: { "@type": g.kind === "film" ? "Movie" : "VideoGame", name: g.title, description: g.description, url: `${SITE}g/${g.id}/`,
+      image: `${SITE}media/${g.id}/cover.jpg`, datePublished: g.date, author: person(g), ...(g.genre && { genre: g.genre }),
+      ...(g.kind !== "film" && g.play_url && { gamePlatform: "Web browser" }), ...(g.post_url && { sameAs: g.post_url }) },
+  }, { game: g.id });
+}
+const creators = Map.groupBy(site, (g) => g.creator);
+for (const [key, list] of creators) {
+  const g = list[0], n = list.length;
+  const models = [...new Set(list.map((x) => x.model_name))].join(" and ");
+  page(`c/${key}/index.html`, {
+    path: `c/${key}/`, title: `${byName(g)}: ${n} ${n === 1 ? "entry" : "entries"} made with ${models} | Frontier Games`,
+    description: `${list.map((x) => x.title).join(", ")}. Made by ${g.creator_name} with ${models}.`, image: `media/${[...list].sort((a, b) => (b.post_likes ?? 0) - (a.post_likes ?? 0))[0].id}/cover.jpg`,
+    ld: { "@type": "ProfilePage", name: byName(g), url: `${SITE}c/${key}/`, mainEntity: person(g) },
+  }, { creator: key });
+}
+
+const urls = [["", byDate[0].date], ...byDate.map((g) => [`g/${g.id}/`, g.date]), ...[...creators].map(([k, l]) => [`c/${k}/`, l.map((x) => x.date).sort().at(-1)])];
+writeFileSync("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(([u, d]) => `<url><loc>${SITE}${u}</loc><lastmod>${d}</lastmod></url>`).join("\n")}\n</urlset>\n`);
+console.log("README.md, index.html, data.js, sitemap.xml,", site.length, "game pages,", creators.size, "creator pages", counts);

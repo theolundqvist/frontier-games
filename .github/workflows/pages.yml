@@ -29,7 +29,7 @@ jobs:
         env:
           PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
       - run: node scripts/build.mjs
-      - run: mkdir _site && cp index.html games.json _site/ && cp -r media g _site/
+      - run: mkdir _site && cp index.html games.json data.js sitemap.xml og.jpg favicon.svg _site/ && cp -r media g c _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Frontier Games</title>
-<meta name="description" content="The best games and films made by Claude Opus 5.5 and GPT-6 Astra, with play links and footage.">
+__HEAD__
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -119,6 +119,11 @@ dialog::backdrop { background: rgb(22 14 9 / .78); }
 .who { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 14px; color: var(--ink-soft); }
 .who .tag { position: static; border: 1.5px solid var(--ink); border-radius: 3px; }
 .who a { font-weight: 600; color: var(--ink); }
+.meta .by { color: var(--ink-soft); font-weight: 600; text-decoration: none; }
+.meta .by:hover { text-decoration: underline; }
+.creator-head { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding-top: 32px; }
+.creator-head h2 { margin: 0 auto 0 0; font: 600 40px/1.1 var(--display); }
+.creator-head h2 span { margin-left: 12px; font: 600 16px var(--sans); color: var(--ink-faint); }
 .sheet h2 { font: 600 40px/1.05 var(--display); letter-spacing: -0.01em; margin: 14px 0 0; }
 .sheet .lead-desc { font-size: 17px; line-height: 26px; color: var(--ink-soft); margin: 14px 0 0; max-width: 60ch; }
 .acts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
@@ -230,10 +235,11 @@ const loadGoogle = (onCredential) => googleId ??= new Promise((resolve, reject) 
     onload: () => { google.accounts.id.initialize({ client_id: GOOGLE_CLIENT_ID, callback: (r) => onCredential(r.credential) }); resolve(google.accounts.id); },
   }));
 });
-const api = new URLSearchParams(location.search).has("mockapi") ? (await import("./scripts/mock-api.js")).default : {
+const api = new URLSearchParams(location.search).has("mockapi") ? (await import(new URL("scripts/mock-api.js", document.baseURI).href)).default : {
   stats: () => request("/stats"),
   voted: () => request(`/voter/${voter}`),
   vote: (game) => request("/vote", { body: { game, voter } }),
+  play: (game) => navigator.sendBeacon(API + "/play", JSON.stringify({ game, voter })),
   comments: (game) => request(`/comments/${encodeURIComponent(game)}`),
   comment: (game, body) => request("/comments", { body: { game, body }, auth: true }),
   signIn: (credential) => request("/auth/google", { body: { credential } }),
@@ -242,7 +248,8 @@ const api = new URLSearchParams(location.search).has("mockapi") ? (await import(
   googleButton: (el, onCredential) => loadGoogle(onCredential).then((id) => id.renderButton(el, { theme: "outline", size: "medium", text: "signin_with", shape: "rectangular" })),
 };
 
-const GAMES = __GAMES__;
+const GAMES = (await import(new URL("data.js", document.baseURI).href)).default;
+const ROUTE = __ROUTE__;
 const SECTIONS = [
   { key: "play", title: "Play in your browser", blurb: "One click, no install, no sign-in.", test: (g) => g.kind !== "film" && g.tier === "play" },
   { key: "download", title: "Download or build", blurb: "Playable after a download or a build step.", test: (g) => g.kind !== "film" && g.tier === "download" },
@@ -252,16 +259,18 @@ const SECTIONS = [
 const KINDS = [["all", "Everything"], ["play", "Playable now"], ["games", "All games"], ["films", "Films"]];
 const MODELS = [["all", "All models"], ["claude-opus-5.5", "Opus 5.5"], ["gpt-6-astra", "Astra"]];
 const RATED = { overall: "Overall", visuals: "Visuals", gameplay: "Gameplay", polish: "Polish", craft: "Craft", ambition: "Ambition", story: "Story" };
-const SORTS = [["liked", "Most liked on X"], ["overall", "Overall"], ["visuals", "Visuals"], ["gameplay", "Gameplay"], ["story", "Story"], ["upvotes", "Upvotes"], ["newest", "Newest"]];
+const SORTS = [["liked", "Most liked on X"], ["overall", "Overall"], ["visuals", "Visuals"], ["gameplay", "Gameplay"], ["story", "Story"], ["upvotes", "Upvotes"], ["played", "Most played"], ["newest", "Newest"]];
 const savedSort = store.get("fg-sort");
-const state = { model: "all", kind: "all", q: "", sort: SORTS.some(([k]) => k === savedSort) ? savedSort : "liked", voted: new Set(), online: true, user: null };
+const state = { model: "all", kind: "all", q: "", creator: ROUTE?.creator ?? null, sort: SORTS.some(([k]) => k === savedSort) ? savedSort : "liked", voted: new Set(), online: true, user: null };
 const OFFLINE = "Voting and comments are offline right now";
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const compact = (n) => n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n);
 const modelClass = (m) => m === "gpt-6-astra" ? "astra" : "opus";
 const shortModel = (g) => g.model === "gpt-6-astra" ? "GPT-6 Astra" : "Opus 5.5";
 const kindTest = { all: () => true, play: SECTIONS[0].test, games: (g) => g.kind !== "film", films: (g) => g.kind === "film" };
-const ext = (label, url, cls = "btn") => url ? `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener">${label} <span aria-hidden="true">↗</span></a>` : "";
+const ext = (label, url, cls = "btn", play) => url ? `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener"${play ? ` data-play="${esc(play)}"` : ""}>${label} <span aria-hidden="true">↗</span></a>` : "";
+const byline = (g) => `<a class="by" href="c/${esc(g.creator)}/" data-creator="${esc(g.creator)}">${esc(g.creator_handle ? "@" + g.creator_handle : g.creator_name)}</a>`;
+const posted = (g, opts) => new Date(g.date + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "short", ...opts });
 const ICON = {
   up: `<svg viewBox="0 0 10 10" aria-hidden="true"><path d="M5 1.5 9 8.5H1Z"/></svg>`,
   talk: `<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2.5h10v7H6.5L3.5 12V9.5H2Z"/></svg>`,
@@ -269,6 +278,7 @@ const ICON = {
 };
 
 function matches(g) {
+  if (state.creator && g.creator !== state.creator) return false;
   if (state.model !== "all" && g.model !== state.model) return false;
   if (!kindTest[state.kind](g)) return false;
   if (!state.q) return true;
@@ -292,7 +302,7 @@ const voteButton = (g, label) => `<button class="vote" data-vote="${esc(g.id)}" 
 const talkButton = (g) => `<button class="vote cmt" data-open="${esc(g.id)}" data-discuss aria-label="Comments"${offAttr()}>${ICON.talk}<span data-comments="${esc(g.id)}">${g.comments ?? 0}</span></button>`;
 
 function primary(g) {
-  return ext("Play", g.play_url, "btn primary") || ext("Watch live", g.watch_url, "btn primary") || ext("Download", g.download_url, "btn primary")
+  return ext("Play", g.play_url, "btn primary", g.id) || ext("Watch live", g.watch_url, "btn primary", g.id) || ext("Download", g.download_url, "btn primary", g.id)
     || `<button class="btn" data-open="${esc(g.id)}">${g.kind === "film" ? "Watch" : "Footage"}</button>`;
 }
 
@@ -305,11 +315,12 @@ function card(g, lead) {
   const key = RATED[state.sort] && g.rating?.[state.sort] != null ? state.sort : "overall";
   const value = g.rating?.[key];
   const score = g.rating ? `<span class="score">${RATED[key]} ${key === "overall" ? value.toFixed(1) : value}</span> · ` : "";
-  const meta = [g.creator_handle ? "@" + g.creator_handle : g.creator_name, g.genre, !lead && g.engine, g.post_likes && `♥\u00a0${compact(g.post_likes)}`].filter(Boolean).map(esc).join(" · ");
+  const stat = state.sort === "played" ? `▶\u00a0${g.plays ?? 0}\u00a0plays` : state.sort === "newest" ? posted(g) : g.post_likes && `♥\u00a0${compact(g.post_likes)}`;
+  const meta = [byline(g), ...[g.genre, !lead && g.engine, stat].filter(Boolean).map(esc)].join(" · ");
   return `<article class="card${lead ? " lead" : ""}">
     <div class="media" data-open="${id}"><img src="media/${id}/cover.jpg" alt="" loading="${lead ? "eager" : "lazy"}">${video}<span class="tag ${modelClass(g.model)}">${shortModel(g)}</span></div>
     <div class="body">
-      <a class="title" href="#${id}" data-open="${id}">${esc(g.title)}</a>
+      <a class="title" href="g/${id}/" data-open="${id}">${esc(g.title)}</a>
       <p class="meta">${score}${meta}</p>
       <p class="desc">${esc(g.description)}</p>
       ${lead ? `<dl class="specs">${specRows(g, ["engine", "build", "runtime", "controls"])}</dl>` : ""}
@@ -328,6 +339,7 @@ const looper = new IntersectionObserver((entries) => entries.forEach(({ target: 
 function sortKey(g) {
   if (state.sort === "liked") return g.post_likes ?? 0;
   if (state.sort === "upvotes") return g.votes ?? 0;
+  if (state.sort === "played") return g.plays ?? 0;
   if (state.sort === "newest") return g.date ? Date.parse(g.date) : -Infinity;
   return g.rating?.[state.sort] ?? -Infinity;
 }
@@ -344,7 +356,9 @@ function render() {
       <header class="sec-head"><span class="sec-no">0${s + 1}</span><h2>${t.title}<span>${games.length}</span></h2><p>${t.blurb}</p></header>
       <div class="grid">${cards}</div></div></section>`;
   }).join("");
-  document.getElementById("sections").innerHTML = html || `<p class="wrap empty">Nothing matches. Clear a filter or the search.</p>`;
+  const who = state.creator && GAMES.find((g) => g.creator === state.creator);
+  const head = who ? `<div class="wrap creator-head"><h2>${esc(who.creator_handle ? "@" + who.creator_handle : who.creator_name)}<span>${list.length}</span></h2>${who.creator_handle ? ext("Profile on X", `https://x.com/${who.creator_handle}`) : ""}<a class="btn" href="./" data-creator="">All creators</a></div>` : "";
+  document.getElementById("sections").innerHTML = head + (html || `<p class="wrap empty">Nothing matches. Clear a filter or the search.</p>`);
   looper.disconnect();
   document.querySelectorAll(".media video").forEach((v) => looper.observe(v));
 }
@@ -465,16 +479,15 @@ function screen(g) {
 function openDetail(id, discuss) {
   const g = GAMES.find((x) => x.id === id);
   const d = document.getElementById("detail");
-  const creator = g.creator_handle ? `<a href="https://x.com/${esc(g.creator_handle)}" target="_blank" rel="noopener">@${esc(g.creator_handle)}</a>` : `<b>${esc(g.creator_name)}</b>`;
   const noBuild = g.kind !== "film" && !g.play_url && !g.watch_url && !g.download_url ? `<span class="btn" aria-disabled="true" title="No public build yet">Play</span>` : "";
   d.innerHTML = `<div class="close-row"><button class="close" aria-label="Close">${ICON.close}</button></div>
     <div class="screen">${screen(g)}</div>
     <div class="sheet ${modelClass(g.model)}">
       <div>
-        <div class="who"><span class="tag">${esc(g.model_name)}</span><span>by ${creator}</span>${g.genre ? `<span>${esc(g.genre)}</span>` : ""}${g.post_likes ? `<span>♥ ${compact(g.post_likes)} on X</span>` : ""}</div>
+        <div class="who"><span class="tag">${esc(g.model_name)}</span><span>by ${byline(g)}</span><span>${posted(g, { year: "numeric" })}</span>${g.genre ? `<span>${esc(g.genre)}</span>` : ""}${g.post_likes ? `<span>♥ ${compact(g.post_likes)} on X</span>` : ""}</div>
         <h2>${esc(g.title)}</h2>
         <p class="lead-desc">${esc(g.description)}</p>
-        <div class="acts">${voteButton(g, true)}${ext("Play", g.play_url, "btn primary")}${ext("Watch live", g.watch_url, "btn primary")}${ext("Download", g.download_url, "btn primary")}${noBuild}${ext("Source", g.repo_url)}${ext("Original post", g.post_url)}<button class="btn" data-share="${esc(g.id)}">Share</button></div>
+        <div class="acts">${voteButton(g, true)}${ext("Play", g.play_url, "btn primary", g.id)}${ext("Watch live", g.watch_url, "btn primary", g.id)}${ext("Download", g.download_url, "btn primary", g.id)}${noBuild}${ext("Source", g.repo_url)}${ext("Original post", g.post_url)}<button class="btn" data-share="${esc(g.id)}">Share</button></div>
       </div>
       <aside class="spec"><h3>Game Card</h3><dl class="specs">
         ${specRows(g, ["engine", "build", "runtime", "run", "controls", "model_evidence"])}
@@ -490,12 +503,22 @@ function openDetail(id, discuss) {
   const toTalk = () => discuss && d.querySelector(".talk")?.scrollIntoView({ block: "start" });
   toTalk();
   loadComments(g).then(toTalk);
-  history.replaceState(null, "", `#${id}`);
+  history.replaceState(null, "", `g/${id}/${location.search}`);
+}
+
+const listUrl = () => (state.creator ? `c/${state.creator}/` : "./") + location.search;
+function showCreator(key) {
+  state.creator = key;
+  const d = document.getElementById("detail");
+  if (d.open) d.close();
+  history.replaceState(null, "", listUrl());
+  render();
+  scrollTo({ top: 0 });
 }
 
 async function shareGame(button) {
   const g = GAMES.find((x) => x.id === button.dataset.share);
-  const url = new URL(`g/${g.id}/`, location.href.split("#")[0]).href;
+  const url = new URL(`g/${g.id}/`, document.baseURI).href;
   if (navigator.share) {
     await navigator.share({ title: g.title, text: `${g.title}, made by ${g.model_name}`, url }).catch(() => {});
     return;
@@ -512,21 +535,26 @@ document.addEventListener("click", (e) => {
   const vote = e.target.closest("[data-vote]");
   if (vote) { toggleVote(vote.dataset.vote); return; }
   if (e.target.closest("[data-signout]")) { signOut(); return; }
+  const played = e.target.closest("[data-play]");
+  if (played) api.play(played.dataset.play);
+  const by = e.target.closest("[data-creator]");
+  if (by) { e.preventDefault(); showCreator(by.dataset.creator || null); return; }
   const share = e.target.closest("[data-share]");
   if (share) { shareGame(share); return; }
   const open = e.target.closest("[data-open]");
   if (open) { e.preventDefault(); openDetail(open.dataset.open, open.hasAttribute("data-discuss")); }
 });
 document.addEventListener("submit", (e) => { e.preventDefault(); postComment(e.target); });
-document.getElementById("detail").addEventListener("close", (e) => { e.target.innerHTML = ""; history.replaceState(null, "", location.pathname + location.search); });
+document.getElementById("detail").addEventListener("close", (e) => { e.target.innerHTML = ""; history.replaceState(null, "", listUrl()); });
 document.addEventListener("change", (e) => { if (e.target.id !== "sort") return; state.sort = e.target.value; store.set("fg-sort", state.sort); render(); });
 document.querySelector(".search").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
 renderFilters();
 render();
-if (location.hash.length > 1 && GAMES.some((g) => g.id === location.hash.slice(1))) openDetail(location.hash.slice(1));
+const linked = ROUTE?.game ?? location.hash.slice(1);
+if (GAMES.some((g) => g.id === linked)) openDetail(linked);
 
 Promise.all([api.stats(), api.voted().catch(() => ({ votes: [] }))]).then(([stats, mine]) => {
-  GAMES.forEach((g) => Object.assign(g, { votes: stats[g.id]?.votes ?? 0, comments: stats[g.id]?.comments ?? 0 }));
+  GAMES.forEach((g) => Object.assign(g, { votes: stats[g.id]?.votes ?? 0, comments: stats[g.id]?.comments ?? 0, plays: stats[g.id]?.plays ?? 0 }));
   state.voted = new Set(mine.votes);
   render();
   GAMES.forEach(paintCounts);

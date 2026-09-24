@@ -17,6 +17,7 @@ const comments = {
 export default {
   stats: () => mode === "offline" ? fail("offline") : wait(Object.fromEntries(Object.keys({ ...votes, ...comments }).map((id) => [id, { votes: votes[id] ?? 0, comments: comments[id]?.length ?? 0 }]))),
   voted: () => wait({ votes: [...mine] }),
+  play: () => true,
   vote: (game) => {
     mine.has(game) ? mine.delete(game) : mine.add(game);
     votes[game] = (votes[game] ?? 0) + (mine.has(game) ? 1 : -1);

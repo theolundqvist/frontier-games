@@ -10,6 +10,7 @@ const HOUR = 3600_000;
 const DAY = 24 * HOUR;
 const SESSION_DAYS = 180;
 const LIMITS = {
+  playsPerIpDay: 300,
   votesPerIpHour: 120,
   votersPerIpDay: 30,
   commentsPerUser10Min: 5,
@@ -36,6 +37,11 @@ await sql.unsafe(`
   CREATE INDEX IF NOT EXISTS votes_ip ON votes (ip, created_at);
   CREATE TABLE IF NOT EXISTS vote_events (ip TEXT NOT NULL, created_at TIMESTAMPTZ NOT NULL DEFAULT now());
   CREATE INDEX IF NOT EXISTS vote_events_ip ON vote_events (ip, created_at);
+  CREATE TABLE IF NOT EXISTS plays (
+    game TEXT NOT NULL, voter UUID NOT NULL, day DATE NOT NULL DEFAULT current_date, ip TEXT NOT NULL,
+    PRIMARY KEY (game, voter, day)
+  );
+  CREATE INDEX IF NOT EXISTS plays_ip ON plays (ip, day);
   CREATE TABLE IF NOT EXISTS comments (
     id BIGSERIAL PRIMARY KEY, game TEXT NOT NULL, user_id BIGINT REFERENCES users ON DELETE SET NULL,
     name TEXT NOT NULL, picture TEXT, body TEXT NOT NULL, created_at TIMESTAMPTZ NOT NULL DEFAULT now()
@@ -119,9 +125,9 @@ async function readJson(req) {
 const routes = {
   "GET /health": async () => ({ ok: true, games: games.size, db: (await sql`SELECT 1 AS ok`)[0].ok === 1 }),
   "GET /stats": async () => {
-    const rows = await sql`SELECT game, SUM(v)::int AS votes, SUM(c)::int AS comments FROM (
-      SELECT game, 1 AS v, 0 AS c FROM votes UNION ALL SELECT game, 0, 1 FROM comments) t GROUP BY game`;
-    return Object.fromEntries(rows.map((r) => [r.game, { votes: r.votes, comments: r.comments }]));
+    const rows = await sql`SELECT game, SUM(v)::int AS votes, SUM(c)::int AS comments, SUM(p)::int AS plays FROM (
+      SELECT game, 1 AS v, 0 AS c, 0 AS p FROM votes UNION ALL SELECT game, 0, 1, 0 FROM comments UNION ALL SELECT game, 0, 0, 1 FROM plays) t GROUP BY game`;
+    return Object.fromEntries(rows.map((r) => [r.game, { votes: r.votes, comments: r.comments, plays: r.plays }]));
   },
   "GET /voter/:id": async (req, id) => ({ votes: (await sql`SELECT game FROM votes WHERE voter = ${requireVoter(id)}`).map((r) => r.game) }),
   "GET /comments/:id": (req, id) => sql`SELECT id, name, picture, body, created_at FROM comments WHERE game = ${requireGame(id)} ORDER BY id`,
@@ -142,6 +148,15 @@ const routes = {
       const [{ n: votes }] = await tx`SELECT count(*)::int AS n FROM votes WHERE game = ${game}`;
       return { votes, voted: !removed.length };
     });
+  },
+  // One play per browser, game and day; sent with sendBeacon, so over-limit clicks are dropped silently.
+  "POST /play": async (req) => {
+    const { game, voter } = await readJson(req);
+    requireGame(game); requireVoter(voter);
+    const ip = hashIp(req);
+    const [{ n }] = await sql`SELECT count(*)::int AS n FROM plays WHERE ip = ${ip} AND day = current_date`;
+    if (n < LIMITS.playsPerIpDay) await sql`INSERT INTO plays (game, voter, ip) VALUES (${game}, ${voter}, ${ip}) ON CONFLICT DO NOTHING`;
+    return { ok: true };
   },
   "POST /auth/google": async (req) => {
     const { credential } = await readJson(req);

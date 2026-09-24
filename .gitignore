@@ -6,6 +6,9 @@ _site/
 index.html
 games.json
 g/
+c/
+data.js
+sitemap.xml
 api/pgdata/
 api/backups/
 api/node_modules/

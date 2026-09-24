@@ -4,6 +4,8 @@
     "media": "node scripts/media.mjs",
     "screenshot": "node scripts/screenshot.mjs",
     "videos": "node scripts/videos.mjs",
+    "dates": "node scripts/dates.mjs",
+    "og": "node scripts/og.mjs",
     "build": "node scripts/build.mjs"
   },
   "devDependencies": {

@@ -23,7 +23,7 @@
   model: claude-opus-5.5
   tier: play
   creator_name: bench-portal
-  date: 2026-09-22
+  date: 2026-09-23
   play_url: https://alesha-pro.github.io/bench-portal/games/overrun-claude-opus-5.5/index.html
   repo_url: https://github.com/alesha-pro/bench-portal
   engine: Three.js
@@ -48,6 +48,7 @@
   build: Long agentic session
   description: A Noita-style descent where every pixel is simulated, materials react alchemically and wand spells chain together.
   model_evidence: Benchmark README credits the "EMBERDEEP" entry to Claude-Opus-5.5
+  date: 2026-09-21
 
 - id: pelican-bike-ride
   title: Pelican Bike Ride
@@ -65,6 +66,7 @@
   post_url: https://x.com/riba2534/status/2102470079254556793
   post_likes: 589
   creator_handle: riba2534
+  date: 2026-09-22
 
 - id: crossfire-transport-ship
   title: 'CrossFire: Transport Ship'
@@ -79,6 +81,7 @@
   description: A fan remake of the classic CrossFire Transport Ship map with recoil, bot teams and procedural gunfire audio.
   controls: WASD move, mouse aim and fire
   model_evidence: 'README: built with Claude Opus 5.5 in Claude Code, one-shot, zero human edits'
+  date: 2026-09-23
 
 - id: qq-speed-drift
   title: QQ Speed Drift
@@ -93,6 +96,7 @@
   description: Drift through four tracks, from a night city circuit to a pyramid ramp finale, chaining boosts and nitro.
   controls: Arrows steer, Shift drift, Ctrl nitro
   model_evidence: 'README: built with Claude Opus 5.5 in Claude Code, one-shot, zero human edits'
+  date: 2026-09-23
 
 - id: dead-signal
   title: 'Dead Signal: Exclusion Zone'
@@ -109,6 +113,7 @@
   controls: WASD, mouse, R reload, G grenade, Shift sprint
   run: pnpm install && pnpm build && pnpm preview
   model_evidence: 'README: "built end-to-end by Claude Opus 5.5 in Claude Code from a single prompt"'
+  date: 2026-09-22
 
 - id: concrete-jungle
   title: Concrete Jungle
@@ -124,6 +129,7 @@
   controls: W push, A and D steer, Space ollie, J flip, K grab, L grind
   run: g++ -O2 skate.cpp -lSDL2 -lGL -o skate && ./skate
   model_evidence: 'Repo description: "C++ Skate Game by Opus 5.5"'
+  date: 2026-09-22
 
 - id: lumen-vale
   title: Lumen Vale
@@ -197,7 +203,7 @@
   model: claude-opus-5.5
   tier: play
   creator_name: dgreenheck
-  date: '2026-09-23'
+  date: '2026-09-24'
   play_url: https://dgreenheck.github.io/tidewater/
   repo_url: https://github.com/dgreenheck/tidewater
   engine: WebGPU / WGSL, custom renderer
@@ -230,7 +236,7 @@
   model: claude-opus-5.5
   tier: play
   creator_name: JuliusBrussee
-  date: '2026-09-22'
+  date: '2026-09-23'
   play_url: https://juliusbrussee.github.io/jazz-jackrabbit-remastered/
   repo_url: https://github.com/JuliusBrussee/jazz-jackrabbit-remastered
   engine: Canvas 2D, single 180 KB HTML file
@@ -387,7 +393,7 @@
   model: claude-opus-5.5
   tier: play
   creator_name: PromptEngineer48
-  date: '2026-09-23'
+  date: '2026-09-24'
   play_url: https://promptengineer48.github.io/claude-opus-5.5-games/rooftop-sniper/offline/index.html
   repo_url: https://github.com/PromptEngineer48/claude-opus-5.5-games
   engine: Three.js
@@ -401,7 +407,7 @@
   model: claude-opus-5.5
   tier: play
   creator_name: PromptEngineer48
-  date: '2026-09-23'
+  date: '2026-09-24'
   play_url: https://promptengineer48.github.io/claude-opus-5.5-games/neon-siege/
   repo_url: https://github.com/PromptEngineer48/claude-opus-5.5-games
   engine: Three.js
@@ -458,7 +464,7 @@
   tier: play
   creator_name: senko
   post_url: https://senko.net/vibecode-bench/
-  date: '2026-09-23'
+  date: '2026-09-22'
   play_url: https://senko.net/vibecode-bench/2026/rts-opus-5.5.html
   repo_url: https://gist.github.com/senko/0431525092b5af63618ab05666305e08
   engine: Canvas, single HTML file
@@ -473,7 +479,7 @@
   tier: play
   creator_name: senko
   post_url: https://senko.net/vibecode-bench/
-  date: '2026-09-23'
+  date: '2026-09-22'
   play_url: https://senko.net/vibecode-bench/2026/flysim-opus-5.5.html
   repo_url: https://gist.github.com/senko/1dea1e984fdff2d3091dc9ff3a528a04
   engine: Three.js, single HTML file
@@ -1205,6 +1211,7 @@
   description: Fly a magic carpet and cast spells in a 3D browser arcade game.
   model_evidence: '"The repository describes the game as made with GPT-6 Astra." repo: github.com/threapchills/MagicCarpetWizard'
   quality: medium
+  date: 2026-09-04
 
 - id: oz-breakdance
   title: Oz Breakdance
@@ -1426,6 +1433,7 @@
   post_url: https://x.com/superalesha/status/2100561050739343540
   post_likes: 101
   creator_handle: superalesha
+  date: 2026-09-17
 
 - id: breach
   title: BREACH — Blacksite
@@ -1443,6 +1451,7 @@
   post_url: https://x.com/superalesha/status/2096117875908235764
   post_likes: 113
   creator_handle: superalesha
+  date: 2026-09-05
 
 - id: gpt-6-astra-11-09-2026
   title: GPT-6 Astra 11.09.2026 (ZERO MERCY)
@@ -1478,6 +1487,7 @@
   post_url: https://x.com/superalesha/status/2099836448044175427
   post_likes: 1155
   creator_handle: superalesha
+  date: 2026-09-15
 
 - id: tidebloom-rally
   title: Tidebloom Rally
@@ -1495,6 +1505,7 @@
   post_url: https://x.com/superalesha/status/2099836448044175427
   post_likes: 1155
   creator_handle: superalesha
+  date: 2026-09-15
 
 - id: voidrunner-orbital-combat-league
   title: 'VOIDRUNNER: Orbital Combat League'
@@ -1511,6 +1522,7 @@
   post_url: https://x.com/superalesha/status/2095967568825582044
   post_likes: 588
   creator_handle: superalesha
+  date: 2026-09-04
 
 - id: ember-deep
   title: EMBER DEEP
@@ -1525,6 +1537,7 @@
   description: Descend through a destructible, pixel-simulated cave system mixing alchemy and falling-sand physics, casting chained wand spells while managing heat/material interactions.
   model_evidence: 'noita-benchmark README leaderboard row: "标杆旗舰 | GPT-6-Astra | 《深井余烬》EMBER DEEP" ranked #1 flagship entrant (JerryLiu369/noita-benchmark, PR #3)'
   quality: high
+  date: 2026-09-21
 
 - id: storm-race
   title: STORM RACE
@@ -1615,6 +1628,7 @@
   genre: Fps zombie survival
   description: Survive escalating zombie waves in a 3D first-person shooter with recoil control, stamina management, katana attacks and a final boss.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  date: 2026-09-23
 
 - id: stadium-elite
   title: Stadium Elite — El Clásico
@@ -1628,6 +1642,7 @@
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
   post_url: https://x.com/mindblown_ai/status/2097777996480577803
   post_likes: 1538
+  date: 2026-09-09
 
 - id: iron-bastion
   title: IRON BASTION / 钢铁防线
@@ -1638,6 +1653,7 @@
   genre: 3d tower defense
   description: Defend a beacon against waves of enemy tanks across six sectors in a 3D battlefield with destructible brick walls, a dash and an electromagnetic pulse.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  date: 2026-09-23
 
 - id: desert-operations
   title: DUST II · 沙漠行动 / Desert Operations
@@ -1648,6 +1664,7 @@
   genre: Fps (cs-style)
   description: Counter-Strike Dust II-style FPS with bots, weapon switching (AK-47/USP-S) and kill tracking.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  date: 2026-09-23
 
 - id: dave-the-diver
   title: 潜水员戴夫 / Dave the Diver
@@ -1658,6 +1675,7 @@
   genre: Underwater sim + restaurant management
   description: A browser recreation of Dave the Diver combining underwater spearfishing, sushi-restaurant management and island farming.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  date: 2026-09-23
 
 - id: dust-front
   title: DUST FRONT
@@ -1671,6 +1689,7 @@
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
   post_url: https://x.com/mustafaakin/status/2097658461228069121
   post_likes: 1291
+  date: 2026-09-09
 
 - id: land-if-you-can
   title: Land, If You Can
@@ -1682,6 +1701,7 @@
   description: Cabin-fever intro then a full jet cockpit with tower comms, autopilot and manual flight controls (200 knots, 3,000 ft observed).
   controls: E to stand, R to call tower, P to take manual control
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  date: 2026-09-23
 
 - id: the-sunshard
   title: The Sunshard
@@ -1693,6 +1713,7 @@
   genre: Voxel action rpg
   description: Explore a voxel-style action RPG, fight Hollowborn with Spark Bolt and Sunburst, blink away from danger and awaken the sun gate.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  date: 2026-09-23
 
 - id: glider
   title: Glider — One Throw. Endless Sky.
@@ -1704,6 +1725,7 @@
   build: long agentic session
   description: Endless paper-airplane flight game with free-roam exploration, distance/speed/altitude HUD; author reports a 34-hour x-high build.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  date: 2026-09-23
 
 - id: no-moat
   title: No Moat
@@ -1781,6 +1803,7 @@
   genre: Kart racing
   description: Race three laps around Bay Circuit, choose from six karts, and charge corner-exit mini turbos to climb the solo rankings or score for a 4v4 team.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  date: 2026-09-23
 
 - id: knightmare
   title: Knightmare — Medusa’s Temple
@@ -1794,6 +1817,7 @@
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
   post_url: https://x.com/MinHoHwang1/status/2096984386566815920
   post_likes: 1
+  date: 2026-09-07
 
 - id: drone-io
   title: DRONE.IO — Proving Grounds
@@ -1807,6 +1831,7 @@
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
   post_url: https://x.com/OMASMohamad/status/2101830659358478516
   post_likes: 1
+  date: 2026-09-21
 
 - id: dropzone-royale
   title: Dropzone Royale
@@ -1818,6 +1843,7 @@
   genre: Battle royale
   description: Battle-royale shooter with a build/loot phase, ammo pickups and a shrinking player count.
   model_evidence: Listed under 'GPT-6 Astra' attribution in MartinDelophy/awesome-gpt-6-astra README
+  date: 2026-09-23
 
 - id: mario-kart-style-racer
   title: Mario Kart–Style Racer (Three.js Alpha)
@@ -2134,7 +2160,7 @@
   tier: play
   creator_name: echohive
   post_url: https://news.ycombinator.com/item?id=49812002
-  date: '2026-09-23'
+  date: '2026-09-24'
   play_url: https://www.echohive.ai/posts/ozymandias/animation.html
   engine: Three.js, p5.js, Tone.js
   genre: Animated poem
@@ -2621,7 +2647,7 @@
   tier: play
   creator_name: BubuAi
   creator_handle: BubuStd
-  date: '2026-09-16'
+  date: '2026-09-15'
   play_url: https://eight-fronts.vercel.app/
   repo_url: https://github.com/mike007jd/eightfront-3d
   engine: Three.js
@@ -2636,7 +2662,7 @@
   tier: play
   creator_name: BubuAi
   creator_handle: BubuStd
-  date: '2026-09-12'
+  date: '2026-09-24'
   play_url: https://drift-ursus-fusion.vercel.app/
   engine: Three.js
   genre: Snow sandbox
@@ -2652,7 +2678,7 @@
   tier: watch
   creator_name: BubuAi
   creator_handle: BubuStd
-  date: '2026-09-06'
+  date: '2026-09-24'
   watch_url: https://bubucn.com/ai-model-evals/three-dragons-ultra/game/animation.svg
   engine: Pure SVG (SMIL)
   genre: Animated comedy
@@ -2667,7 +2693,7 @@
   tier: play
   creator_name: senko
   post_url: https://senko.net/vibecode-bench/
-  date: '2026-09-22'
+  date: '2026-09-24'
   play_url: https://senko.net/vibecode-bench/2026/voxel-opus-5.5.html
   engine: WebGL
   genre: Voxel sandbox
@@ -2682,7 +2708,7 @@
   tier: play
   creator_name: senko
   post_url: https://senko.net/vibecode-bench/
-  date: '2026-09-05'
+  date: '2026-09-24'
   play_url: https://senko.net/vibecode-bench/2026/flysim-gpt-6-astra.html
   engine: WebGL
   genre: WWI flight sim
@@ -2697,7 +2723,7 @@
   tier: play
   creator_name: senko
   post_url: https://senko.net/vibecode-bench/
-  date: '2026-09-05'
+  date: '2026-09-24'
   play_url: https://senko.net/vibecode-bench/2026/rts-gpt-6-astra.html
   engine: WebGL
   genre: RTS
@@ -2712,7 +2738,7 @@
   tier: play
   creator_name: senko
   post_url: https://senko.net/vibecode-bench/
-  date: '2026-09-05'
+  date: '2026-09-24'
   play_url: https://senko.net/vibecode-bench/2026/voxel-gpt-6-astra.html
   engine: WebGL
   genre: Voxel sandbox
@@ -2726,7 +2752,7 @@
   model: gpt-6-astra
   tier: play
   creator_name: Drakoniux
-  date: '2026-09-18'
+  date: '2026-09-24'
   play_url: https://agentgames.dev/play/dash-dinner
   engine: Three.js
   genre: Delivery sim
@@ -2739,7 +2765,7 @@
   model: gpt-6-astra
   tier: play
   creator_name: Drakoniux
-  date: '2026-09-15'
+  date: '2026-09-24'
   play_url: https://agentgames.dev/play/veilfall
   engine: Three.js
   genre: Action MOBA
@@ -2782,7 +2808,7 @@
   model: gpt-6-astra
   tier: play
   creator_name: KJLKurt
-  date: '2026-09-05'
+  date: '2026-09-04'
   play_url: https://kjlkurt.github.io/waterslide-game-astra/
   repo_url: https://github.com/KJLKurt/waterslide-game-astra
   engine: Three.js
