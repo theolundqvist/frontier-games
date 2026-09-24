@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8090:8080"
+    environment:
+      CORS_ORIGINS: https://theolundqvist.github.io
+    volumes:
+      - ./data:/data

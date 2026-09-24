@@ -2,6 +2,7 @@ node_modules/
 media/*/cover.png
 media/*/.rec/
 media/*/.raw.mp4
-data/votes.json
 _site/
 index.html
+games.json
+api/data/

@@ -3,13 +3,10 @@ name: Pages
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: read
-  discussions: write
   pages: write
   id-token: write
 
@@ -31,11 +28,8 @@ jobs:
       - run: npm ci
         env:
           PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
-      - run: node scripts/discussions.mjs
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
       - run: node scripts/build.mjs
-      - run: mkdir _site && cp index.html _site/ && cp -r media _site/
+      - run: mkdir _site && cp index.html games.json _site/ && cp -r media _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
