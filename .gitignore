@@ -5,4 +5,6 @@ media/*/.raw.mp4
 _site/
 index.html
 games.json
-api/data/
+api/pgdata/
+api/backups/
+api/node_modules/
