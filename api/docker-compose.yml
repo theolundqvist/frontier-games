@@ -23,7 +23,7 @@ services:
     environment:
       DATABASE_URL: postgres://frontier@db/frontier
       CORS_ORIGINS: https://theolundqvist.github.io
-      GOOGLE_CLIENT_ID: 1005775847710-ikjidn8vmd30km7ae9oh3d7k4f9don7m.apps.googleusercontent.com
+      GOOGLE_CLIENT_ID: 837711685033-3qrmu77n9l8q0lu1rsvrv5nptfqe7uv3.apps.googleusercontent.com
   backup:
     image: postgres:17-alpine
     restart: unless-stopped
