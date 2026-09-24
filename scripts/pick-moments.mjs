@@ -1,17 +1,18 @@
-// Heuristics shortlist twelve distinct frames, Gemini picks the cover from a numbered sheet; writes cover_at and preview_start.
+// Default: heuristic cover_at/preview_start for entries without one. --sheets <dir>: contact sheets for picking both by eye.
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { parse } from "yaml";
 import { duration, ff, rawVideo } from "./source.mjs";
 
-const MODEL = "gemini-3.1-pro-preview";
-const W = 320, H = 180, FPS = 2, CELL = 480;
+const W = 320, H = 180, FPS = 2, CELL = 384;
 const FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf";
 
 const games = parse(readFileSync("data/games.yaml", "utf8"));
-const only = process.argv.slice(2);
-const targets = games.filter((g) => existsSync(`media/${g.id}/creator.mp4`) && (only.length ? only.includes(g.id) : g.cover_at == null));
+const args = process.argv.slice(2);
+const sheetsAt = args[0] === "--sheets" ? args[1] : null;
+const only = sheetsAt ? args.slice(2) : args;
+const targets = games.filter((g) => existsSync(`media/${g.id}/creator.mp4`) && (only.length ? only.includes(g.id) : sheetsAt || g.cover_at == null));
 
 function measure(px) {
   const n = W * H, Y = new Float32Array(n), bins = new Uint32Array(4096);
@@ -55,62 +56,43 @@ function analyse(source, d) {
   return frames.filter((f) => f.t >= skip && f.t <= d - skip);
 }
 
-function shortlist(frames) {
-  const picks = [], ranked = [...frames].sort((a, b) => b.score - a.score);
-  for (const minDist of [10, 0]) for (const f of ranked) {
-    if (picks.length < 12 && picks.every((p) => Math.abs(p.t - f.t) >= 1.5 && dist(p.sig, f.sig) > minDist)) picks.push(f);
+// Best distinct frame per equal slice of the video, topped up from the global ranking.
+function shortlist(frames, n) {
+  const picks = [], distinct = (f) => picks.every((p) => Math.abs(p.t - f.t) >= 1.5 && dist(p.sig, f.sig) > 6);
+  const t0 = frames[0].t, span = frames.at(-1).t - t0 + 1e-9;
+  for (let k = 0; k < n; k++) {
+    const best = frames.filter((f) => f.t - t0 >= (k * span) / n && f.t - t0 < ((k + 1) * span) / n).sort((a, b) => b.score - a.score).find(distinct);
+    if (best) picks.push(best);
   }
+  for (const f of [...frames].sort((a, b) => b.score - a.score)) if (picks.length < n && distinct(f)) picks.push(f);
   return picks.sort((a, b) => a.t - b.t);
 }
 
-function sheet(source, picks, out) {
-  const dir = mkdtempSync(`${tmpdir()}/pick-`);
-  const [w, h] = execFileSync("ffprobe", ["-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", source]).toString().trim().split(",").map(Number);
-  const ch = Math.round((CELL * h) / w / 2) * 2;
-  picks.forEach((p, i) => ff("-ss", String(p.t), "-i", source, "-frames:v", "1", "-vf",
-    `scale=${CELL}:${ch},drawbox=x=0:y=0:w=64:h=52:color=black@0.75:t=fill,drawtext=fontfile=${FONT}:text=${i + 1}:fontsize=40:fontcolor=yellow:x=10:y=6`,
-    `${dir}/${String(i).padStart(2, "0")}.png`));
-  ff("-framerate", "1", "-i", `${dir}/%02d.png`, "-vf", `tile=4x${Math.ceil(picks.length / 4)}:padding=6:color=white`, "-frames:v", "1", "-q:v", "3", out);
-  rmSync(dir, { recursive: true });
-}
-
-async function choose(g, img, n) {
-  const project = execFileSync("gcloud", ["config", "get-value", "project"], { stdio: ["ignore", "pipe", "ignore"] }).toString().trim();
-  const token = execFileSync("gcloud", ["auth", "print-access-token"]).toString().trim();
-  const what = g.kind === "film" ? "an AI-made film" : "a game built with AI";
-  const prompt = `These ${n} numbered frames come from a video showing "${g.title}", ${what} (${g.genre ?? ""}): ${g.description}
-Pick the single frame that would make the most visually striking gallery cover: it must show the actual ${g.kind === "film" ? "film footage" : "gameplay or game world"}, be sharp, well lit, colourful and well composed.
-Reject title cards, logos, menus, loading screens, code editors, chat or prompt windows, tweets, desktop or browser chrome, side-by-side comparison layouts, and webcam or face-cam overlays whenever a cleaner frame exists.
-Answer as JSON: {"frame": <number>, "reason": "<one short sentence>"}.`;
-  const res = await fetch(`https://aiplatform.googleapis.com/v1/projects/${project}/locations/global/publishers/google/models/${MODEL}:generateContent`, {
-    method: "POST",
-    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-    body: JSON.stringify({
-      contents: [{ role: "user", parts: [{ inlineData: { mimeType: "image/jpeg", data: readFileSync(img).toString("base64") } }, { text: prompt }] }],
-      generationConfig: { responseMimeType: "application/json" },
-    }),
-  });
-  const body = await res.json();
-  const text = body.candidates?.[0]?.content?.parts?.filter((p) => !p.thought).map((p) => p.text).join("");
-  if (!text) throw new Error(`Gemini ${res.status}: ${JSON.stringify(body).slice(0, 300)}`);
-  const answer = JSON.parse(text);
-  if (!(answer.frame >= 1 && answer.frame <= n)) throw new Error(`Gemini picked ${text}`);
-  return answer;
-}
-
-function window(frames, t, d) {
-  if (d <= 6) return 0;
-  let best = { v: -Infinity, s: 0 };
-  for (let s = t - 5.5; s <= t + 1; s += 0.5) {
-    const start = Math.max(0, Math.min(s, d - 6));
+// Non-overlapping 6 s windows ranked by frame quality and motion, penalising dud frames and hard cuts.
+function windows(frames, d) {
+  if (d <= 6) return [0];
+  const scored = [];
+  for (let start = 0; start <= d - 6; start += 0.5) {
     const w = frames.filter((f) => f.t >= start && f.t < start + 6);
     if (!w.length) continue;
     const avg = w.reduce((a, f) => a + f.score, 0) / w.length;
     const motion = w.slice(1).reduce((a, f) => a + f.cut, 0) / Math.max(1, w.length - 1);
-    const v = avg - 1.5 * w.filter((f) => f.bad).length - 0.6 * w.filter((f) => f.cut > 40).length - (motion < 1 ? 1 : 0) + (start <= t && t < start + 6 ? 0.5 : 0);
-    if (v > best.v) best = { v, s: start };
+    scored.push({ start, v: avg - 1.5 * w.filter((f) => f.bad).length - 0.6 * w.filter((f) => f.cut > 40).length + Math.min(motion, 8) / 4 - (motion < 1 ? 1 : 0) });
   }
-  return Math.round(best.s * 10) / 10;
+  const picks = [];
+  for (const s of scored.sort((a, b) => b.v - a.v)) if (picks.every((p) => Math.abs(p - s.start) >= 6)) picks.push(s.start);
+  return picks;
+}
+
+function sheet(source, cells, cols, out) {
+  const dir = mkdtempSync(`${tmpdir()}/pick-`);
+  const [w, h] = execFileSync("ffprobe", ["-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", source]).toString().trim().split(",").map(Number);
+  const ch = Math.round((CELL * h) / w / 2) * 2;
+  cells.forEach(({ t, label }, i) => ff("-ss", String(t), "-i", source, "-frames:v", "1", "-vf",
+    `scale=${CELL}:${ch},drawbox=x=0:y=0:w=${14 * label.length + 12}:h=34:color=black@0.75:t=fill,drawtext=fontfile=${FONT}:text='${label}':fontsize=24:fontcolor=yellow:x=6:y=5`,
+    `${dir}/${String(i).padStart(2, "0")}.png`));
+  ff("-framerate", "1", "-i", `${dir}/%02d.png`, "-vf", `tile=${cols}x${Math.ceil(cells.length / cols)}:padding=4:color=white`, "-frames:v", "1", "-q:v", "3", out);
+  rmSync(dir, { recursive: true });
 }
 
 function record(id, fields) {
@@ -124,22 +106,28 @@ function record(id, fields) {
   writeFileSync("data/games.yaml", lines.join("\n"));
 }
 
+if (sheetsAt) mkdirSync(sheetsAt, { recursive: true });
 for (const g of targets) {
   const dir = `media/${g.id}`;
+  const cached = existsSync(`${dir}/.raw.mp4`);
   try {
     const source = (await rawVideo(g, dir)) ?? `${dir}/creator.mp4`;
     const d = duration(source);
     const frames = analyse(source, d);
-    const picks = shortlist(frames);
-    const img = `${tmpdir()}/${g.id}-candidates.jpg`;
-    sheet(source, picks, img);
-    const answer = await choose(g, img, picks.length);
-    if (!process.env.KEEP_SHEET) rmSync(img);
-    const at = picks[answer.frame - 1].t;
-    const start = window(frames, at, d);
-    record(g.id, { cover_at: at, preview_start: start });
-    console.log(`${g.id}: frame ${answer.frame} of [${picks.map((p) => p.t).join(" ")}] at ${at}s, clip ${start}s (${d.toFixed(1)}s) - ${answer.reason}`);
+    const top = windows(frames, d);
+    if (!sheetsAt) {
+      const at = [...frames].sort((a, b) => b.score - a.score)[0].t;
+      record(g.id, { cover_at: at, preview_start: top[0] });
+      console.log(`${g.id}: cover ${at}s, clip ${top[0]}s`);
+      continue;
+    }
+    const picks = shortlist(frames, 20);
+    sheet(source, picks.map((p, i) => ({ t: p.t, label: `${i + 1}  ${p.t}s` })), 5, `${sheetsAt}/${g.id}-frames.jpg`);
+    const clip = top.slice(0, 3).flatMap((s, k) => [0, 1, 2, 3, 4, 5].map((o) => ({ t: Math.min(s + o, d - 0.1), label: `${"ABC"[k]}  ${s + o}s` })));
+    sheet(source, clip, 6, `${sheetsAt}/${g.id}-clips.jpg`);
+    console.log(`${g.id} ${d.toFixed(1)}s ${source.endsWith(".raw.mp4") ? "raw" : "creator"} windows=${top.slice(0, 3).join(",")} now cover@${g.cover_at} clip@${g.preview_start}`);
   } catch (e) {
     console.log(`FAIL ${g.id}: ${e.message}`);
   }
+  if (sheetsAt && !cached) rmSync(`${dir}/.raw.mp4`, { force: true });
 }
