@@ -456,13 +456,19 @@ function ratingBlock(g) {
 
 // X refuses video requests that carry our referrer, while Google sign-in needs it, so only the player drops it.
 const player = (g) => `<meta name="referrer" content="no-referrer"><style>html,body{margin:0;height:100%;background:#000}video{width:100%;height:100%;object-fit:contain}</style><video src="${esc(g.video)}" controls autoplay playsinline poster="media/${esc(g.id)}/cover.jpg"></video>`;
+function screen(g) {
+  const yt = /youtube\.com\/watch\?v=([\w-]+)(?:&t=(\d+))?/.exec(g.video ?? "");
+  if (yt) return `<iframe title="${esc(g.title)} video" src="https://www.youtube-nocookie.com/embed/${yt[1]}?autoplay=1&start=${yt[2] ?? 0}" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+  if (g.video) return `<iframe title="${esc(g.title)} video" allow="autoplay; fullscreen" allowfullscreen srcdoc="${esc(player(g))}"></iframe>`;
+  return `<img src="media/${esc(g.id)}/cover.jpg" alt="">`;
+}
 function openDetail(id, discuss) {
   const g = GAMES.find((x) => x.id === id);
   const d = document.getElementById("detail");
   const creator = g.creator_handle ? `<a href="https://x.com/${esc(g.creator_handle)}" target="_blank" rel="noopener">@${esc(g.creator_handle)}</a>` : `<b>${esc(g.creator_name)}</b>`;
   const noBuild = g.kind !== "film" && !g.play_url && !g.watch_url && !g.download_url ? `<span class="btn" aria-disabled="true" title="No public build yet">Play</span>` : "";
   d.innerHTML = `<div class="close-row"><button class="close" aria-label="Close">${ICON.close}</button></div>
-    <div class="screen">${g.video ? `<iframe title="${esc(g.title)} video" allow="autoplay; fullscreen" allowfullscreen srcdoc="${esc(player(g))}"></iframe>` : `<img src="media/${esc(g.id)}/cover.jpg" alt="">`}</div>
+    <div class="screen">${screen(g)}</div>
     <div class="sheet ${modelClass(g.model)}">
       <div>
         <div class="who"><span class="tag">${esc(g.model_name)}</span><span>by ${creator}</span>${g.genre ? `<span>${esc(g.genre)}</span>` : ""}${g.post_likes ? `<span>♥ ${compact(g.post_likes)} on X</span>` : ""}</div>
