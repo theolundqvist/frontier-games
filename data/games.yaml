@@ -2850,6 +2850,7 @@
 
 - id: foldline
   title: Foldline
+  kind: film
   model: claude-opus-5.5
   tier: watch
   creator_name: Chetan Ankola

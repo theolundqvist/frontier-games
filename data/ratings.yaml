@@ -1668,7 +1668,7 @@ eight-fronts:
   polish: 8
   ambition: 8
   story: null
-  overall: 7.6
+  overall: 7.7
   summary: Lush low-poly jungle stages, eight fronts, stage select and co-op in a polished run-and-gun tribute.
   confidence: medium
   model: claude-opus-5-5
@@ -1681,6 +1681,16 @@ drift-snow-memory:
   story: null
   overall: 6.4
   summary: Striking furry bear leaves persistent tracks in deep powder; a gorgeous toy more than a game.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-24
+three-dragons:
+  visuals: 8
+  craft: 7
+  ambition: 6
+  story: 6
+  overall: 6.8
+  summary: Three expressive hand-drawn golden dragons in a looping 15-second pure-SVG comedy.
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
@@ -1745,7 +1755,7 @@ veilfall:
   polish: 7
   ambition: 8
   story: null
-  overall: 6.8
+  overall: 6.9
   summary: Moody 3D grove MOBA with lanes, towers, minimap, five-ability hero and item shop.
   confidence: medium
   model: claude-opus-5-5
@@ -1789,7 +1799,7 @@ sunny-kart-svg:
   polish: 7
   ambition: 7
   story: null
-  overall: 6.6
+  overall: 6.7
   summary: Cheerful seaside kart race with rival animals and items, all inside one SVG file.
   confidence: low
   model: claude-opus-5-5
@@ -1803,16 +1813,6 @@ comic-starfighter-svg:
   overall: 7.1
   summary: Bold comic-page shmup with pilot cut-ins, weapon levels and bombs rendered in pure SVG.
   confidence: low
-  model: claude-opus-5-5
-  rated_at: 2026-09-24
-three-dragons:
-  visuals: 8
-  craft: 7
-  ambition: 6
-  story: 6
-  overall: 6.8
-  summary: Three expressive hand-drawn golden dragons in a looping 15-second pure-SVG comedy.
-  confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
 foldline:
