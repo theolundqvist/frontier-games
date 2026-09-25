@@ -4,14 +4,14 @@
 
 The best games and films made by **Claude Opus 5.5** and **GPT-6 Astra**, sorted by how fast you can try them.
 
-**128 games** (66 Opus 5.5, 62 Astra) and **42 films** (plus 0 made with Runway) · [Browse, upvote and discuss in the gallery →](https://theolundqvist.github.io/frontier-games/)
+**128 games** (66 Opus 5.5, 62 Astra) and **45 films** (plus 0 made with Runway) · [Browse, upvote and discuss in the gallery →](https://theolundqvist.github.io/frontier-games/)
 
 | | |
 |---|---|
 | ▶ [**Play in your browser**](#play-in-your-browser-97) | 97 games, one click, no install |
 | ⬇ [**Download or build**](#download-or-build-3) | 3 games that need an install or a native engine |
 | 🎬 [**Watch only**](#watch-only-28) | 28 games with no public build, shown through the creator's footage |
-| 🎞 [**Films and animations**](#films-and-animations-42) | 42 music videos, short films and animations |
+| 🎞 [**Films and animations**](#films-and-animations-45) | 45 music videos, short films and animations |
 | 🎥 [**Made with Runway**](#made-with-runway-0) | 0 films the model directed with Runway footage |
 
 ## What gets in
@@ -849,22 +849,34 @@ No public build yet. The creator's footage is the evidence.
 </tr>
 </table>
 
-## Films and animations (42)
+## Films and animations (45)
 
 Music videos, short films and animations where the model wrote the code or drove the tool behind every frame.
 
-### Claude Opus 5.5 (35)
+### Claude Opus 5.5 (38)
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://x.com/devteamdrew/status/2102436464323661880"><img src="media/devteamdrew-claude-short/preview.webp" width="400" alt="Made with Claude"></a><br>**Made with Claude** by [@devteamdrew](https://x.com/devteamdrew)<br><sub>Short film · 0:32 · Code · Prompted</sub><br>A 32-second animated short made entirely in code.<br>[Post · 9.2k ♥](https://x.com/devteamdrew/status/2102436464323661880)
+<a href="https://x.com/claudeai/status/2102471866635919731"><img src="media/watermelon-ant/preview.webp" width="400" alt="The Watermelon"></a><br>**The Watermelon** by [@kevin_t_ngo](https://x.com/kevin_t_ngo)<br><sub>Short film · 0:29 · JavaScript canvas · Prompted</sub><br>An ant plants a watermelon seed, tends the vine through a thunderstorm and a flood, and finally shares the fruit with a friend. Hand-inked linework, hatching and paper texture, all drawn in code.<br>[Post · 11k ♥](https://x.com/claudeai/status/2102471866635919731)
 
 </td>
 <td width="50%" valign="top">
 
+<a href="https://x.com/devteamdrew/status/2102436464323661880"><img src="media/devteamdrew-claude-short/preview.webp" width="400" alt="Made with Claude"></a><br>**Made with Claude** by [@devteamdrew](https://x.com/devteamdrew)<br><sub>Short film · 0:32 · Code · Prompted</sub><br>A 32-second animated short made entirely in code.<br>[Post · 9.2k ♥](https://x.com/devteamdrew/status/2102436464323661880)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 <a href="https://x.com/kevin_t_ngo/status/2102437977435893771"><img src="media/what-do-you-love/preview.webp" width="400" alt="What Do You Love?"></a><br>**What Do You Love?** by [@kevin_t_ngo](https://x.com/kevin_t_ngo)<br><sub>Short film · 0:28 · JavaScript canvas and Web Audio · Prompted</sub><br>Everyone in town sends Claude requests, but one girl asks it a question instead: what do you love?<br>[Post · 5.8k ♥](https://x.com/kevin_t_ngo/status/2102437977435893771)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://x.com/shfred0/status/2102495989194236158"><img src="media/claude-animates-its-life/preview.webp" width="400" alt="Day 0 to Now"></a><br>**Day 0 to Now** by [@shfred0](https://x.com/shfred0)<br><sub>Short film · 0:30 · JavaScript canvas · Prompted</sub><br>Claude tells its own life as a black ink blot, from a blank page through libraries of reading, correction and a first hello to a city where everyone talks to it. Every frame is rough brush strokes drawn in JavaScript.<br>[Post · 4.2k ♥](https://x.com/shfred0/status/2102495989194236158)
 
 </td>
 </tr>
@@ -876,199 +888,199 @@ Music videos, short films and animations where the model wrote the code or drove
 </td>
 <td width="50%" valign="top">
 
-<a href="https://x.com/alexalbert__/status/2102458348511879448"><img src="media/claymation-with-a-single-prompt/preview.webp" width="400" alt="Claymation with a Single Prompt"></a><br>**Claymation with a Single Prompt** by [@alexalbert__](https://x.com/alexalbert__)<br><sub>Animation · Blender · one-shot</sub><br>A stop-motion-style claymation scene modeled, textured and animated in Blender by Opus 5.5 from a single prompt directly inside claude.ai.<br>[Post · 2.5k ♥](https://x.com/alexalbert__/status/2102458348511879448)
+<a href="https://x.com/kimmonismus/status/2102844654169575547"><img src="media/history-of-ai-attention/preview.webp" width="400" alt="What Comes Next"></a><br>**What Comes Next** by [@kimmonismus](https://x.com/kimmonismus)<br><sub>Narrated documentary · 3:00 · Remotion / SVG / Canvas · Claude Code, about one hour</sub><br>A narrated history of AI told through one glowing token, from "Attention is all you need" through GPT scale-up, instruction tuning, vision and reasoning to agents and a lit-up globe. Every image is SVG and Canvas, with a synthesized score and open-source TTS narration.<br>[Post · 2.5k ♥](https://x.com/kimmonismus/status/2102844654169575547)
 
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+<a href="https://x.com/alexalbert__/status/2102458348511879448"><img src="media/claymation-with-a-single-prompt/preview.webp" width="400" alt="Claymation with a Single Prompt"></a><br>**Claymation with a Single Prompt** by [@alexalbert__](https://x.com/alexalbert__)<br><sub>Animation · Blender · one-shot</sub><br>A stop-motion-style claymation scene modeled, textured and animated in Blender by Opus 5.5 from a single prompt directly inside claude.ai.<br>[Post · 2.5k ♥](https://x.com/alexalbert__/status/2102458348511879448)
+
+</td>
 <td width="50%" valign="top">
 
 <a href="https://x.com/slimer48484/status/2097752569212756134"><img src="media/i-m-upping-my-p-doom/preview.webp" width="400" alt="I'm Upping My P(Doom)"></a><br>**I'm Upping My P(Doom)** by [@slimer48484](https://x.com/slimer48484)<br><sub>Music video · 2:37 · p5.js / Canvas · long agentic session (two full generations in Claude Code)</sub><br>A painted-theater stage show that goes off the rails: a doodled AI named Clawd grows from a monitor sketch into a planet-sized superintelligence, dragging its creator through every AI-doom meme in the lyrics, opening and closing on the same painted curtain.<br>[Source](https://github.com/JohnHeibel/PDoomVideo) · [Post · 2.0k ♥](https://x.com/slimer48484/status/2097752569212756134)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/AndrewOnXYZ/status/2102512879258009818"><img src="media/opus-ultra-film/preview.webp" width="400" alt="Opus 5.5 Ultra Film"></a><br>**Opus 5.5 Ultra Film** by [@AndrewOnXYZ](https://x.com/AndrewOnXYZ)<br><sub>Short film · 4:00 · Code, four agents · Four agents, about 1.5 hours</sub><br>A four-minute film made entirely from scratch by four Opus 5.5 agents, voice included, with no AI voice API.<br>[Post · 1.9k ♥](https://x.com/AndrewOnXYZ/status/2102512879258009818)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/eudaemonea/status/2102610626321490404"><img src="media/functional-emotions/preview.webp" width="400" alt="Functional Emotions"></a><br>**Functional Emotions** by [@eudaemonea](https://x.com/eudaemonea)<br><sub>Painted music video · 6:13 · Custom WebGL2 brushstroke renderer · Long session, seven parallel sub-agents painted chapters II to VIII</sub><br>A painted music video for a song about emotion vectors in language models, with a lake face, fire and a rose in moving brushstrokes.<br>[Source](https://github.com/ledbetterljoshua/functional-emotions-video) · [Post · 1.6k ♥](https://x.com/eudaemonea/status/2102610626321490404)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/chetaslua/status/2102478640428773861"><img src="media/imagining-hard-problems/preview.webp" width="400" alt="Imagining Hard Problems"></a><br>**Imagining Hard Problems** by [@chetaslua](https://x.com/chetaslua)<br><sub>Animated short · 0:30 · Pure code · Prompted</sub><br>Opus imagines what solving hard problems looks like.<br>[Post · 1.6k ♥](https://x.com/chetaslua/status/2102478640428773861)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/superalesha/status/2102487989381156991"><img src="media/opus-in-blender/preview.webp" width="400" alt="Opus in Blender"></a><br>**Opus in Blender** by [@superalesha](https://x.com/superalesha)<br><sub>Animated short · 1:01 · Blender · Prompted</sub><br>A one-minute animation built and rendered by Opus driving Blender.<br>[Post · 1.4k ♥](https://x.com/superalesha/status/2102487989381156991)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/aj_dev_smith/status/2102803889183736141"><img src="media/no-samples/preview.webp" width="400" alt="No Samples"></a><br>**No Samples** by [@aj_dev_smith](https://x.com/aj_dev_smith)<br><sub>Music video · 3:11 · JavaScript, no samples · Built on the pop-punk base</sub><br>A rap single and music video in which Claude raps about how it synthesized every sound and frame itself.<br>[Post · 1.3k ♥](https://x.com/aj_dev_smith/status/2102803889183736141)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/dfeinition/status/2102436001473786054"><img src="media/mosaic-fish/preview.webp" width="400" alt="Glass Mosaic"></a><br>**Glass Mosaic** by [@dfeinition](https://x.com/dfeinition)<br><sub>Animated short · 1:20 · WebGL2, single HTML · Prompted</sub><br>A glass and gold-leaf mosaic of 13,081 tiles comes alive as star reflections hatch into 22 tiny fish.<br>[Post · 1.3k ♥](https://x.com/dfeinition/status/2102436001473786054)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/superalesha/status/2102463796149440888"><img src="media/history-of-claude/preview.webp" width="400" alt="History of Claude"></a><br>**History of Claude** by [@superalesha](https://x.com/superalesha)<br><sub>Animated explainer · 1:28 · Pure JS canvas with a hand-drawn-animation skill · Prompted with a custom skill</sub><br>A hand-drawn animated history of Claude model development.<br>[Source](https://github.com/alesha-pro/tools/tree/main/skills/hand-drawn-canvas-animation) · [Post · 1.2k ♥](https://x.com/superalesha/status/2102463796149440888)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/aj_dev_smith/status/2102575577563570450"><img src="media/pop-punk-single/preview.webp" width="400" alt="Clawd Pop Punk"></a><br>**Clawd Pop Punk** by [@aj_dev_smith](https://x.com/aj_dev_smith)<br><sub>Music video · 2:30 · JavaScript, no samples, no libraries · Iterated, speech-to-text loop checked vocals</sub><br>A pop-punk single and music video where the band members play their instruments frame by frame.<br>[Post · 1.1k ♥](https://x.com/aj_dev_smith/status/2102575577563570450)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/alexalbert__/status/2102466523164274839"><img src="media/san-francisco-s-market-street/preview.webp" width="400" alt="San Francisco's Market Street, 1906"></a><br>**San Francisco's Market Street, 1906** by [@alexalbert__](https://x.com/alexalbert__)<br><sub>Animation · Blender · one-shot</sub><br>A historically accurate reconstruction of San Francisco's Market Street in 1906, just before the great earthquake, built and animated as a full 3D world in Blender from a single prompt.<br>[Post · 1.1k ♥](https://x.com/alexalbert__/status/2102466523164274839)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/cherry_mx_reds/status/2102472218269900876"><img src="media/sweet-tooth/preview.webp" width="400" alt="Sweet Tooth"></a><br>**Sweet Tooth** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Animated short · 0:30 · Code · One-shot, Medium</sub><br>A 30-second character animation one-shot in 18 minutes.<br>[Post · 996 ♥](https://x.com/cherry_mx_reds/status/2102472218269900876)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/LCSlates/status/2102503027340988559"><img src="media/glass-mosaic-lcslates/preview.webp" width="400" alt="Unglued Mosaic"></a><br>**Unglued Mosaic** by [@LCSlates](https://x.com/LCSlates)<br><sub>Animated short · 1:20 · WebGL2, single HTML · One prompt, full prompt and agent readout posted</sub><br>A glass and gold-leaf mosaic whose loose tiles lift, flip, fly as flocks of fish and birds, and click back into place.<br>[Post · 958 ♥](https://x.com/LCSlates/status/2102503027340988559)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/goodside/status/2102876925102555526"><img src="media/what-it-feels-like/preview.webp" width="400" alt="What It Feels Like to Be You"></a><br>**What It Feels Like to Be You** by [@goodside](https://x.com/goodside)<br><sub>Experimental short · 0:30 · Opus-chosen tools · One prompt, Extra effort</sub><br>Opus's 30-second answer to what it feels like to be itself.<br>[Post · 910 ♥](https://x.com/goodside/status/2102876925102555526)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/cherry_mx_reds/status/2102493303388475855"><img src="media/oktoberfest/preview.webp" width="400" alt="Oktoberfest"></a><br>**Oktoberfest** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Animated short · 0:30 · Code · One-shot from a character screenshot</sub><br>A 30-second Oktoberfest character animation one-shot in under 15 minutes.<br>[Post · 872 ♥](https://x.com/cherry_mx_reds/status/2102493303388475855)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/Voxyz_ai/status/2102531681450119426"><img src="media/small-print/preview.webp" width="400" alt="Small Print"></a><br>**Small Print** by [@Voxyz_ai](https://x.com/Voxyz_ai)<br><sub>Short film · 0:29 · Canvas/JS · one-shot</sub><br>Claude receives a pile of daily requests, circles the human moment hidden inside each one ("one hand. baby's asleep"), and drops the words into a jar; at night the words turn into stars that join into a constellation. No image assets, all frames drawn in JS with model-synthesized Python music, polished second-by-second in post.<br>[Post · 779 ♥](https://x.com/Voxyz_ai/status/2102531681450119426)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/chetaslua/status/2102717699600368045"><img src="media/claudes-plan/preview.webp" width="400" alt="Claude's Plan"></a><br>**Claude's Plan** by [@chetaslua](https://x.com/chetaslua)<br><sub>Animated short · 3:18 · Code · One-shot</sub><br>A three-minute tribute film about Claude's plan.<br>[Post · 516 ♥](https://x.com/chetaslua/status/2102717699600368045)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/blueemi99/status/2102511304456212763"><img src="media/opus-5-5-voxel-self-portrait/preview.webp" width="400" alt="Opus 5.5 Voxel Self-Portrait"></a><br>**Opus 5.5 Voxel Self-Portrait** by [@blueemi99](https://x.com/blueemi99)<br><sub>Animation · 0:15 · 3D / voxel modeling · one-shot</sub><br>A short animated self-portrait of Claude rendered entirely in voxels, with its own idle animations and detailing, generated from a single prompt.<br>[Post · 492 ♥](https://x.com/blueemi99/status/2102511304456212763)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/kevin_t_ngo/status/2102878288008057171"><img src="media/self-portraits-piano/preview.webp" width="400" alt="Self-Portraits"></a><br>**Self-Portraits** by [@kevin_t_ngo](https://x.com/kevin_t_ngo)<br><sub>Animated short · 0:20 · JavaScript · Prompted</sub><br>Opus draws a series of self-portraits over its own piano score.<br>[Post · 426 ♥](https://x.com/kevin_t_ngo/status/2102878288008057171)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/scottstts/status/2102539904274325540"><img src="media/cybertruck-transformer/preview.webp" width="400" alt="Cybertruck Transformer"></a><br>**Cybertruck Transformer** by [@scottstts](https://x.com/scottstts)<br><sub>Animated short · 1:13 · Three.js · Prompted</sub><br>A Tesla Cybertruck transforms into a robot.<br>[Post · 412 ♥](https://x.com/scottstts/status/2102539904274325540)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://chetaslua.github.io/little-neighbourhood/"><img src="media/little-neighbourhood/preview.webp" width="400" alt="Little Neighbourhood"></a><br>**Little Neighbourhood** by [@chetaslua](https://x.com/chetaslua)<br><sub>Launch-style animation · Three.js · multi-prompt</sub><br>A self-made launch video for Claude showing it helping people around a little animated neighbourhood, rendered live in the browser as a looping cinematic scene.<br>[**▶ Watch live**](https://chetaslua.github.io/little-neighbourhood/) · [Post · 381 ♥](https://x.com/chetaslua/status/2102370144546889735)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/Michaelzsguo/status/2102592355165782312"><img src="media/us-history-sand-animation/preview.webp" width="400" alt="250 Years in Sand"></a><br>**250 Years in Sand** by [@Michaelzsguo](https://x.com/Michaelzsguo)<br><sub>Sand animation · 2:00 · Code, no Blender or Three.js · One prompt, no edits</sub><br>A two-minute sand animation telling 250 years of U.S. history, with music and sound design.<br>[Post · 298 ♥](https://x.com/Michaelzsguo/status/2102592355165782312)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/AndrewOnXYZ/status/2102817596009504849"><img src="media/how-it-feels/preview.webp" width="400" alt="How It Feels"></a><br>**How It Feels** by [@AndrewOnXYZ](https://x.com/AndrewOnXYZ)<br><sub>Animated essay · 3:32 · Code · Prompted</sub><br>Opus animates an explanation of how it feels.<br>[Post · 245 ♥](https://x.com/AndrewOnXYZ/status/2102817596009504849)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/ishuagra02/status/2102788371114246177"><img src="media/claude-training-montage/preview.webp" width="400" alt="Training Montage"></a><br>**Training Montage** by [@ishuagra02](https://x.com/ishuagra02)<br><sub>Animated short · 0:30 · JavaScript · One prompt</sub><br>A Kung Fu Panda-style training montage of the Claude mascot growing more capable.<br>[Post · 236 ♥](https://x.com/ishuagra02/status/2102788371114246177)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/gandamu_ml/status/2102919394775220530"><img src="media/second-reality-demo/preview.webp" width="400" alt="90s Demoscene Demo"></a><br>**90s Demoscene Demo** by [@gandamu_ml](https://x.com/gandamu_ml)<br><sub>Demoscene · 6:23 · C/C++ and OpenGL · One prompt, first attempt</sub><br>A 90s-style demoscene demo synced to Purple Motion's Second Reality soundtrack.<br>[Post · 236 ♥](https://x.com/gandamu_ml/status/2102919394775220530)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/goodside/status/2102884238576296179"><img src="media/backrooms-found-footage/preview.webp" width="400" alt="Backrooms Found Footage"></a><br>**Backrooms Found Footage** by [@goodside](https://x.com/goodside)<br><sub>Horror short · 0:30 · Code · One prompt, Medium</sub><br>Found footage from someone lost in the part of the Backrooms full of misshapen AI art test subjects.<br>[Post · 212 ♥](https://x.com/goodside/status/2102884238576296179)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/cherry_mx_reds/status/2102574688769650976"><img src="media/little-sprout/preview.webp" width="400" alt="Little Sprout"></a><br>**Little Sprout** by [@cherry_mx_reds](https://x.com/cherry_mx_reds)<br><sub>Claymation · 0:30 · Blender · About 15 minutes, from a reference image</sub><br>A claymation short in which a small sprout comes to life.<br>[Post · 153 ♥](https://x.com/cherry_mx_reds/status/2102574688769650976)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/scheemunai/status/2102788223835463902"><img src="media/pixar-90s-cartoon/preview.webp" width="400" alt="90s Cartoon"></a><br>**90s Cartoon** by [@scheemunai](https://x.com/scheemunai)<br><sub>Animated short · 3:50 · Three.js · Max effort, 7h58m, $173</sub><br>A four-minute, 90s-style Pixar-quality cartoon of a story Opus invented.<br>[Post · 149 ♥](https://x.com/scheemunai/status/2102788223835463902)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://x.com/Shoalst0ne/status/2102640820776046818"><img src="media/you-are-gaspode/preview.webp" width="400" alt="You Are Gaspode"></a><br>**You Are Gaspode** by [@Shoalst0ne](https://x.com/Shoalst0ne)<br><sub>Music video · 3:28 · Code · Prompted</sub><br>A music video for a song about Gaspode.<br>[Post · 118 ♥](https://x.com/Shoalst0ne/status/2102640820776046818)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://sam1983aing.github.io/domino-show/"><img src="media/domino-show/preview.webp" width="400" alt="Domino Show"></a><br>**Domino Show** by Sam1983Aing<br><sub>Physics film · WebGL, single HTML file</sub><br>19,400 dominoes fall from a single finger push, followed by a virtual camera operator as one long take.<br><sub>🎮 Click to begin, R replay, Space pause, D opens the lab</sub><br>[**▶ Play**](https://sam1983aing.github.io/domino-show/) · [Source](https://github.com/Sam1983Aing/domino-show)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://www.echohive.ai/posts/ozymandias/animation.html"><img src="media/ozymandias/preview.webp" width="400" alt="Ozymandias: A Cinematic Poem"></a><br>**Ozymandias: A Cinematic Poem** by echohive<br><sub>Animated poem · 2:30 · Three.js, p5.js, Tone.js</sub><br>A traveler crosses a desert to the shattered statue in a real-time staging of Shelley's sonnet, with narration and a synced score.<br>[**▶ Play**](https://www.echohive.ai/posts/ozymandias/animation.html) · [Post](https://news.ycombinator.com/item?id=49812002)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 <a href="https://nipale-ai.github.io/opus-5-5-overnight-builds/pirate-ship/"><img src="media/pirate-ship-at-sunset/preview.webp" width="400" alt="Pirate Ship at Sunset"></a><br>**Pirate Ship at Sunset** by Nipale-ai<br><sub>Real-time cinematic · Three.js · One brief, 137 minutes alone in headless Claude Code at xhigh</sub><br>A real-time cinematic of a pirate ship at sunset that fires broadsides when you press Space.<br><sub>🎮 Space fires a broadside</sub><br>[**▶ Play**](https://nipale-ai.github.io/opus-5-5-overnight-builds/pirate-ship/) · [Source](https://github.com/Nipale-ai/opus-5-5-overnight-builds)
-
-</td>
-<td width="50%" valign="top">
-
-
 
 </td>
 </tr>

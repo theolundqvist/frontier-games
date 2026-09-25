@@ -2863,3 +2863,60 @@
   model_evidence: '"ok here it is - my first Opus 5.5 vibecoded threejs 3D experience ... I made a road that forgets which way is down."'
   cover_at: 20
   preview_start: 18
+
+- id: watermelon-ant
+  kind: film
+  title: The Watermelon
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Kevin Ngo
+  creator_handle: kevin_t_ngo
+  post_url: https://x.com/claudeai/status/2102471866635919731
+  post_likes: 11112
+  date: '2026-09-22'
+  engine: JavaScript canvas
+  genre: Short film
+  runtime: 0:29
+  build: Prompted
+  description: An ant plants a watermelon seed, tends the vine through a thunderstorm and a flood, and finally shares the fruit with a friend. Hand-inked linework, hatching and paper texture, all drawn in code.
+  model_evidence: 'Anthropic''s launch thread on X: "A thread of early explorations with Claude Opus 5.5: A short story about a watermelon created by @kevin_t_ngo."'
+  cover_at: 24
+  preview_start: 14
+
+- id: claude-animates-its-life
+  kind: film
+  title: Day 0 to Now
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: shfred0
+  creator_handle: shfred0
+  post_url: https://x.com/shfred0/status/2102495989194236158
+  post_likes: 4152
+  date: '2026-09-22'
+  engine: JavaScript canvas
+  genre: Short film
+  runtime: 0:30
+  build: Prompted
+  description: Claude tells its own life as a black ink blot, from a blank page through libraries of reading, correction and a first hello to a city where everyone talks to it. Every frame is rough brush strokes drawn in JavaScript.
+  model_evidence: 'Creator on X: "Asked Claude Opus 5.5 to animate its own life, from day 0 to now. No video model. No images. Every frame is JavaScript drawing brush strokes"'
+  cover_at: 28
+  preview_start: 24
+
+- id: history-of-ai-attention
+  kind: film
+  title: What Comes Next
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Chubby
+  creator_handle: kimmonismus
+  post_url: https://x.com/kimmonismus/status/2102844654169575547
+  post_likes: 2535
+  date: '2026-09-23'
+  engine: Remotion / SVG / Canvas
+  genre: Narrated documentary
+  runtime: '3:00'
+  build: Claude Code, about one hour
+  description: A narrated history of AI told through one glowing token, from "Attention is all you need" through GPT scale-up, instruction tuning, vision and reasoning to agents and a lit-up globe. Every image is SVG and Canvas, with a synthesized score and open-source TTS narration.
+  model_evidence: 'Creator on X: "This 3-minute film was made 100% in code by Claude in Claude Code: ~7,400 lines of React/TypeScript (Remotion), every image drawn in SVG and Canvas, an open-source TTS voice, and a score synthesized in Python. No stock footage. No image generators." Post opens: "I wanted to quickly create a short video with Opus 5.5".'
+  cover_at: 47.5
+  preview_start: 174

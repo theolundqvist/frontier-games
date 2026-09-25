@@ -1825,3 +1825,33 @@ foldline:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-24
+watermelon-ant:
+  visuals: 8
+  craft: 8
+  ambition: 7
+  story: 7
+  overall: 7.5
+  summary: Hatched ink and paper-textured ant tends a watermelon vine through lightning and flood, ending in a colony feast.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-25
+claude-animates-its-life:
+  visuals: 8
+  craft: 7
+  ambition: 7
+  story: 7
+  overall: 7.3
+  summary: Stark black brush-stroke woodcut look as an ink blot reads, learns, says hello and bursts across a city.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-25
+history-of-ai-attention:
+  visuals: 8
+  craft: 8
+  ambition: 8
+  story: 7
+  overall: 7.8
+  summary: One glowing token carries a narrated three-minute AI history through attention webs, particle galaxies and a lit globe.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-25
