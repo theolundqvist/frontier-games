@@ -37,8 +37,8 @@ h1 { font: 600 64px/0.95 var(--display); letter-spacing: -0.02em; margin: 0; }
 .lede b::before { content: ""; display: inline-block; width: 10px; height: 10px; margin-right: 6px; vertical-align: 0; background: var(--m); }
 
 .bar { position: sticky; top: 0; z-index: 5; background: var(--grain), var(--paper); border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); }
-.bar .wrap { display: flex; align-items: center; gap: 16px; height: 56px; }
-.filters { display: flex; align-items: center; gap: 16px; min-width: 0; }
+.bar .wrap { display: flex; align-items: center; gap: 16px; min-height: 56px; padding-block: 10px; }
+.filters { display: flex; flex: 1 1 auto; flex-wrap: wrap; align-items: center; gap: 10px 16px; min-width: 0; }
 .seg { display: flex; flex: none; border: 1.5px solid var(--ink); border-radius: 4px; overflow: hidden; }
 .chip { display: inline-flex; align-items: center; gap: 7px; height: 32px; padding: 0 12px; border: 0; border-left: 1.5px solid var(--ink); background: transparent; font-size: 14px; font-weight: 600; white-space: nowrap; cursor: pointer; }
 .chip:first-child { border-left: 0; }
@@ -51,7 +51,7 @@ h1 { font: 600 64px/0.95 var(--display); letter-spacing: -0.02em; margin: 0; }
 .sort select { height: 100%; padding: 0 8px 0 0; border: 0; background: transparent; font: 600 14px var(--sans); color: var(--ink); cursor: pointer; }
 .sort:focus-within { outline: 2px solid var(--opus); outline-offset: 2px; }
 .sort select:focus-visible { outline: 0; }
-.search { margin-left: auto; flex: 0 1 260px; min-width: 0; height: 32px; padding: 0 12px; border: 1.5px solid var(--ink); border-radius: 4px; background: var(--cream); font-size: 14px; }
+.search { flex: 0 1000 200px; min-width: 140px; height: 32px; padding: 0 12px; border: 1.5px solid var(--ink); border-radius: 4px; background: var(--cream); font-size: 14px; }
 .search::placeholder { color: var(--ink-faint); }
 .search:focus-visible, .chip:focus-visible, .vote:focus-visible, .btn:focus-visible, .link:focus-visible, .say textarea:focus-visible { outline: 2px solid var(--opus); outline-offset: 2px; }
 
@@ -180,10 +180,10 @@ dialog::backdrop { background: rgb(22 14 9 / .78); }
   .mast { padding-top: 28px; padding-bottom: 18px; }
   h1 { font-size: 44px; }
   .lede { font-size: 15px; }
-  .bar .wrap { height: 52px; gap: 10px; padding-right: 0; }
-  .search { order: -1; margin-left: 0; flex: 0 0 104px; }
+  .bar .wrap { min-height: 52px; padding-block: 0; gap: 10px; padding-right: 0; }
+  .search { order: -1; min-width: 0; flex: 0 0 104px; }
   .search:focus { flex-basis: 180px; }
-  .filters { overflow-x: auto; scrollbar-width: none; padding-right: var(--gutter); gap: 10px; }
+  .filters { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-right: var(--gutter); gap: 10px; }
   .filters::-webkit-scrollbar { display: none; }
   .chip { padding: 0 10px; }
   .sec { padding-top: 40px; }
