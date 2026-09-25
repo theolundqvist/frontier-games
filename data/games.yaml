@@ -2921,3 +2921,41 @@
   model_evidence: 'Creator on X: "This 3-minute film was made 100% in code by Claude in Claude Code: ~7,400 lines of React/TypeScript (Remotion), every image drawn in SVG and Canvas, an open-source TTS voice, and a score synthesized in Python. No stock footage. No image generators." Post opens: "I wanted to quickly create a short video with Opus 5.5".'
   cover_at: 47.5
   preview_start: 174
+
+- id: how-browsers-work
+  kind: film
+  title: How Browsers Work
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Addy Osmani
+  creator_handle: addyosmani
+  post_url: https://x.com/addyosmani/status/2103009037164110327
+  post_likes: 2152
+  date: '2026-09-24'
+  engine: JavaScript canvas
+  genre: Animated explainer
+  runtime: 0:40
+  build: Prompted
+  description: A small red robot carries a request from the address bar through the TLS handshake, parsing, layout, layers, GPU compositing and garbage collection. Every storybook frame, from the vine-grown DOM tree to the fenced memory yard, is drawn in JavaScript.
+  model_evidence: 'Creator on X: "Claude Opus 5.5 drew each frame of this animation in JavaScript. Here''s \"how browsers work\" in 40 seconds."'
+  cover_at: 4
+  preview_start: 20.5
+
+- id: pelican-seaside-ride
+  kind: film
+  title: Pelican Seaside Ride
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Bin Liu
+  creator_handle: liu8in
+  post_url: https://x.com/liu8in/status/2102528278732894667
+  post_likes: 60
+  date: '2026-09-22'
+  engine: three.js / HyperFrames
+  genre: 3D short
+  runtime: 0:27
+  build: Prompted
+  description: The classic pelican-on-a-bicycle test turned into a cut short film, with a white pelican pedalling a blue cruiser along a sunset beach road past palms, lamp posts and gulls. Close-ups, an overhead shadow shot and wide tracking shots are all rendered in three.js.
+  model_evidence: 'Creator on X: "opus 5.5 might be the new GOAT the classic test, made with @threejs & @HyperFrames_"'
+  cover_at: 3.5
+  preview_start: 1.5

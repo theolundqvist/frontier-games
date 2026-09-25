@@ -1855,3 +1855,23 @@ history-of-ai-attention:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-25
+how-browsers-work:
+  visuals: 9
+  craft: 8
+  ambition: 7
+  story: 7
+  overall: 7.8
+  summary: A hatched storybook robot and a blueprint mode walk the whole browser pipeline, each stage its own crafted scene.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-25
+pelican-seaside-ride:
+  visuals: 8
+  craft: 7
+  ambition: 5
+  story: 4
+  overall: 6
+  summary: Soft-lit three.js pelican pedals a sunset beach road, cut from close-up, overhead and wide tracking shots.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-25
