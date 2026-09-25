@@ -12,3 +12,4 @@ sitemap.xml
 api/pgdata/
 api/backups/
 api/node_modules/
+discover/logs/
