@@ -9,7 +9,8 @@ const SECTIONS = [
   { key: "play", title: "Play in your browser", blurb: "One click, no install, no sign-in.", test: (g) => g.kind !== "film" && g.tier === "play" },
   { key: "download", title: "Download or build", blurb: "Playable, but needs a download, a build step, or a native engine.", test: (g) => g.kind !== "film" && g.tier === "download" },
   { key: "watch", title: "Watch only", blurb: "No public build yet. The creator's footage is the evidence.", test: (g) => g.kind !== "film" && g.tier === "watch" },
-  { key: "films", title: "Films and animations", blurb: "Music videos, short films and animations where the model wrote the code or drove the tool behind every frame.", test: (g) => g.kind === "film" },
+  { key: "films", title: "Films and animations", blurb: "Music videos, short films and animations where the model wrote the code or drove the tool behind every frame.", test: (g) => g.kind === "film" && !g.made_with },
+  { key: "runway", title: "Made with Runway", blurb: "Films the model directed end to end, with Runway generating the footage.", test: (g) => g.kind === "film" && g.made_with === "runway" },
 ];
 
 const compact = (n) => (n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n ?? ""));
@@ -54,8 +55,9 @@ const sections = SECTIONS.filter((t) => counts[t.key]).map((t) => {
 }).join("\n\n");
 
 const readme = readFileSync("scripts/README.template.md", "utf8")
-  .replaceAll("{{TOTAL}}", String(games.length - counts.films))
+  .replaceAll("{{TOTAL}}", String(games.filter((g) => g.kind !== "film").length))
   .replaceAll("{{FILMS}}", String(counts.films))
+  .replaceAll("{{RUNWAY}}", String(counts.runway))
   .replaceAll("{{PLAY}}", String(counts.play ?? 0))
   .replaceAll("{{DOWNLOAD}}", String(counts.download ?? 0))
   .replaceAll("{{WATCH}}", String(counts.watch ?? 0))

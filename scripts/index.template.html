@@ -254,7 +254,8 @@ const SECTIONS = [
   { key: "play", title: "Play in your browser", blurb: "One click, no install, no sign-in.", test: (g) => g.kind !== "film" && g.tier === "play" },
   { key: "download", title: "Download or build", blurb: "Playable after a download or a build step.", test: (g) => g.kind !== "film" && g.tier === "download" },
   { key: "watch", title: "Watch-only games", blurb: "No public build yet. The footage is the evidence.", test: (g) => g.kind !== "film" && g.tier === "watch" },
-  { key: "films", title: "Films and animations", blurb: "The model wrote the code or drove the tool behind every frame.", test: (g) => g.kind === "film" },
+  { key: "films", title: "Films and animations", blurb: "The model wrote the code or drove the tool behind every frame.", test: (g) => g.kind === "film" && !g.made_with },
+  { key: "runway", title: "Made with Runway", blurb: "The model directed every shot; Runway generated the footage.", test: (g) => g.kind === "film" && g.made_with === "runway" },
 ];
 const KINDS = [["all", "Everything"], ["play", "Playable now"], ["games", "All games"], ["films", "Films"]];
 const MODELS = [["all", "All models"], ["claude-opus-5.5", "Opus 5.5"], ["gpt-6-astra", "Astra"]];

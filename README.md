@@ -4,7 +4,7 @@
 
 The best games and films made by **Claude Opus 5.5** and **GPT-6 Astra**, sorted by how fast you can try them.
 
-**128 games** (66 Opus 5.5, 62 Astra) and **42 films** · [Browse, upvote and discuss in the gallery →](https://theolundqvist.github.io/frontier-games/)
+**128 games** (66 Opus 5.5, 62 Astra) and **42 films** (plus 0 made with Runway) · [Browse, upvote and discuss in the gallery →](https://theolundqvist.github.io/frontier-games/)
 
 | | |
 |---|---|
@@ -12,11 +12,12 @@ The best games and films made by **Claude Opus 5.5** and **GPT-6 Astra**, sorted
 | ⬇ [**Download or build**](#download-or-build-3) | 3 games that need an install or a native engine |
 | 🎬 [**Watch only**](#watch-only-28) | 28 games with no public build, shown through the creator's footage |
 | 🎞 [**Films and animations**](#films-and-animations-42) | 42 music videos, short films and animations |
+| 🎥 [**Made with Runway**](#made-with-runway-0) | 0 films the model directed with Runway footage |
 
 ## What gets in
 
 1. **The model is named by the builder.** The creator's post, repo, or page says Opus 5.5 or GPT-6 Astra built it. Earlier models and mixed-model builds stay out.
-2. **It is impressive, and the model made the visuals.** Games need a real loop with polish: 3D worlds, physics, sound, AI opponents, progression. Every frame comes from code the model wrote or tools it drove, such as three.js, shaders or Blender. Art from image, video or 3D generators and third-party asset packs stay out; AI music is fine.
+2. **It is impressive, and the model made the visuals.** Games need a real loop with polish: 3D worlds, physics, sound, AI opponents, progression. Every frame comes from code the model wrote or tools it drove, such as three.js, shaders or Blender. Art from image, video or 3D generators and third-party asset packs stay out; AI music is fine. The one exception is Runway: films the model directed end to end with Runway footage get their own section.
 3. **You can see it.** Every entry carries the creator's own footage or a screenshot of the live page.
 
 ## Play in your browser (97)
