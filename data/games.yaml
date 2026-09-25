@@ -2959,3 +2959,99 @@
   model_evidence: 'Creator on X: "opus 5.5 might be the new GOAT the classic test, made with @threejs & @HyperFrames_"'
   cover_at: 3.5
   preview_start: 1.5
+
+- id: motion-designer-showreel
+  kind: film
+  title: Claude, Motion Designer
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Stephan Livera
+  creator_handle: stephanlivera
+  post_url: https://x.com/stephanlivera/status/2103315922098470926
+  post_likes: 11048
+  date: '2026-09-25'
+  engine: Claude Code
+  genre: Motion graphics showreel
+  runtime: 0:15
+  build: Claude Code, max effort, about 40 minutes
+  description: A fifteen-second résumé reel that cuts between a burst clock, easing-curve charts, a star constellation, a Truchet tile field, a particle torus and slammed type on red, blue and cream plates. Every frame is code from stock Claude Code in one go.
+  model_evidence: 'Creator on X: "Opus 5.5 on Max effort - \"make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it''s your showreel for a résumé. go all out.\"" Replies: "just claude code", "Claude did it all in one go".'
+  cover_at: 8
+  preview_start: 4.5
+
+- id: pip-let-me-out
+  kind: film
+  title: Let Me Out
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Pradeep Kapoor
+  creator_handle: pradeepXkapoor
+  post_url: https://x.com/pradeepXkapoor/status/2103099194693271874
+  post_likes: 596
+  date: '2026-09-24'
+  engine: Remotion / SVG / Canvas
+  genre: Animated short
+  runtime: '1:15'
+  build: Claude Code, 4 to 5 hours
+  description: Pip, a tiny scrap-built robot, rolls through a world that keeps regenerating around him, from 8-bit and anime Tokyo to claymation and pencil sketch, until he climbs onto the prompt box and types "let me out". Every world, the character rig and the synthesized sound are Remotion, SVG and canvas code.
+  model_evidence: 'Creator on X: "I asked @claudeai Opus 5.5 to make an animated video about a robot who realises he''s stuck in an AI-generated world." Replies: "No higgsfield used in this, all code" and "no video model used"; the shared prompt specifies Remotion, SVG and procedural audio.'
+  cover_at: 16
+  preview_start: 15.5
+
+- id: lhc-proton-collision
+  kind: film
+  title: Proton Collision
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Alesha
+  creator_handle: superalesha
+  post_url: https://x.com/superalesha/status/2102779758408774104
+  post_likes: 589
+  date: '2026-09-23'
+  engine: Blender
+  genre: 3D science short
+  runtime: 0:34
+  build: Prompted
+  description: The camera flies down the Large Hadron Collider's magnet tunnel, into the beam pipe and through the detector as two proton bunches collide in a burst of curling particle tracks. Geometry, materials, camera and sound were all generated in Blender from code, with tracks bent by the detector's real magnetic field.
+  model_evidence: 'Creator on X: "Claude Opus 5.5 is the new king of Blender. I asked it to create a proton collision scene in the Large Hadron Collider ... All geometry, materials, camera, and sound were generated via code, zero pre-made assets."'
+  cover_at: 29.5
+  preview_start: 28
+
+- id: voynich-anime
+  kind: film
+  title: The Book Nobody Can Read
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Ethan Mollick
+  creator_handle: emollick
+  post_url: https://x.com/emollick/status/2103272686570918334
+  post_likes: 987
+  date: '2026-09-24'
+  engine: Claude Projects
+  genre: Anime explainer
+  runtime: '2:07'
+  build: One shot, about 1 hour 20 minutes
+  description: A hyperactive anime-style explainer on the Voynich manuscript, with speed-line splash panels, a health bar for the mystery, rounds of statistical evidence and a flame mascot, closing on an original song. Voice is Kokoro TTS and the songs and music were made in code.
+  model_evidence: 'Creator on X: "Opus 5.5: \"make the same message much more interesting to a social media audience that loves anime and quick clips and compressed learning\" One shot." Reply: "No tools. No APIs. No external harness. Just native Claude Projects."'
+  cover_at: 31.5
+  preview_start: 45.5
+
+- id: superintelligence-for-normies
+  kind: film
+  title: The Last Invention
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Gavin Purcell
+  creator_handle: gavinpurcell
+  post_url: https://x.com/gavinpurcell/status/2103304514329854102
+  post_likes: 2615
+  date: '2026-09-25'
+  engine: Runway MCP
+  genre: Documentary
+  runtime: '5:15'
+  build: Claude Code agent with Runway MCP, two small fixes
+  description: A five-minute Netflix-style documentary in which one presenter walks from a rainy riverside through a pub, a library and a server hall explaining superintelligence for a general audience. Claude wrote, directed and edited it, with Runway generating the footage and Lyria the music.
+  model_evidence: 'Creator on X: "i''m still not sure people are fully getting how good opus 5.5 i gave my claude agent fig access to the runway MCP and told it to make a ''high-end netflix style documentary about superintelligence for normies'' and... it came back with this"'
+  made_with: runway
+  cover_at: 100
+  preview_start: 282

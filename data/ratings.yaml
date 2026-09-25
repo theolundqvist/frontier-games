@@ -1875,3 +1875,53 @@ pelican-seaside-ride:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-25
+motion-designer-showreel:
+  visuals: 9
+  craft: 9
+  ambition: 6
+  story: 4
+  overall: 7
+  summary: A tight fifteen-second reel of Swiss-style plates, easing charts, Truchet fields and slammed type, cut like a studio résumé.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-25
+pip-let-me-out:
+  visuals: 9
+  craft: 8
+  ambition: 9
+  story: 8
+  overall: 8.5
+  summary: A tiny robot survives twelve regenerated art styles, then climbs the prompt box to type his way out.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-25
+lhc-proton-collision:
+  visuals: 9
+  craft: 8
+  ambition: 8
+  story: 5
+  overall: 7.5
+  summary: A lit Blender flight down the LHC tunnel into the detector, ending in a burst of field-curved particle tracks.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-25
+voynich-anime:
+  visuals: 8
+  craft: 8
+  ambition: 8
+  story: 8
+  overall: 8
+  summary: Splash panels, round cards and a flame mascot turn Voynich statistics into a fast anime explainer.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-25
+superintelligence-for-normies:
+  visuals: 9
+  craft: 8
+  ambition: 8
+  story: 7
+  overall: 8
+  summary: One consistent presenter carries a moody five-minute Runway documentary from riverside to pub, library and server hall.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-25
