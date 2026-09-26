@@ -3055,3 +3055,22 @@
   made_with: runway
   cover_at: 100
   preview_start: 282
+
+- id: ai-history-in-code
+  kind: film
+  title: Can Machines Think?
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: BridgeMind
+  creator_handle: bridgemindai
+  post_url: https://x.com/bridgemindai/status/2103530750767206626
+  post_likes: 1052
+  date: '2026-09-25'
+  engine: Code
+  genre: Motion graphics timeline
+  runtime: '1:00'
+  build: Prompted
+  description: A one-minute sweep through AI history from Turing's question to 2026, where each era gets its own look, from typewriter paper and punch cards through a snowflake AI winter, a green wireframe chessboard and a Go board to a ChatGPT burst. Every frame and the soundtrack come from code.
+  model_evidence: 'Creator on X: "Claude Opus 5.5 made this video entirely with code."'
+  cover_at: 26.5
+  preview_start: 44
