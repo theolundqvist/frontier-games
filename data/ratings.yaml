@@ -1935,3 +1935,43 @@ ai-history-in-code:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-26
+steve-jobs-animated:
+  visuals: 8
+  craft: 8
+  ambition: 8
+  story: 8
+  overall: 8
+  summary: A rigged cartoon Jobs walks a spotlit timeline from the blue box to his resignation letter.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-26
+stroke-of-a-pen:
+  visuals: 8
+  craft: 7
+  ambition: 9
+  story: 7
+  overall: 7.8
+  summary: Seventy brushstroke shots trace money from coin hoards and gold seizure to a glowing Bitcoin sun.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-26
+frame-cant-hold-it:
+  visuals: 8
+  craft: 8
+  ambition: 7
+  story: 5
+  overall: 7
+  summary: Bauhaus type and primary shapes burst out of a gridded poster into 3D space on a tight beat-synced cut.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-26
+dont-tell-her:
+  visuals: 7
+  craft: 7
+  ambition: 6
+  story: 7
+  overall: 6.8
+  summary: Fuzzy-outlined cartoon pig, pug and duck raid the pantry at night, ending on a photo-strip punchline.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-26

@@ -3074,3 +3074,79 @@
   model_evidence: 'Creator on X: "Claude Opus 5.5 made this video entirely with code."'
   cover_at: 26.5
   preview_start: 44
+
+- id: steve-jobs-animated
+  kind: film
+  title: Steve Jobs, Animated
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: onur ozcan
+  creator_handle: oozn
+  post_url: https://x.com/oozn/status/2103482545111232946
+  post_likes: 185
+  date: '2026-09-25'
+  engine: Remotion + React + SVG
+  genre: Animated biography
+  runtime: '1:59'
+  build: One prompt, about 8,700 lines
+  description: A jointed cartoon Steve Jobs walks through his life year by year, from the blue box with Wozniak through the Macintosh, Pixar, the iMac and the iPhone to his resignation letter, under spotlights and a running timeline. Every scene is drawn in SVG with a procedural walk cycle, 23 custom transitions and a soundtrack synthesized in code.
+  model_evidence: 'Creator on X: "opus 5.5 one shotted this animation of steve jobs life ... 2 minutes, one prompt, built entirely in code: → remotion + react + svg, ~8.7k lines → jointed character rig with a procedural walk cycle ... → soundtrack synthesized in node, cuts locked to 120 bpm"'
+  cover_at: 77.5
+  preview_start: 60
+
+- id: stroke-of-a-pen
+  kind: film
+  title: Stroke of a Pen
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Brad Mills
+  creator_handle: bradmillscan
+  post_url: https://x.com/bradmillscan/status/2103108967194833310
+  post_likes: 980
+  date: '2026-09-24'
+  engine: Code
+  genre: Music video
+  runtime: '3:23'
+  build: Agent swarm, two revisions
+  description: A portrait music video about the history of money, with about 75 painterly shots cut on the beat, from ship-borne coin hoards and spear-bearing guards to Executive Order 6102, a caged gold coin and a glowing Bitcoin sun. Opus 5.5 storyboarded and coded every shot in a brushstroke style, with the song from ElevenLabs.
+  model_evidence: 'Creator on X: "I told Opus 5.5 to read my Bitcoin & monetary-history wikis & make a music video with code only. it used ElevenLabs for the track. Then a swarm of agents storyboarded and coded a 3:23 portrait reel. ~75 shots cut on the beats."'
+  cover_at: 183
+  preview_start: 175.5
+
+- id: frame-cant-hold-it
+  kind: film
+  title: The Frame Can't Hold It
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Pankaj Kumar
+  creator_handle: pankajkumar_dev
+  post_url: https://x.com/pankajkumar_dev/status/2103502614134718609
+  post_likes: 33
+  date: '2026-09-25'
+  engine: Code
+  genre: Kinetic typography
+  runtime: '0:30'
+  build: One prompt
+  description: A Bauhaus poster spelling FORM breaks out of its grid, tilting into 3D, spilling red, yellow and blue shapes across a perspective floor and collapsing into a crash of NO FRAME type. Animation, camera moves, sound design and the beat-synced soundtrack were all composed in code.
+  model_evidence: 'Creator on X: "Opus 5.5 is insanely good at motion design. I gave it one prompt: \"create a motion design video of a poster breaking out of its own frame.\" The animation, the camera moves, the sound design, even the music. It composed the whole soundtrack itself and synced every hit to the beat."'
+  cover_at: 24
+  preview_start: 21.5
+
+- id: dont-tell-her
+  kind: film
+  title: Don't Tell Her
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: jack friks
+  creator_handle: jackfriks
+  post_url: https://x.com/jackfriks/status/2103525576912855363
+  post_likes: 65
+  date: '2026-09-25'
+  engine: Code
+  genre: Cartoon short
+  runtime: '0:35'
+  build: A few attempts on max effort, about 20 minutes
+  description: When the nutritionist cat goes to bed early, a pig in sunglasses, a pug and a duck sneak to the pantry and binge on snacks through the night. The vertical cartoon ends on a love note photo strip of the evidence, all animated by Opus 5.5.
+  model_evidence: 'Creator on X: "yes this was made completely with opus 5.5 on max in a few attempts (20 minutes)"'
+  cover_at: 33.5
+  preview_start: 19.5
