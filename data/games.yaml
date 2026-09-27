@@ -3150,3 +3150,22 @@
   model_evidence: 'Creator on X: "yes this was made completely with opus 5.5 on max in a few attempts (20 minutes)"'
   cover_at: 33.5
   preview_start: 19.5
+
+- id: goodnight-keeper
+  kind: film
+  title: Goodnight, Keeper
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Matt Shumer
+  creator_handle: mattshumer_
+  post_url: https://x.com/mattshumer_/status/2103928105320763818
+  post_likes: 1180
+  date: '2026-09-26'
+  engine: Code
+  genre: Animated short
+  runtime: '3:12'
+  build: One request
+  description: An old lighthouse keeper climbs the tower every night, tallying each night on the wall, while a girl across the water flashes a torch back at his beam until she grows up, moves to the city and returns to take the lever beside him. The moonlit, softly lit short was animated entirely in code by Opus 5.5.
+  model_evidence: 'Creator on X: "I asked Opus 5.5 to make an animated short film entirely in code. The result is pretty damn incredible."'
+  cover_at: 61.5
+  preview_start: 86

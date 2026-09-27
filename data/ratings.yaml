@@ -1975,3 +1975,13 @@ dont-tell-her:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-26
+goodnight-keeper:
+  visuals: 9
+  craft: 8
+  ambition: 9
+  story: 9
+  overall: 8.8
+  summary: A girl torch-signals a lonely lighthouse keeper for years, then returns to work the lamp beside him.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-27
