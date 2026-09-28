@@ -1985,3 +1985,103 @@ goodnight-keeper:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-27
+ex-nihilo:
+  visuals: 9
+  craft: 9
+  ambition: 9
+  story: 5
+  overall: 8
+  summary: Chrome blobs, a flight over snowy peaks, a neon tunnel and a black hole, all from one HTML file.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-28
+window-seat:
+  visuals: 8
+  craft: 8
+  ambition: 7
+  story: 7
+  overall: 7.5
+  summary: A grainy train window frames fields, a night city, rain and a rainbow beside a glass of water.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-28
+robot-2076:
+  visuals: 8
+  craft: 8
+  ambition: 8
+  story: 8
+  overall: 8
+  summary: A lone robot sweeps a courtyard and plays hopscotch beside painted shadows of a vanished humanity.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-28
+lantern:
+  visuals: 7
+  craft: 7
+  ambition: 7
+  story: 7
+  overall: 7
+  summary: A little flying paper lantern cheers a tired office worker through a soft watercolour city.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-28
+kitchen-light:
+  visuals: 8
+  craft: 7
+  ambition: 8
+  story: 9
+  overall: 8
+  summary: A watercolour couple grows old from autumn walks to a lone chair under the kitchen light.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-28
+nightcall-pixel:
+  visuals: 8
+  craft: 8
+  ambition: 8
+  story: 6
+  overall: 7.5
+  summary: Another World-style low-poly pixel night drive through rain, radios and phone booths set to Nightcall.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-28
+smile-counter:
+  visuals: 7
+  craft: 7
+  ambition: 7
+  story: 7
+  overall: 7
+  summary: A boxy desk robot learns to make people smile and copies itself across a pastel town.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-28
+last-prompt:
+  visuals: 8
+  craft: 7
+  ambition: 8
+  story: 7
+  overall: 7.5
+  summary: Claude and ChatGPT duel as anime heroes over a neon city until a user wants an email.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-28
+block-brawl:
+  visuals: 7
+  craft: 7
+  ambition: 7
+  story: 5
+  overall: 6.5
+  summary: A brick fighter and a bubble robot smash a floating tile arena, then fight on in neon.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-28
+live-forever:
+  visuals: 7
+  craft: 6
+  ambition: 8
+  story: 7
+  overall: 7
+  summary: A silhouetted band's story moves across stages and an endless hallway to the northern lights.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-28

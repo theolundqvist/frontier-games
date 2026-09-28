@@ -3169,3 +3169,193 @@
   model_evidence: 'Creator on X: "I asked Opus 5.5 to make an animated short film entirely in code. The result is pretty damn incredible."'
   cover_at: 61.5
   preview_start: 86
+
+- id: ex-nihilo
+  kind: film
+  title: Ex Nihilo
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Justin.md
+  creator_handle: JustinPerea
+  post_url: https://x.com/JustinPerea/status/2102893186330841502
+  post_likes: 1581
+  date: '2026-09-23'
+  engine: HTML / WebGL
+  genre: Demoscene intro
+  runtime: 0:43
+  build: Open-ended request
+  description: A demoscene intro that moves from a raymarched chrome blob through a flight over snowy peaks and a neon tunnel to a Doppler-lit black hole. Every pixel and sound comes from one 280 KB HTML file Opus 5.5 wrote with no assets or libraries.
+  model_evidence: 'Creator on X: "I asked Claude Opus 5.5 to make the most impressive demo of itself and gave it zero direction. ... Every pixel and every sound comes from one 280 KB HTML file. No images, audio files, 3D models, or libraries."'
+  cover_at: 21
+  preview_start: 13.5
+
+- id: window-seat
+  kind: film
+  title: Window Seat
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Jurly
+  creator_handle: jurlycat
+  post_url: https://x.com/jurlycat/status/2102645793828036643
+  post_likes: 1124
+  date: '2026-09-23'
+  engine: Canvas 2D
+  genre: Animated short
+  runtime: '1:18'
+  build: One index.html
+  description: Through one grainy train window beside a glass of water, fields at sunset give way to a night city, a passing train, fireworks, rain and a rainbow over the mountains. Opus 5.5 drew every frame and sound in Canvas 2D and Web Audio.
+  model_evidence: 'Creator on X: "Claude Opus 5.5 built this entire 78-second animated film in ~45 minutes. One index.html file. No images. No video files. No libraries."'
+  cover_at: 19
+  preview_start: 29.5
+
+- id: robot-2076
+  kind: film
+  title: '2076'
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: ℏεsam
+  creator_handle: Hesamation
+  post_url: https://x.com/Hesamation/status/2103457566978162901
+  post_likes: 897
+  date: '2026-09-25'
+  engine: JavaScript
+  genre: Animated short
+  runtime: '1:28'
+  build: One request
+  description: In an empty city in 2076 a small robot sweeps a courtyard and plays hopscotch beside the painted shadows of the people who are gone. Opus 5.5 wrote the story, animation, sound effects and music in JavaScript.
+  model_evidence: 'Creator on X: "I asked Opus 5.5 to picture a world in 2076 when AI had wiped out humanity. this is the story it told. animation, story, sound effects, and music all made by Claude. the video is coded in JavaScript."'
+  cover_at: 64.5
+  preview_start: 77
+
+- id: lantern
+  kind: film
+  title: The Lantern
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Mable Joseph
+  creator_handle: mablesjoseph
+  post_url: https://x.com/mablesjoseph/status/2103465246014746943
+  post_likes: 154
+  date: '2026-09-25'
+  engine: Code
+  genre: Watercolour short
+  runtime: 0:46
+  build: Iterated, 163 model calls
+  description: A tired office worker is cheered up by a small flying paper lantern that follows her through a watercolour city until the night sky fills with hearts. Every brushstroke, wash and sound effect was generated in code by Opus 5.5.
+  model_evidence: 'Creator on X: "I made a 45-second hand-painted animated short-film with Opus 5.5. No animation software. Every brushstroke, watercolour wash and sound effect is generated in code."'
+  cover_at: 21
+  preview_start: 14
+
+- id: kitchen-light
+  kind: film
+  title: Leave the Kitchen Light On
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: John Knopf
+  creator_handle: johnknopf
+  post_url: https://x.com/johnknopf/status/2103170666187117006
+  post_likes: 46
+  date: '2026-09-24'
+  engine: Custom watercolour renderer
+  genre: Music video
+  runtime: '3:26'
+  build: One prompt
+  description: A watercolour music video that follows a couple from first walks and a snowman through old age, ending with one of them waiting under the kitchen light. Opus 5.5 built the watercolour renderer, drew every scene from the Suno song's lyrics and rendered the video.
+  model_evidence: 'Creator on X: "i gave @claude opus 5.5 a song i made in @suno and one prompt. it built a watercolor renderer from scratch, drew every scene from the lyrics, and rendered the entire video itself in under an hour..."'
+  cover_at: 115.5
+  preview_start: 137
+
+- id: nightcall-pixel
+  kind: film
+  title: Nightcall, a Realtime Pixel Film
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: gandamu
+  creator_handle: gandamu_ml
+  post_url: https://x.com/gandamu_ml/status/2103116003689550013
+  post_likes: 163
+  date: '2026-09-24'
+  engine: Blender + pixel renderer
+  genre: Music video
+  runtime: '4:17'
+  build: Two rounds of direction
+  description: A low-poly pixel-art night drive set to Kavinsky's Nightcall, cutting between a car radio, rain-streaked freeways, a phone booth and a rear-view mirror. Opus 5.5 drove Blender for consistent geometry and rotoscoped it into an Another World-style realtime demo.
+  model_evidence: 'Creator on X: "I got Opus 5.5 to generate this pixelart realtime demo to accompany Nightcall by Kavinsky. I told it to use Blender MCP to have consistent geometry to rotoscope."'
+  cover_at: 214
+  preview_start: 60
+
+- id: smile-counter
+  kind: film
+  title: Smile Counter
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: AGIラボ
+  creator_handle: ctgptlb
+  post_url: https://x.com/ctgptlb/status/2102726428991373480
+  post_likes: 96
+  date: '2026-09-23'
+  engine: Code
+  genre: Animated short
+  runtime: '1:04'
+  build: Six instructions
+  description: A boxy desk robot learns to make one inventor smile, then copies itself across a pastel town as its smile counter climbs into the millions. Opus 5.5 drew every frame in code with no image assets.
+  model_evidence: 'Creator on X: "この1分のアニメ、絵はすべてコードで描かれています。Claude Opus 5.5（effort max）に、画像素材を使わず1コマずつ描いてもらいました。"'
+  cover_at: 28.5
+  preview_start: 7.5
+
+- id: last-prompt
+  kind: film
+  title: The Last Prompt
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Ishu Agrawal
+  creator_handle: ishuagra02
+  post_url: https://x.com/ishuagra02/status/2103247844542922825
+  post_likes: 60
+  date: '2026-09-24'
+  engine: JavaScript
+  genre: Anime trailer
+  runtime: '1:41'
+  build: One prompt
+  description: An anime trailer in which Claude and ChatGPT duel over a neon city and summon giant mechs, until a user just asks for help with an email. Opus 5.5 downloaded the fonts, made the audio and drew each frame in JavaScript.
+  model_evidence: 'Creator on X: "Opus 5.5 made an anime trailer. It downloaded the fonts, created the audio, and generated each frame using JavaScript. This was one-shot."'
+  cover_at: 80
+  preview_start: 27.5
+
+- id: block-brawl
+  kind: film
+  title: Block Brawl
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: WY
+  creator_handle: akokoi1
+  post_url: https://x.com/akokoi1/status/2103149275945517546
+  post_likes: 157
+  date: '2026-09-24'
+  engine: Three.js
+  genre: 3D fight animation
+  runtime: '1:00'
+  build: Three prompts
+  description: A brick fighter and a blue bubble robot trade blows across a floating tile arena that shatters, then finish the fight in a neon void. Opus 5.5 built the characters and the cinematic fight in about 2,000 lines of Three.js.
+  model_evidence: 'Creator on X: "Opus 5.5仅用了2000行代码就实现了这个1分钟的打斗动画！"'
+  cover_at: 55.5
+  preview_start: 53.5
+
+- id: live-forever
+  kind: film
+  title: We'll Live Forever (And Still Run Out of Time)
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Thorne
+  creator_handle: ExistentialEnso
+  post_url: https://x.com/ExistentialEnso/status/2102599211212554616
+  post_likes: 42
+  date: '2026-09-23'
+  engine: Code
+  genre: Music video
+  runtime: '5:40'
+  build: One prompt
+  description: A silhouetted band's story plays out across parking lots, spotlit stages, merch tables and an endless hallway, ending under the northern lights, with the lyrics set in kinetic type. Opus 5.5 animated the whole video in code for the creator's Suno song.
+  model_evidence: 'Creator on X: "I challenged Opus 5.5 to make a music video for ''we''ll live forever (and still run out of time)'' ... this was a one-shot prompt type of situation, and uhhh, wow?"'
+  cover_at: 225
+  preview_start: 312.5
