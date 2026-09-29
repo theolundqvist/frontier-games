@@ -3359,3 +3359,22 @@
   model_evidence: 'Creator on X: "I challenged Opus 5.5 to make a music video for ''we''ll live forever (and still run out of time)'' ... this was a one-shot prompt type of situation, and uhhh, wow?"'
   cover_at: 225
   preview_start: 312.5
+
+- id: four-seasons-train
+  kind: film
+  title: Four Seasons by Train
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Ole Lehmann
+  creator_handle: itsolelehmann
+  post_url: https://x.com/itsolelehmann/status/2103124033365762215
+  post_likes: 261
+  date: '2026-09-24'
+  engine: Code
+  genre: Animated short
+  runtime: '0:30'
+  build: One prompt
+  description: From a cozy carriage in the style of The Grand Budapest Hotel, spring, summer, autumn and winter slide past the window beside a cup of coffee, each season swept in by a passing train or a tunnel. Opus 5.5 drew the layered scenery in about 2,800 lines of code and synthesized the soundtrack, with each rail click timed to the coffee's ripples.
+  model_evidence: 'Creator on X: "Anthropic has no image or video model, yet Opus 5.5 just made me this 30 second animated film using nothing but 2,800 lines of code (yes, this is 100% Claude Code with no other AI tools, connectors, or reference images)"'
+  cover_at: 10.5
+  preview_start: 7

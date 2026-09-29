@@ -2085,3 +2085,13 @@ live-forever:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-28
+four-seasons-train:
+  visuals: 8
+  craft: 8
+  ambition: 6
+  story: 6
+  overall: 7
+  summary: Seasons slide past a Grand Budapest-style carriage window beside a cup of coffee, looping back to spring.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-29
