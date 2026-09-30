@@ -2095,3 +2095,13 @@ four-seasons-train:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-09-29
+ultracode-take-one:
+  visuals: 8
+  craft: 7
+  ambition: 7
+  story: 6
+  overall: 7
+  summary: Hand-inked Claude critters shoot a stunt film, blow up the set and call for another take.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-09-30

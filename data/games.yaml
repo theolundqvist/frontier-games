@@ -3378,3 +3378,22 @@
   model_evidence: 'Creator on X: "Anthropic has no image or video model, yet Opus 5.5 just made me this 30 second animated film using nothing but 2,800 lines of code (yes, this is 100% Claude Code with no other AI tools, connectors, or reference images)"'
   cover_at: 10.5
   preview_start: 7
+
+- id: ultracode-take-one
+  kind: film
+  title: 'Ultracode: Take 1'
+  model: claude-opus-5.5
+  tier: watch
+  creator_name: Dan McAteer
+  creator_handle: daniel_mac8
+  post_url: https://x.com/daniel_mac8/status/2103666105461924131
+  post_likes: 164
+  date: '2026-09-26'
+  engine: Code
+  genre: Animated short
+  runtime: '0:29'
+  build: Dynamic Workflows
+  description: A crew of spiky orange Claude critters shoots a stunt film, splitting into camera, lighting and motorbike teams while a usage gauge creeps toward its limit, until the set blows up and the director shouts for another take. Opus 5.5 ran the writer's room, built the characters, sets and render pipeline with parallel agents, and wrote the soundtrack in Python.
+  model_evidence: 'Creator on X: "I asked Opus 5.5 to make an animation about using ''Ultracode'' and ''Dynamic Workflows'' in Claude Code without destroying your usage limits. Opus 5.5 generated every pixel of this video, using Dynamic Workflows"'
+  cover_at: 10.8
+  preview_start: 7.5
