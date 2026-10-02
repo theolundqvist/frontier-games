@@ -2115,3 +2115,93 @@ let-there-be-light:
   confidence: medium
   model: claude-opus-5-5
   rated_at: 2026-10-01
+piano-practice:
+  visuals: 8
+  craft: 8
+  ambition: 6
+  story: 6
+  overall: 7
+  summary: A coloured-pencil Claude critter plays piano while a black cat watches, then climbs down to join in.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-10-02
+the-frontier:
+  visuals: 8
+  craft: 8
+  ambition: 6
+  story: 4
+  overall: 6.5
+  summary: Kinetic-type title cards for three frontier models collide and line up under three beams of light.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-10-02
+llm-in-motion:
+  visuals: 9
+  craft: 8
+  ambition: 8
+  story: 6
+  overall: 7.8
+  summary: Star-field embeddings, attention arcs and a loss landscape show how a language model writes each token.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-10-02
+lento-con-dolore:
+  visuals: 8
+  craft: 8
+  ambition: 7
+  story: 7
+  overall: 7.5
+  summary: An ink tree grows and sheds beside a seated figure as a watercolour sun follows a violin score.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-10-02
+indonesia-presidents:
+  visuals: 7
+  craft: 8
+  ambition: 7
+  story: 6
+  overall: 7
+  summary: Eight Indonesian presidents play out over a glowing dot-matrix archipelago to a gamelan score.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-10-02
+seed-to-stars:
+  visuals: 8
+  craft: 7
+  ambition: 6
+  story: 5
+  overall: 6.5
+  summary: A seed spiral opens into sunflowers, honeycomb, murmurations, aurora and a galaxy, then a sprout.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-10-02
+big-enough-to-see:
+  visuals: 7
+  craft: 8
+  ambition: 8
+  story: 8
+  overall: 7.8
+  summary: Pencil sketches on grey paper walk through documented moments of the war in Ukraine.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-10-02
+silicon-nature-return-tide:
+  visuals: 7
+  craft: 8
+  ambition: 9
+  story: 8
+  overall: 8
+  summary: A BBC-style nature documentary follows programmer wildebeest migrating between AI subscriptions.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-10-02
+the-fire-never-went-out:
+  visuals: 8
+  craft: 8
+  ambition: 7
+  story: 6
+  overall: 7.3
+  summary: One ember travels through Chinese civilization in ink line drawings, from oracle bones to the moon.
+  confidence: medium
+  model: claude-opus-5-5
+  rated_at: 2026-10-02
